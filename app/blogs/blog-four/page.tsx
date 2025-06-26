@@ -17,19 +17,22 @@ const BlogFour = () => {
                     Auto detailing goes beyond a regular car wash to leave your vehicle looking indoor and outdoor spotless. This comprehensive guide will walk you through everything that auto detailing includes so you can understand the processes involved.
                 </p>
 
-                <Image
-                    fill
-                    className="w-full h-auto rounded-lg shadow-md mb-8"
-                    src="https://placehold.co/800x400"
-                    alt="A person is meticulously detailing a luxury car interior under dim lighting, highlighting precision and care."
-                />
+                <div className="w-full h-auto rounded-lg shadow-md mb-8 overflow-hidden">
+                    <Image
+                        src="/images/detailing-showcase.jpg"
+                        alt="A person is meticulously detailing a luxury car interior under dim lighting, highlighting precision and care."
+                        width={800}
+                        height={400}
+                        className="w-full h-auto object-cover"
+                    />
+                </div>
 
                 <Section
                     title="Exterior Wash and Dry"
                     content={[
                         "The first step in auto detailing involves a meticulous exterior wash to remove dirt, grime, and contaminants from your vehicle’s body. This includes hand washing followed by a gentle hand drying.",
                         "An exterior wash is more than just rinsing the car with water. It involves a methodical process using high-quality detergents that not only cleanse but also protect the paintwork. This process might include pre-rinsing, which helps to loosen tough dirt particles, followed by applying a pH-neutral shampoo with a microfiber wash mitt. Such attention to detail ensures that no damage comes to the paint during the cleaning.",
-                        "Following the wash, a careful drying process is implemented. This is crucial to prevent water spots that can stain the finish if left to air dry. Microfiber towels are commonly used for this purpose, as they effectively absorb water without scratching or leaving lint on the painted surfaces. Some detailers also employ air dryers to reach water that settles in crevices and seams." 
+                        "Following the wash, a careful drying process is implemented. This is crucial to prevent water spots that can stain the finish if left to air dry. Microfiber towels are commonly used for this purpose, as they effectively absorb water without scratching or leaving lint on the painted surfaces. Some detailers also employ air dryers to reach water that settles in crevices and seams."
                     ]}
                 />
 

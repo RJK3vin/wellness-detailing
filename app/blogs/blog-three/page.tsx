@@ -16,12 +16,15 @@ const BlogThree = () => {
                     When it comes to maintaining your car's interior, stains and odors can be some of the toughest challenges to tackle. Not only do they affect the aesthetic appeal of your car, but they can also make long rides unpleasant. But can interior car cleaning effectively remove these pesky problems? Let's dive into the details.
                 </p>
 
-                <Image
-                    fill
-                    className="w-full h-auto mb-8 rounded-lg shadow-md"
-                    src="https://placehold.co/800x400"
-                    alt="A man wipes the interior of a car for a thorough cleaning, focusing on detailing and maintenance."
-                />
+                <div className="w-full h-auto mb-8 rounded-lg shadow-md overflow-hidden">
+                    <Image
+                        src="/images/interior-cleaning.jpg"
+                        alt="A man wipes the interior of a car for a thorough cleaning, focusing on detailing and maintenance."
+                        width={800}
+                        height={400}
+                        className="w-full h-auto object-cover"
+                    />
+                </div>
 
                 <Section
                     title="Understanding Common Causes of Stains and Odors"

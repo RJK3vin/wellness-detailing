@@ -19,12 +19,15 @@ const BlogFive = () => {
                     Here are some professional techniques to make your car stand out from the crowd without breaking the bank.
                 </p>
 
-                <Image
-                    fill
-                    className="w-full h-auto mb-8 rounded-lg shadow-md"
-                    src="https://placehold.co/800x400"
-                    alt="A man wipes the interior of a car for a thorough cleaning, focusing on detailing and maintenance."
-                />
+                <div className="w-full h-auto mb-8 rounded-lg shadow-md overflow-hidden">
+                    <Image
+                        src="/images/interior-cleaning.jpg"
+                        alt="A man wipes the interior of a car for a thorough cleaning, focusing on detailing and maintenance."
+                        width={800}
+                        height={400}
+                        className="w-full h-auto object-cover"
+                    />
+                </div>
 
                 <Section title="1. The Importance of Regular Washing" content={regularWashing} />
                 <Section title="2. The Magic of Clay Bar Treatment" content={clayBar} />

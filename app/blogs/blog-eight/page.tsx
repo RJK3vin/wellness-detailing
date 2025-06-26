@@ -19,12 +19,15 @@ const BlogEight = () => {
                     compelling reasons why mobile detailing is set to become the go-to method for car care enthusiasts everywhere.
                 </p>
 
-                <Image
-                    fill
-                    src="https://placehold.co/600x400"
-                    alt="A person is meticulously detailing a luxury car interior under dim lighting, highlighting precision and care."
-                    className="w-full h-auto mb-8 rounded-lg shadow-md"
-                />
+                <div className="w-full h-auto mb-8 rounded-lg shadow-md overflow-hidden">
+                    <Image
+                        src="/images/detailing-interior.jpg"
+                        alt="A person is meticulously detailing a luxury car interior under dim lighting, highlighting precision and care."
+                        width={600}
+                        height={400}
+                        className="w-full h-auto object-cover"
+                    />
+                </div>
 
                 <Section title="1. Ease of Access and Convenience" content={section1} />
                 <Section title="2. Time Efficiency" content={section2} />

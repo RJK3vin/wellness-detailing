@@ -19,12 +19,15 @@ const BlogSix = () => {
                     Let's explore how this innovative service is transforming car care and why it might be the perfect solution for you.
                 </p>
 
-                <Image
-                    fill
-                    src="https://placehold.co/600x400"
-                    alt="Detailed view of car covered in soapy foam during a wash, highlighting cleanliness."
-                    className="w-full h-auto mb-8 rounded-lg shadow-md"
-                />
+                <div className="w-full h-auto mb-8 rounded-lg shadow-md overflow-hidden">
+                    <Image
+                        src="/images/foam-wash-detail.jpg"
+                        alt="Detailed view of car covered in soapy foam during a wash, highlighting cleanliness."
+                        width={600}
+                        height={400}
+                        className="w-full h-auto object-cover"
+                    />
+                </div>
 
                 <Section title="Understanding the Concept of Mobile Car Wash" content={section1} />
                 <Section title="Benefits of Choosing a Mobile Car Wash" content={section2} />

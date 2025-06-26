@@ -19,12 +19,15 @@ const BlogSeven = () => {
                     Let's dive into this topic and uncover the answers.
                 </p>
 
-                <Image
-                    fill
-                    src="https://placehold.co/600x400"
-                    alt="A man wipes the interior of a car for a thorough cleaning, focusing on detailing and maintenance."
-                    className="w-full h-auto mb-8 rounded-lg shadow-md"
-                />
+                <div className="w-full h-auto mb-8 rounded-lg shadow-md overflow-hidden">
+                    <Image
+                        src="/images/interior-cleaning-wipe.jpg"
+                        alt="A man wipes the interior of a car for a thorough cleaning, focusing on detailing and maintenance."
+                        width={600}
+                        height={400}
+                        className="w-full h-auto object-cover"
+                    />
+                </div>
 
                 <Section title="Understanding the Types of Stains and Odors" content={section1} />
                 <Section title="Selecting the Right Cleaning Tools and Products" content={section2} />
