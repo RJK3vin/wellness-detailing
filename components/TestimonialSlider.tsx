@@ -74,12 +74,14 @@ const TestimonialSlider = () => {
       <div className="relative flex justify-center items-start gap-6 max-w-7xl mx-auto">
         <div className="flex flex-row gap-6 overflow-hidden">
           <div className="flex flex-col items-center border border-gray-300 rounded-lg p-4 w-64 flex-shrink-0">
-            <Image
-              fill
-              src="/placeholder-logo.png"
-              alt="Wellness Detailing Logo"
-              className="w-12 h-12 rounded-full"
-            />
+            <div className='relative w-12 h-12'>
+              <Image
+                fill
+                src="/placeholder-logo.png"
+                alt="Wellness Detailing Logo"
+                className="rounded-full object-cover"
+              />
+            </div> 
             <p className="font-semibold mt-2">Wellness Detailing</p>
             <div className="flex text-yellow-400 mt-1">
               {Array(5).fill(0).map((_, i) => (
@@ -112,12 +114,14 @@ const TestimonialSlider = () => {
 
             return (
               <div key={index} className="relative border rounded-lg bg-gray-50 p-4 text-left w-64 flex-shrink-0 transition duration-200 ease-in-out">
-                <Image
-                  fill
-                  src="/placeholder-ppf1.jpg"
-                  alt="Google Logo"
-                  className="absolute top-3 right-3 w-4 h-4"
-                />
+                <div className='absolute top-3 right-3 w-4 h-4'> 
+                  <Image
+                    fill
+                    src="/google-icon.png"
+                    alt="Google Logo"
+                    className="object-contain"
+                  />
+                </div>
                 <div className="flex items-center gap-2 mb-2">
                   <div className="bg-purple-500 text-white font-bold rounded-full w-8 h-8 flex items-center justify-center">
                     {review.name.charAt(0)}
