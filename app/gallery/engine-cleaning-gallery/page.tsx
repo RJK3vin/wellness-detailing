@@ -15,6 +15,7 @@ export default function EngineCleaningGallery() {
                                 className="rounded-lg overflow-hidden border border-gray-200 shadow hover:shadow-md transition"
                             >
                                 <Image
+                                    fill
                                     src={`https://placehold.co/600x400?text=Photo+${i}`}
                                     alt={`Engine Cleaning ${i}`}
                                     className="w-full h-48 object-cover"

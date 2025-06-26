@@ -17,6 +17,7 @@ const BlogThree = () => {
                 </p>
 
                 <Image
+                    fill
                     className="w-full h-auto mb-8 rounded-lg shadow-md"
                     src="https://placehold.co/800x400"
                     alt="A man wipes the interior of a car for a thorough cleaning, focusing on detailing and maintenance."

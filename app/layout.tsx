@@ -3,6 +3,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import Navbar from "./components/NavBar";
+import Footer from "./components/Footer";
 
 export const metadata: Metadata = {
   title: "Wellness Detailing | Premium Car Detailing in Maryland",
@@ -34,7 +36,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="bg-white text-neutral-900 font-sans antialiased">
+        <Navbar />
         {children}
+        <Footer />
         <ToastContainer
           position="top-center"
           autoClose={5000}

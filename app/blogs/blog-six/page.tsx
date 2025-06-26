@@ -20,6 +20,7 @@ const BlogSix = () => {
                 </p>
 
                 <Image
+                    fill
                     src="https://placehold.co/600x400"
                     alt="Detailed view of car covered in soapy foam during a wash, highlighting cleanliness."
                     className="w-full h-auto mb-8 rounded-lg shadow-md"

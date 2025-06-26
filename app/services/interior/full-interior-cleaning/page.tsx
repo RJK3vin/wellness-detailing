@@ -55,6 +55,7 @@ export default function FullInteriorCleaning() {
                             className="w-[400px] h-[500px] border border-gray-300 rounded-xl shadow-sm overflow-hidden flex items-center justify-center bg-gray-50"
                         >
                             <Image
+                                fill
                                 src={`https://placehold.co/256x160?text=${num}`}
                                 alt={`Interior Detail ${num}`}
                                 className="object-cover w-full h-full"

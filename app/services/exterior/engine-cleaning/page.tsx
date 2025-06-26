@@ -45,6 +45,7 @@ export default function EngineCleaning() {
                     </h1>
                     <div className="grid md:grid-cols-2 gap-10 items-center">
                         <Image
+                            fill
                             src="/engine-placeholder.jpg"
                             alt="Engine Cleaning"
                             className="w-full h-[450px] object-cover rounded-lg shadow-md border border-gray-300"

@@ -1,10 +1,11 @@
+'use client'
 import { ChevronDown, Phone } from 'lucide-react';
-import { useLocation } from '';
+import { usePathname } from 'next/navigation';
 import Image from 'next/image';
 
 const Navbar = () => {
-  const location = useLocation();
-  const currentPath = location.pathname;
+  const location = usePathname();
+  const currentPath = location;
 
   const isActive = (path: string) => {
     return currentPath === path || currentPath.startsWith(path + '/');
@@ -30,6 +31,7 @@ const Navbar = () => {
 
         <div className="flex items-center gap-6">
           <Image
+            fill
             src="/placeholder-logo.png"
             alt="Wellness Detailing"
             className="w-10 h-10 rounded-full object-cover bg-gray-200 shadow-inner"

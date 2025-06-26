@@ -17,6 +17,7 @@ export default function OurTeam() {
                 {team.map((person) => (
                     <div key={person.name} className="text-center">
                         <Image
+                            fill
                             src="https://placehold.co/1920x1080"
                             alt={person.name}
                             className="w-36 h-36 rounded-full object-cover mx-auto shadow-lg"

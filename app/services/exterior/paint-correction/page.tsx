@@ -44,7 +44,7 @@ export default function PaintCorrection() {
                         </ul>
                     </div>
                     <div className="max-w-5xl mx-auto">
-                        <Image src="/paint-correction-intro.png" alt="Paint correction showcase" className="w-full h-[400px] object-cover rounded-lg shadow" />
+                        <Image fill src="/paint-correction-intro.png" alt="Paint correction showcase" className="w-full h-[400px] object-cover rounded-lg shadow" />
                     </div>
                     <div className="pt-4 text-center">
                         <Link href="/contact" className="bg-blue-600 text-white px-6 py-3 rounded-md font-medium hover:bg-blue-700">

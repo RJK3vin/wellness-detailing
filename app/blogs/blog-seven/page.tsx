@@ -20,6 +20,7 @@ const BlogSeven = () => {
                 </p>
 
                 <Image
+                    fill
                     src="https://placehold.co/600x400"
                     alt="A man wipes the interior of a car for a thorough cleaning, focusing on detailing and maintenance."
                     className="w-full h-auto mb-8 rounded-lg shadow-md"

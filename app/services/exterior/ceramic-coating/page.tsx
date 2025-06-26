@@ -36,6 +36,7 @@ export default function CeramicCoating() {
             <section className="space-y-16 px-4 md:px-8 lg:px-16 py-8 max-w-7xl mx-auto text-gray-800">
                 <section className="max-w-6xl mx-auto grid md:grid-cols-2 gap-8 items-start">
                     <Image
+                        fill
                         src="/placeholder1.jpg"
                         alt="Ceramic coating demo"
                         className="w-full object-cover rounded-lg shadow md:h-[120%] md:self-start"

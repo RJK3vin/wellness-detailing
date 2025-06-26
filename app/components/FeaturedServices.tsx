@@ -10,7 +10,7 @@ const services = [
       "Transform your vehicle's appearance with our premium vinyl car wraps. Whether you desire a sleek matte finish or a vibrant color change, our expert team will bring your vision to life. With precise application and high-quality materials, our wraps enhance aesthetics while providing protection against scratches and abrasions.",
       "Discover the ultimate customization for your vehicle with our vinyl car wraps. From bold graphics to subtle accents, our expert team can create a look that's uniquely yours. Using only the highest quality materials, we ensure long-lasting durability and a flawless finish that will turn heads wherever you go.",
     ],
-    src: "placeholder"
+    src: "/placeholder-ppf1.jpg"
   },
   {
     title: "Paint Correction",
@@ -19,7 +19,7 @@ const services = [
       "Restore your car's paintwork to perfection with our meticulous paint correction process. Using advanced techniques and professional-grade products, we eliminate imperfections such as swirl marks, water spots, and oxidation. This reveals a flawless finish that renews your car's original brilliance.",
       "Experience the true potential of your car's paint with our paint correction services. Our skilled technicians carefully restore the shine and clarity of your vehicle's exterior, leaving it looking better than ever. Say goodbye to dull, damaged paint and hello to a showroom-quality finish that will make your car stand out from the crowd.",
     ],
-    src: "placeholder",
+    src: "/placeholder-ppf1.jpg",
   },
   {
     title: "Ceramic Coatings",
@@ -28,7 +28,7 @@ const services = [
       "Experience superior protection and shine with our ceramic coatings. Unlike traditional waxes, they form a permanent bond with your vehicle's paint, creating a hydrophobic barrier that repels water, dirt, and contaminants. Enjoy long-lasting results that maintain your car's showroom shine.",
       "Give your car the ultimate protection with our ceramic coating treatments. Our advanced formulas create a durable shield that guards against the elements, keeping your paint looking like new for years to come. Say goodbye to frequent waxing and polishing – with ceramic coatings, your car will always be ready to impress.",
     ],
-    src: "placeholder",
+    src: "/placeholder-ppf1.jpg",
   },
   {
     title: "Paint Protection Film (PPF)",
@@ -37,7 +37,7 @@ const services = [
       "Preserve your car's paint in pristine condition with our industry-leading paint protection film. Made from transparent, self-healing polyurethane, PPF shields against rock chips, insect splatter, and road hazards without altering your vehicle's appearance.",
       "Ensure lasting protection for your investment with our paint protection film. Our high-quality materials provide an invisible barrier against damage, keeping your paint looking flawless for miles to come. Say goodbye to worries about scratches and chips – with PPF, your car will always look its best.",
     ],
-    src: "placeholder"
+    src: "/placeholder-ppf1.jpg"
   },
   {
     title: "Window Tinting",
@@ -46,7 +46,7 @@ const services = [
       "Enhance both style and functionality with our professional window tinting services. Our high-quality films add sophistication to your car's appearance, while providing UV protection, heat reduction, and increased privacy.",
       "Upgrade your driving experience with our window tinting solutions. Not only do our films give your car a sleek, custom look, but they also provide valuable benefits such as UV protection and glare reduction. Say hello to a cooler, more comfortable ride, all while protecting your privacy and preserving your interior.",
     ],
-    src: "placeholder",
+    src: "/placeholder-ppf1.jpg",
   },
 ];
 
@@ -130,21 +130,20 @@ const FeaturedServices = () => {
 
       <div className="flex gap-4 justify-center max-w-4xl mx-auto mt-8 px-6">
         <Image
-          width={0}
-          height={0}
-          src="https://placehold.co/1000x1000"
+          fill
+          src="/placeholder-ppf1.jpg"
           alt="Placeholder 1"
           className="w-64 h-auto object-cover"
         />
         <Image
-        width={0}
-          src="https://placehold.co/1000x1000"
+          fill
+          src="/placeholder-ppf2.jpg"
           alt="Placeholder 2"
           className="w-64 h-auto object-cover"
         />
         <Image
-        width={0}
-          src="https://placehold.co/1000x1000"
+          fill
+          src="/placeholder-ppf3.jpg"
           alt="Placeholder 3"
           className="w-64 h-auto object-cover"
         />
@@ -163,6 +162,7 @@ const FeaturedServices = () => {
             className="grid md:grid-cols-2 gap-8 items-center"
           >
             <Image
+              fill
               alt="something"
               src={service.src}
               className="rounded shadow w-full h-full object-cover"
@@ -250,7 +250,8 @@ const FeaturedServices = () => {
           <div className="flex flex-col md:flex-row items-stretch max-w-7xl mx-auto gap-8">
             <div className="md:w-1/2 flex flex-col justify-center">
               <Image
-                src="https://via.placeholder.com/400x600?text=Service+Area+Map"
+                fill
+                src="/placeholder-ppf1.jpg"
                 alt="Service area placeholder"
                 className="rounded-md shadow-md object-cover h-full w-auto"
                 style={{ minHeight: '500px' }} 

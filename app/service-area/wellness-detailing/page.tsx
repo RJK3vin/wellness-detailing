@@ -38,6 +38,7 @@ export default function WellnessDetailing() {
             <div className="bg-white text-black">
                 <section className="max-w-7xl mx-auto px-6 py-16 grid md:grid-cols-2 gap-10 items-center">
                     <Image
+                        fill
                         src="https://placehold.co/600x400"
                         alt="Eco Detailing"
                         className="w-full h-auto rounded shadow"
@@ -67,6 +68,7 @@ export default function WellnessDetailing() {
                         </p>
                     </div>
                     <Image
+                        fill
                         src="https://placehold.co/600x400"
                         alt="Eco Detailing"
                         className="w-full h-auto rounded shadow"
@@ -83,7 +85,7 @@ export default function WellnessDetailing() {
                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-12 justify-center">
                         {[1, 2, 3, 4].map(i => (
                             <div key={i} className="aspect-video bg-gray-200 rounded shadow overflow-hidden w-[250px] h-[250px]">
-                                <Image src={`https://placehold.co/600x400?text=Photo+${i}`} alt={`Gallery ${i}`} className="w-full h-full object-cover" />
+                                <Image fill src={`https://placehold.co/600x400?text=Photo+${i}`} alt={`Gallery ${i}`} className="w-full h-full object-cover" />
                             </div>
                         ))}
                     </div>

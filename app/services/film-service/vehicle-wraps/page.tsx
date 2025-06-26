@@ -49,7 +49,7 @@ export default function VehicleWraps() {
                         </ul>
                     </div>
                     <div className="max-w-5xl mx-auto">
-                        <Image src="/car-wrap-intro.png" alt="Car wrap showcase" className="w-full h-[400px] object-cover rounded-lg shadow" />
+                        <Image fill src="/car-wrap-intro.png" alt="Car wrap showcase" className="w-full h-[400px] object-cover rounded-lg shadow" />
                     </div>
                     <div className="pt-4 text-center">
                             <Link href="/contact" className="bg-blue-600 text-white px-6 py-3 rounded-md font-medium hover:bg-blue-700 transition">
@@ -145,10 +145,10 @@ export default function VehicleWraps() {
                 <section className="space-y-6">
                     <h2 className="text-3xl font-bold text-center">Car Wrap Gallery</h2>
                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
-                        <Image src="/placeholder-carwrap1.jpg" alt="Car wrap 1" className="rounded-lg shadow object-cover h-48 w-full" />
-                        <Image src="/placeholder-carwrap2.jpg" alt="Car wrap 2" className="rounded-lg shadow object-cover h-48 w-full" />
-                        <Image src="/placeholder-carwrap3.jpg" alt="Car wrap 3" className="rounded-lg shadow object-cover h-48 w-full" />
-                        <Image src="/placeholder-carwrap4.jpg" alt="Car wrap 4" className="rounded-lg shadow object-cover h-48 w-full" />
+                        <Image fill src="/placeholder-carwrap1.jpg" alt="Car wrap 1" className="rounded-lg shadow object-cover h-48 w-full" />
+                        <Image fill src="/placeholder-carwrap2.jpg" alt="Car wrap 2" className="rounded-lg shadow object-cover h-48 w-full" />
+                        <Image fill src="/placeholder-carwrap3.jpg" alt="Car wrap 3" className="rounded-lg shadow object-cover h-48 w-full" />
+                        <Image fill src="/placeholder-carwrap4.jpg" alt="Car wrap 4" className="rounded-lg shadow object-cover h-48 w-full" />
                     </div>
                     <div className="text-center pt-2">
                         <Link href="/contact" className="bg-blue-600 text-white px-6 py-3 rounded-md font-medium hover:bg-blue-700 transition">

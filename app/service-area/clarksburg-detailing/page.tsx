@@ -80,6 +80,7 @@ export default function ClarksburgDetailing() {
                     <div className="flex flex-col sm:flex-row justify-center items-center gap-6 mb-8">
                         <div className="w-full sm:w-1/2 h-[400px] border-4 border-gray-300 rounded-lg overflow-hidden">
                             <Image
+                                fill
                                 src="/images/clarksburg-detail-1.jpg"
                                 alt="Clarksburg Mobile Detailing Service 1"
                                 className="w-full h-full object-cover"
@@ -87,6 +88,7 @@ export default function ClarksburgDetailing() {
                         </div>
                         <div className="w-full sm:w-1/2 h-[400px] border-4 border-gray-300 rounded-lg overflow-hidden">
                             <Image
+                                fill
                                 src="/images/clarksburg-detail-2.jpg"
                                 alt="Clarksburg Mobile Detailing Service 2"
                                 className="w-full h-full object-cover"

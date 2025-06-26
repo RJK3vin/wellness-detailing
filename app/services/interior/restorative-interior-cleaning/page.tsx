@@ -166,6 +166,7 @@ export default function RestorativeInteriorCleaning() {
                                 className="w-full h-[200px] border border-gray-300 rounded-lg overflow-hidden shadow hover:shadow-md transition"
                             >
                                 <Image
+                                    fill
                                     src={`/images/restorative-gallery-${i}.jpg`}
                                     alt={`Restorative Cleaning ${i}`}
                                     className="w-full h-full object-cover"

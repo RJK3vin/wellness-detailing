@@ -75,6 +75,7 @@ const TestimonialSlider = () => {
         <div className="flex flex-row gap-6 overflow-hidden">
           <div className="flex flex-col items-center border border-gray-300 rounded-lg p-4 w-64 flex-shrink-0">
             <Image
+              fill
               src="/placeholder-logo.png"
               alt="Wellness Detailing Logo"
               className="w-12 h-12 rounded-full"
@@ -112,7 +113,8 @@ const TestimonialSlider = () => {
             return (
               <div key={index} className="relative border rounded-lg bg-gray-50 p-4 text-left w-64 flex-shrink-0 transition duration-200 ease-in-out">
                 <Image
-                  src="https://www.gstatic.com/images/branding/product/1x/googleg_32dp.png"
+                  fill
+                  src="/placeholder-ppf1.jpg"
                   alt="Google Logo"
                   className="absolute top-3 right-3 w-4 h-4"
                 />

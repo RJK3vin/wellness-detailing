@@ -83,11 +83,13 @@ export default function RockvilleDetailing() {
                     <div className="flex flex-col items-center">
                         <div className="flex flex-row gap-4 max-w-4xl w-full justify-center">
                             <Image
+                                fill
                                 src="https://placehold.co/1920x1080"
                                 alt="Rockville Detailing 1"
                                 className="rounded shadow-lg border border-gray-200 w-1/2 object-cover"
                             />
                             <Image
+                                fill
                                 src="https://placehold.co/1920x1080"
                                 alt="Rockville Detailing 2"
                                 className="rounded shadow-lg border border-gray-200 w-1/2 object-cover"
@@ -169,6 +171,7 @@ export default function RockvilleDetailing() {
                     </div>
                     <div className="w-full h-[700px]">
                         <Image
+                            fill
                             src="https://placehold.co/1920x1080"
                             alt="Rockville Detailing Service Area Map"
                             className="rounded shadow-lg w-full h-full object-cover"
@@ -244,7 +247,7 @@ export default function RockvilleDetailing() {
                 <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
                     {galleryImages.map((src, index) => (
                         <div key={index} className="border rounded overflow-hidden">
-                            <Image src={src} alt={`Rockville detailing ${index + 1}`} className="w-full object-cover h-[200px]" loading="lazy" />
+                            <Image fill src={src} alt={`Rockville detailing ${index + 1}`} className="w-full object-cover h-[200px]" loading="lazy" />
                         </div>
                     ))}
                 </div>

@@ -51,12 +51,14 @@ export default function PoolesvilleDetailing() {
                 </ul>
                 <div className="mb-12 flex justify-center gap-6">
                     <Image
-                        src=""
+                        fill
+                        src="https://placehold.co/500x800"
                         className="h-[400px] w-[500px] bg-gray-200 border"
                         alt="Service example"
                     />
                     <Image
-                        src=""
+                        fill
+                        src="https://placehold.co/500x800"
                         className="h-[400px] w-[500px] bg-gray-200 border"
                         alt="Service example"
                     />
@@ -119,6 +121,7 @@ export default function PoolesvilleDetailing() {
 
                     <div className="md:w-1/2 flex justify-center">
                         <Image
+                            fill
                             src="https://placehold.co/560x800"
                             alt="Service area map"
                             className="w-full rounded border bg-gray-200"

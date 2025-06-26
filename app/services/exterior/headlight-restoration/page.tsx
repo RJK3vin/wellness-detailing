@@ -48,7 +48,7 @@ export default function HeadlightRestoration() {
               </ul>
             </div>
             <div className="max-w-5xl mx-auto">
-              <Image src="/paint-correction-intro.png" alt="Paint correction showcase" className="w-full h-[525px] object-cover rounded-lg border border-gray-300" />
+              <Image fill src="/paint-correction-intro.png" alt="Paint correction showcase" className="w-full h-[525px] object-cover rounded-lg border border-gray-300" />
             </div>
             <Link href="/contact" className="inline-block bg-blue-500 text-white px-6 py-3 rounded-md font-medium hover:bg-blue-600">
               Get A Free Quote

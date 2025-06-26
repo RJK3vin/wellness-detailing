@@ -46,7 +46,7 @@ export default function WashAndWax() {
                         <li><strong>Professional Wax Application:</strong> The crowning touch! We apply a high-quality wax to create a protective shield that enhances shine, repels water, and safeguards your car's paint from environmental elements.</li>
                     </ul>
                     <div className="max-w-5xl mx-auto">
-                        <Image src="/paint-correction-intro.png" alt="Paint correction showcase" className="w-full h-[250px] object-cover rounded-lg border border-gray-300" />
+                        <Image fill src="/paint-correction-intro.png" alt="Paint correction showcase" className="w-full h-[250px] object-cover rounded-lg border border-gray-300" />
                     </div>
                     <div className="text-center">
                         <Link

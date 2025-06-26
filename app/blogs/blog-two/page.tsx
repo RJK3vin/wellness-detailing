@@ -18,6 +18,7 @@ const BlogTwo = () => {
                 </p>
 
                 <Image
+                    fill
                     className="w-full h-auto mb-8 rounded-lg shadow-md"
                     src="https://placehold.co/800x400"
                     alt="Smiling woman in yellow shirt uses power spray to wash black car outside."

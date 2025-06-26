@@ -121,6 +121,7 @@ export default function PremiumWash() {
                     </ul>
 
                     <Image
+                        fill
                         src="/images/premiumwash-feature.jpg"
                         alt="Premium Wash Example"
                         className="w-full h-[450px] object-cover border border-gray-300 rounded-lg"
@@ -238,6 +239,7 @@ export default function PremiumWash() {
                     <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
                         {[1, 2, 3, 4, 5, 6, 7, 8].map((i) => (
                             <Image
+                                fill
                                 key={i}
                                 src={`/images/premiumwash-${i}.jpg`}
                                 alt={`Premium Wash ${i}`}

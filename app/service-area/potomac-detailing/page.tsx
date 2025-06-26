@@ -277,6 +277,7 @@ export default function PotomacDetailing() {
                                     className="w-full h-48 bg-gray-200 rounded-lg shadow-md overflow-hidden"
                                 >
                                     <Image
+                                        fill
                                         src={`/images/gallery/potomac-detailing-${(i + 1).toString().padStart(2, '0')}.jpg`}
                                         alt={`Potomac Detailing ${i + 1}`}
                                         className="w-full h-full object-cover"

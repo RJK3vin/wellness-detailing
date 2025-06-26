@@ -73,10 +73,10 @@ export default function GaithersburgDetailing() {
 
                 <div className="flex flex-col md:flex-row gap-4 mb-6">
                     <div className="w-full md:w-1/2 border rounded-md overflow-hidden">
-                        <Image src="/images/gaithersburg1.jpg" alt="Gaithersburg detailing service 1" className="w-full h-auto" />
+                        <Image fill src="/images/gaithersburg1.jpg" alt="Gaithersburg detailing service 1" className="w-full h-auto" />
                     </div>
                     <div className="w-full md:w-1/2 border rounded-md overflow-hidden h-[500px]">
-                        <Image src="/images/gaithersburg2.jpg" alt="Gaithersburg detailing service 2" className="w-full h-auto" />
+                        <Image fill src="/images/gaithersburg2.jpg" alt="Gaithersburg detailing service 2" className="w-full h-auto" />
                     </div>
                 </div>
 

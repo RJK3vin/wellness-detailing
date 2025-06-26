@@ -17,6 +17,7 @@ const BlogOne = () => {
                     In today's fast-paced world, convenience is king, especially when it comes to car care. Mobile detailing is revolutionizing the way we think about maintaining our vehicles, bringing expert services right to our doorsteps. Let's explore why mobile detailing is becoming the go-to option for car owners everywhere.
                 </p>
                 <Image
+                    fill
                     className="w-full h-auto rounded-lg shadow-md mb-6"
                     src="https://placehold.co/800x400"
                     alt="A person is meticulously detailing a luxury car interior under dim lighting, highlighting precision and care."

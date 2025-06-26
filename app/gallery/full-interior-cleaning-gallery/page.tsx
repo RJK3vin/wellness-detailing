@@ -15,6 +15,7 @@ export default function FullInteriorCleaningGallery() {
                                 className="rounded-lg overflow-hidden border border-gray-200 shadow hover:shadow-md transition"
                             >
                                 <Image
+                                    fill
                                     src={`https://placehold.co/600x400?text=Photo+${i}`}
                                     alt={`Interior Cleaning ${i}`}
                                     className="w-full h-48 object-cover"

@@ -53,7 +53,7 @@ export default function WindowTinting() {
                             This description provides a more comprehensive explanation of window tint's benefits and functionality. It also emphasizes Wellness Detailing's commitment to customization and legal compliance.
                         </p>
                     </div>
-                    <Image src="/placeholder1.jpg" alt="Window tinting protection" className="flex-1 rounded-lg shadow object-cover w-full h-[550px] border" />
+                    <Image fill src="/placeholder1.jpg" alt="Window tinting protection" className="flex-1 rounded-lg shadow object-cover w-full h-[550px] border" />
                 </section>
                 <div className="text-center">
                     <Link
@@ -64,7 +64,7 @@ export default function WindowTinting() {
                     </Link>
                 </div>
                 <section className="flex flex-col md:flex-row items-center gap-8">
-                    <Image src="/placeholder2.jpg" alt="Benefits of window tint" className="flex-1 rounded-lg shadow object-cover w-full h-[550px]" />
+                    <Image fill src="/placeholder2.jpg" alt="Benefits of window tint" className="flex-1 rounded-lg shadow object-cover w-full h-[550px]" />
                     <div className="flex-1 space-y-4">
                         <h2 className="text-3xl font-bold">Transform Your Driving Experience: Unveiling the Benefits of Car Window Tint</h2>
                         <ul className="list-disc pl-5 space-y-8">
@@ -182,10 +182,10 @@ export default function WindowTinting() {
                 <section className="space-y-6">
                     <h2 className="text-3xl font-bold text-center">Window Tint Gallery</h2>
                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
-                        <Image src="/placeholder-gallery1.jpg" alt="Tint gallery 1" className="rounded-lg shadow object-cover h-[400px] w-full" />
-                        <Image src="/placeholder-gallery2.jpg" alt="Tint gallery 2" className="rounded-lg shadow object-cover h-[400px] w-full" />
-                        <Image src="/placeholder-gallery3.jpg" alt="Tint gallery 3" className="rounded-lg shadow object-cover h-[400px] w-full" />
-                        <Image src="/placeholder-gallery4.jpg" alt="Tint gallery 4" className="rounded-lg shadow object-cover h-[400px] w-full" />
+                        <Image fill src="/placeholder-gallery1.jpg" alt="Tint gallery 1" className="rounded-lg shadow object-cover h-[400px] w-full" />
+                        <Image fill src="/placeholder-gallery2.jpg" alt="Tint gallery 2" className="rounded-lg shadow object-cover h-[400px] w-full" />
+                        <Image fill src="/placeholder-gallery3.jpg" alt="Tint gallery 3" className="rounded-lg shadow object-cover h-[400px] w-full" />
+                        <Image fill src="/placeholder-gallery4.jpg" alt="Tint gallery 4" className="rounded-lg shadow object-cover h-[400px] w-full" />
                     </div>
                     <div className="text-center pt-4">
                         <Link

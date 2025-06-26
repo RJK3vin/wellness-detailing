@@ -149,6 +149,7 @@ export default function OlneyDetailing() {
                     </div>
                     <div className="w-full">
                         <Image
+                            fill
                             src="https://placehold.co/1920x1080"
                             alt="Service Areas in Olney"
                             className="rounded-lg shadow-md w-full h-[700px] object-cover"

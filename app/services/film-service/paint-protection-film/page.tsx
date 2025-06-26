@@ -192,10 +192,10 @@ export default function PaintProtectionFilm() {
                 <section className="space-y-6">
                     <h2 className="text-3xl font-bold text-center">Paint Protection Gallery</h2>
                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
-                        <Image src="/placeholder-ppf1.jpg" alt="PPF gallery 1" className="rounded-xl shadow-lg object-cover h-48 w-full" />
-                        <Image src="/placeholder-ppf2.jpg" alt="PPF gallery 2" className="rounded-xl shadow-lg object-cover h-48 w-full" />
-                        <Image src="/placeholder-ppf3.jpg" alt="PPF gallery 3" className="rounded-xl shadow-lg object-cover h-48 w-full" />
-                        <Image src="/placeholder-ppf4.jpg" alt="PPF gallery 4" className="rounded-xl shadow-lg object-cover h-48 w-full" />
+                        <Image fill src="/placeholder-ppf1.jpg" alt="PPF gallery 1" className="rounded-xl shadow-lg object-cover h-48 w-full" />
+                        <Image fill src="/placeholder-ppf2.jpg" alt="PPF gallery 2" className="rounded-xl shadow-lg object-cover h-48 w-full" />
+                        <Image fill src="/placeholder-ppf3.jpg" alt="PPF gallery 3" className="rounded-xl shadow-lg object-cover h-48 w-full" />
+                        <Image fill src="/placeholder-ppf4.jpg" alt="PPF gallery 4" className="rounded-xl shadow-lg object-cover h-48 w-full" />
                     </div>
                     <div className="text-center pt-2">
                         <Link href="/contact" className="bg-blue-600 text-white px-6 py-3 rounded-md font-medium hover:bg-blue-700 transition">

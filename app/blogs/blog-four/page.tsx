@@ -18,6 +18,7 @@ const BlogFour = () => {
                 </p>
 
                 <Image
+                    fill
                     className="w-full h-auto rounded-lg shadow-md mb-8"
                     src="https://placehold.co/800x400"
                     alt="A person is meticulously detailing a luxury car interior under dim lighting, highlighting precision and care."
