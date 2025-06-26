@@ -1,6 +1,6 @@
-import GalleryHero from "../components/GalleryHero"
-import QuoteForm from "../components/QuoteForm"
-import TestimonialSlider from "../components/TestimonialSlider"
+import GalleryHero from "@/components/GalleryHero"
+import QuoteForm from "@/components/QuoteForm"
+import TestimonialSlider from "@/components/TestimonialSlider"
 
 export default function Reviews() {
     return (

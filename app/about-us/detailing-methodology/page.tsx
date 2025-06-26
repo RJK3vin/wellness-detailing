@@ -1,7 +1,7 @@
-import GalleryHero from "@/app/components/GalleryHero"
-import QuoteForm from "@/app/components/QuoteForm"
+import GalleryHero from "@/components/GalleryHero"
+import QuoteForm from "@/components/QuoteForm"
 import Link from "next/link"
-import Blogs from "@/app/components/Blogs"
+import Blogs from "@/components/Blogs"
 
 export default function DetailingMethodology() {
     return (

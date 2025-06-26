@@ -3,7 +3,7 @@
 import { FaFacebookF, FaInstagram, FaYelp } from "react-icons/fa";
 import { Phone, MapPin, MailOpen } from 'lucide-react';
 import React, { useState } from "react";
-import { handleFormSubmit } from "../utils/handleFormSubmit";
+import { handleFormSubmit } from "@/app/utils/handleFormSubmit";
 
 export default function QuoteForm() {
   const handleSubmit = (e: React.FormEvent) => handleFormSubmit(e);

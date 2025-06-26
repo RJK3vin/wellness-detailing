@@ -1,7 +1,7 @@
 'use client'
 
-import QuoteForm from "@/app//components/QuoteForm"
-import MapEmbed from "@/app/components/MapEmbed"
+import QuoteForm from "@/components/QuoteForm";
+import MapEmbed from "@/components/MapEmbed";
 import { useEffect } from "react";
 
 export default function Contact() {

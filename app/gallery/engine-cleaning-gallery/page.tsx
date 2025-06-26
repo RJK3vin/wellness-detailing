@@ -1,5 +1,5 @@
-import GalleryHero from "@/app/components/GalleryHero"
-import QuoteForm from "@/app/components/QuoteForm"
+import GalleryHero from "@/components/GalleryHero"
+import QuoteForm from "@/components/QuoteForm"
 import Image from "next/image"
 
 export default function EngineCleaningGallery() {

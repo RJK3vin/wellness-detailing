@@ -1,7 +1,7 @@
 'use client'
 
-import ServiceHero from "@/app/components/ServiceHero";
-import QuoteForm from "@/app/components/QuoteForm";
+import ServiceHero from "@/components/ServiceHero";
+import QuoteForm from "@/components/QuoteForm";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 

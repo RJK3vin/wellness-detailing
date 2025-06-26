@@ -1,8 +1,8 @@
 'use client'
 
-import Hero from "./components/Hero";
-import FeaturedServices from "./components/FeaturedServices";
-import QuoteForm from "./components/QuoteForm";
+import Hero from "@/components/Hero";
+import FeaturedServices from "@/components/FeaturedServices";
+import QuoteForm from "@/components/QuoteForm";
 import { useRef } from "react";
 
 export default function Home() {

@@ -1,6 +1,6 @@
 import Link from "next/link";
-import QuoteForm from "@/app/components/QuoteForm";
-import BlogNavSlider from "@/app/components/BlogNavSlider";
+import QuoteForm from "@/components/QuoteForm";
+import BlogNavSlider from "@/components/BlogNavSlider";
 import type { JSX } from "react";
 import Image from "next/image";
 

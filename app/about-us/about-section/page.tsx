@@ -1,4 +1,4 @@
-import QuoteForm from "./QuoteForm";
+import QuoteForm from "@/components/QuoteForm";
 
 const AboutSection = () => {
   return (

@@ -3,8 +3,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import Navbar from "./components/NavBar";
-import Footer from "./components/Footer";
+import Navbar from "@/components/NavBar";
+import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: "Wellness Detailing | Premium Car Detailing in Maryland",

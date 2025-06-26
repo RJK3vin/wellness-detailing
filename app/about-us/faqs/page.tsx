@@ -1,5 +1,5 @@
-import GalleryHero from "@/app/components/GalleryHero"
-import QuoteForm from "@/app/components/QuoteForm"
+import GalleryHero from "@/components/GalleryHero"
+import QuoteForm from "@/components/QuoteForm"
 import Link from "next/link"
 
 export default function FAQs() {
