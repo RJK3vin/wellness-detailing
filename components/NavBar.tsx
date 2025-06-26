@@ -30,13 +30,14 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
 
         <div className="flex items-center gap-6">
-          <Image
-            fill
-            src="/placeholder-logo.png"
-            alt="Wellness Detailing"
-            className="w-10 h-10 rounded-full object-cover bg-gray-200 shadow-inner"
+          <div className="relative w-10 h-10">
+            <Image
+              fill
+              src="/placeholder-logo.png"
+              alt="Wellness Detailing"
+              className="rounded-full object-cover bg-gray-200 shadow-inner"
           />
-
+          </div>
           <nav className="hidden lg:flex items-center gap-6 text-sm font-semibold tracking-tight">
             <a href="/" className={isActive('/') ? "text-blue-600 font-semibold" : ""}>Home</a>
             <Dropdown title="Film Service" items={["Window Tinting", "Paint Protection Film", "Vehicle Wraps"]} isActive={isDropdownActive(["Window Tinting", "Paint Protection Film", "Vehicle Wraps"])} currentPath={currentPath} />

@@ -5,103 +5,103 @@ import Image from "next/image";
 const services = [
   {
     title: "Vinyl Car Wraps",
-    href: "/vehiclewraps",
+    href: "/services/film-service/vehicle-wraps",
     description: [
       "Transform your vehicle's appearance with our premium vinyl car wraps. Whether you desire a sleek matte finish or a vibrant color change, our expert team will bring your vision to life. With precise application and high-quality materials, our wraps enhance aesthetics while providing protection against scratches and abrasions.",
       "Discover the ultimate customization for your vehicle with our vinyl car wraps. From bold graphics to subtle accents, our expert team can create a look that's uniquely yours. Using only the highest quality materials, we ensure long-lasting durability and a flawless finish that will turn heads wherever you go.",
     ],
-    src: "/placeholder-ppf1.jpg"
+    src: "https://placehold.co/1000x1000"
   },
   {
     title: "Paint Correction",
-    href: "/paintcorrection",
+    href: "/services/exterior/paint-correction",
     description: [
       "Restore your car's paintwork to perfection with our meticulous paint correction process. Using advanced techniques and professional-grade products, we eliminate imperfections such as swirl marks, water spots, and oxidation. This reveals a flawless finish that renews your car's original brilliance.",
       "Experience the true potential of your car's paint with our paint correction services. Our skilled technicians carefully restore the shine and clarity of your vehicle's exterior, leaving it looking better than ever. Say goodbye to dull, damaged paint and hello to a showroom-quality finish that will make your car stand out from the crowd.",
     ],
-    src: "/placeholder-ppf1.jpg",
+    src: "https://placehold.co/1000x1000",
   },
   {
     title: "Ceramic Coatings",
-    href: "/ceramiccoatings",
+    href: "/services/exterior/ceramic-coating",
     description: [
       "Experience superior protection and shine with our ceramic coatings. Unlike traditional waxes, they form a permanent bond with your vehicle's paint, creating a hydrophobic barrier that repels water, dirt, and contaminants. Enjoy long-lasting results that maintain your car's showroom shine.",
       "Give your car the ultimate protection with our ceramic coating treatments. Our advanced formulas create a durable shield that guards against the elements, keeping your paint looking like new for years to come. Say goodbye to frequent waxing and polishing – with ceramic coatings, your car will always be ready to impress.",
     ],
-    src: "/placeholder-ppf1.jpg",
+    src: "https://placehold.co/1000x1000",
   },
   {
     title: "Paint Protection Film (PPF)",
-    href: "/paintprotectionfilm",
+    href: "/services/film-service/paint-protection-film",
     description: [
       "Preserve your car's paint in pristine condition with our industry-leading paint protection film. Made from transparent, self-healing polyurethane, PPF shields against rock chips, insect splatter, and road hazards without altering your vehicle's appearance.",
       "Ensure lasting protection for your investment with our paint protection film. Our high-quality materials provide an invisible barrier against damage, keeping your paint looking flawless for miles to come. Say goodbye to worries about scratches and chips – with PPF, your car will always look its best.",
     ],
-    src: "/placeholder-ppf1.jpg"
+    src: "https://placehold.co/1000x1000"
   },
   {
     title: "Window Tinting",
-    href: "/windowtinting",
+    href: "/services/film-service/window-tinting",
     description: [
       "Enhance both style and functionality with our professional window tinting services. Our high-quality films add sophistication to your car's appearance, while providing UV protection, heat reduction, and increased privacy.",
       "Upgrade your driving experience with our window tinting solutions. Not only do our films give your car a sleek, custom look, but they also provide valuable benefits such as UV protection and glare reduction. Say hello to a cooler, more comfortable ride, all while protecting your privacy and preserving your interior.",
     ],
-    src: "/placeholder-ppf1.jpg",
+    src: "https://placehold.co/1000x1000",
   },
 ];
 
 const locations = [
   {
     title: "Olney, MD",
-    loc: "olneymdmobiledetailing"
+    loc: "/service-area/olney-detailing"
   },
   {
     title: "Rockville, MD",
-    loc: "rockvillemdmobiledetailing"
+    loc: "/service-area/rockville-detailing"
   },
   {
     title: "Gaithersburg, MD",
-    loc: "gaithersburgmobiledetailing"
+    loc: "/service-area/gaithersburg-detailing"
   },
   {
     title: "Clarksburg, MD",
-    loc: "clarksburgmobiledetailing"
+    loc: "/service-area/clarksburg-detailing"
   },
   {
     title: "Potomac, MD",
-    loc: "potomacmdmobiledetailing"
+    loc: "/service-area/potomac-detailing"
   },
   {
     title: "Bethesda, MD",
-    loc: "bethesdamdmobiledetailing"
+    loc: "/service-area/bethesda-detailing"
   },
   {
     title: "Silver Spring, MD",
-    loc: "silverspringmdmobiledetailing"
+    loc: "/service-area/silver-spring-detailing"
   },
   {
     title: "Beltsville, MD",
-    loc: "beltsvillemdmobiledetailing"
+    loc: "/service-area/beltsville-detailing"
   },
   {
     title: "Laurel, MD",
-    loc: "laurelmdmobiledetailing"
+    loc: "/service-area/laurel-detailing"
   },
   {
     title: "Damascus, MD",
-    loc: "damascusmdmobiledetailing"
+    loc: "/service-area/damascus-detailing"
   },
   {
     title: "College Park, MD",
-    loc: "collegeparkmobiledetailing"
+    loc: "/service-area/college-park-detailing"
   },
   {
     title: "Columbia, MD",
-    loc: "columbiamobiledetailing"
+    loc: "/service-area/columbia-detailing"
   },
   {
     title: "Poolesville, MD",
-    loc: "poolesvillemdmobiledetailing"
+    loc: "/service-area/poolesville-detailing"
   }
 ];
 
@@ -127,27 +127,19 @@ const FeaturedServices = () => {
           </div>
         </div>
       </div>
-
       <div className="flex gap-4 justify-center max-w-4xl mx-auto mt-8 px-6">
-        <Image
-          fill
-          src="/placeholder-ppf1.jpg"
-          alt="Placeholder 1"
-          className="w-64 h-auto object-cover"
-        />
-        <Image
-          fill
-          src="/placeholder-ppf2.jpg"
-          alt="Placeholder 2"
-          className="w-64 h-auto object-cover"
-        />
-        <Image
-          fill
-          src="/placeholder-ppf3.jpg"
-          alt="Placeholder 3"
-          className="w-64 h-auto object-cover"
-        />
+        {["1", "2", "3"].map((num) => (
+          <div key={num} className="relative w-64 aspect-[1/1]">
+            <Image
+              fill
+              src={`https://placehold.co/1000x1000?text=${num}`}
+              alt={`Placeholder ${num}`}
+              className="object-cover rounded shadow"
+            />
+          </div>
+        ))}
       </div>
+
       <div className="max-w-7xl mx-auto px-6 py-8">
         <h2 className="text-3xl font-bold text-center mb-10 text-black">
           Our Featured Detailing and Film Services
@@ -157,16 +149,15 @@ const FeaturedServices = () => {
       <div className="max-w-7xl mx-auto px-6 pb-16 space-y-16">
 
         {services.map((service) => (
-          <div
-            key={service.title}
-            className="grid md:grid-cols-2 gap-8 items-center"
-          >
-            <Image
+          <div key={service.title} className="grid md:grid-cols-2 gap-8 items-center">
+            <div className="relative w-full h-64"> 
+              <Image
               fill
-              alt="something"
+              alt={service.title}
               src={service.src}
-              className="rounded shadow w-full h-full object-cover"
-            />
+              className="object-cover rounded shadow"
+              />
+            </div>
             <div>
               <h2 className="text-2xl font-bold mb-4">{service.title}</h2>
               {service.description.map((para, idx) => (
@@ -200,32 +191,32 @@ const FeaturedServices = () => {
               {
                 title: "Wash and Wax",
                 desc: "Revitalize your car with our thorough wash and wax service, ensuring a pristine finish that shields against the elements.",
-                href: "/washandwax",
+                href: "/services/exterior/wash-and-wax",
               },
               {
                 title: "Premium Wash",
                 desc: "Experience a top-tier clean with our premium wash service, leaving your vehicle gleaming with meticulous attention to detail.",
-                href: "/premiumwash",
+                href: "/services/exterior/premium-wash",
               },
               {
                 title: "Full Interior Cleaning",
                 desc: "Restore your car's interior to like-new condition with our comprehensive cleaning service, covering every nook and cranny for a fresh feel.",
-                href: "/fullinteriorcleaning",
+                href: "/services/interior/full-interior-cleaning",
               },
               {
                 title: "Mini-Interior Detail",
                 desc: "Maintain a tidy interior with our quick yet effective mini-detail service, focusing on key areas to keep your car looking its best.",
-                href: "/miniinteriordetail",
+                href: "/services/interior/mini-interior-detail",
               },
               {
                 title: "Smoke Odor Removal",
                 desc: "Eliminate stubborn smoke odors with our specialized treatment, leaving your car smelling clean and fresh.",
-                href: "/smokeodorremoval",
+                href: "/services/interior/smoke-odor-removal",
               },
               {
                 title: "Overspray Removal",
                 desc: "Remove unwanted contaminants from your car's exterior with our gentle yet effective overspray removal service, preserving its original finish.",
-                href: "/oversprayremoval",
+                href: "/services/exterior/paint-overspray-removal",
               },
             ].map(({ title, desc, href }) => (
               <div key={title} className="bg-white shadow-md rounded p-6 text-center">
@@ -249,13 +240,14 @@ const FeaturedServices = () => {
           </h3>
           <div className="flex flex-col md:flex-row items-stretch max-w-7xl mx-auto gap-8">
             <div className="md:w-1/2 flex flex-col justify-center">
-              <Image
-                fill
-                src="/placeholder-ppf1.jpg"
-                alt="Service area placeholder"
-                className="rounded-md shadow-md object-cover h-full w-auto"
-                style={{ minHeight: '500px' }} 
-              />
+              <div className="relative w-full min-h-[500px]">
+                <Image
+                  fill
+                  src="/placeholder-ppf1.jpg"
+                  alt="Service area placeholder"
+                  className="rounded-md shadow-md object-cover"
+                />
+              </div>
             </div>
             <div className="md:w-1/2 flex flex-col justify-between">
               <div>

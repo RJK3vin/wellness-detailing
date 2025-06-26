@@ -35,19 +35,21 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="bg-white text-neutral-900 font-sans antialiased">
-        <Navbar />
-        {children}
-        <Footer />
-        <ToastContainer
-          position="top-center"
-          autoClose={5000}
-          hideProgressBar={false}
-          closeOnClick
-          pauseOnHover
-          draggable
-          newestOnTop
-        />
+      <body>
+        <div className="bg-white text-neutral-900 font-sans antialiased">
+          <Navbar />
+          {children}
+          <Footer />
+          <ToastContainer
+            position="top-center"
+            autoClose={5000}
+            hideProgressBar={false}
+            closeOnClick
+            pauseOnHover
+            draggable
+            newestOnTop
+          />
+        </div>
       </body>
     </html>
   );
