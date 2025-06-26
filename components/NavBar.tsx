@@ -95,11 +95,11 @@ const Navbar = () => {
             <Dropdown
               title="About Us"
               links={[
-                { label: 'FAQs', href: '/faqs' },
-                { label: 'Our Team', href: '/our-team' },
-                { label: 'Reviews', href: '/reviews' },
-                { label: 'Detailing Methodology', href: '/detailing-methodology' },
-                { label: 'Appointment Deposit Policy', href: '/appointment-deposit-policy' }
+                { label: 'FAQs', href: '/about-us/faqs' },
+                { label: 'Our Team', href: '/about-us/our-team' },
+                { label: 'Reviews', href: '/about-us/reviews' },
+                { label: 'Detailing Methodology', href: '/about-us/detailing-methodology' },
+                { label: 'Appointment Deposit Policy', href: '/about-us/appointment-deposit-policy' }
               ]}
               currentPath={pathname}
             />
