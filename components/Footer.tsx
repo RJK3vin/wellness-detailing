@@ -1,6 +1,124 @@
 import { Mail, Phone } from 'lucide-react';
 
 const Footer = () => {
+  const film = [
+    {
+      name: "Window Tinting",
+      lo: "/services/film-service/window-tinting"
+    },
+    {
+      name: "Paint Protection Film",
+      lo: "/services/film-service/paint-protection-film"
+    },
+    {
+      name: "Vehicle Wraps",
+      lo: "/services/film-service/vehicle-wraps"
+    },
+  ]
+  const company = [
+    {
+      name: "Home",
+      lo: "/"
+    },
+    {
+      name: "About Us",
+      lo: "/about-us/about-section"
+    },
+    {
+      name: "Review",
+      lo: "/about-us/reviews"
+    },
+    {
+      name: "Contact",
+      lo: "/contact"
+    }
+  ]
+
+  const exterior = [
+    {
+      name: "Paint Correction",
+      lo: "/services/exterior/paint-correction"
+    },
+    {
+      name: "Ceramic Coating",
+      lo: "/services/exterior/ceramic-coating"
+    },
+    {
+      name: "Paint Overspray Removal",
+      lo: "/services/exterior/paint-overspray-removal"
+    },
+    {
+      name: "Wash and Wax",
+      lo: "/services/exterior/wash-and-wax"
+    },
+    {
+      name: "Engine Cleaning",
+      lo: "/services/exterior/engine-cleaning"
+    },
+    {
+      name: "Headlight Restoration",
+      lo: "/services/exterior/headlight-restoration"
+    },
+    {
+      name: "Premium Wash",
+      lo: "/services/exterior/premium-wash"
+    },        
+  ]
+
+  const interior = [
+    {
+      name: "Full Interior Cleaning",
+      lo: "/interior/full-interior-cleaning"
+    },
+    {
+      name: "Mini-Interior Detail",
+      lo: "/interior/mini-interior-detail"
+    },
+    {
+      name: "Smoke Odor Removal",
+      lo: "/interior/smoke-odor-removal"
+    },
+    {
+      name: "Restorative Interior Cleaning",
+      lo: "/interior/restorative-interior-cleaning"
+    },    
+  ]
+
+  const service = [
+    {
+      name: "Beltsville MD Mobile Detailing",
+      lo: "/service-area/beltsville-detailing"
+    },
+    {
+      name: "Silver Spring MD Mobile Detailing",
+      lo: "/service-area/silver-spring-detailing"
+    },
+    {
+      name: "Clarksburg mobile detailing",
+      lo: "/service-area/clarksburg-detailing"
+    },
+    {
+      name: "Gaithersburg Mobile Detailing",
+      lo: "/service-area/gaithersburg-detailing"
+    },
+    {
+      name: "Rockville MD Mobile Detailing",
+      lo: "/service-area/rockville-detailing"
+    },
+    {
+      name: "Olney MD Mobile Detailing",
+      lo: "/service-area/olney-detailing"
+    },
+    {
+      name: "Columbia Mobile Detailing",
+      lo: "/service-area/columbia-detailing"
+    },
+    {
+      name: "Potomac MD Mobile Detailing",
+      lo: "/service-area/potomac-detailing"
+    },       
+  ]
+
   return (
     <footer className="bg-slate-900 text-white px-6 py-12">
       <div className="max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 text-sm">
@@ -8,17 +126,17 @@ const Footer = () => {
           <div>
             <h3 className="font-semibold mb-2">FILM SERVICE</h3>
             <ul className="space-y-1 text-gray-300">
-              {["Window Tinting", "Paint Protection Film", "Vehicle Wraps"].map((item) => (
-                <li key={item} className="relative group">
+              {film.map((item) => (
+                <li key={item.name} className="relative group">
                   <div className="inline-block">
                     <a
-                      href={`/${item.toLowerCase().replace(/\s+/g, '')}`}
+                      href={item.lo}
                       className="block py-1 hover:text-blue-400 transition"
                     >
-                      {item}
+                      {item.name}
                     </a>
                     <div className="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 bg-black text-white text-xs px-2 py-1 rounded opacity-0 group-hover:opacity-100 pointer-events-none transition duration-200 whitespace-nowrap">
-                      {item}
+                      {item.name}
                     </div>
                   </div>
                 </li>
@@ -29,19 +147,18 @@ const Footer = () => {
           <div>
             <h3 className="font-semibold mb-2">COMPANY</h3>
             <ul className="space-y-1 text-gray-300">
-              {["Home", "About Us", "Review", "Contact"].map((item) => {
-                const href = item === "Home" ? "/" : `/${item.toLowerCase().replace(/\s+/g, '')}`;
+              {company.map((item) => {
                 return (
-                  <li key={item} className="relative group">
+                  <li key={item.name} className="relative group">
                     <div className="inline-block">
                       <a
-                        href={href}
+                        href={item.lo}
                         className="block py-1 hover:text-blue-400 transition"
                       >
-                        {item}
+                        {item.name}
                       </a>
                       <div className="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 bg-black text-white text-xs px-2 py-1 rounded opacity-0 group-hover:opacity-100 pointer-events-none transition duration-200 whitespace-nowrap">
-                        {item}
+                        {item.name}
                       </div>
                     </div>
                   </li>
@@ -54,25 +171,17 @@ const Footer = () => {
         <div>
           <h3 className="font-semibold mb-2">EXTERIOR</h3>
           <ul className="space-y-1 text-gray-300">
-            {[
-              "Paint Correction",
-              "Ceramic Coating",
-              "Paint Overspray Removal",
-              "Wash and Wax",
-              "Engine Cleaning",
-              "Headlight Restoration",
-              "Premium Wash"
-            ].map((item) => (
-              <li key={item} className="relative group">
+            {exterior.map((item) => (
+              <li key={item.name} className="relative group">
                 <div className="inline-block">
                   <a
-                    href={`/${item.toLowerCase().replace(/\s+/g, '')}`}
+                    href={item.lo}
                     className="block py-1 hover:text-blue-400 transition"
                   >
-                    {item}
+                    {item.name}
                   </a>
                   <div className="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 bg-black text-white text-xs px-2 py-1 rounded opacity-0 group-hover:opacity-100 pointer-events-none transition duration-200 whitespace-nowrap">
-                    {item}
+                    {item.name}
                   </div>
                 </div>
               </li>
@@ -83,22 +192,17 @@ const Footer = () => {
         <div>
           <h3 className="font-semibold mb-2">INTERIOR</h3>
           <ul className="space-y-1 text-gray-300">
-            {[
-              "Full Interior Cleaning",
-              "Mini-Interior Detail",
-              "Smoke Odor Removal",
-              "Restorative Interior Cleaning"
-            ].map((item) => (
-              <li key={item} className="relative group">
+            {interior.map((item) => (
+              <li key={item.name} className="relative group">
                 <div className="inline-block">
                   <a
-                    href={`/${item.toLowerCase().replace(/[\s-]+/g, '')}`}
+                    href={item.lo}
                     className="block py-1 hover:text-blue-400 transition"
                   >
-                    {item}
+                    {item.name}
                   </a>
                   <div className="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 bg-black text-white text-xs px-2 py-1 rounded opacity-0 group-hover:opacity-100 pointer-events-none transition duration-200 whitespace-nowrap">
-                    {item}
+                    {item.name}
                   </div>
                 </div>
               </li>
@@ -109,26 +213,17 @@ const Footer = () => {
         <div>
           <h3 className="font-semibold mb-2">SERVICE AREA</h3>
           <ul className="space-y-1 text-gray-300">
-            {[
-              "Beltsville MD Mobile Detailing",
-              "Silver Spring MD Mobile Detailing",
-              "Clarksburg mobile detailing",
-              "Gaithersburg Mobile Detailing",
-              "Rockville MD Mobile Detailing",
-              "Olney MD Mobile Detailing",
-              "Columbia Mobile Detailing",
-              "Potomac MD Mobile Detailing"
-            ].map((item) => (
-              <li key={item} className="relative group">
+            {service.map((item) => (
+              <li key={item.name} className="relative group">
                 <div className="inline-block">
                   <a
-                    href={`/${item.toLowerCase().replace(/\s+/g, '')}`}
+                    href={item.lo}
                     className="block py-1 hover:text-blue-400 transition"
                   >
-                    {item}
+                    {item.name}
                   </a>
                   <div className="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 bg-black text-white text-xs px-2 py-1 rounded opacity-0 group-hover:opacity-100 pointer-events-none transition duration-200 whitespace-nowrap">
-                    {item}
+                    {item.name}
                   </div>
                 </div>
               </li>
@@ -156,7 +251,7 @@ const Footer = () => {
       </div>
 
       <div className="mt-12 border-t border-gray-700 pt-6 text-center text-gray-400 text-sm">
-        Copyright © 2024 Wellness Detailing – All Rights Reserved.
+        Copyright © 2024 Wellness Detailing - All Rights Reserved.
       </div>
     </footer>
   );
