@@ -1,6 +1,8 @@
 // app/layout.tsx
 import type { Metadata } from "next";
 import "./globals.css";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 export const metadata: Metadata = {
   title: "Wellness Detailing | Premium Car Detailing in Maryland",
@@ -33,6 +35,15 @@ export default function RootLayout({
     <html lang="en">
       <body className="bg-white text-neutral-900 font-sans antialiased">
         {children}
+        <ToastContainer
+          position="top-center"
+          autoClose={5000}
+          hideProgressBar={false}
+          closeOnClick
+          pauseOnHover
+          draggable
+          newestOnTop
+        />
       </body>
     </html>
   );
