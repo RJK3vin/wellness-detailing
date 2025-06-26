@@ -2,31 +2,32 @@ import ServiceHero from "@/components/ServiceHero";
 import QuoteForm from "@/components/QuoteForm";
 import Link from "next/link"
 import { CheckCircle } from "lucide-react"
+import Image from "next/image";
 
 export const metadata = {
-  title: "Mini Interior Detail | Wellness Detailing",
-  description:
-    "Need a quick interior refresh? Our Mini Interior Detail service offers fast, effective cleaning for busy schedules. Book now with Wellness Detailing.",
-  keywords: [
-    "mini interior detail",
-    "express car cleaning Maryland",
-    "quick car interior service",
-    "mobile detailing Maryland",
-    "interior refresh car service",
-    "fast car detailing MD"
-  ],
-  robots: "index, follow",
-  alternates: {
-    canonical: "https://wellnessdetailing.com/mini-interior-detail",
-  },
-  openGraph: {
     title: "Mini Interior Detail | Wellness Detailing",
     description:
-      "Busy schedule? Get your car interior refreshed in under an hour with Wellness Detailing’s Mini Interior Detail service. Clean. Fast. Effective.",
-    url: "https://wellnessdetailing.com/mini-interior-detail",
-    siteName: "Wellness Detailing",
-    type: "website",
-  },
+        "Need a quick interior refresh? Our Mini Interior Detail service offers fast, effective cleaning for busy schedules. Book now with Wellness Detailing.",
+    keywords: [
+        "mini interior detail",
+        "express car cleaning Maryland",
+        "quick car interior service",
+        "mobile detailing Maryland",
+        "interior refresh car service",
+        "fast car detailing MD"
+    ],
+    robots: "index, follow",
+    alternates: {
+        canonical: "https://wellnessdetailing.com/mini-interior-detail",
+    },
+    openGraph: {
+        title: "Mini Interior Detail | Wellness Detailing",
+        description:
+            "Busy schedule? Get your car interior refreshed in under an hour with Wellness Detailing’s Mini Interior Detail service. Clean. Fast. Effective.",
+        url: "https://wellnessdetailing.com/mini-interior-detail",
+        siteName: "Wellness Detailing",
+        type: "website",
+    },
 };
 
 export default function MiniInteriorDetail() {
@@ -62,13 +63,17 @@ export default function MiniInteriorDetail() {
                 </div>
 
                 <div className="mt-12 text-center">
-                    <div className="w-[600px] h-[550px] border border-gray-400 rounded-lg mx-auto flex items-center justify-center text-sm text-gray-500">
-                        Image Placeholder
+                    <div className="relative w-[600px] h-[550px] border border-gray-400 rounded-lg mx-auto overflow-hidden">
+                        <Image
+                            src="/images/main.jpg"
+                            alt="Main showcase image"
+                            fill
+                            className="object-cover"
+                            sizes="600px"
+                        />
                     </div>
-
                     <Link href="/contact" className="inline-block mt-6 px-6 py-3 bg-blue-600 text-white rounded hover:bg-blue-700 transition">Get A Free Quote</Link>
                 </div>
-
 
                 <div className="mt-20 text-center">
                     <h2 className="text-3xl font-bold mb-10">
@@ -171,13 +176,16 @@ export default function MiniInteriorDetail() {
                     <h2 className="text-3xl font-bold text-center mb-6">
                         Mini Interior Detail Work Gallery
                     </h2>
-                    <div className="grid grid-cols-2 md:grid-cols-4 gap-6 justify-items-center">
-                        {[1, 2, 3, 4].map((_, i) => (
-                            <div
-                                key={i}
-                                className="w-[300px] h-[220px] border border-gray-300 rounded-lg flex items-center justify-center text-sm text-gray-400 bg-gray-50 shadow hover:shadow-md transition"
-                            >
-                                Image Placeholder
+                    <div className="grid grid-cols-2 md:grid-cols-4 gap-6 justify-items-center mt-6">
+                        {[1, 2, 3, 4].map((num) => (
+                            <div key={num} className="relative w-[300px] h-[220px] border border-gray-300 rounded-lg bg-gray-50 shadow hover:shadow-md transition overflow-hidden">
+                                <Image
+                                    src={`/images/grid-${num}.jpg`}
+                                    alt={`Grid image ${num}`}
+                                    fill
+                                    className="object-cover rounded-lg"
+                                    sizes="(max-width: 768px) 45vw, 300px"
+                                />
                             </div>
                         ))}
                     </div>

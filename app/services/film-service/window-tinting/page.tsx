@@ -4,28 +4,28 @@ import Link from "next/link"
 import Image from "next/image"
 
 export const metadata = {
-  title: "Window Tinting | Wellness Detailing",
-  description:
-    "Discover the benefits of professional window tinting from Wellness Detailing. Style, UV protection, and legal compliance—all tailored to your needs.",
-  keywords: [
-    "window tinting Maryland",
-    "mobile window tint Rockville",
-    "ceramic window tint Gaithersburg",
-    "UV protection tint",
-    "privacy tint for cars"
-  ],
-  robots: "index, follow",
-  alternates: {
-    canonical: "https://wellnessdetailing.com/window-tinting",
-  },
-  openGraph: {
     title: "Window Tinting | Wellness Detailing",
     description:
-      "Enhance your vehicle’s privacy, comfort, and style with mobile window tinting by Wellness Detailing. Legal, UV-protective, and high-performance films installed at your location.",
-    url: "https://wellnessdetailing.com/window-tinting",
-    siteName: "Wellness Detailing",
-    type: "website",
-  },
+        "Discover the benefits of professional window tinting from Wellness Detailing. Style, UV protection, and legal compliance—all tailored to your needs.",
+    keywords: [
+        "window tinting Maryland",
+        "mobile window tint Rockville",
+        "ceramic window tint Gaithersburg",
+        "UV protection tint",
+        "privacy tint for cars"
+    ],
+    robots: "index, follow",
+    alternates: {
+        canonical: "https://wellnessdetailing.com/window-tinting",
+    },
+    openGraph: {
+        title: "Window Tinting | Wellness Detailing",
+        description:
+            "Enhance your vehicle’s privacy, comfort, and style with mobile window tinting by Wellness Detailing. Legal, UV-protective, and high-performance films installed at your location.",
+        url: "https://wellnessdetailing.com/window-tinting",
+        siteName: "Wellness Detailing",
+        type: "website",
+    },
 };
 
 export default function WindowTinting() {
@@ -53,7 +53,15 @@ export default function WindowTinting() {
                             This description provides a more comprehensive explanation of window tint's benefits and functionality. It also emphasizes Wellness Detailing's commitment to customization and legal compliance.
                         </p>
                     </div>
-                    <Image fill src="/placeholder1.jpg" alt="Window tinting protection" className="flex-1 rounded-lg shadow object-cover w-full h-[550px] border" />
+                    <div className="relative flex-1 h-[550px]">
+                        <Image
+                            src="/placeholder1.jpg"
+                            alt="Window tinting protection"
+                            fill
+                            className="rounded-lg shadow object-cover border"
+                            sizes="(max-width: 768px) 100vw, 50vw"
+                        />
+                    </div>
                 </section>
                 <div className="text-center">
                     <Link
@@ -64,7 +72,16 @@ export default function WindowTinting() {
                     </Link>
                 </div>
                 <section className="flex flex-col md:flex-row items-center gap-8">
-                    <Image fill src="/placeholder2.jpg" alt="Benefits of window tint" className="flex-1 rounded-lg shadow object-cover w-full h-[550px]" />
+                    <div className="relative flex-1 h-[550px]">
+                        <Image
+                            src="/placeholder2.jpg"
+                            alt="Benefits of window tint"
+                            fill
+                            className="rounded-lg shadow object-cover"
+                            sizes="(max-width: 768px) 100vw, 50vw"
+                        />
+                    </div>
+
                     <div className="flex-1 space-y-4">
                         <h2 className="text-3xl font-bold">Transform Your Driving Experience: Unveiling the Benefits of Car Window Tint</h2>
                         <ul className="list-disc pl-5 space-y-8">
@@ -182,10 +199,17 @@ export default function WindowTinting() {
                 <section className="space-y-6">
                     <h2 className="text-3xl font-bold text-center">Window Tint Gallery</h2>
                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
-                        <Image fill src="/placeholder-gallery1.jpg" alt="Tint gallery 1" className="rounded-lg shadow object-cover h-[400px] w-full" />
-                        <Image fill src="/placeholder-gallery2.jpg" alt="Tint gallery 2" className="rounded-lg shadow object-cover h-[400px] w-full" />
-                        <Image fill src="/placeholder-gallery3.jpg" alt="Tint gallery 3" className="rounded-lg shadow object-cover h-[400px] w-full" />
-                        <Image fill src="/placeholder-gallery4.jpg" alt="Tint gallery 4" className="rounded-lg shadow object-cover h-[400px] w-full" />
+                        {["1", "2", "3", "4"].map((num) => (
+                            <div key={num} className="relative w-full h-[350px]">
+                                <Image
+                                    src={`/placeholder-gallery${num}.jpg`}
+                                    alt={`Tint gallery ${num}`}
+                                    fill
+                                    className="rounded-lg shadow object-cover"
+                                    sizes="(max-width: 768px) 100vw, 25vw"
+                                />
+                            </div>
+                        ))}
                     </div>
                     <div className="text-center pt-4">
                         <Link

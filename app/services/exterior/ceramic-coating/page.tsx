@@ -5,28 +5,28 @@ import { CheckCircle } from "lucide-react"
 import Image from "next/image"
 
 export const metadata = {
-  title: "Ceramic Coating | Wellness Detailing",
-  description:
-    "Learn about ceramic coating technology and how it protects your vehicle. Explore our expert services, benefits, and FAQs.",
-  keywords: [
-    "ceramic coating Maryland",
-    "auto paint protection",
-    "hydrophobic coating",
-    "car detailing MD",
-    "Wellness Detailing services",
-  ],
-  robots: "index, follow",
-  alternates: {
-    canonical: "https://wellnessdetailing.com/ceramiccoating",
-  },
-  openGraph: {
     title: "Ceramic Coating | Wellness Detailing",
     description:
-      "Explore how Wellness Detailing’s ceramic coating service protects your vehicle, enhances shine, and extends paint life in Maryland.",
-    url: "https://wellnessdetailing.com/ceramiccoating",
-    siteName: "Wellness Detailing",
-    type: "website",
-  },
+        "Learn about ceramic coating technology and how it protects your vehicle. Explore our expert services, benefits, and FAQs.",
+    keywords: [
+        "ceramic coating Maryland",
+        "auto paint protection",
+        "hydrophobic coating",
+        "car detailing MD",
+        "Wellness Detailing services",
+    ],
+    robots: "index, follow",
+    alternates: {
+        canonical: "https://wellnessdetailing.com/ceramiccoating",
+    },
+    openGraph: {
+        title: "Ceramic Coating | Wellness Detailing",
+        description:
+            "Explore how Wellness Detailing's ceramic coating service protects your vehicle, enhances shine, and extends paint life in Maryland.",
+        url: "https://wellnessdetailing.com/ceramiccoating",
+        siteName: "Wellness Detailing",
+        type: "website",
+    },
 };
 
 export default function CeramicCoating() {
@@ -35,16 +35,18 @@ export default function CeramicCoating() {
             <ServiceHero header="Ultimate Paint Protection: Ceramic Coating by Wellness Detailing" subheader="Safeguard your car's paintwork from everyday wear and tear with our professional ceramic coating installation. Maintain a showroom shine and unparalleled protection for years to come." url="https://placehold.co/1920x1080" />
             <section className="space-y-16 px-4 md:px-8 lg:px-16 py-8 max-w-7xl mx-auto text-gray-800">
                 <section className="max-w-6xl mx-auto grid md:grid-cols-2 gap-8 items-start">
-                    <Image
-                        fill
-                        src="/placeholder1.jpg"
-                        alt="Ceramic coating demo"
-                        className="w-full object-cover rounded-lg shadow md:h-[120%] md:self-start"
-                    />
+                    <div className="relative w-full h-[300px] md:h-[120%]">
+                        <Image
+                            src="/placeholder1.jpg"
+                            alt="Ceramic coating demo"
+                            fill
+                            className="object-cover rounded-lg shadow md:self-start"
+                        />
+                    </div>
                     <div className="space-y-4">
                         <h1 className="text-3xl font-bold">Unveiling the Magic: Ceramic Coating Explained</h1>
                         <p>
-                        Ceramic coating isn't just a protectant; it's a marvel of nanotechnology. At its core lies a special blend of silicon dioxide (SiO2) nanoparticles, which are essentially microscopic building blocks. These tiny particles bond together to create a hard, ultra-thin layer of ceramic protection on your car's paintwork. Imagine an invisible suit of armor, meticulously crafted on a molecular level!
+                            Ceramic coating isn't just a protectant; it's a marvel of nanotechnology. At its core lies a special blend of silicon dioxide (SiO2) nanoparticles, which are essentially microscopic building blocks. These tiny particles bond together to create a hard, ultra-thin layer of ceramic protection on your car's paintwork. Imagine an invisible suit of armor, meticulously crafted on a molecular level!
                         </p>
                     </div>
                 </section>
@@ -143,7 +145,7 @@ export default function CeramicCoating() {
                                 Wax and sealant offer temporary protection that needs frequent reapplication. Ceramic coating, however, is a semi-permanent solution that can last for several years with proper care. It offers superior protection against scratches, UV rays, and chemicals.
                             </span>
                         </p>
-                        <p>
+                        <div>
                             <strong>3. What are the benefits of ceramic coating?</strong>
                             <ul className="list-disc pl-5 mt-2 space-y-1 text-left">
                                 <li>Ultimate paint protection from scratches, chips, and contaminants</li>
@@ -154,7 +156,7 @@ export default function CeramicCoating() {
                                 <li>Chemical resistance against harsh chemicals and stains</li>
                                 <li>Gloss enhancement for a deeper, richer finish</li>
                             </ul>
-                        </p>
+                        </div>
                         <p>
                             <strong>4. How long does ceramic coating last?</strong>
                             <br />

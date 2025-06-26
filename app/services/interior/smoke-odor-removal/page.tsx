@@ -1,30 +1,31 @@
 import ServiceHero from "@/components/ServiceHero";
 import QuoteForm from "@/components/QuoteForm";
 import Link from "next/link"
+import Image from "next/image";
 
 export const metadata = {
-  title: "Smoke Odor Removal Services | Wellness Detailing",
-  description:
-    "Say goodbye to lingering smoke smells in your vehicle. Our smoke odor removal service uses enzyme treatment, deep cleaning, and optional ozone to fully eliminate odors.",
-  keywords: [
-    "smoke odor removal car",
-    "car detailing smoke smell",
-    "ozone treatment Maryland",
-    "cigarette odor removal vehicle",
-    "Wellness Detailing services"
-  ],
-  robots: "index, follow",
-  alternates: {
-    canonical: "https://wellnessdetailing.com/smoke-odor-removal",
-  },
-  openGraph: {
     title: "Smoke Odor Removal Services | Wellness Detailing",
     description:
-      "Professional smoke odor elimination using advanced methods like ozone treatment and enzyme cleaning. Freshen your car interior today.",
-    url: "https://wellnessdetailing.com/smoke-odor-removal",
-    siteName: "Wellness Detailing",
-    type: "website",
-  },
+        "Say goodbye to lingering smoke smells in your vehicle. Our smoke odor removal service uses enzyme treatment, deep cleaning, and optional ozone to fully eliminate odors.",
+    keywords: [
+        "smoke odor removal car",
+        "car detailing smoke smell",
+        "ozone treatment Maryland",
+        "cigarette odor removal vehicle",
+        "Wellness Detailing services"
+    ],
+    robots: "index, follow",
+    alternates: {
+        canonical: "https://wellnessdetailing.com/smoke-odor-removal",
+    },
+    openGraph: {
+        title: "Smoke Odor Removal Services | Wellness Detailing",
+        description:
+            "Professional smoke odor elimination using advanced methods like ozone treatment and enzyme cleaning. Freshen your car interior today.",
+        url: "https://wellnessdetailing.com/smoke-odor-removal",
+        siteName: "Wellness Detailing",
+        type: "website",
+    },
 };
 
 export default function SmokeOdorRemoval() {
@@ -98,19 +99,23 @@ export default function SmokeOdorRemoval() {
 
                     <Link href="/contact" className="inline-block mt-6 px-6 py-3 bg-blue-600 text-white font-semibold rounded hover:bg-blue-700 transition">Get A Free Quote</Link>
                 </section>
-
-
                 <div className="mt-20">
                     <h2 className="text-3xl font-bold text-center mb-6">
                         Restorative Cleaning Gallery
                     </h2>
                     <div className="grid grid-cols-2 md:grid-cols-4 gap-6 justify-items-center">
-                        {[1, 2, 3, 4].map((_, i) => (
+                        {[1, 2, 3, 4].map((i) => (
                             <div
                                 key={i}
-                                className="w-[300px] h-[220px] border border-gray-300 bg-gray-50 rounded-lg flex items-center justify-center text-sm text-gray-500"
+                                className="relative w-[300px] h-[220px] border border-gray-300 bg-gray-50 rounded-lg shadow overflow-hidden"
                             >
-                                Image Placeholder
+                                <Image
+                                    src={`/images/example-${i}.jpg`}
+                                    alt={`Gallery Image ${i}`}
+                                    fill
+                                    className="object-cover rounded-lg"
+                                    sizes="(max-width: 768px) 45vw, 300px"
+                                />
                             </div>
                         ))}
                     </div>

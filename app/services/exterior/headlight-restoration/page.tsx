@@ -48,8 +48,17 @@ export default function HeadlightRestoration() {
               </ul>
             </div>
             <div className="max-w-5xl mx-auto">
-              <Image fill src="/paint-correction-intro.png" alt="Paint correction showcase" className="w-full h-[525px] object-cover rounded-lg border border-gray-300" />
+              <div className="relative w-full h-[500px]">
+                <Image
+                  src="/paint-correction-intro.png"
+                  alt="Paint correction showcase"
+                  fill
+                  className="object-cover rounded-lg border border-gray-300"
+                  sizes="(max-width: 700px) 100vw, 800px"
+                />
+              </div>
             </div>
+
             <Link href="/contact" className="inline-block bg-blue-500 text-white px-6 py-3 rounded-md font-medium hover:bg-blue-600">
               Get A Free Quote
             </Link>
@@ -208,6 +217,7 @@ export default function HeadlightRestoration() {
             <h2 className="text-3xl font-bold text-center">Headlight Restoration Gallery</h2>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
               {[1, 2, 3, 4].map((i) => (
+                // fix to image
                 <div
                   key={i}
                   className="w-full h-[250px] bg-gray-100 rounded-lg border border-gray-300 flex items-center justify-center text-gray-400 text-sm"

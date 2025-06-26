@@ -5,28 +5,28 @@ import { CheckCircle } from "lucide-react"
 import Image from "next/image"
 
 export const metadata = {
-  title: "Car Wrap Services | Wellness Detailing",
-  description:
-    "Personalize your car with Wellness Detailing's professional car wrap services. Explore full wraps, partial designs, fleet branding, and more.",
-  keywords: [
-    "car wraps Maryland",
-    "custom car wraps",
-    "vehicle wraps Rockville",
-    "fleet wrap branding",
-    "wrap design and installation"
-  ],
-  robots: "index, follow",
-  alternates: {
-    canonical: "https://wellnessdetailing.com/vehicle-wraps",
-  },
-  openGraph: {
     title: "Car Wrap Services | Wellness Detailing",
     description:
-      "Unleash your creativity with professional car wrap design and installation by Wellness Detailing. Full wraps, accents, and business fleet branding in Maryland.",
-    url: "https://wellnessdetailing.com/vehicle-wraps",
-    siteName: "Wellness Detailing",
-    type: "website",
-  },
+        "Personalize your car with Wellness Detailing's professional car wrap services. Explore full wraps, partial designs, fleet branding, and more.",
+    keywords: [
+        "car wraps Maryland",
+        "custom car wraps",
+        "vehicle wraps Rockville",
+        "fleet wrap branding",
+        "wrap design and installation"
+    ],
+    robots: "index, follow",
+    alternates: {
+        canonical: "https://wellnessdetailing.com/vehicle-wraps",
+    },
+    openGraph: {
+        title: "Car Wrap Services | Wellness Detailing",
+        description:
+            "Unleash your creativity with professional car wrap design and installation by Wellness Detailing. Full wraps, accents, and business fleet branding in Maryland.",
+        url: "https://wellnessdetailing.com/vehicle-wraps",
+        siteName: "Wellness Detailing",
+        type: "website",
+    },
 };
 
 export default function VehicleWraps() {
@@ -49,13 +49,21 @@ export default function VehicleWraps() {
                         </ul>
                     </div>
                     <div className="max-w-5xl mx-auto">
-                        <Image fill src="/car-wrap-intro.png" alt="Car wrap showcase" className="w-full h-[400px] object-cover rounded-lg shadow" />
+                        <div className="relative w-full h-[400px]">
+                            <Image
+                                src="/car-wrap-intro.png"
+                                alt="Car wrap showcase"
+                                fill
+                                className="object-cover rounded-lg shadow"
+                                sizes="100vw"
+                            />
+                        </div>
                     </div>
                     <div className="pt-4 text-center">
-                            <Link href="/contact" className="bg-blue-600 text-white px-6 py-3 rounded-md font-medium hover:bg-blue-700 transition">
-                                Get A Free Quote
-                            </Link>
-                        </div>
+                        <Link href="/contact" className="bg-blue-600 text-white px-6 py-3 rounded-md font-medium hover:bg-blue-700 transition">
+                            Get A Free Quote
+                        </Link>
+                    </div>
                 </section>
                 <section className="space-y-6">
                     <h2 className="text-3xl font-bold text-center">Benefits of Car Wraps</h2>
@@ -144,11 +152,18 @@ export default function VehicleWraps() {
                 </section>
                 <section className="space-y-6">
                     <h2 className="text-3xl font-bold text-center">Car Wrap Gallery</h2>
-                    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
-                        <Image fill src="/placeholder-carwrap1.jpg" alt="Car wrap 1" className="rounded-lg shadow object-cover h-48 w-full" />
-                        <Image fill src="/placeholder-carwrap2.jpg" alt="Car wrap 2" className="rounded-lg shadow object-cover h-48 w-full" />
-                        <Image fill src="/placeholder-carwrap3.jpg" alt="Car wrap 3" className="rounded-lg shadow object-cover h-48 w-full" />
-                        <Image fill src="/placeholder-carwrap4.jpg" alt="Car wrap 4" className="rounded-lg shadow object-cover h-48 w-full" />
+                    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 mt-6">
+                        {["1", "2", "3", "4"].map((num) => (
+                            <div key={num} className="relative w-full h-[300px]">
+                                <Image
+                                    src={`/placeholder-carwrap${num}.jpg`}
+                                    alt={`Car wrap ${num}`}
+                                    fill
+                                    className="rounded-lg shadow object-cover"
+                                    sizes="(max-width: 768px) 100vw, 25vw"
+                                />
+                            </div>
+                        ))}
                     </div>
                     <div className="text-center pt-2">
                         <Link href="/contact" className="bg-blue-600 text-white px-6 py-3 rounded-md font-medium hover:bg-blue-700 transition">

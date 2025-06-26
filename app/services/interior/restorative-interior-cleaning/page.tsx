@@ -4,28 +4,28 @@ import Link from "next/link"
 import Image from "next/image"
 
 export const metadata = {
-  title: "Restorative Interior Cleaning | Wellness Detailing",
-  description:
-    "Bring your car’s interior back to life with our Restorative Interior Cleaning service. Perfect for neglected interiors with deep stains, odors, and dirt.",
-  keywords: [
-    "restorative interior cleaning",
-    "car interior deep clean Maryland",
-    "car odor removal",
-    "car detailing pet stains",
-    "mobile interior detailing MD"
-  ],
-  robots: "index, follow",
-  alternates: {
-    canonical: "https://wellnessdetailing.com/restorative-interior-cleaning",
-  },
-  openGraph: {
     title: "Restorative Interior Cleaning | Wellness Detailing",
     description:
-      "Revive your vehicle’s interior with our deep restorative cleaning. We eliminate grime, odors, and stains to make your car look and feel new.",
-    url: "https://wellnessdetailing.com/restorative-interior-cleaning",
-    siteName: "Wellness Detailing",
-    type: "website",
-  },
+        "Bring your car’s interior back to life with our Restorative Interior Cleaning service. Perfect for neglected interiors with deep stains, odors, and dirt.",
+    keywords: [
+        "restorative interior cleaning",
+        "car interior deep clean Maryland",
+        "car odor removal",
+        "car detailing pet stains",
+        "mobile interior detailing MD"
+    ],
+    robots: "index, follow",
+    alternates: {
+        canonical: "https://wellnessdetailing.com/restorative-interior-cleaning",
+    },
+    openGraph: {
+        title: "Restorative Interior Cleaning | Wellness Detailing",
+        description:
+            "Revive your vehicle’s interior with our deep restorative cleaning. We eliminate grime, odors, and stains to make your car look and feel new.",
+        url: "https://wellnessdetailing.com/restorative-interior-cleaning",
+        siteName: "Wellness Detailing",
+        type: "website",
+    },
 };
 
 export default function RestorativeInteriorCleaning() {
@@ -42,8 +42,14 @@ export default function RestorativeInteriorCleaning() {
                         <li><strong>More Than Just Cleaning:</strong> We go beyond surface cleaning, tackling embedded dirt, reviving neglected surfaces, and restoring a like-new appearance.</li>
                         <li><strong>Long-Term Protection:</strong> Our restorative cleaning process includes protectants to help maintain the revived condition of your car's interior.</li>
                     </div>
-                    <div className="w-[600px] h-[500px] border border-gray-300 rounded-lg mx-auto flex items-center justify-center text-sm text-gray-500 bg-gray-50 shadow">
-                        Image Placeholder
+                    <div className="relative w-[600px] h-[500px] border border-gray-300 rounded-lg mx-auto bg-gray-50 shadow">
+                        <Image
+                            src="/images/restorative-main.jpg"
+                            alt="Restorative Cleaning showcase"
+                            fill
+                            className="object-cover rounded-lg"
+                            sizes="600px"
+                        />
                     </div>
                     <Link href="/contact" className="inline-block mt-6 px-6 py-3 bg-blue-600 text-white font-semibold rounded hover:bg-blue-700 transition">Get A Free Quote</Link>
                 </section>
@@ -163,13 +169,14 @@ export default function RestorativeInteriorCleaning() {
                         {[1, 2, 3, 4].map((i) => (
                             <div
                                 key={i}
-                                className="w-full h-[200px] border border-gray-300 rounded-lg overflow-hidden shadow hover:shadow-md transition"
+                                className="relative w-full h-[200px] border border-gray-300 rounded-lg overflow-hidden shadow hover:shadow-md transition"
                             >
                                 <Image
-                                    fill
                                     src={`/images/restorative-gallery-${i}.jpg`}
                                     alt={`Restorative Cleaning ${i}`}
-                                    className="w-full h-full object-cover"
+                                    fill
+                                    className="object-cover"
+                                    sizes="(max-width: 768px) 45vw, 200px"
                                 />
                             </div>
                         ))}

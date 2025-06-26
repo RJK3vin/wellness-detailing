@@ -4,28 +4,28 @@ import Link from "next/link";
 import Image from "next/image"
 
 export const metadata = {
-  title: "Engine Cleaning | Wellness Detailing",
-  description:
-    "Learn why professional engine cleaning matters. Explore our step-by-step process, benefits, FAQs, and gallery. Schedule your service today.",
-  keywords: [
-    "engine cleaning Maryland",
-    "engine bay detailing",
-    "auto detailing MD",
-    "Wellness Detailing services",
-    "car maintenance Maryland"
-  ],
-  robots: "index, follow",
-  alternates: {
-    canonical: "https://wellnessdetailing.com/enginecleaning",
-  },
-  openGraph: {
     title: "Engine Cleaning | Wellness Detailing",
     description:
-      "Don't neglect your car's engine! Learn how Wellness Detailing's safe, effective engine cleaning service can boost performance and extend lifespan.",
-    url: "https://wellnessdetailing.com/enginecleaning",
-    siteName: "Wellness Detailing",
-    type: "website",
-  },
+        "Learn why professional engine cleaning matters. Explore our step-by-step process, benefits, FAQs, and gallery. Schedule your service today.",
+    keywords: [
+        "engine cleaning Maryland",
+        "engine bay detailing",
+        "auto detailing MD",
+        "Wellness Detailing services",
+        "car maintenance Maryland"
+    ],
+    robots: "index, follow",
+    alternates: {
+        canonical: "https://wellnessdetailing.com/enginecleaning",
+    },
+    openGraph: {
+        title: "Engine Cleaning | Wellness Detailing",
+        description:
+            "Don't neglect your car's engine! Learn how Wellness Detailing's safe, effective engine cleaning service can boost performance and extend lifespan.",
+        url: "https://wellnessdetailing.com/enginecleaning",
+        siteName: "Wellness Detailing",
+        type: "website",
+    },
 };
 
 export default function EngineCleaning() {
@@ -44,12 +44,15 @@ export default function EngineCleaning() {
                         Why Choose Professional Engine Cleaning?
                     </h1>
                     <div className="grid md:grid-cols-2 gap-10 items-center">
-                        <Image
-                            fill
-                            src="/engine-placeholder.jpg"
-                            alt="Engine Cleaning"
-                            className="w-full h-[450px] object-cover rounded-lg shadow-md border border-gray-300"
-                        />
+                        <div className="w-full h-[450px] relative rounded-lg shadow-md border border-gray-300">
+                            <Image
+                                src="/engine-placeholder.jpg"
+                                alt="Engine Cleaning"
+                                fill
+                                className="object-cover rounded-lg"
+                                sizes="100vw"
+                            />
+                        </div>
                         <ul className="list-disc pl-6 space-y-3 text-left text-gray-700">
                             <p>
                                 Your car's engine is the heart of its performance. Over time,
@@ -219,6 +222,7 @@ export default function EngineCleaning() {
                     <h2 className="text-3xl font-bold text-center">Engine Cleaning Gallery</h2>
                     <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
                         {[1, 2, 3, 4].map((i) => (
+                            // fix to image
                             <div
                                 key={i}
                                 className="w-full h-[250px] bg-gray-100 rounded-lg border border-gray-300 flex items-center justify-center text-gray-400 text-sm"

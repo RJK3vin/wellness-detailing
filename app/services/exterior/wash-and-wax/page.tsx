@@ -4,28 +4,28 @@ import Link from "next/link"
 import Image from "next/image"
 
 export const metadata = {
-  title: "Wash & Wax Services | Wellness Detailing",
-  description:
-    "Discover the Wellness Detailing difference with our professional wash and wax services. Learn about our meticulous process, FAQs, and get a free quote.",
-  keywords: [
-    "car wash and wax Maryland",
-    "professional car waxing",
-    "auto detailing",
-    "paint protection services",
-    "mobile car wash near me"
-  ],
-  robots: "index, follow",
-  alternates: {
-    canonical: "https://wellnessdetailing.com/washandwax",
-  },
-  openGraph: {
     title: "Wash & Wax Services | Wellness Detailing",
     description:
-      "Professional hand wash and wax services that restore shine and add lasting protection to your car.",
-    url: "https://wellnessdetailing.com/washandwax",
-    siteName: "Wellness Detailing",
-    type: "website",
-  },
+        "Discover the Wellness Detailing difference with our professional wash and wax services. Learn about our meticulous process, FAQs, and get a free quote.",
+    keywords: [
+        "car wash and wax Maryland",
+        "professional car waxing",
+        "auto detailing",
+        "paint protection services",
+        "mobile car wash near me"
+    ],
+    robots: "index, follow",
+    alternates: {
+        canonical: "https://wellnessdetailing.com/washandwax",
+    },
+    openGraph: {
+        title: "Wash & Wax Services | Wellness Detailing",
+        description:
+            "Professional hand wash and wax services that restore shine and add lasting protection to your car.",
+        url: "https://wellnessdetailing.com/washandwax",
+        siteName: "Wellness Detailing",
+        type: "website",
+    },
 };
 
 export default function WashAndWax() {
@@ -46,8 +46,17 @@ export default function WashAndWax() {
                         <li><strong>Professional Wax Application:</strong> The crowning touch! We apply a high-quality wax to create a protective shield that enhances shine, repels water, and safeguards your car's paint from environmental elements.</li>
                     </ul>
                     <div className="max-w-5xl mx-auto">
-                        <Image fill src="/paint-correction-intro.png" alt="Paint correction showcase" className="w-full h-[250px] object-cover rounded-lg border border-gray-300" />
+                        <div className="relative w-full h-[400px]">
+                            <Image
+                                src="/paint-correction-intro.png"
+                                alt="Paint correction showcase"
+                                fill
+                                className="object-cover rounded-lg border border-gray-300"
+                                sizes="(max-width: 768px) 100vw, 1200px"
+                            />
+                        </div>
                     </div>
+
                     <div className="text-center">
                         <Link
                             href="/contact"
@@ -192,11 +201,14 @@ export default function WashAndWax() {
                     <h2 className="text-3xl font-bold text-center">Wash & Wax Gallery</h2>
                     <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
                         {[1, 2, 3, 4].map((i) => (
-                            <div
-                                key={i}
-                                className="w-full h-[250px] bg-gray-100 rounded-lg border border-gray-300 flex items-center justify-center text-gray-400 text-sm"
-                            >
-                                Image {i}
+                            <div key={i} className="relative w-full h-[250px]">
+                                <Image
+                                    src={`/images/premiumwash-${i}.jpg`}
+                                    alt={`Premium Wash ${i}`}
+                                    fill
+                                    className="object-cover rounded-lg border border-gray-300"
+                                    sizes="(max-width: 768px) 50vw, 25vw"
+                                />
                             </div>
                         ))}
                     </div>

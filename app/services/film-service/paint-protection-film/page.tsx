@@ -5,28 +5,28 @@ import { CheckCircle } from "lucide-react"
 import Image from "next/image"
 
 export const metadata = {
-  title: "Paint Protection Film | Wellness Detailing",
-  description:
-    "Explore the benefits of Paint Protection Film (PPF) with Wellness Detailing. Protect your car's finish from scratches, UV damage, and road debris with our professional installation.",
-  keywords: [
-    "paint protection film Maryland",
-    "PPF installation Gaithersburg",
-    "clear bra Rockville",
-    "car paint shield",
-    "mobile car PPF service"
-  ],
-  robots: "index, follow",
-  alternates: {
-    canonical: "https://wellnessdetailing.com/paint-protection-film",
-  },
-  openGraph: {
     title: "Paint Protection Film | Wellness Detailing",
     description:
-      "Shield your car’s paint from chips, scratches, and UV damage with professional Paint Protection Film installation in Gaithersburg & Rockville, MD.",
-    url: "https://wellnessdetailing.com/paint-protection-film",
-    siteName: "Wellness Detailing",
-    type: "website",
-  },
+        "Explore the benefits of Paint Protection Film (PPF) with Wellness Detailing. Protect your car's finish from scratches, UV damage, and road debris with our professional installation.",
+    keywords: [
+        "paint protection film Maryland",
+        "PPF installation Gaithersburg",
+        "clear bra Rockville",
+        "car paint shield",
+        "mobile car PPF service"
+    ],
+    robots: "index, follow",
+    alternates: {
+        canonical: "https://wellnessdetailing.com/paint-protection-film",
+    },
+    openGraph: {
+        title: "Paint Protection Film | Wellness Detailing",
+        description:
+            "Shield your car’s paint from chips, scratches, and UV damage with professional Paint Protection Film installation in Gaithersburg & Rockville, MD.",
+        url: "https://wellnessdetailing.com/paint-protection-film",
+        siteName: "Wellness Detailing",
+        type: "website",
+    },
 };
 
 export default function PaintProtectionFilm() {
@@ -192,10 +192,17 @@ export default function PaintProtectionFilm() {
                 <section className="space-y-6">
                     <h2 className="text-3xl font-bold text-center">Paint Protection Gallery</h2>
                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
-                        <Image fill src="/placeholder-ppf1.jpg" alt="PPF gallery 1" className="rounded-xl shadow-lg object-cover h-48 w-full" />
-                        <Image fill src="/placeholder-ppf2.jpg" alt="PPF gallery 2" className="rounded-xl shadow-lg object-cover h-48 w-full" />
-                        <Image fill src="/placeholder-ppf3.jpg" alt="PPF gallery 3" className="rounded-xl shadow-lg object-cover h-48 w-full" />
-                        <Image fill src="/placeholder-ppf4.jpg" alt="PPF gallery 4" className="rounded-xl shadow-lg object-cover h-48 w-full" />
+                        {["1", "2", "3", "4"].map((num) => (
+                            <div key={num} className="relative w-full h-48">
+                                <Image
+                                    src={`/placeholder-ppf${num}.jpg`}
+                                    alt={`PPF gallery ${num}`}
+                                    fill
+                                    className="rounded-xl shadow-lg object-cover"
+                                    sizes="(max-width: 768px) 100vw, 25vw"
+                                />
+                            </div>
+                        ))}
                     </div>
                     <div className="text-center pt-2">
                         <Link href="/contact" className="bg-blue-600 text-white px-6 py-3 rounded-md font-medium hover:bg-blue-700 transition">

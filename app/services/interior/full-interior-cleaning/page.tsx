@@ -4,30 +4,30 @@ import Link from "next/link"
 import Image from "next/image"
 
 export const metadata = {
-  title: "Interior Detailing | Wellness Detailing",
-  description:
-    "Transform your car's interior with Wellness Detailing's comprehensive and professional interior detailing services.",
-  keywords: [
-    "interior detailing Maryland",
-    "car deep clean",
-    "mobile interior car cleaning",
-    "pet hair removal car",
-    "leather seat conditioning",
-    "steam clean car interior",
-    "car shampoo service"
-  ],
-  robots: "index, follow",
-  alternates: {
-    canonical: "https://wellnessdetailing.com/full-interior-cleaning",
-  },
-  openGraph: {
     title: "Interior Detailing | Wellness Detailing",
     description:
-      "Deep clean, sanitize, and refresh your vehicle interior with our mobile interior detailing service. Upholstery cleaning, odor removal, leather treatment, and more.",
-    url: "https://wellnessdetailing.com/full-interior-cleaning",
-    siteName: "Wellness Detailing",
-    type: "website",
-  },
+        "Transform your car's interior with Wellness Detailing's comprehensive and professional interior detailing services.",
+    keywords: [
+        "interior detailing Maryland",
+        "car deep clean",
+        "mobile interior car cleaning",
+        "pet hair removal car",
+        "leather seat conditioning",
+        "steam clean car interior",
+        "car shampoo service"
+    ],
+    robots: "index, follow",
+    alternates: {
+        canonical: "https://wellnessdetailing.com/full-interior-cleaning",
+    },
+    openGraph: {
+        title: "Interior Detailing | Wellness Detailing",
+        description:
+            "Deep clean, sanitize, and refresh your vehicle interior with our mobile interior detailing service. Upholstery cleaning, odor removal, leather treatment, and more.",
+        url: "https://wellnessdetailing.com/full-interior-cleaning",
+        siteName: "Wellness Detailing",
+        type: "website",
+    },
 };
 
 export default function FullInteriorCleaning() {
@@ -224,8 +224,14 @@ export default function FullInteriorCleaning() {
 
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-6xl mx-auto">
                     {[...Array(14)].map((_, i) => (
-                        <div key={i} className="border border-gray-300 h-[200px] w-full flex items-center justify-center bg-gray-50 text-gray-500 text-sm rounded-lg">
-                            Image {i + 1}
+                        <div key={i} className="relative w-full h-[200px] rounded-lg overflow-hidden border border-gray-300">
+                            <Image
+                                src={`/images/gallery-${i + 1}.jpg`}
+                                alt={`Gallery image ${i + 1}`}
+                                fill
+                                className="object-cover rounded-lg"
+                                sizes="(max-width: 768px) 50vw, 25vw"
+                            />
                         </div>
                     ))}
                 </div>

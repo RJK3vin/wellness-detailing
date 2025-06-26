@@ -5,28 +5,28 @@ import { CheckCircle } from "lucide-react"
 import Image from "next/image"
 
 export const metadata = {
-  title: "Premium Wash Service | Wellness Detailing",
-  description:
-    "Experience the ultimate Premium Wash at Wellness Detailing. Multi-stage hand wash, wax, clay bar, and tire revival. Get a flawless finish with long-lasting protection.",
-  keywords: [
-    "premium car wash Maryland",
-    "high-end car detailing",
-    "multi-stage wash",
-    "clay bar treatment",
-    "car wax service"
-  ],
-  robots: "index, follow",
-  alternates: {
-    canonical: "https://wellnessdetailing.com/premiumwash",
-  },
-  openGraph: {
     title: "Premium Wash Service | Wellness Detailing",
     description:
-      "Go beyond basic with Wellness Detailing's Premium Wash. Restore shine, protect your paint, and drive a car that turns heads.",
-    url: "https://wellnessdetailing.com/premiumwash",
-    siteName: "Wellness Detailing",
-    type: "website",
-  },
+        "Experience the ultimate Premium Wash at Wellness Detailing. Multi-stage hand wash, wax, clay bar, and tire revival. Get a flawless finish with long-lasting protection.",
+    keywords: [
+        "premium car wash Maryland",
+        "high-end car detailing",
+        "multi-stage wash",
+        "clay bar treatment",
+        "car wax service"
+    ],
+    robots: "index, follow",
+    alternates: {
+        canonical: "https://wellnessdetailing.com/premiumwash",
+    },
+    openGraph: {
+        title: "Premium Wash Service | Wellness Detailing",
+        description:
+            "Go beyond basic with Wellness Detailing's Premium Wash. Restore shine, protect your paint, and drive a car that turns heads.",
+        url: "https://wellnessdetailing.com/premiumwash",
+        siteName: "Wellness Detailing",
+        type: "website",
+    },
 };
 
 export default function PremiumWash() {
@@ -120,12 +120,16 @@ export default function PremiumWash() {
                         ))}
                     </ul>
 
-                    <Image
-                        fill
-                        src="/images/premiumwash-feature.jpg"
-                        alt="Premium Wash Example"
-                        className="w-full h-[450px] object-cover border border-gray-300 rounded-lg"
-                    />
+                    <div className="relative w-full h-[450px]">
+                        <Image
+                            src="/images/premiumwash-feature.jpg"
+                            alt="Premium Wash Example"
+                            fill
+                            className="object-cover border border-gray-300 rounded-lg"
+                            sizes="(max-width: 768px) 100vw, 1200px"
+                        />
+                    </div>
+
 
                     <Link
                         href="/contact"
@@ -238,13 +242,16 @@ export default function PremiumWash() {
                     <h2 className="text-3xl font-bold">Premium Wash Service Gallery</h2>
                     <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
                         {[1, 2, 3, 4, 5, 6, 7, 8].map((i) => (
-                            <Image
-                                fill
-                                key={i}
-                                src={`/images/premiumwash-${i}.jpg`}
-                                alt={`Premium Wash ${i}`}
-                                className="w-full h-[250px] object-cover rounded-lg border border-gray-300"
-                            />
+                            <div key={i} className="relative w-full h-[250px]"> 
+                                <Image
+                                    fill
+                                    key={i}
+                                    src={`/images/premiumwash-${i}.jpg`}
+                                    alt={`Premium Wash ${i}`}
+                                    sizes="(max-width: 768px) 50vw, 24vw"
+                                    className="object-cover rounded-lg border border-gray-300"
+                                />
+                            </div>
                         ))}
                     </div>
                     <Link

@@ -4,28 +4,28 @@ import Link from "next/link"
 import Image from "next/image"
 
 export const metadata = {
-  title: "Paint Correction Services | Wellness Detailing",
-  description:
-    "Restore your car's original shine with professional paint correction services from Wellness Detailing. Explore single-stage, multi-stage, and headlight restoration options.",
-  keywords: [
-    "paint correction Gaithersburg",
-    "car scratch removal Rockville MD",
-    "single-stage polish",
-    "multi-stage polish",
-    "headlight restoration MD"
-  ],
-  robots: "index, follow",
-  alternates: {
-    canonical: "https://wellnessdetailing.com/paintcorrection",
-  },
-  openGraph: {
     title: "Paint Correction Services | Wellness Detailing",
     description:
-      "Restore your car's shine and remove scratches with expert paint correction services in Gaithersburg and Rockville, MD. Schedule a free quote today.",
-    url: "https://wellnessdetailing.com/paintcorrection",
-    siteName: "Wellness Detailing",
-    type: "website",
-  },
+        "Restore your car's original shine with professional paint correction services from Wellness Detailing. Explore single-stage, multi-stage, and headlight restoration options.",
+    keywords: [
+        "paint correction Gaithersburg",
+        "car scratch removal Rockville MD",
+        "single-stage polish",
+        "multi-stage polish",
+        "headlight restoration MD"
+    ],
+    robots: "index, follow",
+    alternates: {
+        canonical: "https://wellnessdetailing.com/paintcorrection",
+    },
+    openGraph: {
+        title: "Paint Correction Services | Wellness Detailing",
+        description:
+            "Restore your car's shine and remove scratches with expert paint correction services in Gaithersburg and Rockville, MD. Schedule a free quote today.",
+        url: "https://wellnessdetailing.com/paintcorrection",
+        siteName: "Wellness Detailing",
+        type: "website",
+    },
 };
 
 export default function PaintCorrection() {
@@ -44,8 +44,17 @@ export default function PaintCorrection() {
                         </ul>
                     </div>
                     <div className="max-w-5xl mx-auto">
-                        <Image fill src="/paint-correction-intro.png" alt="Paint correction showcase" className="w-full h-[400px] object-cover rounded-lg shadow" />
+                        <div className="relative w-full h-[600px]">
+                            <Image
+                                src="/paint-correction-intro.png"
+                                alt="Paint correction showcase"
+                                fill
+                                className="object-cover rounded-lg shadow"
+                                sizes="(max-width: 500px) 100vw, 800px"
+                            />
+                        </div>
                     </div>
+
                     <div className="pt-4 text-center">
                         <Link href="/contact" className="bg-blue-600 text-white px-6 py-3 rounded-md font-medium hover:bg-blue-700">
                             Get A Free Quote
