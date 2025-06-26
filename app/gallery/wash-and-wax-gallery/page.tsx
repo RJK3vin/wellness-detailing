@@ -5,7 +5,7 @@ import Image from "next/image"
 export default function WashAndWaxGallery() {
     return (
         <>
-            <GalleryHero header="View Our Wash and Wax Work" button="Learn More About Wash & Wax Service" url="https://placehold.co/1920x1080" loc="washandwax" />
+            <GalleryHero header="View Our Wash and Wax Work" button="Learn More About Wash & Wax Service" url="https://placehold.co/1920x1080" loc="services/exterior/wash-and-wax" />
             <section className="bg-white py-16 px-4 sm:px-6 lg:px-8">
                 <div className="max-w-7xl mx-auto">
                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
@@ -14,12 +14,15 @@ export default function WashAndWaxGallery() {
                                 key={i}
                                 className="w-full aspect-video bg-gray-100 rounded-lg overflow-hidden border border-gray-200 shadow hover:shadow-md transition"
                             >
-                                <Image
-                                    fill
-                                    src={`https://placehold.co/600x400?text=Photo+${i}`}
-                                    alt={`Wash and Wax ${i}`}
-                                    className="w-full h-full object-cover"
-                                />
+                                <div className="relative w-full h-full">
+                                    <Image
+                                        src={`/images/wash-and-wax-${i}.jpg`}
+                                        alt={`Wash and Wax ${i}`}
+                                        fill
+                                        className="object-cover"
+                                        sizes="(max-width: 768px) 100vw, 25vw"
+                                    />
+                                </div>
                             </div>
                         ))}
                     </div>
