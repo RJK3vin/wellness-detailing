@@ -222,12 +222,16 @@ export default function EngineCleaning() {
                     <h2 className="text-3xl font-bold text-center">Engine Cleaning Gallery</h2>
                     <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
                         {[1, 2, 3, 4].map((i) => (
-                            // fix to image
                             <div
                                 key={i}
-                                className="w-full h-[250px] bg-gray-100 rounded-lg border border-gray-300 flex items-center justify-center text-gray-400 text-sm"
+                                className="w-full h-[250px] bg-gray-100 rounded-lg border border-gray-300 overflow-hidden relative"
                             >
-                                Image {i}
+                                <Image
+                                    src={`/images/gallery-placeholder-${i}.jpg`}
+                                    alt={`Gallery Placeholder ${i}`}
+                                    fill
+                                    className="object-cover"
+                                />
                             </div>
                         ))}
                     </div>

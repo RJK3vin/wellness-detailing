@@ -1,30 +1,31 @@
 import ServiceHero from "@/components/ServiceHero";
 import QuoteForm from "@/components/QuoteForm";
 import Link from "next/link"
+import Image from "next/image";
 
 export const metadata = {
-  title: "Paint Overspray Removal | Wellness Detailing",
-  description:
-    "Learn how Wellness Detailing safely removes paint overspray from your car. Explore our proven process and detailed FAQs.",
-  keywords: [
-    "paint overspray removal",
-    "auto detailing Maryland",
-    "remove paint overspray",
-    "car paint correction",
-    "overspray detailing MD"
-  ],
-  robots: "index, follow",
-  alternates: {
-    canonical: "https://wellnessdetailing.com/paintoversprayremoval",
-  },
-  openGraph: {
     title: "Paint Overspray Removal | Wellness Detailing",
     description:
-      "Don't let overspray ruin your car's finish. Trust Wellness Detailing for professional paint overspray removal in Maryland. Get your shine back today.",
-    url: "https://wellnessdetailing.com/paintoversprayremoval",
-    siteName: "Wellness Detailing",
-    type: "website",
-  },
+        "Learn how Wellness Detailing safely removes paint overspray from your car. Explore our proven process and detailed FAQs.",
+    keywords: [
+        "paint overspray removal",
+        "auto detailing Maryland",
+        "remove paint overspray",
+        "car paint correction",
+        "overspray detailing MD"
+    ],
+    robots: "index, follow",
+    alternates: {
+        canonical: "https://wellnessdetailing.com/paintoversprayremoval",
+    },
+    openGraph: {
+        title: "Paint Overspray Removal | Wellness Detailing",
+        description:
+            "Don't let overspray ruin your car's finish. Trust Wellness Detailing for professional paint overspray removal in Maryland. Get your shine back today.",
+        url: "https://wellnessdetailing.com/paintoversprayremoval",
+        siteName: "Wellness Detailing",
+        type: "website",
+    },
 };
 
 export default function PaintOversprayRemoval() {
@@ -130,12 +131,16 @@ export default function PaintOversprayRemoval() {
                     <h2 className="text-3xl font-bold text-center">Paint Overspray Gallery</h2>
                     <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
                         {[1, 2, 3, 4].map((i) => (
-                            // fix to image
                             <div
                                 key={i}
-                                className="w-full h-[250px] bg-gray-100 rounded-lg border border-gray-300 flex items-center justify-center text-gray-400 text-sm"
+                                className="relative w-full h-[250px] bg-gray-100 rounded-lg border border-gray-300 overflow-hidden"
                             >
-                                Image {i}
+                                <Image
+                                    src={`/images/placeholder-${i}.jpg`}
+                                    alt={`Image ${i}`}
+                                    fill
+                                    className="object-cover rounded-lg"
+                                />
                             </div>
                         ))}
                     </div>
