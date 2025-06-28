@@ -1,49 +1,50 @@
 import ServiceHero from "@/components/ServiceHero";
 import QuoteForm from "@/components/QuoteForm";
 import Link from "next/link";
+import Image from "next/image";
 
 export const metadata = {
-  title: "Columbia Mobile Detailing | Car Detailing in Columbia, MD",
-  description:
-    "Columbia Mobile Detailing offers expert interior and exterior car detailing services in Columbia, MD. We bring the shine to your driveway—ceramic coating, paint correction, odor removal, and more.",
-  keywords: [
-    "Columbia Mobile Detailing",
-    "mobile car detailing Columbia MD",
-    "interior car cleaning Columbia",
-    "paint correction Columbia MD",
-    "ceramic coating Columbia",
-    "Wellness Detailing"
-  ],
-  alternates: {
-    canonical: "https://wellnessdetailing.com/columbiamobiledetailing",
-  },
-  openGraph: {
-    title: "Columbia Mobile Detailing | Showroom Shine at Your Doorstep",
+    title: "Columbia Mobile Detailing | Car Detailing in Columbia, MD",
     description:
-      "Experience top-tier mobile car detailing in Columbia, MD. Our expert team offers paint protection, odor removal, ceramic coating, and full interior/exterior detailing—on your schedule.",
-    url: "https://wellnessdetailing.com/columbiamobiledetailing",
-    siteName: "Wellness Detailing",
-    type: "website",
-  },
+        "Columbia Mobile Detailing offers expert interior and exterior car detailing services in Columbia, MD. We bring the shine to your driveway—ceramic coating, paint correction, odor removal, and more.",
+    keywords: [
+        "Columbia Mobile Detailing",
+        "mobile car detailing Columbia MD",
+        "interior car cleaning Columbia",
+        "paint correction Columbia MD",
+        "ceramic coating Columbia",
+        "Wellness Detailing"
+    ],
+    alternates: {
+        canonical: "https://wellnessdetailing.com/columbiamobiledetailing",
+    },
+    openGraph: {
+        title: "Columbia Mobile Detailing | Showroom Shine at Your Doorstep",
+        description:
+            "Experience top-tier mobile car detailing in Columbia, MD. Our expert team offers paint protection, odor removal, ceramic coating, and full interior/exterior detailing—on your schedule.",
+        url: "https://wellnessdetailing.com/columbiamobiledetailing",
+        siteName: "Wellness Detailing",
+        type: "website",
+    },
 };
 
 export default function ColumbiaDetailing() {
-    const currentPath = location.pathname.replace("/", "");
-    const locations = [
-        'Poolesville MD Mobile Detailing',
-        'Columbia Mobile Detailing',
-        'College Park Mobile Detailing',
-        'Damascus MD Mobile Detailing',
-        'Laurel MD Mobile Detailing',
-        'Beltsville MD Mobile Detailing',
-        'Silver Spring MD Mobile Detailing',
-        'Bethesda MD Mobile Detailing',
-        'Potomac MD Mobile Detailing',
-        'Clarksburg mobile detailing',
-        'Gaithersburg Mobile Detailing',
-        'Rockville MD Mobile Detailing',
-        'Olney Md Mobile Detailing',
-    ];
+    const currentPath = ""
+    const serviceAreas = [
+        { label: 'Poolesville MD Mobile Detailing', href: '/service-area/poolesville-detailing' },
+        { label: 'Columbia Mobile Detailing', href: '/service-area/columbia-detailing' },
+        { label: 'College Park Mobile Detailing', href: '/service-area/college-park-detailing' },
+        { label: 'Damascus MD Mobile Detailing', href: '/service-area/damascus-detailing' },
+        { label: 'Laurel MD Mobile Detailing', href: '/service-area/laurel-detailing' },
+        { label: 'Beltsville MD Mobile Detailing', href: '/service-area/beltsville-detailing' },
+        { label: 'Silver Spring MD Mobile Detailing', href: '/service-area/silver-spring-detailing' },
+        { label: 'Bethesda MD Mobile Detailing', href: '/service-area/bethesda-detailing' },
+        { label: 'Potomac MD Mobile Detailing', href: '/service-area/potomac-detailing' },
+        { label: 'Clarksburg Mobile Detailing', href: '/service-area/clarksburg-detailing' },
+        { label: 'Gaithersburg Mobile Detailing', href: '/service-area/gaithersburg-detailing' },
+        { label: 'Rockville MD Mobile Detailing', href: '/service-area/rockville-detailing' },
+        { label: 'Olney MD Mobile Detailing', href: '/service-area/olney-detailing' },
+    ]
 
     return (
         <>
@@ -55,8 +56,23 @@ export default function ColumbiaDetailing() {
                     Our experienced and certified detailers utilize top-of-the-line equipment and premium products to deliver exceptional results, leaving your car gleaming and protected.
                 </p>
                 <div className="flex justify-center gap-4">
-                    <div className="w-[280px] h-[400px] border border-gray-300 bg-gray-100"></div>
-                    <div className="w-[280px] h-[400px] border border-gray-300 bg-gray-100"></div>
+                    <div className="relative w-[280px] h-[400px] border border-gray-300 bg-gray-100 overflow-hidden">
+                        <Image
+                            src="/images/card1.jpg"
+                            alt="Card 1"
+                            fill
+                            className="object-cover"
+                        />
+                    </div>
+
+                    <div className="relative w-[280px] h-[400px] border border-gray-300 bg-gray-100 overflow-hidden">
+                        <Image
+                            src="/images/card2.jpg"
+                            alt="Card 2"
+                            fill
+                            className="object-cover"
+                        />
+                    </div>
                 </div>
 
                 <Link
@@ -128,20 +144,18 @@ export default function ColumbiaDetailing() {
                             </p>
 
                             <ul className="mb-4 list-disc list-inside space-y-1">
-                                {locations.map((area) => {
-                                    const route = area.toLowerCase().replace(/\s+/g, "");
-                                    const isCurrent = currentPath === route;
-
+                                {serviceAreas.map((area) => {
+                                    const isCurrent = area.href === '/service-area/columbia-detailing';
                                     return (
-                                        <p key={route}>
+                                        <p key={area.label}>
                                             <Link
-                                                href={`/${route}`}
+                                                href={area.label}
                                                 className={`${isCurrent
                                                     ? "text-blue-600 font-semibold"
                                                     : "text-black hover:text-blue-600 transition-colors"
                                                     }`}
                                             >
-                                                {area}
+                                                {area.label}
                                             </Link>
                                         </p>
                                     );
@@ -156,9 +170,15 @@ export default function ColumbiaDetailing() {
                             </p>
                         </div>
 
-                        <div className="lg:w-1/2 w-full h-[600px] aspect-video bg-gray-200 border flex items-center justify-center text-gray-500 text-sm">
-                            Image Placeholder
+                        <div className="relative lg:w-1/2 w-full h-[700px] aspect-video border bg-gray-200 overflow-hidden">
+                            <Image
+                                src="/images/hero-wide.jpg"
+                                alt="Hero Section Image"
+                                fill
+                                className="object-cover"
+                            />
                         </div>
+
                     </div>
                 </div>
             </section>
@@ -242,9 +262,14 @@ export default function ColumbiaDetailing() {
                     {Array.from({ length: 16 }).map((_, index) => (
                         <div
                             key={index}
-                            className="w-full h-[200px] bg-gray-200 border border-gray-400 rounded flex items-center justify-center text-gray-500 text-sm"
+                            className="relative w-full h-[200px] border border-gray-400 rounded overflow-hidden"
                         >
-                            Image Placeholder {index + 1}
+                            <Image
+                                src={`/images/gallery/thumb-${index + 1}.jpg`}
+                                alt={`Gallery Image ${index + 1}`}
+                                fill
+                                className="object-cover"
+                            />
                         </div>
                     ))}
                 </div>

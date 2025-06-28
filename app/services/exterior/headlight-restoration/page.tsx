@@ -59,7 +59,7 @@ export default function HeadlightRestoration() {
               </div>
             </div>
 
-            <Link href="/contact" className="inline-block bg-blue-500 text-white px-6 py-3 rounded-md font-medium hover:bg-blue-600">
+            <Link href="/contact" className="inline-block bg-blue-600 text-white px-6 py-3 rounded-md font-medium hover:bg-blue-700">
               Get A Free Quote
             </Link>
           </section>
@@ -99,7 +99,7 @@ export default function HeadlightRestoration() {
           <div className="text-center">
             <Link
               href="/contact"
-              className="inline-block bg-blue-500 text-white px-6 py-3 rounded-md font-medium hover:bg-blue-600"
+              className="inline-block bg-blue-600 text-white px-6 py-3 rounded-md font-medium hover:bg-blue-700"
             >
               Get A Free Quote
             </Link>
@@ -138,7 +138,7 @@ export default function HeadlightRestoration() {
             <div className="text-center">
               <Link
                 href="/contact"
-                className="inline-block bg-blue-500 text-white px-6 py-3 rounded-md font-medium hover:bg-blue-600"
+                className="inline-block bg-blue-600 text-white px-6 py-3 rounded-md font-medium hover:bg-blue-700"
               >
                 Get A Free Quote
               </Link>
@@ -206,7 +206,7 @@ export default function HeadlightRestoration() {
               <div className="text-center pt-4">
                 <Link
                   href="/contact"
-                  className="inline-block bg-blue-500 text-white px-6 py-3 rounded-md font-medium hover:bg-blue-600"
+                  className="inline-block bg-blue-600 text-white px-6 py-3 rounded-md font-medium hover:bg-blue-700"
                 >
                   Get A Free Quote
                 </Link>
@@ -233,7 +233,7 @@ export default function HeadlightRestoration() {
             <div className="text-center">
               <Link
                 href="/contact"
-                className="inline-block bg-blue-500 text-white px-6 py-3 rounded-md font-medium hover:bg-blue-600"
+                className="inline-block bg-blue-600 text-white px-6 py-3 rounded-md font-medium hover:bg-blue-700"
               >
                 Get A Free Quote
               </Link>

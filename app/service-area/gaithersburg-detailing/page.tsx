@@ -4,49 +4,47 @@ import Link from "next/link";
 import Image from "next/image"
 
 export const metadata = {
-  title: "Gaithersburg Mobile Detailing | Local Car Care Experts",
-  description:
-    "Gaithersburg Mobile Detailing - Professional mobile car detailing in Gaithersburg, MD. We offer interior cleaning, paint correction, ceramic coating, and more at your location.",
-  keywords: [
-    "Gaithersburg Mobile Detailing",
-    "mobile car detailing Gaithersburg",
-    "interior detailing Gaithersburg MD",
-    "ceramic coating Gaithersburg",
-    "auto detailing near me",
-    "Wellness Detailing"
-  ],
-  alternates: {
-    canonical: "https://wellnessdetailing.com/gaithersburgmobiledetailing",
-  },
-  openGraph: {
-    title: "Gaithersburg Mobile Detailing | Wellness Detailing",
+    title: "Gaithersburg Mobile Detailing | Local Car Care Experts",
     description:
-      "High-quality mobile detailing in Gaithersburg, MD. Interior and exterior detailing, smoke odor removal, paint protection, and more brought to your driveway.",
-    url: "https://wellnessdetailing.com/gaithersburgmobiledetailing",
-    siteName: "Wellness Detailing",
-    type: "website",
-  },
+        "Gaithersburg Mobile Detailing - Professional mobile car detailing in Gaithersburg, MD. We offer interior cleaning, paint correction, ceramic coating, and more at your location.",
+    keywords: [
+        "Gaithersburg Mobile Detailing",
+        "mobile car detailing Gaithersburg",
+        "interior detailing Gaithersburg MD",
+        "ceramic coating Gaithersburg",
+        "auto detailing near me",
+        "Wellness Detailing"
+    ],
+    alternates: {
+        canonical: "https://wellnessdetailing.com/gaithersburgmobiledetailing",
+    },
+    openGraph: {
+        title: "Gaithersburg Mobile Detailing | Wellness Detailing",
+        description:
+            "High-quality mobile detailing in Gaithersburg, MD. Interior and exterior detailing, smoke odor removal, paint protection, and more brought to your driveway.",
+        url: "https://wellnessdetailing.com/gaithersburgmobiledetailing",
+        siteName: "Wellness Detailing",
+        type: "website",
+    },
 };
-
-
 
 export default function GaithersburgDetailing() {
 
     const areas = [
-        { name: "Poolesville MD Mobile Detailing", slug: "poolesvillemdmobiledetailing" },
-        { name: "Columbia Mobile Detailing", slug: "columbiamobiledetailing" },
-        { name: "College Park Mobile Detailing", slug: "collegeparkmobiledetailing" },
-        { name: "Damascus MD Mobile Detailing", slug: "damascusmdmobiledetailing" },
-        { name: "Laurel MD Mobile Detailing", slug: "laurelmdmobiledetailing" },
-        { name: "Beltsville MD Mobile Detailing", slug: "beltsvillemdmobiledetailing" },
-        { name: "Silver Spring MD Mobile Detailing", slug: "silverspringmdmobiledetailing" },
-        { name: "Bethesda MD Mobile Detailing", slug: "bethesdamdmobiledetailing" },
-        { name: "Potomac MD Mobile Detailing", slug: "potomacmdmobiledetailing" },
-        { name: "Clarksburg Mobile Detailing", slug: "clarksburgmobiledetailing" },
-        { name: "Gaithersburg Mobile Detailing", slug: "gaithersburgmobiledetailing", current: true },
-        { name: "Rockville MD Mobile Detailing", slug: "rockvillemdmobiledetailing" },
-        { name: "Olney MD Mobile Detailing", slug: "olneymdmobiledetailing" },
-    ];
+        { label: 'Poolesville MD Mobile Detailing', href: '/service-area/poolesville-detailing' },
+        { label: 'Columbia Mobile Detailing', href: '/service-area/columbia-detailing' },
+        { label: 'College Park Mobile Detailing', href: '/service-area/college-park-detailing' },
+        { label: 'Damascus MD Mobile Detailing', href: '/service-area/damascus-detailing' },
+        { label: 'Laurel MD Mobile Detailing', href: '/service-area/laurel-detailing' },
+        { label: 'Beltsville MD Mobile Detailing', href: '/service-area/beltsville-detailing' },
+        { label: 'Silver Spring MD Mobile Detailing', href: '/service-area/silver-spring-detailing' },
+        { label: 'Bethesda MD Mobile Detailing', href: '/service-area/bethesda-detailing' },
+        { label: 'Potomac MD Mobile Detailing', href: '/service-area/potomac-detailing' },
+        { label: 'Clarksburg Mobile Detailing', href: '/service-area/clarksburg-detailing' },
+        { label: 'Gaithersburg Mobile Detailing', href: '/service-area/gaithersburg-detailing' },
+        { label: 'Rockville MD Mobile Detailing', href: '/service-area/rockville-detailing' },
+        { label: 'Olney MD Mobile Detailing', href: '/service-area/olney-detailing' },
+    ]
 
     return (
         <>
@@ -72,10 +70,10 @@ export default function GaithersburgDetailing() {
                 </p>
 
                 <div className="flex flex-col md:flex-row gap-4 mb-6">
-                    <div className="w-full md:w-1/2 border rounded-md overflow-hidden">
+                    <div className="w-full md:w-1/2 relative border rounded-md overflow-hidden">
                         <Image fill src="/images/gaithersburg1.jpg" alt="Gaithersburg detailing service 1" className="w-full h-auto" />
                     </div>
-                    <div className="w-full md:w-1/2 border rounded-md overflow-hidden h-[500px]">
+                    <div className="w-full md:w-1/2 relative border rounded-md overflow-hidden h-[500px]">
                         <Image fill src="/images/gaithersburg2.jpg" alt="Gaithersburg detailing service 2" className="w-full h-auto" />
                     </div>
                 </div>
@@ -111,13 +109,12 @@ export default function GaithersburgDetailing() {
                 <p className="mb-6">Contact us today to request a free quote and experience the Gaithersburg Mobile Detailing difference. We guarantee exceptional results, right at your convenience in Gaithersburg, MD.</p>
                 <div className="text-center">
                     <Link
-                    href="/contact"
-                    className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded transition"
-                >
-                    Get A Free Quote
-                </Link>
+                        href="/contact"
+                        className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded transition"
+                    >
+                        Get A Free Quote
+                    </Link>
                 </div>
-                
             </section>
 
             <section className="w-full bg-white py-16">
@@ -130,29 +127,36 @@ export default function GaithersburgDetailing() {
                             Gaithersburg Mobile Detailing proudly serves Gaithersburg, Maryland, and the surrounding areas. We're constantly expanding our reach to bring the convenience of mobile detailing to more drivers! Whether you're parked in the heart of Gaithersburg or call a nearby community home, we can help you keep your car looking its best.
                         </p>
                         <ul className="space-y-2">
-                            {areas.map(({ name, slug, current }) => (
-                                <li key={slug}>
+                            {areas.map((location) => {
+                                const isCurrent = location.href === '/service-area/gaithersburg-detailing';
+                                return (
                                     <Link
-                                        href={`/${slug}`}
-                                        className={`transition-colors duration-200 ${current
-                                                ? 'text-blue-600 font-semibold'
-                                                : 'text-black hover:text-blue-600'
+                                        key={location.label}
+                                        href={location.href}
+                                        className={`block font-medium transition-colors ${isCurrent ? 'text-blue-600' : 'text-gray-700 hover:text-blue-600'
                                             }`}
                                     >
-                                        {name}
+                                        {location.label}
                                     </Link>
-                                </li>
-                            ))}
+                                );
+                            })}
                         </ul>
                         <p className="mt-6">
-                            <strong className="mb-4">Not sure if we service your specific area? Not to worry!</strong> 
+                            <strong className="mb-4">Not sure if we service your specific area? Not to worry!</strong>
                             <span className="block mt-2">
                                 Contact us today! We'd be happy to discuss your detailing needs and answer any questions you may have. We're always looking for ways to expand our service coverage in Montgomery Village and surrounding areas, so there's a good chance we can brighten your car's day!
-                            </span>    
+                            </span>
                         </p>
                     </div>
                     <div className="flex-1">
-                        <div className="w-full h-[700px] bg-gray-200 rounded-lg shadow-md" />
+                        <div className="relative w-full h-[800px] rounded-lg shadow-md overflow-hidden">
+                            <Image
+                                src="/images/hero-main.jpg"
+                                alt="Main Hero Image"
+                                fill
+                                className="object-cover"
+                            />
+                        </div>
                     </div>
                 </div>
             </section>
@@ -191,9 +195,14 @@ export default function GaithersburgDetailing() {
                         {Array.from({ length: 24 }).map((_, index) => (
                             <div
                                 key={index}
-                                className="w-full h-48 bg-gray-200 border border-gray-400 flex items-center justify-center text-gray-500"
+                                className="relative w-full h-48 border border-gray-400 overflow-hidden"
                             >
-                                [ Image Placeholder {index + 1} ]
+                                <Image
+                                    src={`/images/gallery/thumb-${index + 1}.jpg`}
+                                    alt={`Gallery Image ${index + 1}`}
+                                    fill
+                                    className="object-cover"
+                                />
                             </div>
                         ))}
                     </div>

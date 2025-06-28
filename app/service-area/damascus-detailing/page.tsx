@@ -1,49 +1,49 @@
 import ServiceHero from "@/components/ServiceHero";
 import QuoteForm from "@/components/QuoteForm";
 import Link from "next/link";
+import Image from "next/image";
 
 export const metadata = {
-  title: "Damascus Mobile Detailing | Professional Car Detailing at Your Doorstep",
-  description:
-    "Experience high-quality mobile car detailing in Damascus, MD. Wellness Detailing brings full interior cleaning, paint correction, odor removal, and more right to your location.",
-  keywords: [
-    "Damascus Mobile Detailing",
-    "mobile car detailing Damascus MD",
-    "car detailing near me Damascus",
-    "ceramic coating Damascus",
-    "interior detailing Damascus MD",
-    "Wellness Detailing"
-  ],
-  alternates: {
-    canonical: "https://wellnessdetailing.com/damascusmdmobiledetailing",
-  },
-  openGraph: {
-    title: "Damascus Mobile Detailing | Wellness Detailing",
+    title: "Damascus Mobile Detailing | Professional Car Detailing at Your Doorstep",
     description:
-      "Premium mobile car detailing services in Damascus, MD. Our certified professionals provide full-service detailing at your home or office.",
-    url: "https://wellnessdetailing.com/damascusmdmobiledetailing",
-    siteName: "Wellness Detailing",
-    type: "website",
-  },
+        "Experience high-quality mobile car detailing in Damascus, MD. Wellness Detailing brings full interior cleaning, paint correction, odor removal, and more right to your location.",
+    keywords: [
+        "Damascus Mobile Detailing",
+        "mobile car detailing Damascus MD",
+        "car detailing near me Damascus",
+        "ceramic coating Damascus",
+        "interior detailing Damascus MD",
+        "Wellness Detailing"
+    ],
+    alternates: {
+        canonical: "https://wellnessdetailing.com/damascusmdmobiledetailing",
+    },
+    openGraph: {
+        title: "Damascus Mobile Detailing | Wellness Detailing",
+        description:
+            "Premium mobile car detailing services in Damascus, MD. Our certified professionals provide full-service detailing at your home or office.",
+        url: "https://wellnessdetailing.com/damascusmdmobiledetailing",
+        siteName: "Wellness Detailing",
+        type: "website",
+    },
 };
 
 export default function DamascusDetailing() {
-    const currentPath = location.pathname.replace("/", "");
-    const locations = [
-        'Poolesville MD Mobile Detailing',
-        'Columbia Mobile Detailing',
-        'College Park Mobile Detailing',
-        'Damascus MD Mobile Detailing',
-        'Laurel MD Mobile Detailing',
-        'Beltsville MD Mobile Detailing',
-        'Silver Spring MD Mobile Detailing',
-        'Bethesda MD Mobile Detailing',
-        'Potomac MD Mobile Detailing',
-        'Clarksburg mobile detailing',
-        'Gaithersburg Mobile Detailing',
-        'Rockville MD Mobile Detailing',
-        'Olney Md Mobile Detailing',
-    ];
+    const serviceAreas = [
+        { label: 'Poolesville MD Mobile Detailing', href: '/service-area/poolesville-detailing' },
+        { label: 'Columbia Mobile Detailing', href: '/service-area/columbia-detailing' },
+        { label: 'College Park Mobile Detailing', href: '/service-area/college-park-detailing' },
+        { label: 'Damascus MD Mobile Detailing', href: '/service-area/damascus-detailing' },
+        { label: 'Laurel MD Mobile Detailing', href: '/service-area/laurel-detailing' },
+        { label: 'Beltsville MD Mobile Detailing', href: '/service-area/beltsville-detailing' },
+        { label: 'Silver Spring MD Mobile Detailing', href: '/service-area/silver-spring-detailing' },
+        { label: 'Bethesda MD Mobile Detailing', href: '/service-area/bethesda-detailing' },
+        { label: 'Potomac MD Mobile Detailing', href: '/service-area/potomac-detailing' },
+        { label: 'Clarksburg Mobile Detailing', href: '/service-area/clarksburg-detailing' },
+        { label: 'Gaithersburg Mobile Detailing', href: '/service-area/gaithersburg-detailing' },
+        { label: 'Rockville MD Mobile Detailing', href: '/service-area/rockville-detailing' },
+        { label: 'Olney MD Mobile Detailing', href: '/service-area/olney-detailing' },
+    ]
 
     return (
         <>
@@ -71,8 +71,23 @@ export default function DamascusDetailing() {
                 </p>
 
                 <div className="flex justify-center gap-4 mb-10 flex-wrap">
-                    <div className="w-[350px] h-[400px] bg-gray-200 border border-gray-300 rounded-lg" />
-                    <div className="w-[350px] h-[400px] bg-gray-200 border border-gray-300 rounded-lg" />
+                    <div className="relative w-[350px] h-[400px] border border-gray-300 rounded-lg overflow-hidden">
+                        <Image
+                            src="/images/card1.jpg"
+                            alt="Card Image 1"
+                            fill
+                            className="object-cover"
+                        />
+                    </div>
+
+                    <div className="relative w-[350px] h-[400px] border border-gray-300 rounded-lg overflow-hidden">
+                        <Image
+                            src="/images/card2.jpg"
+                            alt="Card Image 2"
+                            fill
+                            className="object-cover"
+                        />
+                    </div>
                 </div>
 
                 <div className="text-center">
@@ -161,20 +176,18 @@ export default function DamascusDetailing() {
                                 </p>
 
                                 <ul className="mb-4 list-disc list-inside space-y-1">
-                                    {locations.map((area) => {
-                                        const route = area.toLowerCase().replace(/\s+/g, "");
-                                        const isCurrent = currentPath === route;
-
+                                    {serviceAreas.map((area) => {
+                                        const isCurrent = area.href === '/service-area/college-park-detailing';
                                         return (
-                                            <p key={route}>
+                                            <p key={area.label}>
                                                 <Link
-                                                    href={`/${route}`}
+                                                    href={area.href}
                                                     className={`${isCurrent
                                                         ? "text-blue-600 font-semibold"
                                                         : "text-black hover:text-blue-600 transition-colors"
                                                         }`}
                                                 >
-                                                    {area}
+                                                    {area.label}
                                                 </Link>
                                             </p>
                                         );
@@ -189,8 +202,13 @@ export default function DamascusDetailing() {
                                 </p>
                             </div>
 
-                            <div className="lg:w-1/2 w-full h-[600px] aspect-video bg-gray-200 border flex items-center justify-center text-gray-500 text-sm">
-                                Image Placeholder
+                            <div className="relative lg:w-1/2 w-full h-[750px] aspect-video border overflow-hidden">
+                                <Image
+                                    src="/images/hero-wide.jpg"
+                                    alt="Hero Placeholder"
+                                    fill
+                                    className="object-cover"
+                                />
                             </div>
                         </div>
                     </div>
@@ -289,9 +307,14 @@ export default function DamascusDetailing() {
                         {Array.from({ length: 24 }).map((_, index) => (
                             <div
                                 key={index}
-                                className="w-full h-48 bg-gray-200 border border-gray-400 flex items-center justify-center text-gray-500"
+                                className="relative w-full h-48 border border-gray-400 overflow-hidden"
                             >
-                                [ Image Placeholder {index + 1} ]
+                                <Image
+                                    src={`/images/gallery/thumb-${index + 1}.jpg`}
+                                    alt={`Gallery Image ${index + 1}`}
+                                    fill
+                                    className="object-cover"
+                                />
                             </div>
                         ))}
                     </div>

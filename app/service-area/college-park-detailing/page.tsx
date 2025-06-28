@@ -1,33 +1,51 @@
 import ServiceHero from "@/components/ServiceHero";
 import QuoteForm from "@/components/QuoteForm";
 import Link from "next/link";
+import Image from "next/image";
 
 export const metadata = {
-  title: "College Park Mobile Detailing | Expert Car Detailing in MD",
-  description:
-    "College Park Mobile Detailing offers premium car detailing services at your convenience in College Park, MD. Interior & exterior detailing, ceramic coating, paint correction & more!",
-  keywords: [
-    "College Park Mobile Detailing",
-    "mobile car detailing College Park MD",
-    "ceramic coating College Park",
-    "paint correction College Park",
-    "car detailer near me",
-    "Wellness Detailing"
-  ],
-  alternates: {
-    canonical: "https://wellnessdetailing.com/collegeparkmobiledetailing",
-  },
-  openGraph: {
-    title: "College Park Mobile Detailing | Professional Car Detailing at Your Doorstep",
+    title: "College Park Mobile Detailing | Expert Car Detailing in MD",
     description:
-      "Get your car detailed by certified professionals in College Park, MD. Discover top-tier mobile detailing services designed to protect and shine your vehicle—all from the comfort of home.",
-    url: "https://wellnessdetailing.com/collegeparkmobiledetailing",
-    siteName: "Wellness Detailing",
-    type: "website",
-  },
+        "College Park Mobile Detailing offers premium car detailing services at your convenience in College Park, MD. Interior & exterior detailing, ceramic coating, paint correction & more!",
+    keywords: [
+        "College Park Mobile Detailing",
+        "mobile car detailing College Park MD",
+        "ceramic coating College Park",
+        "paint correction College Park",
+        "car detailer near me",
+        "Wellness Detailing"
+    ],
+    alternates: {
+        canonical: "https://wellnessdetailing.com/collegeparkmobiledetailing",
+    },
+    openGraph: {
+        title: "College Park Mobile Detailing | Professional Car Detailing at Your Doorstep",
+        description:
+            "Get your car detailed by certified professionals in College Park, MD. Discover top-tier mobile detailing services designed to protect and shine your vehicle—all from the comfort of home.",
+        url: "https://wellnessdetailing.com/collegeparkmobiledetailing",
+        siteName: "Wellness Detailing",
+        type: "website",
+    },
 };
 
 export default function CollegeParkDetailing() {
+
+    const serviceAreas = [
+        { label: 'Poolesville MD Mobile Detailing', href: '/service-area/poolesville-detailing' },
+        { label: 'Columbia Mobile Detailing', href: '/service-area/columbia-detailing' },
+        { label: 'College Park Mobile Detailing', href: '/service-area/college-park-detailing' },
+        { label: 'Damascus MD Mobile Detailing', href: '/service-area/damascus-detailing' },
+        { label: 'Laurel MD Mobile Detailing', href: '/service-area/laurel-detailing' },
+        { label: 'Beltsville MD Mobile Detailing', href: '/service-area/beltsville-detailing' },
+        { label: 'Silver Spring MD Mobile Detailing', href: '/service-area/silver-spring-detailing' },
+        { label: 'Bethesda MD Mobile Detailing', href: '/service-area/bethesda-detailing' },
+        { label: 'Potomac MD Mobile Detailing', href: '/service-area/potomac-detailing' },
+        { label: 'Clarksburg Mobile Detailing', href: '/service-area/clarksburg-detailing' },
+        { label: 'Gaithersburg Mobile Detailing', href: '/service-area/gaithersburg-detailing' },
+        { label: 'Rockville MD Mobile Detailing', href: '/service-area/rockville-detailing' },
+        { label: 'Olney MD Mobile Detailing', href: '/service-area/olney-detailing' },
+    ]
+
     return (
         <>
             <ServiceHero header="Revive Your Ride's Shine with College Park Mobile Detailing!" subheader="Welcome to College Park Mobile Detailing, your one-stop shop for professional and meticulous car detailing services in College Park, Maryland! We are passionate about exceeding your expectations and transforming the appearance of your car, all at the comfort of your driveway." url="https://placehold.co/1920x1080" />
@@ -48,11 +66,21 @@ export default function CollegeParkDetailing() {
                 </p>
 
                 <div className="flex flex-col md:flex-row justify-center items-center gap-6 mb-10">
-                    <div className="w-[400px] h-[400px] bg-gray-200 border border-gray-400 rounded flex items-center justify-center text-sm text-gray-500">
-                        Image Placeholder 1
+                    <div className="relative w-[400px] h-[400px] border border-gray-400 rounded overflow-hidden">
+                        <Image
+                            src="/images/image1.jpg"
+                            alt="Image Placeholder 1"
+                            fill
+                            className="object-cover"
+                        />
                     </div>
-                    <div className="w-[400px] h-[400px] bg-gray-200 border border-gray-400 rounded flex items-center justify-center text-sm text-gray-500">
-                        Image Placeholder 2
+                    <div className="relative w-[400px] h-[400px] border border-gray-400 rounded overflow-hidden">
+                        <Image
+                            src="/images/image1.jpg"
+                            alt="Image Placeholder 2"
+                            fill
+                            className="object-cover"
+                        />
                     </div>
                 </div>
 
@@ -109,31 +137,16 @@ export default function CollegeParkDetailing() {
                     </p>
                     <p>Our Service Area List:</p>
                     <div className="space-y-2 mb-4">
-                        {[
-                            'Poolesville MD Mobile Detailing',
-                            'Columbia Mobile Detailing',
-                            'College Park Mobile Detailing',
-                            'Damascus MD Mobile Detailing',
-                            'Laurel MD Mobile Detailing',
-                            'Beltsville MD Mobile Detailing',
-                            'Silver Spring MD Mobile Detailing',
-                            'Bethesda MD Mobile Detailing',
-                            'Potomac MD Mobile Detailing',
-                            'Clarksburg mobile detailing',
-                            'Gaithersburg Mobile Detailing',
-                            'Rockville MD Mobile Detailing',
-                            'Olney Md Mobile Detailing'
-                        ].map((location) => {
-                            const path = `/${location.toLowerCase().replace(/\s+/g, '')}`;
-                            const isCurrent = location === 'College Park Mobile Detailing';
+                        {serviceAreas.map((location) => {
+                            const isCurrent = location.href === '/service-area/college-park-detailing';
                             return (
                                 <Link
-                                    key={location}
-                                    href={path}
+                                    key={location.label}
+                                    href={location.href}
                                     className={`block font-medium transition-colors ${isCurrent ? 'text-blue-600' : 'text-gray-700 hover:text-blue-600'
                                         }`}
                                 >
-                                    {location}
+                                    {location.label}
                                 </Link>
                             );
                         })}
@@ -148,7 +161,14 @@ export default function CollegeParkDetailing() {
                 </div>
 
                 <div className="w-full md:w-1/2">
-                    <div className="w-full h-[600px] bg-gray-200 border border-gray-300 rounded-lg" />
+                    <div className="relative w-full h-[750px] border border-gray-300 rounded-lg overflow-hidden">
+                        <Image
+                            src="/images/large-section.jpg"
+                            alt="Large Section Image"
+                            fill
+                            className="object-cover"
+                        />
+                    </div>
                 </div>
             </section>
 
@@ -218,8 +238,14 @@ export default function CollegeParkDetailing() {
                     {Array.from({ length: 24 }).map((_, i) => (
                         <div
                             key={i}
-                            className="w-full h-[200px] bg-gray-200 border border-gray-300 rounded-lg"
+                            className="relative w-full h-[200px] border border-gray-300 rounded-lg overflow-hidden"
                         >
+                            <Image
+                                src={`/images/gallery/thumb-${i + 1}.jpg`}
+                                alt={`Gallery Image ${i + 1}`}
+                                fill
+                                className="object-cover"
+                            />
                         </div>
                     ))}
                 </div>
