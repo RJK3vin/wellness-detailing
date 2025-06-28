@@ -195,7 +195,7 @@ export default function PaintProtectionFilm() {
                         {["1", "2", "3", "4"].map((num) => (
                             <div key={num} className="relative w-full h-48">
                                 <Image
-                                    src={`/placeholder-ppf${num}.jpg`}
+                                    src={"/images/split-1.jpg"}
                                     alt={`PPF gallery ${num}`}
                                     fill
                                     className="rounded-xl shadow-lg object-cover"

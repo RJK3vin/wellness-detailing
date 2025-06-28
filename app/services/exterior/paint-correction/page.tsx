@@ -136,7 +136,9 @@ export default function PaintCorrection() {
                                 q: "3. What are the different types of paint correction services offered?",
                                 a: (
                                     <>
-                                        <p className="text-left mb-2">We offer a range of paint correction services to address varying levels of paint damage:</p>
+                                        <div className="text-left mb-2">
+                                            We offer a range of paint correction services to address varying levels of paint damage:
+                                        </div>
                                         <ul className="list-disc pl-5 space-y-1">
                                             <li><strong>Single-stage polish:</strong> Ideal for mild imperfections like minor swirls or light scratches.</li>
                                             <li><strong>Multi-stage polish:</strong> Recommended for moderate imperfections like swirls, scratches, and oxidation.</li>
@@ -164,7 +166,7 @@ export default function PaintCorrection() {
                         ].map(({ q, a }, i) => (
                             <div key={i}>
                                 <p className="font-semibold mb-2">{q}</p>
-                                <p>{a}</p>
+                                <div>{a}</div>
                             </div>
                         ))}
                     </div>

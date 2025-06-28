@@ -21,7 +21,7 @@ export const metadata = {
     openGraph: {
         title: "Window Tinting | Wellness Detailing",
         description:
-            "Enhance your vehicle’s privacy, comfort, and style with mobile window tinting by Wellness Detailing. Legal, UV-protective, and high-performance films installed at your location.",
+            "Enhance your vehicle's privacy, comfort, and style with mobile window tinting by Wellness Detailing. Legal, UV-protective, and high-performance films installed at your location.",
         url: "https://wellnessdetailing.com/window-tinting",
         siteName: "Wellness Detailing",
         type: "website",
@@ -55,7 +55,7 @@ export default function WindowTinting() {
                     </div>
                     <div className="relative flex-1 h-[550px]">
                         <Image
-                            src="/placeholder1.jpg"
+                            src="https://placehold.co/1920x1080"
                             alt="Window tinting protection"
                             fill
                             className="rounded-lg shadow object-cover border"
@@ -72,9 +72,9 @@ export default function WindowTinting() {
                     </Link>
                 </div>
                 <section className="flex flex-col md:flex-row items-center gap-8">
-                    <div className="relative flex-1 h-[550px]">
+                    <div className="relative flex-1 h-[660px]">
                         <Image
-                            src="/placeholder2.jpg"
+                            src="https://placehold.co/1920x1080"
                             alt="Benefits of window tint"
                             fill
                             className="rounded-lg shadow object-cover"
