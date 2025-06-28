@@ -4,48 +4,48 @@ import Link from "next/link";
 import Image from "next/image"
 
 export const metadata = {
-  title: "Rockville Mobile Detailing Services | Premium Car Care in Rockville, MD",
-  description:
-    "Rockville Mobile Detailing provides expert mobile car care in Rockville, MD. Interior, exterior, ceramic coatings, and more — right at your doorstep.",
-  keywords: [
-    "Rockville MD Mobile Detailing",
-    "mobile car detailing Rockville",
-    "car detailing near Rockville MD",
-    "ceramic coating Rockville",
-    "eco-friendly detailing Rockville",
-    "paint protection film Rockville"
-  ],
-  alternates: {
-    canonical: "https://wellnessdetailing.com/rockvillemdmobiledetailing",
-  },
-  openGraph: {
-    title: "Rockville Mobile Detailing | Premium Car Care at Your Doorstep",
+    title: "Rockville Mobile Detailing Services | Premium Car Care in Rockville, MD",
     description:
-      "Top-tier mobile car detailing in Rockville, MD. We come to you with interior & exterior detailing, ceramic coatings, and more.",
-    url: "https://wellnessdetailing.com/rockvillemdmobiledetailing",
-    siteName: "Wellness Detailing",
-    type: "website",
-  },
+        "Rockville Mobile Detailing provides expert mobile car care in Rockville, MD. Interior, exterior, ceramic coatings, and more — right at your doorstep.",
+    keywords: [
+        "Rockville MD Mobile Detailing",
+        "mobile car detailing Rockville",
+        "car detailing near Rockville MD",
+        "ceramic coating Rockville",
+        "eco-friendly detailing Rockville",
+        "paint protection film Rockville"
+    ],
+    alternates: {
+        canonical: "https://wellnessdetailing.com/rockvillemdmobiledetailing",
+    },
+    openGraph: {
+        title: "Rockville Mobile Detailing | Premium Car Care at Your Doorstep",
+        description:
+            "Top-tier mobile car detailing in Rockville, MD. We come to you with interior & exterior detailing, ceramic coatings, and more.",
+        url: "https://wellnessdetailing.com/rockvillemdmobiledetailing",
+        siteName: "Wellness Detailing",
+        type: "website",
+    },
 };
 
 export default function RockvilleDetailing() {
 
-    const locations = [
-        "Poolesville MD Mobile Detailing",
-        "Columbia Mobile Detailing",
-        "College Park Mobile Detailing",
-        "Damascus MD Mobile Detailing",
-        "Laurel MD Mobile Detailing",
-        "Beltsville MD Mobile Detailing",
-        "Silver Spring MD Mobile Detailing",
-        "Bethesda MD Mobile Detailing",
-        "Potomac MD Mobile Detailing",
-        "Clarksburg Mobile Detailing",
-        "Gaithersburg Mobile Detailing",
-        "Rockville MD Mobile Detailing",
-        "Olney MD Mobile Detailing"
-    ];
-    const currentPage = "rockvillemdmobiledetailing";
+    const serviceAreas = [
+        { label: 'Poolesville MD Mobile Detailing', href: '/service-area/poolesville-detailing' },
+        { label: 'Columbia Mobile Detailing', href: '/service-area/columbia-detailing' },
+        { label: 'College Park Mobile Detailing', href: '/service-area/college-park-detailing' },
+        { label: 'Damascus MD Mobile Detailing', href: '/service-area/damascus-detailing' },
+        { label: 'Laurel MD Mobile Detailing', href: '/service-area/laurel-detailing' },
+        { label: 'Beltsville MD Mobile Detailing', href: '/service-area/beltsville-detailing' },
+        { label: 'Silver Spring MD Mobile Detailing', href: '/service-area/silver-spring-detailing' },
+        { label: 'Bethesda MD Mobile Detailing', href: '/service-area/bethesda-detailing' },
+        { label: 'Potomac MD Mobile Detailing', href: '/service-area/potomac-detailing' },
+        { label: 'Clarksburg Mobile Detailing', href: '/service-area/clarksburg-detailing' },
+        { label: 'Gaithersburg Mobile Detailing', href: '/service-area/gaithersburg-detailing' },
+        { label: 'Rockville MD Mobile Detailing', href: '/service-area/rockville-detailing' },
+        { label: 'Olney MD Mobile Detailing', href: '/service-area/olney-detailing' },
+    ]
+
     const galleryImages = Array.from({ length: 24 }, (_, i) => `/images/gallery/rockville/${i + 1}.webp`);
 
     return (
@@ -82,18 +82,22 @@ export default function RockvilleDetailing() {
 
                     <div className="flex flex-col items-center">
                         <div className="flex flex-row gap-4 max-w-4xl w-full justify-center">
-                            <Image
-                                fill
-                                src="https://placehold.co/1920x1080"
-                                alt="Rockville Detailing 1"
-                                className="rounded shadow-lg border border-gray-200 w-1/2 object-cover"
-                            />
-                            <Image
-                                fill
-                                src="https://placehold.co/1920x1080"
-                                alt="Rockville Detailing 2"
-                                className="rounded shadow-lg border border-gray-200 w-1/2 object-cover"
-                            />
+                            <div className="relative w-1/2 h-[400px] rounded shadow-lg border border-gray-200 overflow-hidden">
+                                <Image
+                                    fill
+                                    src="https://placehold.co/1920x1080"
+                                    alt="Rockville Detailing 1"
+                                    className="object-cover"
+                                />
+                            </div>
+                            <div className="relative w-1/2 h-[400px] rounded shadow-lg border border-gray-200 overflow-hidden">
+                                <Image
+                                    fill
+                                    src="https://placehold.co/1920x1080"
+                                    alt="Rockville Detailing 2"
+                                    className="object-cover"
+                                />
+                            </div>
                         </div>
                     </div>
 
@@ -146,35 +150,31 @@ export default function RockvilleDetailing() {
                         <p className="mb-4">
                             Rockville Mobile Detailing proudly serves Rockville, Maryland, and the surrounding areas. We're constantly expanding our reach to bring the convenience of mobile detailing to more drivers! Whether you reside in a bustling Rockville neighborhood or call a nearby community home, we can help you keep your car looking its best.
                         </p>
-                        <ul className="mb-4 space-y-2">
-                            {locations.map((location) => {
-                                const path = location.toLowerCase().replace(/ /g, '');
-                                const isCurrent = path === currentPage;
+                        <div className="space-y-2 mb-4">
+                            {serviceAreas.map((location) => {
+                                const isCurrent = location.href === '/service-area/rockville-detailing';
                                 return (
-                                    <li key={path}>
-                                        <Link
-                                            href={`/${path}`}
-                                            className={`transition-colors ${isCurrent
-                                                ? 'text-blue-600 font-semibold'
-                                                : 'text-black hover:text-blue-600'
-                                                }`}
-                                        >
-                                            {location}
-                                        </Link>
-                                    </li>
+                                    <Link
+                                        key={location.label}
+                                        href={location.href}
+                                        className={`block font-medium transition-colors ${isCurrent ? 'text-blue-600' : 'text-gray-700 hover:text-blue-600'
+                                            }`}
+                                    >
+                                        {location.label}
+                                    </Link>
                                 );
                             })}
-                        </ul>
+                        </div>
                         <p>
                             <strong>Not sure if we service your specific area? Not to worry!</strong> Contact us today! We'd be happy to discuss your detailing needs and answer any questions you may have. We're always looking for ways to expand our service coverage in Potomac and surrounding areas, so there's a good chance we can brighten your car's day!
                         </p>
                     </div>
-                    <div className="w-full h-[700px]">
+                    <div className="relative w-full h-[800px] rounded shadow-lg overflow-hidden">
                         <Image
                             fill
                             src="https://placehold.co/1920x1080"
                             alt="Rockville Detailing Service Area Map"
-                            className="rounded shadow-lg w-full h-full object-cover"
+                            className="object-cover"
                         />
                     </div>
                 </div>
@@ -246,8 +246,17 @@ export default function RockvilleDetailing() {
                 <h2 className="text-3xl font-bold mb-6 text-center">Rockville, MD Mobile Detailing Gallery</h2>
                 <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
                     {galleryImages.map((src, index) => (
-                        <div key={index} className="border rounded overflow-hidden">
-                            <Image fill src={src} alt={`Rockville detailing ${index + 1}`} className="w-full object-cover h-[200px]" loading="lazy" />
+                        <div
+                            key={index}
+                            className="relative w-full h-[200px] border rounded overflow-hidden"
+                        >
+                            <Image
+                                fill
+                                src={src}
+                                alt={`Rockville detailing ${index + 1}`}
+                                className="object-cover"
+                                loading="lazy"
+                            />
                         </div>
                     ))}
                 </div>

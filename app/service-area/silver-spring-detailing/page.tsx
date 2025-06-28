@@ -1,61 +1,57 @@
-'use client'
-
 import ServiceHero from "@/components/ServiceHero";
 import QuoteForm from "@/components/QuoteForm";
 import Link from "next/link";
-import { usePathname } from "next/navigation";
+import Image from "next/image";
 
 export const metadata = {
-  title: "Silver Spring Mobile Detailing Services | Expert Car Care in Silver Spring, MD",
-  description:
-    "Silver Spring Mobile Detailing provides high-quality mobile car detailing in Silver Spring, MD. Interior & exterior detailing, ceramic coatings, and more — at your doorstep.",
-  keywords: [
-    "Silver Spring MD Mobile Detailing",
-    "mobile car detailing Silver Spring",
-    "car detailing near Silver Spring MD",
-    "ceramic coating Silver Spring",
-    "smoke odor removal Silver Spring",
-    "eco-friendly detailing Silver Spring"
-  ],
-  alternates: {
-    canonical: "https://wellnessdetailing.com/silverspringmdmobiledetailing",
-  },
-  openGraph: {
-    title: "Silver Spring Mobile Detailing | Expert Car Care at Your Doorstep",
+    title: "Silver Spring Mobile Detailing Services | Expert Car Care in Silver Spring, MD",
     description:
-      "Top-rated mobile detailing in Silver Spring, MD. Get interior and exterior services without leaving home.",
-    url: "https://wellnessdetailing.com/silverspringmdmobiledetailing",
-    siteName: "Wellness Detailing",
-    type: "website",
-  },
+        "Silver Spring Mobile Detailing provides high-quality mobile car detailing in Silver Spring, MD. Interior & exterior detailing, ceramic coatings, and more — at your doorstep.",
+    keywords: [
+        "Silver Spring MD Mobile Detailing",
+        "mobile car detailing Silver Spring",
+        "car detailing near Silver Spring MD",
+        "ceramic coating Silver Spring",
+        "smoke odor removal Silver Spring",
+        "eco-friendly detailing Silver Spring"
+    ],
+    alternates: {
+        canonical: "https://wellnessdetailing.com/silverspringmdmobiledetailing",
+    },
+    openGraph: {
+        title: "Silver Spring Mobile Detailing | Expert Car Care at Your Doorstep",
+        description:
+            "Top-rated mobile detailing in Silver Spring, MD. Get interior and exterior services without leaving home.",
+        url: "https://wellnessdetailing.com/silverspringmdmobiledetailing",
+        siteName: "Wellness Detailing",
+        type: "website",
+    },
 };
 
 export default function SilverSpringDetailing() {
-    const location = usePathname();
-    const currentPath = location.replace("/", "");
-    const serviceAreas = [
-        "Poolesville MD Mobile Detailing",
-        "Columbia Mobile Detailing",
-        "College Park Mobile Detailing",
-        "Damascus MD Mobile Detailing",
-        "Laurel MD Mobile Detailing",
-        "Beltsville MD Mobile Detailing",
-        "Silver Spring MD Mobile Detailing",
-        "Bethesda MD Mobile Detailing",
-        "Potomac MD Mobile Detailing",
-        "Clarksburg mobile detailing",
-        "Gaithersburg Mobile Detailing",
-        "Rockville MD Mobile Detailing",
-        "Olney Md Mobile Detailing",
-    ];
 
+    const serviceAreas = [
+        { label: 'Poolesville MD Mobile Detailing', href: '/service-area/poolesville-detailing' },
+        { label: 'Columbia Mobile Detailing', href: '/service-area/columbia-detailing' },
+        { label: 'College Park Mobile Detailing', href: '/service-area/college-park-detailing' },
+        { label: 'Damascus MD Mobile Detailing', href: '/service-area/damascus-detailing' },
+        { label: 'Laurel MD Mobile Detailing', href: '/service-area/laurel-detailing' },
+        { label: 'Beltsville MD Mobile Detailing', href: '/service-area/beltsville-detailing' },
+        { label: 'Silver Spring MD Mobile Detailing', href: '/service-area/silver-spring-detailing' },
+        { label: 'Bethesda MD Mobile Detailing', href: '/service-area/bethesda-detailing' },
+        { label: 'Potomac MD Mobile Detailing', href: '/service-area/potomac-detailing' },
+        { label: 'Clarksburg Mobile Detailing', href: '/service-area/clarksburg-detailing' },
+        { label: 'Gaithersburg Mobile Detailing', href: '/service-area/gaithersburg-detailing' },
+        { label: 'Rockville MD Mobile Detailing', href: '/service-area/rockville-detailing' },
+        { label: 'Olney MD Mobile Detailing', href: '/service-area/olney-detailing' },
+    ]
 
     return (
         <>
             <ServiceHero header="Silver Spring Mobile Detailing: Revive Your Ride's Shine at Your Place" subheader="Welcome to Silver Spring Mobile Detailing, your one-stop shop for transforming your car from everyday driver to showroom showstopper, all within the comfort of your Silver Spring driveway! We ditch the hassle of taking your car to a detail shop and bring the shine directly to you." url="https://placehold.co/1920x1080" />
             <section className="px-4 sm:px-8 md:px-16 lg:px-24 py-16">
 
-                <h2 className="text-2xl font-bold mb-6">About Silver Spring Mobile Detailing: Your Local Car Care Champions</h2>
+                <h2 className="text-2xl font-bold mb-6 text-center">About Silver Spring Mobile Detailing: Your Local Car Care Champions</h2>
 
                 <p className="mb-4">
                     Silver Spring Mobile Detailing is a local business, owned and operated right here in Silver Spring, MD. We understand the unique challenges Silver Spring cars endure, from springtime pollen blizzards to road salt during harsh winters. That's why we provide the highest quality detailing services specifically designed to revive your car's shine, shield it from the elements, and keep it looking its best, year after year.
@@ -70,11 +66,22 @@ export default function SilverSpringDetailing() {
                 </p>
 
                 <div className="flex flex-col sm:flex-row gap-4 mb-6">
-                    <div className="w-full sm:w-1/2 aspect-video bg-gray-200 flex items-center justify-center text-gray-500 text-sm border">
-                        Image 1
+                    <div className="relative w-full sm:w-1/2 aspect-video border overflow-hidden">
+                        <Image
+                            src="/images/image1.jpg"
+                            alt="Image 1"
+                            fill
+                            className="object-cover text-sm text-gray-500"
+                        />
                     </div>
-                    <div className="w-full sm:w-1/2 aspect-video bg-gray-200 flex items-center justify-center text-gray-500 text-sm border">
-                        Image 2
+
+                    <div className="relative w-full sm:w-1/2 aspect-video border overflow-hidden">
+                        <Image
+                            src="/images/image2.jpg"
+                            alt="Image 2"
+                            fill
+                            className="object-cover text-sm text-gray-500"
+                        />
                     </div>
                 </div>
                 <div className="text-center">
@@ -87,7 +94,7 @@ export default function SilverSpringDetailing() {
                 </div>
             </section>
             <section className="px-4 sm:px-8 md:px-16 lg:px-24 py-16">
-                <h2 className="text-2xl font-bold mb-6">
+                <h2 className="text-2xl font-bold mb-6 text-center">
                     Services We Offer: Personalized Detailing Solutions for Your Silver Spring Car
                 </h2>
 
@@ -134,40 +141,41 @@ export default function SilverSpringDetailing() {
                             Silver Spring Mobile Detailing proudly serves Silver Spring, Maryland, and the surrounding areas. We understand your busy lifestyle, and that's why we bring the convenience of mobile detailing to your driveway or workplace. Whether you're cruising through the heart of Silver Spring or call a nearby community home, we can help you keep your car looking its best.
                         </p>
 
-                        <ul className="mb-4 list-disc list-inside space-y-1">
-                            {serviceAreas.map((area) => {
-                                const route = area.toLowerCase().replace(/\s+/g, "");
-                                const isCurrent = currentPath === route;
-
+                        <div className="space-y-2 mb-4">
+                            {serviceAreas.map((location) => {
+                                const isCurrent = location.href === '/service-area/college-park-detailing';
                                 return (
-                                    <p key={route}>
-                                        <Link
-                                            href={`/${route}`}
-                                            className={`${isCurrent
-                                                ? "text-blue-600 font-semibold"
-                                                : "text-black hover:text-blue-600 transition-colors"
-                                                }`}
-                                        >
-                                            {area}
-                                        </Link>
-                                    </p>
+                                    <Link
+                                        key={location.label}
+                                        href={location.href}
+                                        className={`block font-medium transition-colors ${isCurrent ? 'text-blue-600' : 'text-gray-700 hover:text-blue-600'
+                                            }`}
+                                    >
+                                        {location.label}
+                                    </Link>
                                 );
                             })}
-                        </ul>
+                        </div>
 
                         <p className="mb-2">
                             <strong>Not sure if we service your specific area? Not to worry!</strong> Contact us today! We'd be happy to discuss your detailing needs and answer any questions you may have. We're always looking for ways to expand our service coverage in Poolesville, MD and surrounding areas, so there's a good chance we can brighten your car's day!
                         </p>
                     </div>
 
-                    <div className="lg:w-1/2 w-full h-[600px] aspect-video bg-gray-200 border flex items-center justify-center text-gray-500 text-sm">
-                        Image Placeholder
+                    <div className="relative lg:w-1/2 w-full h-[750px] aspect-video border overflow-hidden">
+                        <Image
+                            src="/images/feature.jpg"
+                            alt="Feature Placeholder"
+                            fill
+                            className="object-cover text-sm text-gray-500"
+                        />
                     </div>
+
                 </div>
             </section>
             <section className="px-4 sm:px-8 md:px-16 lg:px-24 py-16">
 
-                <h2 className="text-2xl font-bold mb-6">
+                <h2 className="text-2xl font-bold mb-6 text-center">
                     Silver Spring Mobile Detailing FAQs: Your Silver Spring Car Detailing Questions Answered!
                 </h2>
 
@@ -239,9 +247,15 @@ export default function SilverSpringDetailing() {
                     {Array.from({ length: 24 }).map((_, idx) => (
                         <div
                             key={idx}
-                            className="w-full h-40 bg-gray-200 rounded shadow-sm flex items-center justify-center text-gray-500 text-sm"
+                            className="relative w-full h-40 rounded shadow-sm overflow-hidden"
                         >
-                            Image {idx + 1}
+                            <Image
+                                src={`/images/gallery/gallery-${idx + 1}.jpg`}
+                                alt={`Gallery Image ${idx + 1}`}
+                                fill
+                                className="object-cover text-sm text-gray-500"
+                                loading="lazy"
+                            />
                         </div>
                     ))}
                 </div>

@@ -4,33 +4,50 @@ import Link from "next/link";
 import Image from "next/image"
 
 export const metadata = {
-  title: "Poolesville MD Mobile Detailing | Wellness Detailing",
-  description:
-    "Professional mobile car detailing services in Poolesville, MD by Wellness Detailing. Interior & exterior detailing, odor removal, and more brought to your driveway.",
-  keywords: [
-    "Poolesville MD mobile detailing",
-    "Wellness Detailing Poolesville",
-    "mobile car wash Poolesville",
-    "car detail Poolesville",
-    "interior car cleaning Poolesville",
-    "exterior detailing Poolesville MD"
-  ],
-  alternates: {
-    canonical: "https://wellnessdetailing.com/poolesvillemdmobiledetailing",
-  },
-  openGraph: {
     title: "Poolesville MD Mobile Detailing | Wellness Detailing",
     description:
-      "Wellness Detailing provides top-tier mobile car detailing in Poolesville, MD. Get showroom-quality results from the comfort of your home.",
-    url: "https://wellnessdetailing.com/poolesvillemdmobiledetailing",
-    siteName: "Wellness Detailing",
-    type: "website",
-  },
+        "Professional mobile car detailing services in Poolesville, MD by Wellness Detailing. Interior & exterior detailing, odor removal, and more brought to your driveway.",
+    keywords: [
+        "Poolesville MD mobile detailing",
+        "Wellness Detailing Poolesville",
+        "mobile car wash Poolesville",
+        "car detail Poolesville",
+        "interior car cleaning Poolesville",
+        "exterior detailing Poolesville MD"
+    ],
+    alternates: {
+        canonical: "https://wellnessdetailing.com/poolesvillemdmobiledetailing",
+    },
+    openGraph: {
+        title: "Poolesville MD Mobile Detailing | Wellness Detailing",
+        description:
+            "Wellness Detailing provides top-tier mobile car detailing in Poolesville, MD. Get showroom-quality results from the comfort of your home.",
+        url: "https://wellnessdetailing.com/poolesvillemdmobiledetailing",
+        siteName: "Wellness Detailing",
+        type: "website",
+    },
 };
 
 
 
 export default function PoolesvilleDetailing() {
+
+    const serviceAreas = [
+        { label: 'Poolesville MD Mobile Detailing', href: '/service-area/poolesville-detailing' },
+        { label: 'Columbia Mobile Detailing', href: '/service-area/columbia-detailing' },
+        { label: 'College Park Mobile Detailing', href: '/service-area/college-park-detailing' },
+        { label: 'Damascus MD Mobile Detailing', href: '/service-area/damascus-detailing' },
+        { label: 'Laurel MD Mobile Detailing', href: '/service-area/laurel-detailing' },
+        { label: 'Beltsville MD Mobile Detailing', href: '/service-area/beltsville-detailing' },
+        { label: 'Silver Spring MD Mobile Detailing', href: '/service-area/silver-spring-detailing' },
+        { label: 'Bethesda MD Mobile Detailing', href: '/service-area/bethesda-detailing' },
+        { label: 'Potomac MD Mobile Detailing', href: '/service-area/potomac-detailing' },
+        { label: 'Clarksburg Mobile Detailing', href: '/service-area/clarksburg-detailing' },
+        { label: 'Gaithersburg Mobile Detailing', href: '/service-area/gaithersburg-detailing' },
+        { label: 'Rockville MD Mobile Detailing', href: '/service-area/rockville-detailing' },
+        { label: 'Olney MD Mobile Detailing', href: '/service-area/olney-detailing' },
+    ]
+
     return (
         <>
             <ServiceHero header="Professional Mobile Car Detailing in Poolesville, MD" subheader="Welcome to Wellness Detailing, your one-stop shop for professional car detailing services in Poolesville, MD! We are passionate about exceeding your expectations and transforming the appearance of your car." url="https://placehold.co/1920x1080" />
@@ -50,18 +67,22 @@ export default function PoolesvilleDetailing() {
                     <li><strong>Headlight Restoration:</strong> Restore clarity and improve nighttime visibility with our headlight restoration service.</li>
                 </ul>
                 <div className="mb-12 flex justify-center gap-6">
-                    <Image
-                        fill
-                        src="https://placehold.co/500x800"
-                        className="h-[400px] w-[500px] bg-gray-200 border"
-                        alt="Service example"
-                    />
-                    <Image
-                        fill
-                        src="https://placehold.co/500x800"
-                        className="h-[400px] w-[500px] bg-gray-200 border"
-                        alt="Service example"
-                    />
+                    <div className="relative h-[400px] w-[500px] bg-gray-200 border overflow-hidden">
+                        <Image
+                            src="/images/service1.jpg"
+                            alt="Service example 1"
+                            fill
+                            className="object-cover"
+                        />
+                    </div>
+                    <div className="relative h-[400px] w-[500px] bg-gray-200 border overflow-hidden">
+                        <Image
+                            src="/images/service2.jpg"
+                            alt="Service example 2"
+                            fill
+                            className="object-cover"
+                        />
+                    </div>
                 </div>
                 <Link
                     href="/contact"
@@ -84,33 +105,19 @@ export default function PoolesvilleDetailing() {
                         <p>Here are some of the nearby communities we frequently serve:</p>
 
                         <ul className="space-y-3">
-                            {[
-                                "Poolesville MD Mobile Detailing",
-                                "Columbia Mobile Detailing",
-                                "College Park Mobile Detailing",
-                                "Damascus MD Mobile Detailing",
-                                "Laurel MD Mobile Detailing",
-                                "Beltsville MD Mobile Detailing",
-                                "Silver Spring MD Mobile Detailing",
-                                "Bethesda MD Mobile Detailing",
-                                "Potomac MD Mobile Detailing",
-                                "Clarksburg Mobile Detailing",
-                                "Gaithersburg Mobile Detailing",
-                                "Rockville MD Mobile Detailing",
-                                "Olney MD Mobile Detailing",
-                            ].map((location) => (
-                                <li key={location}>
+                            {serviceAreas.map((location) => {
+                                const isCurrent = location.href === '/service-area/poolesville-detailing';
+                                return (
                                     <Link
-                                        href={`/${location.toLowerCase().replace(/\s+/g, "")}`}
-                                        className={`transition ${location === "Poolesville MD Mobile Detailing"
-                                            ? "text-blue-600 font-semibold"
-                                            : "text-gray-700 hover:text-blue-600"
+                                        key={location.label}
+                                        href={location.href}
+                                        className={`block font-medium transition-colors ${isCurrent ? 'text-blue-600' : 'text-gray-700 hover:text-blue-600'
                                             }`}
                                     >
-                                        {location}
+                                        {location.label}
                                     </Link>
-                                </li>
-                            ))}
+                                );
+                            })}
                         </ul>
 
                         <p className="mb-6 font-bold">Not sure if we service your specific area?</p>
@@ -119,12 +126,12 @@ export default function PoolesvilleDetailing() {
                         </p>
                     </div>
 
-                    <div className="md:w-1/2 flex justify-center">
+                    <div className="relative md:w-1/2 h-[800px] flex justify-center rounded border bg-gray-200 overflow-hidden">
                         <Image
-                            fill
                             src="https://placehold.co/560x800"
                             alt="Service area map"
-                            className="w-full rounded border bg-gray-200"
+                            fill
+                            className="object-cover"
                         />
                     </div>
                 </div>
@@ -228,12 +235,21 @@ export default function PoolesvilleDetailing() {
                 </div>
             </section>
 
-
             <section className="px-4 py-16 text-center">
                 <h2 className="text-3xl font-bold mb-6">Poolesville, MD Mobile Detailing Gallery</h2>
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 max-w-6xl mx-auto">
                     {Array.from({ length: 12 }).map((_, i) => (
-                        <div key={i} className="h-[200px] w-full bg-gray-200 border rounded" />
+                        <div
+                            key={i}
+                            className="relative h-[200px] w-full border rounded bg-gray-200 overflow-hidden"
+                        >
+                            <Image
+                                src={`/images/gallery/service-${i + 1}.jpg`}
+                                alt={`Service Image ${i + 1}`}
+                                fill
+                                className="object-cover"
+                            />
+                        </div>
                     ))}
                 </div>
                 <div className="mt-8">

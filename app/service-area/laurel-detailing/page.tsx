@@ -1,49 +1,49 @@
 import ServiceHero from "@/components/ServiceHero";
 import QuoteForm from "@/components/QuoteForm";
 import Link from "next/link";
+import Image from "next/image";
 
 export const metadata = {
-  title: "Laurel Mobile Detailing | Premium Mobile Car Care in Laurel, MD",
-  description:
-    "Laurel Mobile Detailing offers top-tier mobile car detailing services in Laurel, MD. We come to you with interior cleaning, paint protection, ceramic coating, and more.",
-  keywords: [
-    "Laurel Mobile Detailing",
-    "mobile detailing Laurel MD",
-    "car detailing near me",
-    "ceramic coating Laurel",
-    "interior detailing Laurel MD",
-    "Wellness Detailing"
-  ],
-  alternates: {
-    canonical: "https://wellnessdetailing.com/laurelmdmobiledetailing",
-  },
-  openGraph: {
-    title: "Laurel Mobile Detailing | Wellness Detailing",
+    title: "Laurel Mobile Detailing | Premium Mobile Car Care in Laurel, MD",
     description:
-      "Explore high-quality mobile car detailing in Laurel, MD. From paint correction to smoke odor removal, our expert team delivers results right at your driveway.",
-    url: "https://wellnessdetailing.com/laurelmdmobiledetailing",
-    siteName: "Wellness Detailing",
-    type: "website",
-  },
+        "Laurel Mobile Detailing offers top-tier mobile car detailing services in Laurel, MD. We come to you with interior cleaning, paint protection, ceramic coating, and more.",
+    keywords: [
+        "Laurel Mobile Detailing",
+        "mobile detailing Laurel MD",
+        "car detailing near me",
+        "ceramic coating Laurel",
+        "interior detailing Laurel MD",
+        "Wellness Detailing"
+    ],
+    alternates: {
+        canonical: "https://wellnessdetailing.com/laurelmdmobiledetailing",
+    },
+    openGraph: {
+        title: "Laurel Mobile Detailing | Wellness Detailing",
+        description:
+            "Explore high-quality mobile car detailing in Laurel, MD. From paint correction to smoke odor removal, our expert team delivers results right at your driveway.",
+        url: "https://wellnessdetailing.com/laurelmdmobiledetailing",
+        siteName: "Wellness Detailing",
+        type: "website",
+    },
 };
 
 export default function LaurelDetailing() {
-    const locations = [
-        'Poolesville MD Mobile Detailing',
-        'Columbia Mobile Detailing',
-        'College Park Mobile Detailing',
-        'Damascus MD Mobile Detailing',
-        'Laurel MD Mobile Detailing',
-        'Beltsville MD Mobile Detailing',
-        'Silver Spring MD Mobile Detailing',
-        'Bethesda MD Mobile Detailing',
-        'Potomac MD Mobile Detailing',
-        'Clarksburg mobile detailing',
-        'Gaithersburg Mobile Detailing',
-        'Rockville MD Mobile Detailing',
-        'Olney Md Mobile Detailing',
-    ];
-    const current = "Laurel MD Mobile Detailing"
+    const serviceAreas = [
+        { label: 'Poolesville MD Mobile Detailing', href: '/service-area/poolesville-detailing' },
+        { label: 'Columbia Mobile Detailing', href: '/service-area/columbia-detailing' },
+        { label: 'College Park Mobile Detailing', href: '/service-area/college-park-detailing' },
+        { label: 'Damascus MD Mobile Detailing', href: '/service-area/damascus-detailing' },
+        { label: 'Laurel MD Mobile Detailing', href: '/service-area/laurel-detailing' },
+        { label: 'Beltsville MD Mobile Detailing', href: '/service-area/beltsville-detailing' },
+        { label: 'Silver Spring MD Mobile Detailing', href: '/service-area/silver-spring-detailing' },
+        { label: 'Bethesda MD Mobile Detailing', href: '/service-area/bethesda-detailing' },
+        { label: 'Potomac MD Mobile Detailing', href: '/service-area/potomac-detailing' },
+        { label: 'Clarksburg Mobile Detailing', href: '/service-area/clarksburg-detailing' },
+        { label: 'Gaithersburg Mobile Detailing', href: '/service-area/gaithersburg-detailing' },
+        { label: 'Rockville MD Mobile Detailing', href: '/service-area/rockville-detailing' },
+        { label: 'Olney MD Mobile Detailing', href: '/service-area/olney-detailing' },
+    ]
 
     return (
         <>
@@ -81,11 +81,22 @@ export default function LaurelDetailing() {
 
                 <section className="space-y-6 text-center">
                     <div className="flex flex-col sm:flex-row justify-center gap-4">
-                        <div className="w-full sm:w-1/2 h-[500px] bg-gray-200 border border-gray-400 flex items-center justify-center text-gray-500">
-                            [ Image Placeholder 1 ]
+                        <div className="relative w-full sm:w-1/2 h-[500px] border border-gray-400 overflow-hidden">
+                            <Image
+                                src="/images/split-1.jpg"
+                                alt="Image Placeholder 1"
+                                fill
+                                className="object-cover text-gray-500"
+                            />
                         </div>
-                        <div className="w-full sm:w-1/2 h-[500px] bg-gray-200 border border-gray-400 flex items-center justify-center text-gray-500">
-                            [ Image Placeholder 2 ]
+
+                        <div className="relative w-full sm:w-1/2 h-[500px] border border-gray-400 overflow-hidden">
+                            <Image
+                                src="/images/split-2.jpg"
+                                alt="Image Placeholder 2"
+                                fill
+                                className="object-cover text-gray-500"
+                            />
                         </div>
                     </div>
                     <Link
@@ -189,21 +200,17 @@ export default function LaurelDetailing() {
                         </p>
 
                         <ul className="space-y-2 mb-6">
-                            {locations.map((location) => {
-                                const to = location.toLowerCase().replace(/\s+/g, '');
-                                const isActive = location === current;
+                            {serviceAreas.map((location) => {
+                                const isCurrent = location.href === '/service-area/laurel-detailing';
                                 return (
-                                    <li key={location}>
-                                        <Link
-                                            href={`/${to}`}
-                                            className={`transition-colors ${isActive
-                                                ? 'text-blue-600 font-semibold'
-                                                : 'text-gray-700 hover:text-blue-600'
-                                                }`}
-                                        >
-                                            {location}
-                                        </Link>
-                                    </li>
+                                    <Link
+                                        key={location.label}
+                                        href={location.href}
+                                        className={`block font-medium transition-colors ${isCurrent ? 'text-blue-600' : 'text-gray-700 hover:text-blue-600'
+                                            }`}
+                                    >
+                                        {location.label}
+                                    </Link>
                                 );
                             })}
                         </ul>
@@ -217,9 +224,15 @@ export default function LaurelDetailing() {
                         </p>
                     </div>
 
-                    <div className="w-full h-[700px] bg-gray-200 border rounded flex items-center justify-center text-gray-500">
-                        Image Placeholder
+                    <div className="relative w-full h-[700px] border rounded overflow-hidden">
+                        <Image
+                            src="/images/feature.jpg"
+                            alt="Large Feature Image"
+                            fill
+                            className="object-cover text-gray-500"
+                        />
                     </div>
+
                 </div>
             </div>
             <div className="px-4 sm:px-8 md:px-16 lg:px-24 py-16">
@@ -279,23 +292,28 @@ export default function LaurelDetailing() {
                     {Array.from({ length: 24 }).map((_, index) => (
                         <div
                             key={index}
-                            className="w-full h-48 border bg-gray-200 flex items-center justify-center text-gray-500 text-sm"
+                            className="relative w-full h-48 border bg-gray-200 overflow-hidden"
                         >
-                            Image {index + 1}
+                            <Image
+                                src={`/images/gallery/thumb-${index + 1}.jpg`}
+                                alt={`Gallery Image ${index + 1}`}
+                                fill
+                                className="object-cover text-sm text-gray-500"
+                            />
                         </div>
                     ))}
                 </div>
                 <br></br>
                 <div className="text-center">
-                <Link
-                    href="/contact"
-                    className="inline-block bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-md text-lg font-semibold"
-                >
-                    Get A Free Quote
-                </Link>
+                    <Link
+                        href="/contact"
+                        className="inline-block bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-md text-lg font-semibold"
+                    >
+                        Get A Free Quote
+                    </Link>
+                </div>
             </div>
-            </div>
-            
+
             <QuoteForm />
         </>
     )

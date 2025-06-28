@@ -4,47 +4,47 @@ import Link from "next/link";
 import Image from "next/image"
 
 export const metadata = {
-  title: "Olney Auto Oasis | Mobile Detailing in Olney, MD",
-  description:
-    "Olney Auto Oasis provides expert mobile detailing services in Olney, MD. Interior cleaning, ceramic coating, paint correction & more—delivered to your driveway.",
-  keywords: [
-    "Olney Mobile Detailing",
-    "Olney Auto Oasis",
-    "mobile car detailing Olney MD",
-    "ceramic coating Olney",
-    "car wash near Olney",
-    "interior detail Olney MD"
-  ],
-  alternates: {
-    canonical: "https://wellnessdetailing.com/olneymdmobiledetailing",
-  },
-  openGraph: {
-    title: "Olney Auto Oasis | Car Detailing at Your Convenience",
+    title: "Olney Auto Oasis | Mobile Detailing in Olney, MD",
     description:
-      "Transform your vehicle's appearance with Olney Auto Oasis. We provide premium mobile detailing services throughout Olney, MD and surrounding areas.",
-    url: "https://wellnessdetailing.com/olneymdmobiledetailing",
-    siteName: "Wellness Detailing",
-    type: "website",
-  },
+        "Olney Auto Oasis provides expert mobile detailing services in Olney, MD. Interior cleaning, ceramic coating, paint correction & more—delivered to your driveway.",
+    keywords: [
+        "Olney Mobile Detailing",
+        "Olney Auto Oasis",
+        "mobile car detailing Olney MD",
+        "ceramic coating Olney",
+        "car wash near Olney",
+        "interior detail Olney MD"
+    ],
+    alternates: {
+        canonical: "https://wellnessdetailing.com/olneymdmobiledetailing",
+    },
+    openGraph: {
+        title: "Olney Auto Oasis | Car Detailing at Your Convenience",
+        description:
+            "Transform your vehicle's appearance with Olney Auto Oasis. We provide premium mobile detailing services throughout Olney, MD and surrounding areas.",
+        url: "https://wellnessdetailing.com/olneymdmobiledetailing",
+        siteName: "Wellness Detailing",
+        type: "website",
+    },
 };
 
 export default function OlneyDetailing() {
-    const serviceAreas = [
-        "Poolesville MD Mobile Detailing",
-        "Columbia Mobile Detailing",
-        "College Park Mobile Detailing",
-        "Damascus MD Mobile Detailing",
-        "Laurel MD Mobile Detailing",
-        "Beltsville MD Mobile Detailing",
-        "Silver Spring MD Mobile Detailing",
-        "Bethesda MD Mobile Detailing",
-        "Potomac MD Mobile Detailing",
-        "Clarksburg mobile detailing",
-        "Gaithersburg Mobile Detailing",
-        "Rockville MD Mobile Detailing",
-        "Olney MD Mobile Detailing"
-    ];
 
+    const serviceAreas = [
+        { label: 'Poolesville MD Mobile Detailing', href: '/service-area/poolesville-detailing' },
+        { label: 'Columbia Mobile Detailing', href: '/service-area/columbia-detailing' },
+        { label: 'College Park Mobile Detailing', href: '/service-area/college-park-detailing' },
+        { label: 'Damascus MD Mobile Detailing', href: '/service-area/damascus-detailing' },
+        { label: 'Laurel MD Mobile Detailing', href: '/service-area/laurel-detailing' },
+        { label: 'Beltsville MD Mobile Detailing', href: '/service-area/beltsville-detailing' },
+        { label: 'Silver Spring MD Mobile Detailing', href: '/service-area/silver-spring-detailing' },
+        { label: 'Bethesda MD Mobile Detailing', href: '/service-area/bethesda-detailing' },
+        { label: 'Potomac MD Mobile Detailing', href: '/service-area/potomac-detailing' },
+        { label: 'Clarksburg Mobile Detailing', href: '/service-area/clarksburg-detailing' },
+        { label: 'Gaithersburg Mobile Detailing', href: '/service-area/gaithersburg-detailing' },
+        { label: 'Rockville MD Mobile Detailing', href: '/service-area/rockville-detailing' },
+        { label: 'Olney MD Mobile Detailing', href: '/service-area/olney-detailing' },
+    ]
 
     return (
         <>
@@ -64,8 +64,23 @@ export default function OlneyDetailing() {
                         </p>
                     </div>
                     <div className="flex flex-col md:flex-row items-center justify-center gap-6 mb-8">
-                        <div className="w-full md:w-1/2 h-[500px] bg-gray-200 border border-gray-300">Image 1 Placeholder</div>
-                        <div className="w-full md:w-1/2 h-[500px] bg-gray-200 border border-gray-300">Image 2 Placeholder</div>
+                        <div className="relative w-full md:w-1/2 h-[500px] border border-gray-300 overflow-hidden">
+                            <Image
+                                src="/images/olney-image1.jpg"
+                                alt="Olney Image 1"
+                                fill
+                                className="object-cover"
+                            />
+                        </div>
+
+                        <div className="relative w-full md:w-1/2 h-[500px] border border-gray-300 overflow-hidden">
+                            <Image
+                                src="/images/olney-image2.jpg"
+                                alt="Olney Image 2"
+                                fill
+                                className="object-cover"
+                            />
+                        </div>
                     </div>
                     <div className="text-center">
                         <Link
@@ -125,21 +140,17 @@ export default function OlneyDetailing() {
                             Olney Auto Oasis proudly serves Olney, Maryland, and the surrounding areas. We're constantly expanding our reach to bring the convenience of mobile detailing to more drivers! Whether you reside in a peaceful Olney neighborhood or call a nearby community home, we can help you keep your car looking its best.
                         </p>
                         <ul className="space-y-2">
-                            {serviceAreas.map((area) => {
-                                const route = area.toLowerCase().replace(/\s+/g, '');
-                                const isCurrent = route === "olneymdmobiledetailing";
+                            {serviceAreas.map((location) => {
+                                const isCurrent = location.href === '/service-area/olney-detailing';
                                 return (
-                                    <li key={area}>
-                                        <Link
-                                            href={`/${route}`}
-                                            className={`text-sm font-medium ${isCurrent
-                                                    ? 'text-blue-600'
-                                                    : 'text-black hover:text-blue-600'
-                                                }`}
-                                        >
-                                            {area}
-                                        </Link>
-                                    </li>
+                                    <Link
+                                        key={location.label}
+                                        href={location.href}
+                                        className={`block font-medium transition-colors ${isCurrent ? 'text-blue-600' : 'text-gray-700 hover:text-blue-600'
+                                            }`}
+                                    >
+                                        {location.label}
+                                    </Link>
                                 );
                             })}
                         </ul>
@@ -147,12 +158,12 @@ export default function OlneyDetailing() {
                             <strong>Not sure if we service your specific area? Not to worry!</strong> Contact us today! We'd be happy to discuss your detailing needs and answer any questions you may have. We're always looking for ways to expand our service coverage in Ashton and surrounding areas, so there's a good chance we can brighten your car's day!
                         </p>
                     </div>
-                    <div className="w-full">
+                    <div className="relative w-full h-[700px]">
                         <Image
                             fill
                             src="https://placehold.co/1920x1080"
                             alt="Service Areas in Olney"
-                            className="rounded-lg shadow-md w-full h-[700px] object-cover"
+                            className="rounded-lg shadow-md object-cover"
                         />
                     </div>
                 </div>
@@ -222,11 +233,11 @@ export default function OlneyDetailing() {
                     </div>
                     <div className="text-center mt-8">
                         <Link
-                        href="/contact"
-                        className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded transition duration-300"
-                    >
-                        Get A Free Quote
-                    </Link>
+                            href="/contact"
+                            className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded transition duration-300"
+                        >
+                            Get A Free Quote
+                        </Link>
                     </div>
                 </div>
 
@@ -238,19 +249,24 @@ export default function OlneyDetailing() {
                         {Array.from({ length: 24 }).map((_, idx) => (
                             <div
                                 key={idx}
-                                className="w-full h-40 bg-gray-100 border border-gray-300 flex items-center justify-center text-gray-400"
+                                className="relative w-full h-40 border border-gray-300 overflow-hidden"
                             >
-                                image placeholder
+                                <Image
+                                    src={`/images/gallery/olney-${idx + 1}.jpg`}
+                                    alt={`Olney Gallery Image ${idx + 1}`}
+                                    fill
+                                    className="object-cover text-gray-400"
+                                />
                             </div>
                         ))}
                     </div>
                     <div className="text-center mt-8">
                         <Link
-                        href="/contact"
-                        className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded transition duration-300"
-                    >
-                        Get A Free Quote
-                    </Link>
+                            href="/contact"
+                            className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded transition duration-300"
+                        >
+                            Get A Free Quote
+                        </Link>
                     </div>
                 </div>
             </section>

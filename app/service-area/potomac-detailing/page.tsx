@@ -4,47 +4,47 @@ import Link from "next/link";
 import Image from "next/image"
 
 export const metadata = {
-  title: "Potomac Mobile Detailing | Expert Car Detailing in Potomac, MD",
-  description:
-    "Potomac Mobile Detailing offers professional mobile car detailing services in Potomac, MD. Restore your car's shine today with expert service at your doorstep.",
-  keywords: [
-    "Potomac MD mobile detailing",
-    "car detailing Potomac",
-    "mobile car wash Potomac",
-    "Wellness Detailing Potomac",
-    "interior detail Potomac",
-    "ceramic coating Potomac MD"
-  ],
-  alternates: {
-    canonical: "https://wellnessdetailing.com/potomacmdmobiledetailing",
-  },
-  openGraph: {
     title: "Potomac Mobile Detailing | Expert Car Detailing in Potomac, MD",
     description:
-      "Wellness Detailing brings expert car detailing directly to your driveway in Potomac, MD. Discover our interior, exterior, and paint protection services.",
-    url: "https://wellnessdetailing.com/potomacmdmobiledetailing",
-    siteName: "Wellness Detailing",
-    type: "website",
-  },
+        "Potomac Mobile Detailing offers professional mobile car detailing services in Potomac, MD. Restore your car's shine today with expert service at your doorstep.",
+    keywords: [
+        "Potomac MD mobile detailing",
+        "car detailing Potomac",
+        "mobile car wash Potomac",
+        "Wellness Detailing Potomac",
+        "interior detail Potomac",
+        "ceramic coating Potomac MD"
+    ],
+    alternates: {
+        canonical: "https://wellnessdetailing.com/potomacmdmobiledetailing",
+    },
+    openGraph: {
+        title: "Potomac Mobile Detailing | Expert Car Detailing in Potomac, MD",
+        description:
+            "Wellness Detailing brings expert car detailing directly to your driveway in Potomac, MD. Discover our interior, exterior, and paint protection services.",
+        url: "https://wellnessdetailing.com/potomacmdmobiledetailing",
+        siteName: "Wellness Detailing",
+        type: "website",
+    },
 };
 
 export default function PotomacDetailing() {
 
-    const locations = [
-        'Poolesville MD Mobile Detailing',
-        'Columbia Mobile Detailing',
-        'College Park Mobile Detailing',
-        'Damascus MD Mobile Detailing',
-        'Laurel MD Mobile Detailing',
-        'Beltsville MD Mobile Detailing',
-        'Silver Spring MD Mobile Detailing',
-        'Bethesda MD Mobile Detailing',
-        'Potomac MD Mobile Detailing',
-        'Clarksburg mobile detailing',
-        'Gaithersburg Mobile Detailing',
-        'Rockville MD Mobile Detailing',
-        'Olney MD Mobile Detailing',
-    ];
+    const serviceAreas = [
+        { label: 'Poolesville MD Mobile Detailing', href: '/service-area/poolesville-detailing' },
+        { label: 'Columbia Mobile Detailing', href: '/service-area/columbia-detailing' },
+        { label: 'College Park Mobile Detailing', href: '/service-area/college-park-detailing' },
+        { label: 'Damascus MD Mobile Detailing', href: '/service-area/damascus-detailing' },
+        { label: 'Laurel MD Mobile Detailing', href: '/service-area/laurel-detailing' },
+        { label: 'Beltsville MD Mobile Detailing', href: '/service-area/beltsville-detailing' },
+        { label: 'Silver Spring MD Mobile Detailing', href: '/service-area/silver-spring-detailing' },
+        { label: 'Bethesda MD Mobile Detailing', href: '/service-area/bethesda-detailing' },
+        { label: 'Potomac MD Mobile Detailing', href: '/service-area/potomac-detailing' },
+        { label: 'Clarksburg Mobile Detailing', href: '/service-area/clarksburg-detailing' },
+        { label: 'Gaithersburg Mobile Detailing', href: '/service-area/gaithersburg-detailing' },
+        { label: 'Rockville MD Mobile Detailing', href: '/service-area/rockville-detailing' },
+        { label: 'Olney MD Mobile Detailing', href: '/service-area/olney-detailing' },
+    ]
 
     const currentLocation = 'Potomac MD Mobile Detailing';
 
@@ -75,8 +75,25 @@ export default function PotomacDetailing() {
                     </p>
 
                     <div className="flex flex-col sm:flex-row justify-center gap-4 mb-10">
-                        <div className="w-full sm:w-1/2 bg-gray-300 rounded-md h-[400px]" />
-                        <div className="w-full sm:w-1/2 bg-gray-300 rounded-md h-[400px]" />
+                        <div className="relative w-full sm:w-1/2 h-[400px] bg-gray-300 rounded-md overflow-hidden">
+                            <Image
+                                src="/images/potomac-1.jpg"
+                                alt="Potomac Service Image 1"
+                                fill
+                                className="object-cover rounded-md"
+                                loading="lazy"
+                            />
+                        </div>
+
+                        <div className="relative w-full sm:w-1/2 h-[400px] bg-gray-300 rounded-md overflow-hidden">
+                            <Image
+                                src="/images/potomac-2.jpg"
+                                alt="Potomac Service Image 2"
+                                fill
+                                className="object-cover rounded-md"
+                                loading="lazy"
+                            />
+                        </div>
                     </div>
 
                     <div className="text-center">
@@ -169,7 +186,6 @@ export default function PotomacDetailing() {
                 </section>
             </div>
             <section className="px-4 py-16 md:px-8 lg:px-24 bg-white">
-
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
                     <div>
                         <h2 className="text-3xl font-bold mb-4 text-gray-800">
@@ -179,31 +195,37 @@ export default function PotomacDetailing() {
                             Potomac Mobile Detailing proudly serves Potomac, Maryland, and the surrounding areas. We're constantly expanding our reach to bring the convenience of mobile detailing to more drivers! Whether you reside in a stately Potomac neighborhood or call a nearby community home, we can help you keep your car looking its best.
                         </p>
 
-                        <ul className="space-y-2">
-                            {locations.map((location) => {
-                                const route = '/' + location.toLowerCase().replace(/[^a-z0-9]/g, '');
-                                const isCurrent = location === currentLocation;
-
+                        <div className="space-y-2 mb-4">
+                            {serviceAreas.map((location) => {
+                                const isCurrent = location.href === '/service-area/potomac-detailing';
                                 return (
-                                    <li key={location}>
-                                        <Link
-                                            href={route}
-                                            className={`text-sm md:text-base ${isCurrent ? 'text-blue-600 font-semibold' : 'text-black hover:text-blue-600 transition-colors'
-                                                }`}
-                                        >
-                                            {location}
-                                        </Link>
-                                    </li>
+                                    <Link
+                                        key={location.label}
+                                        href={location.href}
+                                        className={`block font-medium transition-colors ${isCurrent ? 'text-blue-600' : 'text-gray-700 hover:text-blue-600'
+                                            }`}
+                                    >
+                                        {location.label}
+                                    </Link>
                                 );
                             })}
-                        </ul>
+                        </div>
 
                         <p className="text-gray-700 mt-6">
                             <strong>Not sure if we service your specific area? Not to worry!</strong> Contact us today! We'd be happy to discuss your detailing needs and answer any questions you may have. We're always looking for ways to expand our service coverage in Bethesda, MD and surrounding areas, so there's a good chance we can brighten your car's day!
                         </p>
                     </div>
 
-                    <div className="w-full h-64 md:h-full bg-gray-200 rounded-lg shadow-md" />
+                    <div className="relative w-full h-64 md:h-full bg-gray-200 rounded-lg shadow-md overflow-hidden">
+                        <Image
+                            src="/images/potomac-feature.jpg"
+                            alt="Potomac Full Feature"
+                            fill
+                            className="object-cover rounded-lg"
+                            loading="lazy"
+                        />
+                    </div>
+
                 </div>
             </section>
             <div className="max-w-3xl mx-auto text-left space-y-4">
@@ -274,26 +296,25 @@ export default function PotomacDetailing() {
                             {Array.from({ length: 24 }).map((_, i) => (
                                 <div
                                     key={i}
-                                    className="w-full h-48 bg-gray-200 rounded-lg shadow-md overflow-hidden"
+                                    className="relative w-full h-48 bg-gray-200 rounded-lg shadow-md overflow-hidden"
                                 >
                                     <Image
                                         fill
-                                        src={`/images/gallery/potomac-detailing-${(i + 1).toString().padStart(2, '0')}.jpg`}
+                                        src={`/images/gallery/thumb-${i + 1}.jpg`}
                                         alt={`Potomac Detailing ${i + 1}`}
-                                        className="w-full h-full object-cover"
+                                        className="object-cover"
                                         loading="lazy"
                                     />
                                 </div>
                             ))}
                         </div>
-
                         <div className="mt-10 text-center">
                             <Link
-                            href="/contact"
-                            className="inline-block bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-md text-lg font-semibold mt-4"
-                        >
-                            Get A Free Quote
-                        </Link>
+                                href="/contact"
+                                className="inline-block bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-md text-lg font-semibold mt-4"
+                            >
+                                Get A Free Quote
+                            </Link>
                         </div>
                     </div>
                 </div>
