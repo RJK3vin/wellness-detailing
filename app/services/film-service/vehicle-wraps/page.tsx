@@ -69,22 +69,22 @@ export default function VehicleWraps() {
                     <h2 className="text-3xl font-bold text-center">Benefits of Car Wraps</h2>
                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 text-center">
                         <div className="flex flex-col items-center space-y-2">
-                            <CheckCircle className="w-10 h-10 text-orange-500" />
+                            <CheckCircle className="w-10 h-10 text-blue-600" />
                             <p className="font-semibold text-lg">Ultimate Customization</p>
                             <p>Car wraps offer endless design possibilities. Express your style, promote your brand, or simply create a one-of-a-kind car.</p>
                         </div>
                         <div className="flex flex-col items-center space-y-2">
-                            <CheckCircle className="w-10 h-10 text-orange-500" />
+                            <CheckCircle className="w-10 h-10 text-blue-600" />
                             <p className="font-semibold text-lg">Paint Protection</p>
                             <p>High-quality car wrap vinyl acts as a shield, protecting your car's original paint from scratches, chips, and UV rays.</p>
                         </div>
                         <div className="flex flex-col items-center space-y-2">
-                            <CheckCircle className="w-10 h-10 text-orange-500" />
+                            <CheckCircle className="w-10 h-10 text-blue-600" />
                             <p className="font-semibold text-lg">Removable & Changeable</p>
                             <p>Unlike permanent paint jobs, car wraps are removable and changeable without damaging the original paint.</p>
                         </div>
                         <div className="flex flex-col items-center space-y-2">
-                            <CheckCircle className="w-10 h-10 text-orange-500" />
+                            <CheckCircle className="w-10 h-10 text-blue-600" />
                             <p className="font-semibold text-lg">Increased Resale Value</p>
                             <p>A well-designed car wrap can increase your resale value by making your vehicle stand out from similar models.</p>
                         </div>
