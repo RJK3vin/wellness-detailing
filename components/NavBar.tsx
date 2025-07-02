@@ -16,7 +16,7 @@ const Navbar = () => {
           <div className="relative w-10 h-10">
             <Image
               fill
-              src="/placeholder-logo.png"
+              src="/images/Home/logo.JPEG"
               alt="Wellness Detailing"
               className="rounded-full object-cover bg-gray-200 shadow-inner"
             />
@@ -118,6 +118,12 @@ const Navbar = () => {
             className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg shadow-md transition duration-200"
           >
             GET A QUOTE
+          </a>
+          <a
+            href="/booking"
+            className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg shadow-md transition duration-200"
+          >
+            BOOK NOW
           </a>
         </div>
       </div>

@@ -9,11 +9,6 @@ interface HeroProps {
 }
 
 export default function Hero({ scrollToRef }: HeroProps) {
-  const handleScroll = () => {
-    if (scrollToRef?.current) {
-      scrollToRef.current.scrollIntoView({ behavior: 'smooth' });
-    }
-  };
 
   return (
     <section className="relative min-h-[90vh] flex items-center justify-center text-center overflow-hidden px-4 bg-cover bg-center" style={{
@@ -36,12 +31,12 @@ export default function Hero({ scrollToRef }: HeroProps) {
           Experience ultimate convenience and quality as we revitalize your car, inside and out.
         </p>
         <div className="mt-6 flex justify-center gap-4 flex-wrap">
-          <button
-            onClick={handleScroll}
+          <Link
+            href="/booking"
             className="bg-blue-600 text-white px-6 py-3 rounded-md font-medium hover:bg-blue-700"
           >
-            Learn More
-          </button>
+            Book Now
+          </Link>
           <Link
             href="/contact"
             className="bg-blue-600 text-white px-6 py-3 rounded-md font-medium hover:bg-blue-700"

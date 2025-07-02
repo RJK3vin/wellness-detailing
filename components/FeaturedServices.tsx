@@ -10,7 +10,7 @@ const services = [
       "Transform your vehicle's appearance with our premium vinyl car wraps. Whether you desire a sleek matte finish or a vibrant color change, our expert team will bring your vision to life. With precise application and high-quality materials, our wraps enhance aesthetics while providing protection against scratches and abrasions.",
       "Discover the ultimate customization for your vehicle with our vinyl car wraps. From bold graphics to subtle accents, our expert team can create a look that's uniquely yours. Using only the highest quality materials, we ensure long-lasting durability and a flawless finish that will turn heads wherever you go.",
     ],
-    src: "https://placehold.co/1000x1000"
+    src: "/images/Home/blue-wrap.webp"
   },
   {
     title: "Paint Correction",
