@@ -4,13 +4,6 @@ import { showPreviewToast } from "./toast";
 export async function handleFormSubmit(e: React.FormEvent,) {
     e.preventDefault();
 
-    const isLocalPreview = true;
-
-    if (isLocalPreview || window.location.hostname !== "localhost") {
-        showPreviewToast();
-        return;
-    }
-
     const checkedBoxes = document.querySelectorAll('input[type="checkbox"]:checked');
     if (checkedBoxes.length === 0) {
         toast.error("Please select at least one service.", {
