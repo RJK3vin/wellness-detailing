@@ -120,16 +120,15 @@ export default function PremiumWash() {
                         ))}
                     </ul>
 
-                    <div className="relative w-full h-[450px]">
+                    <div className="mx-auto w-full max-w-[1000px]">
                         <Image
-                            src="/images/premiumwash-feature.jpg"
+                            src="/Images/Services/Exterior/washandwax/wash.webp"
                             alt="Premium Wash Example"
-                            fill
-                            className="object-cover border border-gray-300 rounded-lg"
-                            sizes="(max-width: 768px) 100vw, 1200px"
+                            width={1000}
+                            height={667}
+                            className="border border-gray-300 rounded-lg"
                         />
                     </div>
-
 
                     <Link
                         href="/contact"
@@ -150,7 +149,7 @@ export default function PremiumWash() {
                                 className="flex flex-col items-center text-center space-y-2"
                             >
                                 <CheckCircle className="text-blue-600 w-6 h-6" />
-                                <p>{text}</p>
+                                <p className="font-bold">{text}</p>
                             </div>
                         ))}
                     </div>
@@ -242,7 +241,7 @@ export default function PremiumWash() {
                     <h2 className="text-3xl font-bold">Premium Wash Service Gallery</h2>
                     <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
                         {[1, 2, 3, 4, 5, 6, 7, 8].map((i) => (
-                            <div key={i} className="relative w-full h-[250px]"> 
+                            <div key={i} className="relative w-full h-[250px]">
                                 <Image
                                     fill
                                     key={i}

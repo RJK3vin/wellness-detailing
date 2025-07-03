@@ -49,9 +49,9 @@ export default function VehicleWraps() {
                         </ul>
                     </div>
                     <div className="max-w-5xl mx-auto">
-                        <div className="relative w-full h-[400px]">
+                        <div className="relative w-full h-[700px]">
                             <Image
-                                src="/car-wrap-intro.png"
+                                src="/Images/Services/FilmService/wrap.webp"
                                 alt="Car wrap showcase"
                                 fill
                                 className="object-cover rounded-lg shadow"

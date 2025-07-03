@@ -45,16 +45,14 @@ export default function WashAndWax() {
                         <li><strong>Hidden Gem Cleaning:</strong> We go the extra mile, cleaning often-overlooked areas like door jambs and the trunk interior for a truly comprehensive clean.</li>
                         <li><strong>Professional Wax Application:</strong> The crowning touch! We apply a high-quality wax to create a protective shield that enhances shine, repels water, and safeguards your car's paint from environmental elements.</li>
                     </ul>
-                    <div className="max-w-5xl mx-auto">
-                        <div className="relative w-full h-[400px]">
-                            <Image
-                                src="/paint-correction-intro.png"
-                                alt="Paint correction showcase"
-                                fill
-                                className="object-cover rounded-lg border border-gray-300"
-                                sizes="(max-width: 768px) 100vw, 1200px"
-                            />
-                        </div>
+                    <div className="max-w-[1000px] mx-auto">
+                        <Image
+                            src="/Images/Services/Exterior/washandwax/wash.webp"
+                            alt="Paint correction showcase"
+                            width={1000}
+                            height={667}
+                            className="rounded-lg border border-gray-300 object-contain"
+                        />
                     </div>
 
                     <div className="text-center">

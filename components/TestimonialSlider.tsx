@@ -77,7 +77,7 @@ const TestimonialSlider = () => {
             <div className='relative w-12 h-12'>
               <Image
                 fill
-                src="/placeholder-logo.png"
+                src="/Images/Home/logo.JPEG"
                 alt="Wellness Detailing Logo"
                 className="rounded-full object-cover"
               />

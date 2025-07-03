@@ -46,7 +46,7 @@ export default function PaintCorrection() {
                     <div className="max-w-5xl mx-auto">
                         <div className="relative w-full h-[600px]">
                             <Image
-                                src="/paint-correction-intro.png"
+                                src="/Images/Services/Exterior/paintcorrection/pc.webp"
                                 alt="Paint correction showcase"
                                 fill
                                 className="object-cover rounded-lg shadow"
