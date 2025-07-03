@@ -11,9 +11,9 @@ const Navbar = () => {
 
   return (
     <header className="bg-white/90 backdrop-blur-sm text-gray-900 shadow-md sticky top-0 z-50">
-      <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
+      <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
         <div className="flex items-center gap-6">
-          <div className="relative w-10 h-10">
+          <div className="relative w-20 h-20 mt-3">
             <Image
               fill
               src="/images/Home/logo.JPEG"
@@ -22,7 +22,7 @@ const Navbar = () => {
             />
           </div>
 
-          <nav className="hidden lg:flex items-center gap-6 text-sm font-semibold tracking-tight">
+          <nav className="hidden lg:flex items-center gap-5 text-[15px] font-semibold tracking-tight">
             <a href="/" className={isActive('/') ? 'text-blue-600 font-semibold' : ''}>Home</a>
 
             <Dropdown
@@ -104,27 +104,26 @@ const Navbar = () => {
               currentPath={pathname}
             />
           </nav>
-        </div>
-
-        <div className="flex items-center gap-4 text-sm font-semibold tracking-tight">
-          <div className="hidden lg:flex items-center gap-1 text-blue-600">
-            <a href="tel:2406300211" className="flex items-center gap-1">
-              <Phone className="w-4 h-4" />
-              <span>(240) 630-0211</span>
+          <div className="flex items-center gap-4 text-[15px] font-semibold tracking-tight">
+            <div className="hidden lg:flex items-center gap-1 text-blue-600">
+              <a href="tel:2406300211" className="flex items-center gap-1">
+                <Phone className="w-[20px] h-[20px]" />
+                <span>(240) 630-0211</span>
+              </a>
+            </div>
+            <a
+              href="/contact"
+              className="bg-blue-600 hover:bg-blue-700 text-white px-5 py-2 rounded-lg shadow-md transition duration-200 text-[15px] font-semibold tracking-tight"
+            >
+              GET A QUOTE
+            </a>
+            <a
+              href="/booking"
+              className="bg-blue-600 hover:bg-blue-700 text-white px-5 py-2 rounded-lg shadow-md transition duration-200 text-[15px] font-semibold tracking-tight"
+            >
+              BOOK NOW
             </a>
           </div>
-          <a
-            href="/contact"
-            className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg shadow-md transition duration-200"
-          >
-            GET A QUOTE
-          </a>
-          <a
-            href="/booking"
-            className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg shadow-md transition duration-200"
-          >
-            BOOK NOW
-          </a>
         </div>
       </div>
     </header>
@@ -147,7 +146,7 @@ const Dropdown = ({ title, links, currentPath }: { title: string; links: { label
             <li key={label}>
               <a
                 href={href}
-                className={`block px-4 py-2 hover:bg-blue-50 transition text-xs whitespace-nowrap ${currentPath === href ? 'text-blue-700 font-semibold bg-blue-100' : ''}`}
+                className={`block px-1 py-2.5 hover:bg-blue-50 transition text-sm whitespace-nowrap ${currentPath === href ? 'text-blue-700 font-semibold bg-blue-100' : ''}`}
               >
                 {label}
               </a>
@@ -158,4 +157,3 @@ const Dropdown = ({ title, links, currentPath }: { title: string; links: { label
     </div>
   );
 };
-
