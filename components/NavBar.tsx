@@ -13,7 +13,7 @@ const Navbar = () => {
     <header className="bg-white/90 backdrop-blur-sm text-gray-900 shadow-md sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
         <div className="flex items-center gap-6">
-          <div className="relative w-20 h-20 mt-3">
+          <div className="relative w-20 h-20">
             <Image
               fill
               src="/images/Home/logo.JPEG"
