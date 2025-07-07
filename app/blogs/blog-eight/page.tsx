@@ -21,7 +21,7 @@ const BlogEight = () => {
 
                 <div className="w-full h-auto mb-8 rounded-lg shadow-md overflow-hidden">
                     <Image
-                        src="/images/detailing-interior.jpg"
+                        src="/Images/Blogs/blogone.webp"
                         alt="A person is meticulously detailing a luxury car interior under dim lighting, highlighting precision and care."
                         width={600}
                         height={400}

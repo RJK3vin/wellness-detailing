@@ -19,7 +19,7 @@ const BlogFour = () => {
 
                 <div className="w-full h-auto rounded-lg shadow-md mb-8 overflow-hidden">
                     <Image
-                        src="/images/detailing-showcase.jpg"
+                        src="/Images/Blogs/blogone.webp"
                         alt="A person is meticulously detailing a luxury car interior under dim lighting, highlighting precision and care."
                         width={800}
                         height={400}

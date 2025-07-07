@@ -40,7 +40,7 @@ export default function WellnessDetailing() {
           <div className="relative w-full h-[400px] rounded shadow overflow-hidden">
             <Image
               fill
-              src="https://placehold.co/600x400"
+              src="/Images/ServiceArea/Wellness/first.webp"
               alt="Eco Detailing 1"
               className="object-cover"
             />
@@ -72,7 +72,7 @@ export default function WellnessDetailing() {
           <div className="relative w-full h-[400px] rounded shadow overflow-hidden">
             <Image
               fill
-              src="https://placehold.co/600x400"
+              src="/Images/Services/Exterior/washandwax/wash.webp"
               alt="Eco Detailing 2"
               className="object-cover"
             />

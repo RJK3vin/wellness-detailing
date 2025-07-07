@@ -19,7 +19,7 @@ const BlogTwo = () => {
 
                 <div className="w-full h-auto mb-8 rounded-lg shadow-md overflow-hidden">
                     <Image
-                        src="/images/spray-wash.jpg"
+                        src="/Images/Blogs/blogtwo.webp"
                         alt="Smiling woman in yellow shirt uses power spray to wash black car outside."
                         width={800}
                         height={400}

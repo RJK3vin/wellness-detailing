@@ -18,7 +18,7 @@ const BlogThree = () => {
 
                 <div className="w-full h-auto mb-8 rounded-lg shadow-md overflow-hidden">
                     <Image
-                        src="/images/interior-cleaning.jpg"
+                        src="/Images/Blogs/blogthree.webp"
                         alt="A man wipes the interior of a car for a thorough cleaning, focusing on detailing and maintenance."
                         width={800}
                         height={400}

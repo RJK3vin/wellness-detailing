@@ -66,9 +66,9 @@ export default function SilverSpringDetailing() {
                 </p>
 
                 <div className="flex flex-col sm:flex-row gap-4 mb-6">
-                    <div className="relative w-full sm:w-1/2 aspect-video border overflow-hidden">
+                    <div className="relative w-full sm:w-1/2 aspect-video border overflow-hidden h-[400px]">
                         <Image
-                            src="/images/image1.jpg"
+                            src="/Images/ServiceArea/SilverSpring/first.webp"
                             alt="Image 1"
                             fill
                             className="object-cover text-sm text-gray-500"
@@ -77,7 +77,7 @@ export default function SilverSpringDetailing() {
 
                     <div className="relative w-full sm:w-1/2 aspect-video border overflow-hidden">
                         <Image
-                            src="/images/image2.jpg"
+                            src="/Images/Home/ppf.webp"
                             alt="Image 2"
                             fill
                             className="object-cover text-sm text-gray-500"

@@ -21,7 +21,7 @@ const BlogSix = () => {
 
                 <div className="w-full h-auto mb-8 rounded-lg shadow-md overflow-hidden">
                     <Image
-                        src="/images/foam-wash-detail.jpg"
+                        src="/Images/Blogs/blogsix.webp"
                         alt="Detailed view of car covered in soapy foam during a wash, highlighting cleanliness."
                         width={600}
                         height={400}
