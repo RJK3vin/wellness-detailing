@@ -6,44 +6,44 @@ import Image from 'next/image';
 
 const reviews = [
   {
-    name: 'Steve Heibein',
-    date: '2024-04-26',
-    text: "I had Wellness Detailing do my wife's car for Mother's Day. It looked like a new car when they were done. They even removed a stain I thought was permanent. They were well stocked with every gizmo for detailing and knew what they were doing. Guess what I'm having done for Father's Day?"
+    name: 'Sandi Rosenberg',
+    date: '2025-06',
+    text: "I am so happy with the excellent job that Wellness Detailing did on my car. The attention to every detail and the enthusiasm that they showed made the experience a fabulous one! I would highly recommend Wellness Detailing to anyone who wants the beauty of their car to shine!"
   },
    {
-    name: 'Morgan Weisman',
-    date: '2024-04-25',
-    text: "If I could give 6 stars I would!! I am recommending Wellness Detailing to all my friends and family! I could not have had a better experience, and my car has never looked better, cleaner, or fresher!! Not only did the service go above and beyond my expectations, but the customer service and professionalism truly made my experience unbeatable."
+    name: 'Susan Bellamy',
+    date: '2025-06',
+    text: "Very impressed with David's knowledge and passion for car detailing. I highly recommend getting a detail with Wellness Detailing!"
   },
    {
-    name: 'Erick rene Beltranp...',
-    date: '2024-04-25',
-    text: "Buenas días estamos dando el.mejor servicio de nuestra compañía y un excelente trabajo 100.00% recomendado y sobre todo la mejor atención a nuestros clientes estamos para servirle y cualquier duda o pregunta no dude en comunicarse y nosotros le ayudaremos buen día bendiciones"
+    name: 'Angelina Sin',
+    date: '2025-03',
+    text: "I had my car detailed by Wellness Detailing, and it looks brand new! The attention to detail was amazing—inside and out. My car feels fresh, clean, and well taken care of. Highly recommend!"
   },
   {
-    name: 'Zerubabel Afework',
-    date: '2024-04-23',
-    text: "recently had the pleasure of experiencing the top-notch services of Wellness detailing, all thanks to a glowing recommendation from my friend Jimena. And let me tell you, they did not disappoint! From the moment they arrived at my house, I was impressed by their professionalism and attention to detail. The team greeted me warmly and took the time to listen to my specific needs and preferences. As they worked their magic on my car, I could see why my friend spoke so highly of them. Every inch of my vehicle was meticulously cleaned and polished to perfection. They didn't miss a spot! Not only did they make my car look brand new again, but they also went above and beyond by offering helpful tips on how to maintain its shine between visits. Overall, my experience with Wellness detailing was nothing short of excellent. Their dedication to quality and customer satisfaction truly sets them apart. I'll be sure to pass along the recommendation to others!",
+    name: 'Saul Stern',
+    date: '2025-01',
+    text: "I have been unable to keep car clean. To most it would not look dirty. Nonetheless, I needed a couple of areas polished and they were able to detail inside and out while car was in garage. The Shadow Black Car looks great. GREAT JOB !!!",
   },
   {
-    name: 'Nicholas Kirk',
-    date: '2024-04-21',
-    text: "Attention to detail, to say the least. Honestly customer satisfaction guaranteed doesn't do this group justice because they go above and beyond. Glad I met them, you will be too. 💯",
+    name: 'Maliha Nuzhat',
+    date: '2025-01',
+    text: "Wellness Detailing exceeded every expectation I had for a car detailing service. From the moment I scheduled my appointment to the second I drove away, Isaiah and David delivered a level of professionalism, care, and attention to detail that is truly unmatched. The transformation is stunning. The exterior is spotless with no trace of the dirt, grime, and water spots. The interior, though, is where I was completely blown away. Every single crevice, seat, mat, and surface was meticulously cleaned and restored. Stains I thought were permanent? Gone. Dust and crumbs in impossible places? Completely wiped out. The leather feels fresh and soft, and the car smells brand new — not overpowering, just clean and refreshing. It's clear that Isaiah and David don't just clean cars; they elevate them, treating every inch with the care and precision of true professionals. What really sets Wellness Detailing apart, though, is the experience they provide. Isaiah and David were not only efficient and knowledgeable, but also genuinely friendly and passionate about what they do. They took the time to explain the process, answer my questions, and make sure I felt taken care of. You can tell they take pride in their work and care about their customers' satisfaction. This is not just a get it done and move on operation.  It's a personalized, quality service from people who truly care about the results. I've tried other car detailing services in the past, and none of them come close to what Wellness Detailing delivered. If you want to fall back in love with your vehicle, Wellness Detailing is the only place you need to call. I am beyond satisfied and will absolutely be returning for future services. Thank you, Isaiah and David, for bringing my car back to life. I can't stop staring at it, and I'm already recommending you to everyone I know. I can't wait to book my next appointment!",
   },
   {
-    name: 'Monica Escalante',
-    date: '2024-04-19',
-    text: 'Great service!!!',
+    name: 'Gary Shark',
+    date: '2025-01',
+    text: "David did a great job remediating a smoke/odor issue in my daughter's car. I will be engaging David in the overall detailing of all my vehicles. I do not see how I could find a better resource to supply my detailing needs.",
   },
   {
-    name: 'Yaslyn Arias',
-    date: '2024-04-19',
-    text: "I would absolutely recommend them 10/10! My car looks amazing, and having a clean space has really boosted my mood. The team's positive energy made the experience even better. I'll definitely be coming back for more car detailing in the future."
+    name: 'Birtina Clayburn',
+    date: '2024-11',
+    text: "David and his team were wonderful. They did an awesome job on my car. I would recommend them to my family and friends. Very reasonable prices and great attitudes! Thank you so much. I'll definitely be a repeat customer."
   },
   {
-    name: 'Jimmy Urias',
-    date: '2024-04-19',
-    text: 'Great Detailing, really put in the effort to make sure every spot is clean and prestige. Definitely worth the money.'
+    name: 'Gail Vong',
+    date: '2024-10',
+    text: "I had an incredible experience at Wellness Detailing, thanks to David! From the moment I dropped off my car, I knew it was in good hands. David's attention to detail and expertise truly shone through, as he transformed my car into something even better than when I first bought it from the dealership. The level of care and precision he put into his work exceeded all my expectations. I highly recommend Wellness Detailing to anyone looking for exceptional service and outstanding results. Thank you, David, for your exceptional workmanship and dedication to perfection!"
   },
 ];
 
@@ -71,8 +71,30 @@ const TestimonialSlider = () => {
         Genuine Experiences, Real Transformations: Our Customer Testimonials
       </h2>
 
-      <div className="relative flex justify-center items-start gap-6 max-w-7xl mx-auto">
-        <div className="flex flex-row gap-6 overflow-hidden">
+      <div className="relative max-w-7xl mx-auto">
+        {/* Left Arrow */}
+        {currentStart > 0 && (
+          <button
+            onClick={handlePrev}
+            className="absolute left-0 top-1/2 transform -translate-y-1/2 z-10 p-2 bg-white rounded-full shadow-md hover:bg-gray-50"
+          >
+            <ChevronLeft className="w-5 h-5" />
+          </button>
+        )}
+
+        {/* Right Arrow */}
+        {currentStart + VISIBLE_COUNT < reviews.length && (
+          <button
+            onClick={handleNext}
+            className="absolute right-0 top-1/2 transform -translate-y-1/2 z-10 p-2 bg-white rounded-full shadow-md hover:bg-gray-50"
+          >
+            <ChevronRight className="w-5 h-5" />
+          </button>
+        )}
+
+        {/* Content Container */}
+        <div className="flex justify-center items-start gap-6 px-12">
+          {/* Company Info Card */}
           <div className="flex flex-col items-center border border-gray-300 rounded-lg p-4 w-64 flex-shrink-0">
             <div className='relative w-12 h-12'>
               <Image
@@ -88,7 +110,7 @@ const TestimonialSlider = () => {
                 <Star key={i} className="w-4 h-4 fill-yellow-400" />
               ))}
             </div>
-            <p className="text-base text-gray-500 mt-1">69 Google reviews</p>
+            <p className="text-base text-gray-500 mt-1">91 Google reviews</p>
             <a
               href="https://admin.trustindex.io/api/googleWriteReview?place-id=ChIJgdYny294ySARzwzRJQokYuc"
               target="_blank"
@@ -98,15 +120,7 @@ const TestimonialSlider = () => {
             </a>
           </div>
 
-          {currentStart > 0 && (
-            <button
-              onClick={handlePrev}
-              className="p-2 bg-white rounded-full shadow-md self-center"
-            >
-              <ChevronLeft className="w-5 h-5" />
-            </button>
-          )}
-
+          {/* Review Cards */}
           {visibleReviews.map((review, index) => {
             const isExpanded = expandedIndex === index;
             const displayName = review.name.length > MAX_NAME_LENGTH ? review.name.slice(0, MAX_NAME_LENGTH) + '...' : review.name;
@@ -150,15 +164,6 @@ const TestimonialSlider = () => {
               </div>
             );
           })}
-
-          {currentStart + VISIBLE_COUNT < reviews.length && (
-            <button
-              onClick={handleNext}
-              className="p-2 bg-white rounded-full shadow-md self-center"
-            >
-              <ChevronRight className="w-5 h-5" />
-            </button>
-          )}
         </div>
       </div>
     </section>

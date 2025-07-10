@@ -1,6 +1,7 @@
 import { Phone, Clock, MapPin, Handshake, Car, PhoneCall, Users, Sparkles, Smile } from "lucide-react";
 import TestimonialSlider from "./TestimonialSlider";
 import Image from "next/image";
+import { number } from "framer-motion";
 
 const services = [
   {
@@ -28,7 +29,7 @@ const services = [
       "Experience superior protection and shine with our ceramic coatings. Unlike traditional waxes, they form a permanent bond with your vehicle's paint, creating a hydrophobic barrier that repels water, dirt, and contaminants. Enjoy long-lasting results that maintain your car's showroom shine.",
       "Give your car the ultimate protection with our ceramic coating treatments. Our advanced formulas create a durable shield that guards against the elements, keeping your paint looking like new for years to come. Say goodbye to frequent waxing and polishing – with ceramic coatings, your car will always be ready to impress.",
     ],
-    src: "https://placehold.co/1000x1000",
+    src: "/Images/Home/ceramic-coating.jpg",
   },
   {
     title: "Paint Protection Film (PPF)",
@@ -37,7 +38,7 @@ const services = [
       "Preserve your car's paint in pristine condition with our industry-leading paint protection film. Made from transparent, self-healing polyurethane, PPF shields against rock chips, insect splatter, and road hazards without altering your vehicle's appearance.",
       "Ensure lasting protection for your investment with our paint protection film. Our high-quality materials provide an invisible barrier against damage, keeping your paint looking flawless for miles to come. Say goodbye to worries about scratches and chips – with PPF, your car will always look its best.",
     ],
-    src: "/Images/Home/ppf.webp",
+    src: "/Images/Home/paint-protection-film.webp",
   },
   {
     title: "Window Tinting",
@@ -49,7 +50,6 @@ const services = [
     src: "/Images/Home/windowtint.webp",
   },
 ];
-
 const locations = [
   {
     title: "Olney, MD",
@@ -128,12 +128,25 @@ const FeaturedServices = () => {
         </div>
       </div>
       <div className="flex gap-4 justify-center max-w-4xl mx-auto mt-8 px-6">
-        {["1", "2", "3"].map((num) => (
-          <div key={num} className="relative w-64 aspect-[1/1]">
+        {[
+          {
+            number: "one",
+            pic: "/Images/Home/car_one.png"
+          },
+          {
+            number: "two",
+            pic: "/Images/Home/car_two.jpg"
+          },
+          {
+            number: "three",
+            pic: "/Images/Home/car_three.jpg"
+          }
+        ].map((num) => (
+          <div key={num.number} className="relative w-64 aspect-[1/1]">
             <Image
               fill
-              src={`https://placehold.co/1000x1000?text=${num}`}
-              alt={`Placeholder ${num}`}
+              src={num.pic}
+              alt={`Picturer number ${num.number}`}
               className="object-cover rounded shadow"
             />
           </div>
@@ -150,12 +163,12 @@ const FeaturedServices = () => {
 
         {services.map((service) => (
           <div key={service.title} className="grid md:grid-cols-2 gap-8 items-center">
-            <div className="relative w-full h-80"> 
+            <div className="relative w-full h-80">
               <Image
-              fill
-              alt={service.title}
-              src={service.src}
-              className="object-cover rounded shadow"
+                fill
+                alt={service.title}
+                src={service.src}
+                className="object-cover rounded shadow"
               />
             </div>
             <div>
@@ -243,7 +256,7 @@ const FeaturedServices = () => {
               <div className="relative w-full min-h-[500px]">
                 <Image
                   fill
-                  src="/placeholder-ppf1.jpg"
+                  src="/Images/Home/wellness-detailing-instagram.png"
                   alt="Service area placeholder"
                   className="rounded-md shadow-md object-cover"
                 />

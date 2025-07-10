@@ -12,7 +12,7 @@ export default function Hero({ scrollToRef }: HeroProps) {
 
   return (
     <section className="relative min-h-[90vh] flex items-center justify-center text-center overflow-hidden px-4 bg-cover bg-center" style={{
-      backgroundImage: `url('https://placehold.co/1920x1080')`
+      backgroundImage: 'url("/Images/Home/interior-screen-cleaning.jpg")'
     }}>
       <motion.div
         className="z-10 max-w-3xl"
@@ -23,10 +23,10 @@ export default function Hero({ scrollToRef }: HeroProps) {
         <h1 className="md:text-4xl font-bold text-blue-600 leading-tight">
           Elevate Your Drive with Wellness Detailing
         </h1>
-        <p className="mt-3 text-4xl font-bold text-gray-900">
+        <p className="mt-3 text-4xl font-bold text-white">
           Maryland's Best Mobile Car Detailing Service Comes to You
         </p>
-        <p className="mt-4 text-md text-gray-600">
+        <p className="mt-4 text-md text-white">
           At Wellness Detailing, we're dedicated to bringing professional-grade detailing right to your doorstep.
           Experience ultimate convenience and quality as we revitalize your car, inside and out.
         </p>

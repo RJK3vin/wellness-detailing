@@ -10,11 +10,18 @@ export default function QuoteForm() {
   const [serviceType, setServiceType] = useState("")
 
   return (
-    <section className="bg-white py-16 px-4" style={{ backgroundImage: `url('https://placehold.co/1920x1080')`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat' }}>
-      <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-10">
+    <section
+      className="bg-white py-16 px-4 relative"
+      style={{
+        backgroundImage: `linear-gradient(rgba(255,255,255,0.6), rgba(255,255,255,0.6)), url('/Images/Home/tire-shine.jpg')`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundRepeat: 'no-repeat',
+      }}
+    >      <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-10">
         <div>
           <h2 className="text-3xl font-bold mb-2">Request a <span className="text-blue-600">Quote</span></h2>
-          <p className="text-sm text-gray-600 mb-6">We love our customers, so feel free to reach out for any of your needs!</p>
+          <p className="text-sm text-gray-700 mb-6">We love our customers, so feel free to reach out for any of your needs!</p>
 
           <form className="space-y-4" onSubmit={handleSubmit}>
             <div className="grid sm:grid-cols-2 gap-4">

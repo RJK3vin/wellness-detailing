@@ -10,7 +10,7 @@ const Navbar = () => {
   const isActive = (href: string) => pathname === href;
 
   return (
-    <header className="bg-white/90 backdrop-blur-sm text-gray-900 shadow-md sticky top-0 z-50">
+    <header className="bg-white/70 backdrop-blur-sm text-gray-900 shadow-md sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
         <div className="flex items-center gap-6">
           <div className="relative w-20 h-20">
