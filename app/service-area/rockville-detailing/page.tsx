@@ -117,16 +117,16 @@ export default function RockvilleDetailing() {
                     <p className="mb-4">At Rockville Mobile Detailing, we offer a comprehensive menu of mobile detailing services in Rockville, MD to cater to your specific car's needs and your budget. Here's a glimpse into what we can do for you:</p>
 
                     <ul className="list-disc list-outside pl-6 space-y-3 mb-6">
-                        <li><strong>Full Interior Cleaning:</strong> This in-depth cleaning service tackles every inch of your car’s interior, leaving no spot untouched. We thoroughly clean carpets, upholstery, leather seats (conditioning included), hard surfaces, and windows, and remove any unwanted trash.</li>
+                        <li><strong>Full Interior Cleaning:</strong> This in-depth cleaning service tackles every inch of your car's interior, leaving no spot untouched. We thoroughly clean carpets, upholstery, leather seats (conditioning included), hard surfaces, and windows, and remove any unwanted trash.</li>
                         <li><strong>Mini-Interior Detail:</strong> Short on time? Our mini detail is a perfect pick-me-up for busy schedules, including vacuuming, surface wiping, window cleaning, and trash removal.</li>
-                        <li><strong>Smoke Odor Removal:</strong> Eliminate lingering smoke odors and restore a fresh, clean scent to your car’s interior with our professional smoke odor removal service.</li>
-                        <li><strong>Restorative Interior Cleaning:</strong> For neglected interiors that need a revival, our restorative service tackles embedded dirt, grime, and stains, bringing your car’s inside back to life.</li>
-                        <li><strong>Wash and Wax:</strong> Give your car’s exterior a classic clean and shine with our thorough wash and high-quality wax application.</li>
-                        <li><strong>Paint Correction:</strong> Restore your car’s paintwork to its former glory with our multi-step paint correction service. This process removes minor scratches, swirl marks, and oxidation for a mirror-like finish.</li>
-                        <li><strong>Ceramic Coating (Optional Add-On):</strong> Protect your car’s paint with a ceramic coating, offering superior gloss, scratch resistance, and easier maintenance for years to come.</li>
+                        <li><strong>Smoke Odor Removal:</strong> Eliminate lingering smoke odors and restore a fresh, clean scent to your car's interior with our professional smoke odor removal service.</li>
+                        <li><strong>Restorative Interior Cleaning:</strong> For neglected interiors that need a revival, our restorative service tackles embedded dirt, grime, and stains, bringing your car's inside back to life.</li>
+                        <li><strong>Wash and Wax:</strong> Give your car's exterior a classic clean and shine with our thorough wash and high-quality wax application.</li>
+                        <li><strong>Paint Correction:</strong> Restore your car's paintwork to its former glory with our multi-step paint correction service. This process removes minor scratches, swirl marks, and oxidation for a mirror-like finish.</li>
+                        <li><strong>Ceramic Coating (Optional Add-On):</strong> Protect your car's paint with a ceramic coating, offering superior gloss, scratch resistance, and easier maintenance for years to come.</li>
                         <li><strong>Headlight Restoration:</strong> Restore clarity and improve nighttime visibility with our professional headlight restoration service.</li>
-                        <li><strong>Paint Overspray Removal:</strong> We can expertly remove unwanted paint overspray from your car’s exterior, returning it to its original condition.</li>
-                        <li><strong>Paint Protection Film (PPF):</strong> Protect your car’s paint from scratches, chips, and road debris with a virtually invisible paint protection film.</li>
+                        <li><strong>Paint Overspray Removal:</strong> We can expertly remove unwanted paint overspray from your car's exterior, returning it to its original condition.</li>
+                        <li><strong>Paint Protection Film (PPF):</strong> Protect your car's paint from scratches, chips, and road debris with a virtually invisible paint protection film.</li>
                         <li><strong>Vehicle Wraps:</strong> Completely transform the look of your car with a custom vehicle wrap. Choose from a variety of colors, designs, and finishes to express your unique style.</li>
                     </ul>
 

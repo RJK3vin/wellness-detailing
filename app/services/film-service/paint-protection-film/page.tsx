@@ -22,7 +22,7 @@ export const metadata = {
     openGraph: {
         title: "Paint Protection Film | Wellness Detailing",
         description:
-            "Shield your car’s paint from chips, scratches, and UV damage with professional Paint Protection Film installation in Gaithersburg & Rockville, MD.",
+            "Shield your car's paint from chips, scratches, and UV damage with professional Paint Protection Film installation in Gaithersburg & Rockville, MD.",
         url: "https://wellnessdetailing.com/paint-protection-film",
         siteName: "Wellness Detailing",
         type: "website",
@@ -107,7 +107,7 @@ export default function PaintProtectionFilm() {
                 <section className="space-y-6">
                     <h2 className="text-3xl font-bold text-center">The PPF Installation Process at Wellness Detailing</h2>
                     <p className="text-center max-w-3xl mx-auto">At Wellness Detailing, we take pride in delivering a meticulous and professional mobile PPF installation experience. Here's a glimpse into our streamlined 6-step process:</p>
-                    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+                    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 text-center">
                         <div className="bg-white p-6 rounded-2xl shadow-md border border-blue-100">
                             <p className="font-bold text-blue-600 text-xl mb-2">1</p>
                             <h3 className="font-semibold mb-2">Pre-Installation Preparation</h3>

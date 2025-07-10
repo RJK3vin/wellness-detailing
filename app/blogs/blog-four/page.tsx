@@ -30,7 +30,7 @@ const BlogFour = () => {
                 <Section
                     title="Exterior Wash and Dry"
                     content={[
-                        "The first step in auto detailing involves a meticulous exterior wash to remove dirt, grime, and contaminants from your vehicle’s body. This includes hand washing followed by a gentle hand drying.",
+                        "The first step in auto detailing involves a meticulous exterior wash to remove dirt, grime, and contaminants from your vehicle's body. This includes hand washing followed by a gentle hand drying.",
                         "An exterior wash is more than just rinsing the car with water. It involves a methodical process using high-quality detergents that not only cleanse but also protect the paintwork. This process might include pre-rinsing, which helps to loosen tough dirt particles, followed by applying a pH-neutral shampoo with a microfiber wash mitt. Such attention to detail ensures that no damage comes to the paint during the cleaning.",
                         "Following the wash, a careful drying process is implemented. This is crucial to prevent water spots that can stain the finish if left to air dry. Microfiber towels are commonly used for this purpose, as they effectively absorb water without scratching or leaving lint on the painted surfaces. Some detailers also employ air dryers to reach water that settles in crevices and seams."
                     ]}
@@ -39,7 +39,7 @@ const BlogFour = () => {
                 <Section
                     title="Paint Claying"
                     content={[
-                        "Claying is an essential part of detailing where a clay bar is used to eliminate any embedded particles on the paint surface that washing didn’t remove. This step ensures a smooth and pristine finish.",
+                        "Claying is an essential part of detailing where a clay bar is used to eliminate any embedded particles on the paint surface that washing didn't remove. This step ensures a smooth and pristine finish.",
                         "The clay bar treatment is a transformative process in auto detailing that tackles impurities and contaminants that regular washing cannot remove, such as tree sap, industrial fallout, and tiny metal particles. Using the clay bar is akin to exfoliating the skin; it prepares the vehicle for subsequent steps like polishing by creating a clean canvas. Remember to always use a lubricant to glide the clay across the surface to prevent scratching."
                     ]}
                 />
@@ -47,8 +47,8 @@ const BlogFour = () => {
                 <Section
                     title="Polishing"
                     content={[
-                        "Polishing involves using a buffer and polishing compound to remove minor scratches and paint swirls. This process helps to restore the car’s paint to a shiny, flawless condition.",
-                        "In polishing, a dual-action polisher is often used to work the polishing compound into the paint. This not only restores the car’s luster but also prepares it for long-lasting protection. Experts emphasize the importance of using the right pad and pressure to avoid creating additional swirl marks. Polishing is key to reviving the depth and clarity of the paint, making your car look years younger."
+                        "Polishing involves using a buffer and polishing compound to remove minor scratches and paint swirls. This process helps to restore the car's paint to a shiny, flawless condition.",
+                        "In polishing, a dual-action polisher is often used to work the polishing compound into the paint. This not only restores the car's luster but also prepares it for long-lasting protection. Experts emphasize the importance of using the right pad and pressure to avoid creating additional swirl marks. Polishing is key to reviving the depth and clarity of the paint, making your car look years younger."
                     ]}
                 />
 
@@ -79,7 +79,7 @@ const BlogFour = () => {
                 <Section
                     title="Engine Bay Cleaning"
                     content={[
-                        "While not included in every detailing package, cleaning the engine bay can enhance the overall appeal of your vehicle. It’s about removing dirt and grease to ensure components are in good condition.",
+                        "While not included in every detailing package, cleaning the engine bay can enhance the overall appeal of your vehicle. It's about removing dirt and grease to ensure components are in good condition.",
                         "Engine cleaning is a meticulous process that involves degreasing and removing built-up grime from various components, including hoses and plastic covers, to promote longevity and performance. Achieving this without water damage is a skill, as sections are hand-tidied to ensure no element is malfunctioning. A clean engine is not just visually appealing; it makes maintenance easier by quickly exposing any leaks."
                     ]}
                 />

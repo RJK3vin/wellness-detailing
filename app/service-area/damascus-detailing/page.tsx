@@ -172,7 +172,7 @@ export default function DamascusDetailing() {
                                 </h2>
 
                                 <p className="mb-4">
-                                    Damascus Mobile Detailing proudly serves Damascus, Maryland, and the surrounding areas. We bring the convenience of mobile detailing to your driveway, saving you time and hassle. Not in Damascus? Don’t worry, we can still help! We service a wide range of locations in Maryland. Contact us today to see if your area is included!
+                                    Damascus Mobile Detailing proudly serves Damascus, Maryland, and the surrounding areas. We bring the convenience of mobile detailing to your driveway, saving you time and hassle. Not in Damascus? Don't worry, we can still help! We service a wide range of locations in Maryland. Contact us today to see if your area is included!
                                 </p>
 
                                 <ul className="mb-4 list-disc list-inside space-y-1">

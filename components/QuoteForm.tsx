@@ -21,7 +21,7 @@ export default function QuoteForm() {
     >      <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-10">
         <div>
           <h2 className="text-3xl font-bold mb-2">Request a <span className="text-blue-600">Quote</span></h2>
-          <p className="text-sm text-gray-700 mb-6">We love our customers, so feel free to reach out for any of your needs!</p>
+          <p className="text-sm text-gray-900 mb-6">We love our customers, so feel free to reach out for any of your needs!</p>
 
           <form className="space-y-4" onSubmit={handleSubmit}>
             <div className="grid sm:grid-cols-2 gap-4">
@@ -105,7 +105,7 @@ export default function QuoteForm() {
           </form>
         </div>
 
-        <div className="text-sm text-gray-700 space-y-4">
+        <div className="text-sm text-gray-900 space-y-4">
           <h3 className="text-2xl font-bold text-blue-600">Give Us A Call</h3>
           <div className="hidden lg:flex items-center gap-1">
             <a href="tel:2406300211" className="flex items-center gap-1">

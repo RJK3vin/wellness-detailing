@@ -6,7 +6,7 @@ import Image from "next/image"
 export const metadata = {
     title: "Restorative Interior Cleaning | Wellness Detailing",
     description:
-        "Bring your car’s interior back to life with our Restorative Interior Cleaning service. Perfect for neglected interiors with deep stains, odors, and dirt.",
+        "Bring your car's interior back to life with our Restorative Interior Cleaning service. Perfect for neglected interiors with deep stains, odors, and dirt.",
     keywords: [
         "restorative interior cleaning",
         "car interior deep clean Maryland",
@@ -21,7 +21,7 @@ export const metadata = {
     openGraph: {
         title: "Restorative Interior Cleaning | Wellness Detailing",
         description:
-            "Revive your vehicle’s interior with our deep restorative cleaning. We eliminate grime, odors, and stains to make your car look and feel new.",
+            "Revive your vehicle's interior with our deep restorative cleaning. We eliminate grime, odors, and stains to make your car look and feel new.",
         url: "https://wellnessdetailing.com/restorative-interior-cleaning",
         siteName: "Wellness Detailing",
         type: "website",

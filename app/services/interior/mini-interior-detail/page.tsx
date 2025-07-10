@@ -23,7 +23,7 @@ export const metadata = {
     openGraph: {
         title: "Mini Interior Detail | Wellness Detailing",
         description:
-            "Busy schedule? Get your car interior refreshed in under an hour with Wellness Detailing’s Mini Interior Detail service. Clean. Fast. Effective.",
+            "Busy schedule? Get your car interior refreshed in under an hour with Wellness Detailing's Mini Interior Detail service. Clean. Fast. Effective.",
         url: "https://wellnessdetailing.com/mini-interior-detail",
         siteName: "Wellness Detailing",
         type: "website",

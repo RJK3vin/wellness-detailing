@@ -231,7 +231,7 @@ export default function PotomacDetailing() {
             <div className="max-w-3xl mx-auto text-left space-y-4">
                 <p className="text-3xl font-bold">Potomac Mobile Detailing: Your Local Authority in Car Care</p>
                 <p>
-                    Potomac Mobile Detailing is a Potomac-based, family-owned business with deep roots in the community. We understand the unique challenges Potomac cars face, from the relentless summer sun to the abrasive winter salt. That’s why we provide the highest quality detailing services specifically designed to restore your car’s brilliance, shield it from the elements, and ensure it maintains its timeless elegance for years to come.
+                    Potomac Mobile Detailing is a Potomac-based, family-owned business with deep roots in the community. We understand the unique challenges Potomac cars face, from the relentless summer sun to the abrasive winter salt. That's why we provide the highest quality detailing services specifically designed to restore your car's brilliance, shield it from the elements, and ensure it maintains its timeless elegance for years to come.
                 </p>
                 <p>
                     Our team of certified detailers is highly trained and experienced in all aspects of car restoration. We use only the finest car care products and equipment to achieve exceptional, long-lasting results. We are committed to providing exceptional service, convenience, and competitive pricing to our valued customers in Potomac. Let Potomac Mobile Detailing become your trusted partner in keeping your car looking its absolute best!
