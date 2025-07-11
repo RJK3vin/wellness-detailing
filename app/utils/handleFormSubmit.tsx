@@ -1,5 +1,4 @@
 import { toast } from "react-toastify";
-import { showPreviewToast } from "./toast";
 
 export async function handleFormSubmit(e: React.FormEvent,) {
     e.preventDefault();
@@ -39,7 +38,7 @@ export async function handleFormSubmit(e: React.FormEvent,) {
     const toastId = toast.loading("Sending your request...");
 
     try {
-        const response = await fetch("http://localhost:5001/api/contact", {
+        const response = await fetch(`${process.env.NEXT_PUBLIC_API_BASE_URL}/contact`, {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify(payload),
