@@ -24,7 +24,7 @@ export const metadata = {
   openGraph: {
     title: "Seamless Experience | Wellness Detailing MD",
     description:
-      "Experience the difference with Wellness Detailing MD – premium car care for you and your vehicle in Maryland.",
+      "Experience the difference with Wellness Detailing MD - premium car care for you and your vehicle in Maryland.",
     url: "https://wellnessdetailing.com/wellnessdetailing",
     siteName: "Wellness Detailing",
     type: "website",
@@ -154,25 +154,43 @@ export default function WellnessDetailing() {
           <h2 className="text-3xl font-bold text-center mb-10">Our Other Detailing Services</h2>
           <div className="grid md:grid-cols-3 gap-10 text-center">
             {[
-              "Wash and Wax",
-              "Premium Wash",
-              "Full Interior Cleaning",
-              "Mini-Interior Detail",
-              "Smoke Odor Removal",
-              "Overspray Removal"
+              {
+                name:  "Wash and Wax",
+                loc: "wash-and-wax"
+              },
+              {
+                name:  "Premium Wash",
+                loc: "premium-wash",
+              },
+              {
+                name:  "Full Interior Cleaning",
+                loc: "full-interior-cleaning",
+              },
+              {
+                name:  "Mini-Interior Detail",
+                loc: "mini-interior-detail",
+              },
+              {
+                name:  "Smoke Odor Removal",
+                loc: "smoke-odor-removal",
+              },
+              {
+                name:  "Overspray Removal",
+                loc: "paint-overspray-removal",
+              }
             ].map((title) => (
-              <div key={title} className="bg-gray-50 rounded shadow p-6">
-                <h3 className="text-xl font-bold mb-4">{title}</h3>
+              <div key={title.name} className="bg-gray-50 rounded shadow p-6">
+                <h3 className="text-xl font-bold mb-4">{title.name}</h3>
                 <p className="text-gray-700 text-sm mb-4">
-                  {title === "Wash and Wax" && "Revitalize your car with our thorough wash and wax service, ensuring a pristine finish that shields against the elements."}
-                  {title === "Premium Wash" && "Experience a top-tier clean with our premium wash service, leaving your vehicle gleaming with meticulous attention to detail."}
-                  {title === "Full Interior Cleaning" && "Restore your car's interior to like-new condition with our comprehensive cleaning service, covering every nook and cranny for a fresh feel."}
-                  {title === "Mini-Interior Detail" && "Maintain a tidy interior with our quick yet effective mini-detail service, focusing on key areas to keep your car looking its best."}
-                  {title === "Smoke Odor Removal" && "Eliminate stubborn smoke odors with our specialized treatment, leaving your car smelling clean and fresh."}
-                  {title === "Overspray Removal" && "Remove unwanted contaminants from your car's exterior with our gentle yet effective overspray removal service, preserving its original finish."}
+                  {title.name === "Wash and Wax" && "Revitalize your car with our thorough wash and wax service, ensuring a pristine finish that shields against the elements."}
+                  {title.name === "Premium Wash" && "Experience a top-tier clean with our premium wash service, leaving your vehicle gleaming with meticulous attention to detail."}
+                  {title.name === "Full Interior Cleaning" && "Restore your car's interior to like-new condition with our comprehensive cleaning service, covering every nook and cranny for a fresh feel."}
+                  {title.name === "Mini-Interior Detail" && "Maintain a tidy interior with our quick yet effective mini-detail service, focusing on key areas to keep your car looking its best."}
+                  {title.name === "Smoke Odor Removal" && "Eliminate stubborn smoke odors with our specialized treatment, leaving your car smelling clean and fresh."}
+                  {title.name === "Overspray Removal" && "Remove unwanted contaminants from your car's exterior with our gentle yet effective overspray removal service, preserving its original finish."}
                 </p>
                 <Link
-                  href={`/${title.toLowerCase().replace(/\s+/g, '')}`}
+                  href={`/${title.loc}`}
                   className="bg-blue-600 text-white px-5 py-2 rounded-md font-medium hover:bg-blue-700"
                 >
                   Read more

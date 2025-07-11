@@ -31,19 +31,19 @@ export const metadata = {
 export default function RockvilleDetailing() {
 
     const serviceAreas = [
-        { label: 'Poolesville MD Mobile Detailing', href: '/service-area/poolesville-detailing' },
-        { label: 'Columbia Mobile Detailing', href: '/service-area/columbia-detailing' },
-        { label: 'College Park Mobile Detailing', href: '/service-area/college-park-detailing' },
-        { label: 'Damascus MD Mobile Detailing', href: '/service-area/damascus-detailing' },
-        { label: 'Laurel MD Mobile Detailing', href: '/service-area/laurel-detailing' },
-        { label: 'Beltsville MD Mobile Detailing', href: '/service-area/beltsville-detailing' },
-        { label: 'Silver Spring MD Mobile Detailing', href: '/service-area/silver-spring-detailing' },
-        { label: 'Bethesda MD Mobile Detailing', href: '/service-area/bethesda-detailing' },
-        { label: 'Potomac MD Mobile Detailing', href: '/service-area/potomac-detailing' },
-        { label: 'Clarksburg Mobile Detailing', href: '/service-area/clarksburg-detailing' },
-        { label: 'Gaithersburg Mobile Detailing', href: '/service-area/gaithersburg-detailing' },
-        { label: 'Rockville MD Mobile Detailing', href: '/service-area/rockville-detailing' },
-        { label: 'Olney MD Mobile Detailing', href: '/service-area/olney-detailing' },
+        { label: 'Poolesville MD Mobile Detailing', href: '/poolesville-md-mobile-car-detailing' },
+        { label: 'Columbia Mobile Detailing', href: '/columbia-mobile-detailing' },
+        { label: 'College Park Mobile Detailing', href: '/college-park-mobile-car-detailing' },
+        { label: 'Damascus MD Mobile Detailing', href: '/damascus-md-car-mobile-detailing' },
+        { label: 'Laurel MD Mobile Detailing', href: '/laurel-md-mobile-car-detailing' },
+        { label: 'Beltsville MD Mobile Detailing', href: '/beltsville-md-mobile-detailing' },
+        { label: 'Silver Spring MD Mobile Detailing', href: '/silver-spring-md-mobile-car-detailing' },
+        { label: 'Bethesda MD Mobile Detailing', href: '/bethesda-md-mobile-detailing' },
+        { label: 'Potomac MD Mobile Detailing', href: '/potomac-md-mobile-detailing' },
+        { label: 'Clarksburg Mobile Detailing', href: '/clarksburg-mobile-detailing' },
+        { label: 'Gaithersburg Mobile Detailing', href: '/gaithersburg-mobile-detailing' },
+        { label: 'Rockville MD Mobile Detailing', href: '/rockville-md-mobile-detailing' },
+        { label: 'Olney MD Mobile Detailing', href: '/olney-md-mobile-detailing' },
     ]
 
     const galleryImages = Array.from({ length: 24 }, (_, i) => `/images/gallery/rockville/${i + 1}.webp`);
@@ -152,7 +152,7 @@ export default function RockvilleDetailing() {
                         </p>
                         <div className="space-y-2 mb-4">
                             {serviceAreas.map((location) => {
-                                const isCurrent = location.href === '/service-area/rockville-detailing';
+                                const isCurrent = location.href === '/rockville-md-mobile-detailing';
                                 return (
                                     <Link
                                         key={location.label}

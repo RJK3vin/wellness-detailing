@@ -28,9 +28,9 @@ const Navbar = () => {
             <Dropdown
               title="Film Service"
               links={[
-                { label: 'Window Tinting', href: '/services/film-service/window-tinting' },
-                { label: 'Paint Protection Film', href: '/services/film-service/paint-protection-film' },
-                { label: 'Vehicle Wraps', href: '/services/film-service/vehicle-wraps' }
+                { label: 'Window Tinting', href: '/window-tinting' },
+                { label: 'Paint Protection Film', href: '/paint-protection-film' },
+                { label: 'Vehicle Wraps', href: '/vehicle-wraps' }
               ]}
               currentPath={pathname}
             />
@@ -38,13 +38,13 @@ const Navbar = () => {
             <Dropdown
               title="Exterior"
               links={[
-                { label: 'Paint Correction', href: '/services/exterior/paint-correction' },
-                { label: 'Ceramic Coating', href: '/services/exterior/ceramic-coating' },
-                { label: 'Paint Overspray Removal', href: '/services/exterior/paint-overspray-removal' },
-                { label: 'Wash and Wax', href: '/services/exterior/wash-and-wax' },
-                { label: 'Engine Cleaning', href: '/services/exterior/engine-cleaning' },
-                { label: 'Headlight Restoration', href: '/services/exterior/headlight-restoration' },
-                { label: 'Premium Wash', href: '/services/exterior/premium-wash' }
+                { label: 'Paint Correction', href: '/paint-correction' },
+                { label: 'Ceramic Coating', href: '/ceramic-coating' },
+                { label: 'Paint Overspray Removal', href: '/paint-overspray-removal' },
+                { label: 'Wash and Wax', href: '/wash-and-wax' },
+                { label: 'Engine Cleaning', href: '/engine-cleaning' },
+                { label: 'Headlight Restoration', href: '/headlight-restoration' },
+                { label: 'Premium Wash', href: '/premium-wash' }
               ]}
               currentPath={pathname}
             />
@@ -52,10 +52,10 @@ const Navbar = () => {
             <Dropdown
               title="Interior"
               links={[
-                { label: 'Full Interior Cleaning', href: '/services/interior/full-interior-cleaning' },
-                { label: 'Mini-Interior Detail', href: '/services/interior/mini-interior-detail' },
-                { label: 'Smoke Odor Removal', href: '/services/interior/smoke-odor-removal' },
-                { label: 'Restorative Interior Cleaning', href: '/services/interior/restorative-interior-cleaning' }
+                { label: 'Full Interior Cleaning', href: '/full-interior-cleaning' },
+                { label: 'Mini-Interior Detail', href: '/mini-interior-detail' },
+                { label: 'Smoke Odor Removal', href: '/smoke-odor-removal' },
+                { label: 'Restorative Interior Cleaning', href: '/restorative-interior-cleaning' }
               ]}
               currentPath={pathname}
             />
@@ -63,10 +63,10 @@ const Navbar = () => {
             <Dropdown
               title="Gallery"
               links={[
-                { label: 'Engine Cleaning Gallery', href: '/gallery/engine-cleaning-gallery' },
-                { label: 'Wash and Wax Gallery', href: '/gallery/wash-and-wax-gallery' },
-                { label: 'Full Interior Cleaning Gallery', href: '/gallery/full-interior-cleaning-gallery' },
-                { label: 'Paint Correction Gallery', href: '/gallery/paint-correction-gallery' }
+                { label: 'Engine Cleaning Gallery', href: '/engine-cleaning-gallery' },
+                { label: 'Wash and Wax Gallery', href: '/wash-and-wax-gallery' },
+                { label: 'Full Interior Cleaning Gallery', href: '/full-interior-cleaning-gallery' },
+                { label: 'Paint Correction Gallery', href: '/paint-correction-gallery' }
               ]}
               currentPath={pathname}
             />
@@ -74,20 +74,20 @@ const Navbar = () => {
             <Dropdown
               title="Service Area"
               links={[
-                { label: 'Wellness Detailing Shop', href: '/service-area/wellness-detailing' },
-                { label: 'Poolesville MD Mobile Detailing', href: '/service-area/poolesville-detailing' },
-                { label: 'Columbia Mobile Detailing', href: '/service-area/columbia-detailing' },
-                { label: 'College Park Mobile Detailing', href: '/service-area/college-park-detailing' },
-                { label: 'Damascus MD Mobile Detailing', href: '/service-area/damascus-detailing' },
-                { label: 'Laurel MD Mobile Detailing', href: '/service-area/laurel-detailing' },
-                { label: 'Beltsville MD Mobile Detailing', href: '/service-area/beltsville-detailing' },
-                { label: 'Silver Spring MD Mobile Detailing', href: '/service-area/silver-spring-detailing' },
-                { label: 'Bethesda MD Mobile Detailing', href: '/service-area/bethesda-detailing' },
-                { label: 'Potomac MD Mobile Detailing', href: '/service-area/potomac-detailing' },
-                { label: 'Clarksburg Mobile Detailing', href: '/service-area/clarksburg-detailing' },
-                { label: 'Gaithersburg Mobile Detailing', href: '/service-area/gaithersburg-detailing' },
-                { label: 'Rockville MD Mobile Detailing', href: '/service-area/rockville-detailing' },
-                { label: 'Olney MD Mobile Detailing', href: '/service-area/olney-detailing' },
+                { label: 'Wellness Detailing Shop', href: '/wellness-detailing-shop' },
+                { label: 'Poolesville MD Mobile Detailing', href: '/poolesville-md-mobile-car-detailing' },
+                { label: 'Columbia Mobile Detailing', href: '/columbia-mobile-detailing' },
+                { label: 'College Park Mobile Detailing', href: '/college-park-mobile-car-detailing' },
+                { label: 'Damascus MD Mobile Detailing', href: '/damascus-md-car-mobile-detailing' },
+                { label: 'Laurel MD Mobile Detailing', href: '/laurel-md-mobile-car-detailing' },
+                { label: 'Beltsville MD Mobile Detailing', href: '/beltsville-md-mobile-detailing' },
+                { label: 'Silver Spring MD Mobile Detailing', href: '/silver-spring-md-mobile-car-detailing' },
+                { label: 'Bethesda MD Mobile Detailing', href: '/bethesda-md-mobile-detailing' },
+                { label: 'Potomac MD Mobile Detailing', href: '/potomac-md-mobile-detailing' },
+                { label: 'Clarksburg Mobile Detailing', href: '/clarksburg-mobile-detailing' },
+                { label: 'Gaithersburg Mobile Detailing', href: '/gaithersburg-mobile-detailing' },
+                { label: 'Rockville MD Mobile Detailing', href: '/rockville-md-mobile-detailing' },
+                { label: 'Olney MD Mobile Detailing', href: '/olney-md-mobile-detailing' },
               ]}
               currentPath={pathname}
             />
@@ -95,11 +95,11 @@ const Navbar = () => {
             <Dropdown
               title="About Us"
               links={[
-                { label: 'FAQs', href: '/about-us/faqs' },
-                { label: 'Our Team', href: '/about-us/our-team' },
-                { label: 'Reviews', href: '/about-us/reviews' },
-                { label: 'Detailing Methodology', href: '/about-us/detailing-methodology' },
-                { label: 'Appointment Deposit Policy', href: '/about-us/appointment-deposit-policy' }
+                { label: 'FAQs', href: '/detailing-faqs' },
+                { label: 'Our Team', href: '/our-team' },
+                { label: 'Reviews', href: '/reviews' },
+                { label: 'Detailing Methodology', href: '/detailing-methodology' },
+                { label: 'Appointment Deposit Policy', href: '/appointment-deposit-policy' }
               ]}
               currentPath={pathname}
             />

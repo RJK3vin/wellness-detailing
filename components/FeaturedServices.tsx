@@ -6,7 +6,7 @@ import { number } from "framer-motion";
 const services = [
   {
     title: "Vinyl Car Wraps",
-    href: "/services/film-service/vehicle-wraps",
+    href: "/vehicle-wraps",
     description: [
       "Transform your vehicle's appearance with our premium vinyl car wraps. Whether you desire a sleek matte finish or a vibrant color change, our expert team will bring your vision to life. With precise application and high-quality materials, our wraps enhance aesthetics while providing protection against scratches and abrasions.",
       "Discover the ultimate customization for your vehicle with our vinyl car wraps. From bold graphics to subtle accents, our expert team can create a look that's uniquely yours. Using only the highest quality materials, we ensure long-lasting durability and a flawless finish that will turn heads wherever you go.",
@@ -15,7 +15,7 @@ const services = [
   },
   {
     title: "Paint Correction",
-    href: "/services/exterior/paint-correction",
+    href: "/paint-correction",
     description: [
       "Restore your car's paintwork to perfection with our meticulous paint correction process. Using advanced techniques and professional-grade products, we eliminate imperfections such as swirl marks, water spots, and oxidation. This reveals a flawless finish that renews your car's original brilliance.",
       "Experience the true potential of your car's paint with our paint correction services. Our skilled technicians carefully restore the shine and clarity of your vehicle's exterior, leaving it looking better than ever. Say goodbye to dull, damaged paint and hello to a showroom-quality finish that will make your car stand out from the crowd.",
@@ -24,7 +24,7 @@ const services = [
   },
   {
     title: "Ceramic Coatings",
-    href: "/services/exterior/ceramic-coating",
+    href: "/ceramic-coating",
     description: [
       "Experience superior protection and shine with our ceramic coatings. Unlike traditional waxes, they form a permanent bond with your vehicle's paint, creating a hydrophobic barrier that repels water, dirt, and contaminants. Enjoy long-lasting results that maintain your car's showroom shine.",
       "Give your car the ultimate protection with our ceramic coating treatments. Our advanced formulas create a durable shield that guards against the elements, keeping your paint looking like new for years to come. Say goodbye to frequent waxing and polishing – with ceramic coatings, your car will always be ready to impress.",
@@ -33,7 +33,7 @@ const services = [
   },
   {
     title: "Paint Protection Film (PPF)",
-    href: "/services/film-service/paint-protection-film",
+    href: "/paint-protection-film",
     description: [
       "Preserve your car's paint in pristine condition with our industry-leading paint protection film. Made from transparent, self-healing polyurethane, PPF shields against rock chips, insect splatter, and road hazards without altering your vehicle's appearance.",
       "Ensure lasting protection for your investment with our paint protection film. Our high-quality materials provide an invisible barrier against damage, keeping your paint looking flawless for miles to come. Say goodbye to worries about scratches and chips – with PPF, your car will always look its best.",
@@ -42,7 +42,7 @@ const services = [
   },
   {
     title: "Window Tinting",
-    href: "/services/film-service/window-tinting",
+    href: "/window-tinting",
     description: [
       "Enhance both style and functionality with our professional window tinting services. Our high-quality films add sophistication to your car's appearance, while providing UV protection, heat reduction, and increased privacy.",
       "Upgrade your driving experience with our window tinting solutions. Not only do our films give your car a sleek, custom look, but they also provide valuable benefits such as UV protection and glare reduction. Say hello to a cooler, more comfortable ride, all while protecting your privacy and preserving your interior.",
@@ -53,55 +53,55 @@ const services = [
 const locations = [
   {
     title: "Olney, MD",
-    loc: "/service-area/olney-detailing"
+    loc: "/olney-md-mobile-detailing"
   },
   {
     title: "Rockville, MD",
-    loc: "/service-area/rockville-detailing"
+    loc: "/rockville-md-mobile-detailing"
   },
   {
     title: "Gaithersburg, MD",
-    loc: "/service-area/gaithersburg-detailing"
+    loc: "/gaithersburg-mobile-detailing"
   },
   {
     title: "Clarksburg, MD",
-    loc: "/service-area/clarksburg-detailing"
+    loc: "/clarksburg-mobile-detailing"
   },
   {
     title: "Potomac, MD",
-    loc: "/service-area/potomac-detailing"
+    loc: "/potomac-md-mobile-detailing"
   },
   {
     title: "Bethesda, MD",
-    loc: "/service-area/bethesda-detailing"
+    loc: "/bethesda-md-mobile-detailing"
   },
   {
     title: "Silver Spring, MD",
-    loc: "/service-area/silver-spring-detailing"
+    loc: "/silver-spring-md-mobile-car-detailing"
   },
   {
     title: "Beltsville, MD",
-    loc: "/service-area/beltsville-detailing"
+    loc: "/beltsville-md-mobile-detailing"
   },
   {
     title: "Laurel, MD",
-    loc: "/service-area/laurel-detailing"
+    loc: "/laurel-md-mobile-car-detailing"
   },
   {
     title: "Damascus, MD",
-    loc: "/service-area/damascus-detailing"
+    loc: "/damascus-md-car-mobile-detailing"
   },
   {
     title: "College Park, MD",
-    loc: "/service-area/college-park-detailing"
+    loc: "/college-park-mobile-car-detailing"
   },
   {
     title: "Columbia, MD",
-    loc: "/service-area/columbia-detailing"
+    loc: "/columbia-mobile-detailing"
   },
   {
     title: "Poolesville, MD",
-    loc: "/service-area/poolesville-detailing"
+    loc: "/poolesville-md-mobile-detailing"
   }
 ];
 
@@ -204,32 +204,32 @@ const FeaturedServices = () => {
               {
                 title: "Wash and Wax",
                 desc: "Revitalize your car with our thorough wash and wax service, ensuring a pristine finish that shields against the elements.",
-                href: "/services/exterior/wash-and-wax",
+                href: "/wash-and-wax",
               },
               {
                 title: "Premium Wash",
                 desc: "Experience a top-tier clean with our premium wash service, leaving your vehicle gleaming with meticulous attention to detail.",
-                href: "/services/exterior/premium-wash",
+                href: "/premium-wash",
               },
               {
                 title: "Full Interior Cleaning",
                 desc: "Restore your car's interior to like-new condition with our comprehensive cleaning service, covering every nook and cranny for a fresh feel.",
-                href: "/services/interior/full-interior-cleaning",
+                href: "/full-interior-cleaning",
               },
               {
                 title: "Mini-Interior Detail",
                 desc: "Maintain a tidy interior with our quick yet effective mini-detail service, focusing on key areas to keep your car looking its best.",
-                href: "/services/interior/mini-interior-detail",
+                href: "/mini-interior-detail",
               },
               {
                 title: "Smoke Odor Removal",
                 desc: "Eliminate stubborn smoke odors with our specialized treatment, leaving your car smelling clean and fresh.",
-                href: "/services/interior/smoke-odor-removal",
+                href: "/smoke-odor-removal",
               },
               {
                 title: "Overspray Removal",
                 desc: "Remove unwanted contaminants from your car's exterior with our gentle yet effective overspray removal service, preserving its original finish.",
-                href: "/services/exterior/paint-overspray-removal",
+                href: "/paint-overspray-removal",
               },
             ].map(({ title, desc, href }) => (
               <div key={title} className="bg-white shadow-md rounded p-6 text-center">

@@ -4,15 +4,15 @@ const Footer = () => {
   const film = [
     {
       name: "Window Tinting",
-      lo: "/services/film-service/window-tinting"
+      lo: "/window-tinting"
     },
     {
       name: "Paint Protection Film",
-      lo: "/services/film-service/paint-protection-film"
+      lo: "/paint-protection-film"
     },
     {
       name: "Vehicle Wraps",
-      lo: "/services/film-service/vehicle-wraps"
+      lo: "/vehicle-wraps"
     },
   ]
   const company = [
@@ -22,11 +22,11 @@ const Footer = () => {
     },
     {
       name: "About Us",
-      lo: "/about-us/about-section"
+      lo: "/about-section"
     },
     {
       name: "Review",
-      lo: "/about-us/reviews"
+      lo: "/reviews"
     },
     {
       name: "Contact",
@@ -37,85 +37,85 @@ const Footer = () => {
   const exterior = [
     {
       name: "Paint Correction",
-      lo: "/services/exterior/paint-correction"
+      lo: "/paint-correction"
     },
     {
       name: "Ceramic Coating",
-      lo: "/services/exterior/ceramic-coating"
+      lo: "/ceramic-coating"
     },
     {
       name: "Paint Overspray Removal",
-      lo: "/services/exterior/paint-overspray-removal"
+      lo: "/paint-overspray-removal"
     },
     {
       name: "Wash and Wax",
-      lo: "/services/exterior/wash-and-wax"
+      lo: "/wash-and-wax"
     },
     {
       name: "Engine Cleaning",
-      lo: "/services/exterior/engine-cleaning"
+      lo: "/engine-cleaning"
     },
     {
       name: "Headlight Restoration",
-      lo: "/services/exterior/headlight-restoration"
+      lo: "/headlight-restoration"
     },
     {
       name: "Premium Wash",
-      lo: "/services/exterior/premium-wash"
+      lo: "/premium-wash"
     },        
   ]
 
   const interior = [
     {
       name: "Full Interior Cleaning",
-      lo: "/interior/full-interior-cleaning"
+      lo: "/full-interior-cleaning"
     },
     {
       name: "Mini-Interior Detail",
-      lo: "/interior/mini-interior-detail"
+      lo: "/mini-interior-detail"
     },
     {
       name: "Smoke Odor Removal",
-      lo: "/interior/smoke-odor-removal"
+      lo: "/smoke-odor-removal"
     },
     {
       name: "Restorative Interior Cleaning",
-      lo: "/interior/restorative-interior-cleaning"
+      lo: "/restorative-interior-cleaning"
     },    
   ]
 
   const service = [
     {
       name: "Beltsville MD Mobile Detailing",
-      lo: "/service-area/beltsville-detailing"
+      lo: "/beltsville-md-mobile-detailing"
     },
     {
       name: "Silver Spring MD Mobile Detailing",
-      lo: "/service-area/silver-spring-detailing"
+      lo: "/silver-spring-md-mobile-car-detailing"
     },
     {
       name: "Clarksburg mobile detailing",
-      lo: "/service-area/clarksburg-detailing"
+      lo: "/clarksburg-mobile-detailing"
     },
     {
       name: "Gaithersburg Mobile Detailing",
-      lo: "/service-area/gaithersburg-detailing"
+      lo: "/gaithersburg-mobile-detailing"
     },
     {
       name: "Rockville MD Mobile Detailing",
-      lo: "/service-area/rockville-detailing"
+      lo: "/rockville-md-mobile-detailing"
     },
     {
       name: "Olney MD Mobile Detailing",
-      lo: "/service-area/olney-detailing"
+      lo: "/olney-md-mobile-detailing"
     },
     {
       name: "Columbia Mobile Detailing",
-      lo: "/service-area/columbia-detailing"
+      lo: "/columbia-mobile-detailing"
     },
     {
       name: "Potomac MD Mobile Detailing",
-      lo: "/service-area/potomac-detailing"
+      lo: "/potomac-md-mobile-detailing"
     },       
   ]
 

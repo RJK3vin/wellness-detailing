@@ -66,17 +66,17 @@ export default function PaintCorrection() {
                     <h2 className="text-3xl font-bold text-center">Our Other Detailing Services</h2>
                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
                         {[
-                            { title: "Wash and Wax", desc: "Revitalize your car with our thorough wash and wax service, ensuring a pristine finish that shields against the elements." },
-                            { title: "Premium Wash", desc: "Experience a top-tier clean with our premium wash service, leaving your vehicle gleaming with meticulous attention to detail." },
-                            { title: "Full Interior Cleaning", desc: "Restore your car's interior to like-new condition with our comprehensive cleaning service, covering every nook and cranny for a fresh feel." },
-                            { title: "Mini-Interior Detail", desc: "Maintain a tidy interior with our quick yet effective mini-detail service, focusing on key areas to keep your car looking its best." },
-                            { title: "Smoke Odor Removal", desc: "Eliminate stubborn smoke odors with our specialized treatment, leaving your car smelling clean and fresh." },
-                            { title: "Overspray Removal", desc: "Remove unwanted contaminants from your car's exterior with our gentle yet effective overspray removal service, preserving its original finish." }
-                        ].map(({ title, desc }, i) => (
+                            { title: "Wash and Wax", desc: "Revitalize your car with our thorough wash and wax service, ensuring a pristine finish that shields against the elements.", loc: "wash-and-wax" },
+                            { title: "Premium Wash", desc: "Experience a top-tier clean with our premium wash service, leaving your vehicle gleaming with meticulous attention to detail.", loc: "premium-wash" },
+                            { title: "Full Interior Cleaning", desc: "Restore your car's interior to like-new condition with our comprehensive cleaning service, covering every nook and cranny for a fresh feel.", loc: "full-interior-cleaning" },
+                            { title: "Mini-Interior Detail", desc: "Maintain a tidy interior with our quick yet effective mini-detail service, focusing on key areas to keep your car looking its best.", loc: "mini-interior-detail" },
+                            { title: "Smoke Odor Removal", desc: "Eliminate stubborn smoke odors with our specialized treatment, leaving your car smelling clean and fresh.", loc: "smoke-odor-removal"},
+                            { title: "Overspray Removal", desc: "Remove unwanted contaminants from your car's exterior with our gentle yet effective overspray removal service, preserving its original finish.", loc: "paint-overspray-removal" }
+                        ].map(({ title, desc, loc }, i) => (
                             <div key={i} className="bg-white p-4 rounded shadow text-left flex flex-col justify-between h-full min-h-[240px]">
                                 <h3 className="font-bold text-lg text-center">{title}</h3>
                                 <p className="mt-1">{desc}</p>
-                                <button className="mt-2 bg-blue-600 hover:bg-blue-700 text-white text-base font-bold self-center px-4 py-2 rounded shadow transition">Read more</button>
+                                <Link href={`/${loc}`} className="mt-2 bg-blue-600 hover:bg-blue-700 text-white text-base font-bold self-center px-4 py-2 rounded shadow transition">Read more</Link>
                             </div>
                         ))}
                     </div>

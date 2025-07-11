@@ -5,14 +5,14 @@ type BlogNavSliderProps = {
 };
 
 const blogRoutes = [
-  { path: "/blogs/blog-one", title: "6 Reasons Why Mobile Detailing is the Future of Car Care" },
-  { path: "/blogs/blog-two", title: "Why Regular Car Washes are Essential for Maintaining Your Car's Health" },
-  { path: "/blogs/blog-three", title: "Can Interior Car Cleaning Remove Stains and Odors?" },
-  { path: "/blogs/blog-four", title: "What Does Auto Detailing Include?" },
-  { path: "/blogs/blog-five", title: "7 Professional Detailing Tips to Keep Your Car Looking New" },
-  { path: "/blogs/blog-six", title: "Mobile Car Wash: A Game-Changer in Preserving Your Car's Aesthetics and Value" },
-  { path: "/blogs/blog-seven", title: "Can Interior Car Cleaning Remove Stains and Odors?" },
-  { path: "/blogs/blog-eight", title: "6 Reasons Why Mobile Detailing is the Future of Car Care" },
+  { path: "/mobile-detailing-future-car-care-2", title: "6 Reasons Why Mobile Detailing is the Future of Car Care" },
+  { path: "/essential-car-wash-benefits", title: "Why Regular Car Washes are Essential for Maintaining Your Car's Health" },
+  { path: "/interior-car-cleaning-benefits-4", title: "Can Interior Car Cleaning Remove Stains and Odors?" },
+  { path: "/auto-detailing-inclusive-services", title: "What Does Auto Detailing Include?" },
+  { path: "/professional-detailing-tips-2", title: "7 Professional Detailing Tips to Keep Your Car Looking New" },
+  { path: "/mobile-car-wash-benefits-4", title: "Mobile Car Wash: A Game-Changer in Preserving Your Car's Aesthetics and Value" },
+  { path: "/interior-car-cleaning-benefits-3", title: "Can Interior Car Cleaning Remove Stains and Odors?" },
+  { path: "/mobile-detailing-future-car-care", title: "6 Reasons Why Mobile Detailing is the Future of Car Care" },
 ];
 
 const BlogNavSlider = ({ currentIndex }: BlogNavSliderProps) => {

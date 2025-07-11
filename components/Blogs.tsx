@@ -4,42 +4,42 @@ const blogData = [
   {
     date: "March 28, 2025",
     title: "6 Reasons Why Mobile Detailing is the Future of Car Care",
-    to: "/blogs/blog-one",
+    to: "/mobile-detailing-future-car-care-2",
   },
   {
     date: "March 26, 2025",
     title: "Why Regular Car Washes are Essential for Maintaining Your Car's Health",
-    to: "/blogs/blog-two",
+    to: "/essential-car-wash-benefits",
   },
   {
     date: "March 24, 2025",
     title: "Can Interior Car Cleaning Remove Stains and Odors?",
-    to: "/blogs/blog-three",
+    to: "/interior-car-cleaning-benefits-4",
   },
   {
     date: "March 24, 2025",
     title: "What Does Auto Detailing Include?",
-    to: "/blogs/blog-four",
+    to: "/auto-detailing-inclusive-services",
   },
   {
     date: "March 21, 2025",
     title: "7 Professional Detailing Tips to Keep Your Car Looking New",
-    to: "/blogs/blog-five",
+    to: "/professional-detailing-tips-2",
   },
   {
     date: "March 17, 2025",
     title: "Mobile Car Wash: A Game-Changer in Preserving Your Car's Aesthetics and Value",
-    to: "/blogs/blog-six",
+    to: "/mobile-car-wash-benefits-4",
   },
   {
     date: "March 13, 2025",
     title: "Can Interior Car Cleaning Remove Stains and Odors?",
-    to: "/blogs/blog-seven",
+    to: "/interior-car-cleaning-benefits-3",
   },
   {
     date: "March 11, 2025",
     title: "6 Reasons Why Mobile Detailing is the Future of Car Care",
-    to: "/blogs/blog-eight",
+    to: "/mobile-detailing-future-car-care",
   },
 ];
 
