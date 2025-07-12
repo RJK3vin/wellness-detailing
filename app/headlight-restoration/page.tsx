@@ -36,14 +36,14 @@ export default function HeadlightRestoration() {
       <section className="mt-16 mb-16">
         <div className="space-y-12">
           <section className="space-y-6 text-center">
-            <h1 className="text-3xl font-bold">Don't Be Left in the Dark: The Importance of Headlight Restoration</h1>
+            <h1 className="text-3xl font-bold">Don&apos;t Be Left in the Dark: The Importance of Headlight Restoration</h1>
             <div className="max-w-3xl mx-auto space-y-4 text-left">
               <p>Headlights are crucial for safe nighttime driving. Over time, headlights become cloudy and discolored due to exposure to sunlight, UV rays, and environmental elements. This reduces light output, compromising visibility and posing a safety hazard.</p>
-              <p className="font-bold">Here's why headlight restoration is essential:</p>
+              <p className="font-bold">Here&apos;s why headlight restoration is essential:</p>
               <ul className="list-disc pl-4 space-y-2">
                 <li><strong>Enhanced Nighttime Visibility:</strong> Restored headlights significantly improve nighttime visibility, allowing you to see the road and potential hazards more clearly.</li>
                 <li><strong>Improved Safety:</strong> Brighter headlights keep you and others on the road safe by ensuring better visibility in low-light conditions.</li>
-                <li><strong>Restored Appearance:</strong> Clear, bright headlights enhance your car's overall appearance.</li>
+                <li><strong>Restored Appearance:</strong> Clear, bright headlights enhance your car&apos;s overall appearance.</li>
                 <li><strong>Increased Resale Value:</strong> A car with clear headlights will undoubtedly fetch a higher price when you decide to sell.</li>
               </ul>
             </div>
@@ -168,7 +168,7 @@ export default function HeadlightRestoration() {
                   </p>
                 </div>
                 <div>
-                  <p className="font-bold text-lg">3. Can't I just use a home headlight restoration kit?</p>
+                  <p className="font-bold text-lg">3. Can&apos;t I just use a home headlight restoration kit?</p>
                   <p className="mt-2">
                     Home kits can be an option, but they may not be as effective or long-lasting as a professional service. Professional detailers have access to advanced equipment, techniques, and high-quality products to achieve superior results.
                   </p>
@@ -200,7 +200,7 @@ export default function HeadlightRestoration() {
                 <p className="text-lg font-semibold">
                   Ready to restore clarity and safety to your nighttime driving? Get a Free Headlight Restoration Quote Today!
                 </p>
-                <p className="font-bold">We're here to answer any further questions you may have! Contact Wellness Detailing today!</p>
+                <p className="font-bold">We&apos;re here to answer any further questions you may have! Contact Wellness Detailing today!</p>
               </div>
 
               <div className="text-center pt-4">

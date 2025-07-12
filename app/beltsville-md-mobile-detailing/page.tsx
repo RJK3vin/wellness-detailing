@@ -54,13 +54,13 @@ export default function BeltsvilleContent() {
         </h2>
 
         <p className="mb-4">
-          Beltsville Mobile Detailing is a local business, owned and operated right here in Beltsville, MD. We understand the challenges faced by Beltsville drivers, from highway commutes to harsh seasonal weather. That's why we provide the highest quality detailing services specifically designed to revive your car's shine and shield it from the elements, keeping it looking amazing for years to come.
+          Beltsville Mobile Detailing is a local business, owned and operated right here in Beltsville, MD. We understand the challenges faced by Beltsville drivers, from highway commutes to harsh seasonal weather. That&apos;s why we provide the highest quality detailing services specifically designed to revive your car&apos;s shine and shield it from the elements, keeping it looking amazing for years to come.
         </p>
         <p className="mb-4">
           Our certified detailers are highly trained and experienced in all aspects of car care. We use only the best car care products and equipment to ensure exceptional, long-lasting results. We are committed to providing exceptional service, convenience, and competitive pricing to our valued customers in Beltsville. Let Beltsville Mobile Detailing be your trusted partner in keeping your car looking its best!
         </p>
         <p className="mb-8">
-          <strong>Skip the wait and travel - we come to you!</strong> Our Beltsville detailers are certified professionals wielding top-of-the-line equipment and premium products. We'll leave your car gleaming, protected, and ready to turn heads as you cruise through Beltsville.
+          <strong>Skip the wait and travel - we come to you!</strong> Our Beltsville detailers are certified professionals wielding top-of-the-line equipment and premium products. We&apos;ll leave your car gleaming, protected, and ready to turn heads as you cruise through Beltsville.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
           <div className="w-full sm:w-1/2 h-[400px] relative border overflow-hidden">
@@ -96,29 +96,29 @@ export default function BeltsvilleContent() {
         </h2>
 
         <p className="mb-4">
-          At Beltsville Mobile Detailing, we offer a comprehensive menu of mobile detailing services in Beltsville, MD to cater to your specific car's needs and your budget. Here's a glimpse into what we can do for you:
+          At Beltsville Mobile Detailing, we offer a comprehensive menu of mobile detailing services in Beltsville, MD to cater to your specific car&apos;s needs and your budget. Here&apos;s a glimpse into what we can do for you:
         </p>
 
         <ul className="space-y-4 mb-8">
-          <li><strong>Full Interior Cleaning:</strong> This in-depth cleaning service tackles every inch of your car's interior, leaving no spot untouched. We thoroughly clean carpets, upholstery, leather seats (conditioning included), hard surfaces, and windows, and remove any unwanted trash.</li>
+          <li><strong>Full Interior Cleaning:</strong> This in-depth cleaning service tackles every inch of your car&apos;s interior, leaving no spot untouched. We thoroughly clean carpets, upholstery, leather seats (conditioning included), hard surfaces, and windows, and remove any unwanted trash.</li>
 
           <li><strong>Mini-Interior Detail:</strong> Short on time? Our mini detail is a perfect pick-me-up for busy schedules, including vacuuming, surface wiping, window cleaning, and trash removal.</li>
 
-          <li><strong>Smoke Odor Removal:</strong> Eliminate lingering smoke odors and restore a fresh, clean scent to your car's interior with our professional smoke odor removal service.</li>
+          <li><strong>Smoke Odor Removal:</strong> Eliminate lingering smoke odors and restore a fresh, clean scent to your car&apos;s interior with our professional smoke odor removal service.</li>
 
-          <li><strong>Restorative Interior Cleaning:</strong> For neglected interiors that need a revival, our restorative service tackles embedded dirt, grime, and stains, bringing your car's inside back to life.</li>
+          <li><strong>Restorative Interior Cleaning:</strong> For neglected interiors that need a revival, our restorative service tackles embedded dirt, grime, and stains, bringing your car&apos;s inside back to life.</li>
 
-          <li><strong>Wash and Wax:</strong> Give your car's exterior a classic clean and shine with our thorough wash and high-quality wax application.</li>
+          <li><strong>Wash and Wax:</strong> Give your car&apos;s exterior a classic clean and shine with our thorough wash and high-quality wax application.</li>
 
-          <li><strong>Paint Correction:</strong> Restore your car's paintwork to its former glory with our multi-step paint correction service. This process removes minor scratches, swirl marks, and oxidation for a mirror-like finish.</li>
+          <li><strong>Paint Correction:</strong> Restore your car&apos;s paintwork to its former glory with our multi-step paint correction service. This process removes minor scratches, swirl marks, and oxidation for a mirror-like finish.</li>
 
-          <li><strong>Ceramic Coating (Optional Add-On):</strong> Protect your car's paint with a ceramic coating, offering superior gloss, scratch resistance, and easier maintenance for years to come.</li>
+          <li><strong>Ceramic Coating (Optional Add-On):</strong> Protect your car&apos;s paint with a ceramic coating, offering superior gloss, scratch resistance, and easier maintenance for years to come.</li>
 
           <li><strong>Headlight Restoration:</strong> Restore clarity and improve nighttime visibility with our professional headlight restoration service.</li>
 
-          <li><strong>Paint Overspray Removal:</strong> We can expertly remove unwanted paint overspray from your car's exterior, returning it to its original condition.</li>
+          <li><strong>Paint Overspray Removal:</strong> We can expertly remove unwanted paint overspray from your car&apos;s exterior, returning it to its original condition.</li>
 
-          <li><strong>Paint Protection Film (PPF):</strong> Protect your car's paint from scratches, chips, and road debris with a virtually invisible paint protection film.</li>
+          <li><strong>Paint Protection Film (PPF):</strong> Protect your car&apos;s paint from scratches, chips, and road debris with a virtually invisible paint protection film.</li>
 
           <li><strong>Vehicle Wraps:</strong> Completely transform the look of your car with a custom vehicle wrap. Choose from a variety of colors, designs, and finishes to express your unique style.</li>
         </ul>
@@ -144,7 +144,7 @@ export default function BeltsvilleContent() {
             Beltsville Mobile Detailing Service Areas: Bringing the Shine Throughout Beltsville, MD
           </h2>
           <p className="mb-4">
-            Beltsville Mobile Detailing proudly serves Beltsville, Maryland, and the surrounding areas. We understand your busy lifestyle, and that's why we bring the convenience of mobile detailing to your driveway or workplace. Whether you're in the heart of Beltsville or call a nearby community home, we can help you keep your car looking its best.
+            Beltsville Mobile Detailing proudly serves Beltsville, Maryland, and the surrounding areas. We understand your busy lifestyle, and that&apos;s why we bring the convenience of mobile detailing to your driveway or workplace. Whether you&apos;re in the heart of Beltsville or call a nearby community home, we can help you keep your car looking its best.
           </p>
 
           <ul className="space-y-2 mb-4">
@@ -170,7 +170,7 @@ export default function BeltsvilleContent() {
             <strong>Not sure if we service your specific area?</strong>
           </p>
           <p className="mb-6">
-            Contact us today! We are always expanding our service coverage in Beltsville, MD and surrounding areas. We'd be happy to discuss your detailing needs and answer any questions you may have.
+            Contact us today! We are always expanding our service coverage in Beltsville, MD and surrounding areas. We&apos;d be happy to discuss your detailing needs and answer any questions you may have.
           </p>
         </div>
 
@@ -206,21 +206,21 @@ export default function BeltsvilleContent() {
           <div>
             <h3 className="font-semibold mb-1">How often should I get my car detailed in Beltsville?</h3>
             <p>
-              The frequency depends on your driving habits and how well you maintain your car. Generally, a professional detail every 6-12 months is recommended in Beltsville, MD to maintain a fresh look and protect your car's finish.
+              The frequency depends on your driving habits and how well you maintain your car. Generally, a professional detail every 6-12 months is recommended in Beltsville, MD to maintain a fresh look and protect your car&apos;s finish.
             </p>
           </div>
 
           <div>
             <h3 className="font-semibold mb-1">Do you offer mobile detailing packages in Beltsville?</h3>
             <p>
-              Absolutely! We understand that every car has unique needs. That's why we offer a variety of mobile detailing packages in Beltsville, MD to fit your specific budget and requirements. Browse our options online or contact us for a free quote.
+              Absolutely! We understand that every car has unique needs. That&apos;s why we offer a variety of mobile detailing packages in Beltsville, MD to fit your specific budget and requirements. Browse our options online or contact us for a free quote.
             </p>
           </div>
 
           <div>
-            <h3 className="font-semibold mb-1">Can you remove smoke odors from my car's interior in Beltsville?</h3>
+            <h3 className="font-semibold mb-1">Can you remove smoke odors from my car&apos;s interior in Beltsville?</h3>
             <p>
-              Yes! We offer professional smoke odor removal services using proven techniques to eliminate lingering odors and restore a fresh scent to your car's interior in Beltsville, MD.
+              Yes! We offer professional smoke odor removal services using proven techniques to eliminate lingering odors and restore a fresh scent to your car&apos;s interior in Beltsville, MD.
             </p>
           </div>
         </div>
@@ -229,7 +229,7 @@ export default function BeltsvilleContent() {
           Let Beltsville Mobile Detailing Make Your Car Shine Again!
         </p>
         <p className="mb-6">
-          We guarantee exceptional results delivered conveniently at your location in Beltsville, MD. Request a free quote today and let our experts create a customized detailing plan for your car. It's time to experience the Beltsville Mobile
+          We guarantee exceptional results delivered conveniently at your location in Beltsville, MD. Request a free quote today and let our experts create a customized detailing plan for your car. It&apos;s time to experience the Beltsville Mobile
         </p>
         <div className="text-center">
           <Link href="/contact" className="inline-block bg-blue-600 text-white font-semibold py-2 px-4 rounded hover:bg-blue-700 transition-colors">

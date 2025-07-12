@@ -41,8 +41,8 @@ const BlogFive = () => {
                 </p>
 
                 <p className="mb-6 leading-relaxed">
-                    Keeping your car looking as pristine as the day you drove it off the lot doesn't have to be a daunting task.
-                    With a few expert detailing tips, you can maintain that showroom shine while extending the life of your vehicle's exterior and interior.
+                    Keeping your car looking as pristine as the day you drove it off the lot doesn&apos;t have to be a daunting task.
+                    With a few expert detailing tips, you can maintain that showroom shine while extending the life of your vehicle&apos;s exterior and interior.
                     Here are some professional techniques to make your car stand out from the crowd without breaking the bank.
                 </p>
 

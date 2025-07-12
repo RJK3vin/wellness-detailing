@@ -24,10 +24,10 @@ export default function Hero({ scrollToRef }: HeroProps) {
           Elevate Your Drive with Wellness Detailing
         </h1>
         <p className="mt-3 text-4xl font-bold text-white">
-          Maryland's Best Mobile Car Detailing Service Comes to You
+          Maryland&apos;s Best Mobile Car Detailing Service Comes to You
         </p>
         <p className="mt-4 text-md text-white">
-          At Wellness Detailing, we're dedicated to bringing professional-grade detailing right to your doorstep.
+          At Wellness Detailing, we&apos;re dedicated to bringing professional-grade detailing right to your doorstep.
           Experience ultimate convenience and quality as we revitalize your car, inside and out.
         </p>
         <div className="mt-6 flex justify-center gap-4 flex-wrap">

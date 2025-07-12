@@ -248,7 +248,7 @@ const FeaturedServices = () => {
 
         <div className="border-t pt-12">
           <h3 className="text-3xl font-bold text-center mb-10">
-            Servicing The Maryland's Area - At Your Home, Apartment or Office Location
+            Servicing The Maryland&apos;s Area - At Your Home, Apartment or Office Location
           </h3>
           <div className="flex flex-col md:flex-row items-stretch max-w-7xl mx-auto gap-8">
             <div className="md:w-1/2 flex flex-col justify-center">
@@ -267,7 +267,7 @@ const FeaturedServices = () => {
                   At Wellness Detailing, we proudly serve a wide area across Maryland, bringing our professional mobile car detailing services directly to your doorstep. From bustling urban centers to scenic suburban neighborhoods, we cover a diverse range of locations to accommodate our valued customers.
                 </p>
                 <p className="text-center md:text-left max-w-3xl mx-auto md:mx-0 text-gray-600 mb-6">
-                  Our service area includes Bethesda, Rockville, Silver Spring, Gaithersburg, and surrounding areas like Olney, Potomac, and Laurel. Whether you're located in the heart of the city or nestled in a quiet residential area, our dedicated team is committed to providing you with the highest level of confidence and quality.
+                  Our service area includes Bethesda, Rockville, Silver Spring, Gaithersburg, and surrounding areas like Olney, Potomac, and Laurel. Whether you&apos;re located in the heart of the city or nestled in a quiet residential area, our dedicated team is committed to providing you with the highest level of confidence and quality.
                 </p>
                 <p className="text-center md:text-left max-w-3xl mx-auto md:mx-0 text-gray-600 mb-8">
                   No matter where you are in Maryland, you can trust Wellness Detailing to deliver exceptional service with a smile. Contact us today to schedule your appointment and experience the convenience of mobile car detailing at its finest.

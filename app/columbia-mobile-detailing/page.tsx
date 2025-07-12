@@ -87,29 +87,29 @@ export default function ColumbiaDetailing() {
                     Our Mobile Detailing Services in Columbia, MD
                 </h2>
                 <p className="text-lg text-left max-w-3xl mx-auto mb-12">
-                    Columbia Mobile Detailing brings the showroom shine to you! We offer a variety of exceptional mobile detailing services in Columbia, MD to restore your car's beauty and value, all from the comfort of your driveway. Here's a glimpse of what our expert detailers can do for your car:
+                    Columbia Mobile Detailing brings the showroom shine to you! We offer a variety of exceptional mobile detailing services in Columbia, MD to restore your car&apos;s beauty and value, all from the comfort of your driveway. Here&apos;s a glimpse of what our expert detailers can do for your car:
                 </p>
 
                 <div className="space-y-6 text-left max-w-3xl mx-auto">
-                    <p><strong>Full Interior Cleaning:</strong> This in-depth cleaning service tackles every inch of your car's interior, leaving no spot untouched. We thoroughly clean carpets, upholstery, leather seats (conditioning included), hard surfaces, and windows, and remove any unwanted trash.</p>
+                    <p><strong>Full Interior Cleaning:</strong> This in-depth cleaning service tackles every inch of your car&apos;s interior, leaving no spot untouched. We thoroughly clean carpets, upholstery, leather seats (conditioning included), hard surfaces, and windows, and remove any unwanted trash.</p>
 
                     <p><strong>Mini-Interior Detail:</strong> Short on time? Our mini detail is a perfect pick-me-up for busy schedules, including vacuuming, surface wiping, window cleaning, and trash removal.</p>
 
-                    <p><strong>Smoke Odor Removal:</strong> Eliminate lingering smoke odors and restore a fresh, clean scent to your car's interior with our professional smoke odor removal service.</p>
+                    <p><strong>Smoke Odor Removal:</strong> Eliminate lingering smoke odors and restore a fresh, clean scent to your car&apos;s interior with our professional smoke odor removal service.</p>
 
-                    <p><strong>Restorative Interior Cleaning:</strong> For neglected interiors that need a revival, our restorative service tackles embedded dirt, grime, and stains, bringing your car's inside back to life.</p>
+                    <p><strong>Restorative Interior Cleaning:</strong> For neglected interiors that need a revival, our restorative service tackles embedded dirt, grime, and stains, bringing your car&apos;s inside back to life.</p>
 
-                    <p><strong>Wash and Wax:</strong> Give your car's exterior a classic clean and shine with our thorough wash and high-quality wax application.</p>
+                    <p><strong>Wash and Wax:</strong> Give your car&apos;s exterior a classic clean and shine with our thorough wash and high-quality wax application.</p>
 
-                    <p><strong>Paint Correction:</strong> Restore your car's paintwork to its former glory with our multi-step paint correction service. This process removes minor scratches, swirl marks, and oxidation for a mirror-like finish.</p>
+                    <p><strong>Paint Correction:</strong> Restore your car&apos;s paintwork to its former glory with our multi-step paint correction service. This process removes minor scratches, swirl marks, and oxidation for a mirror-like finish.</p>
 
-                    <p><strong>Ceramic Coating (Optional Add-On):</strong> Protect your car's paint with a ceramic coating, offering superior gloss, scratch resistance, and easier maintenance for years to come.</p>
+                    <p><strong>Ceramic Coating (Optional Add-On):</strong> Protect your car&apos;s paint with a ceramic coating, offering superior gloss, scratch resistance, and easier maintenance for years to come.</p>
 
                     <p><strong>Headlight Restoration:</strong> Restore clarity and improve nighttime visibility with our professional headlight restoration service.</p>
 
-                    <p><strong>Paint Overspray Removal:</strong> We can expertly remove unwanted paint overspray from your car's exterior, returning it to its original condition.</p>
+                    <p><strong>Paint Overspray Removal:</strong> We can expertly remove unwanted paint overspray from your car&apos;s exterior, returning it to its original condition.</p>
 
-                    <p><strong>Paint Protection Film (PPF):</strong> Protect your car's paint from scratches, chips, and road debris with a virtually invisible paint protection film.</p>
+                    <p><strong>Paint Protection Film (PPF):</strong> Protect your car&apos;s paint from scratches, chips, and road debris with a virtually invisible paint protection film.</p>
 
                     <p><strong>Vehicle Wraps:</strong> Completely transform the look of your car with a custom vehicle wrap. Choose from a variety of colors, designs, and finishes to express your unique style.</p>
                 </div>
@@ -164,7 +164,7 @@ export default function ColumbiaDetailing() {
                             <p className="mb-2">
                                 <strong>Not sure if we service your specific area? Not to worry!</strong><br />
                                 <span className="block mt-4">
-                                    Contact us today! We are always expanding our service coverage in Poolesville, MD and surrounding areas. We'd be happy to discuss your detailing needs and answer any questions you may have.
+                                    Contact us today! We are always expanding our service coverage in Poolesville, MD and surrounding areas. We&apos;d be happy to discuss your detailing needs and answer any questions you may have.
                                 </span>
                             </p>
                         </div>
@@ -187,7 +187,7 @@ export default function ColumbiaDetailing() {
                 </h2>
 
                 <div className="space-y-8 text-left">
-                    <p>At Columbia Mobile Detailing, we understand you might have questions about our convenient and exceptional mobile detailing services in Columbia, MD. Here are some frequently asked questions to help you decide if our services are the perfect solution for your car's needs:</p>
+                    <p>At Columbia Mobile Detailing, we understand you might have questions about our convenient and exceptional mobile detailing services in Columbia, MD. Here are some frequently asked questions to help you decide if our services are the perfect solution for your car&apos;s needs:</p>
                     <div>
                         <h3 className="font-bold text-lg mb-2">What is the difference between mobile detailing and a car wash?</h3>
                         <p>
@@ -202,7 +202,7 @@ export default function ColumbiaDetailing() {
                             <li><strong>Convenience:</strong> Skip the hassle of traveling and waiting! We come directly to your location in Columbia, MD, saving you valuable time and effort.</li>
                             <li><strong>Professional Results:</strong> Our certified detailers use top-of-the-line equipment and premium products to deliver exceptional cleaning and lasting protection for your car.</li>
                             <li><strong>Time-Saving:</strong> Get a professional detail while you relax at home or work, maximizing your time.</li>
-                            <li><strong>Protection:</strong> Our detailing services include protective waxes and coatings that safeguard your car's paint from harmful elements like UV rays and environmental contaminants.</li>
+                            <li><strong>Protection:</strong> Our detailing services include protective waxes and coatings that safeguard your car&apos;s paint from harmful elements like UV rays and environmental contaminants.</li>
                         </ul>
                     </div>
 
@@ -216,28 +216,28 @@ export default function ColumbiaDetailing() {
                     <div>
                         <h3 className="font-bold text-lg mb-2">Do you offer different mobile detailing packages?</h3>
                         <p>
-                            Absolutely! We understand that every car has unique needs. That's why we offer a variety of mobile detailing packages to suit your specific needs and budget. Browse our options online or contact us for a free quote. Our detailing experts will be happy to recommend the perfect service to make your car shine again.
+                            Absolutely! We understand that every car has unique needs. That&apos;s why we offer a variety of mobile detailing packages to suit your specific needs and budget. Browse our options online or contact us for a free quote. Our detailing experts will be happy to recommend the perfect service to make your car shine again.
                         </p>
                     </div>
 
                     <div>
-                        <h3 className="font-bold text-lg mb-2">Can you remove smoke odors from my car's interior?</h3>
+                        <h3 className="font-bold text-lg mb-2">Can you remove smoke odors from my car&apos;s interior?</h3>
                         <p>
-                            Yes! We offer professional smoke odor removal services using effective techniques to eliminate lingering odors and restore a fresh, clean scent to your car's interior.
+                            Yes! We offer professional smoke odor removal services using effective techniques to eliminate lingering odors and restore a fresh, clean scent to your car&apos;s interior.
                         </p>
                     </div>
 
                     <div>
                         <h3 className="font-bold text-lg mb-2">Is mobile detailing just as effective as shop detailing?</h3>
                         <p>
-                            Yes! Our mobile detailing services utilize top-of-the-line equipment and high-quality products to achieve exceptional results, no matter your location in Columbia, MD. You won't sacrifice quality by choosing the convenience of mobile detailing.
+                            Yes! Our mobile detailing services utilize top-of-the-line equipment and high-quality products to achieve exceptional results, no matter your location in Columbia, MD. You won&apos;t sacrifice quality by choosing the convenience of mobile detailing.
                         </p>
                     </div>
 
                     <div>
                         <h3 className="font-bold text-lg mb-2">Ready to experience the Columbia Mobile Detailing difference?</h3>
                         <p>
-                            Request a free quote today and let us make your car shine! We guarantee exceptional results delivered conveniently at your location. Let's get your car looking its best again!
+                            Request a free quote today and let us make your car shine! We guarantee exceptional results delivered conveniently at your location. Let&apos;s get your car looking its best again!
                         </p>
                     </div>
                     <div className="text-center">

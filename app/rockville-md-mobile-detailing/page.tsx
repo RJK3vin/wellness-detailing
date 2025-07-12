@@ -59,7 +59,7 @@ export default function RockvilleDetailing() {
                         </h2>
                         <p className="text-lg max-w-3xl mx-auto text-left">
                             Our certified detailers are passionate car care specialists wielding top-of-the-line equipment and premium products.
-                            We'll leave your car gleaming, protected, and ready to impress wherever your Rockville adventures take you.
+                            We&apos;ll leave your car gleaming, protected, and ready to impress wherever your Rockville adventures take you.
                         </p>
                         <h3 className="text-2xl font-semibold text-gray-900 mt-8 mb-2 text-left max-w-3xl mx-auto">
                             Rockville Mobile Detailing: Your Trusted Partner in Automotive Elegance
@@ -68,7 +68,7 @@ export default function RockvilleDetailing() {
                             <p>
                                 Rockville Mobile Detailing is a Rockville-based business, proudly serving our community for years.
                                 We understand the unique challenges Rockville cars face, from the relentless summer sun to the harsh winter salt on the roads.
-                                That's why we provide the highest quality detailing services specifically designed to revive your car's brilliance,
+                                That&apos;s why we provide the highest quality detailing services specifically designed to revive your car&apos;s brilliance,
                                 shield it from the elements, and keep it looking like a Rockville rockstar year-round.
                             </p>
                             <p>
@@ -113,20 +113,20 @@ export default function RockvilleDetailing() {
             </section>
             <section className="px-4 py-12 bg-white text-gray-800">
                 <div className="max-w-5xl mx-auto">
-                    <h2 className="text-3xl font-bold mb-6 text-center">Rockville's Finest Detailing Solutions: Tailored to Your Car's Needs</h2>
-                    <p className="mb-4">At Rockville Mobile Detailing, we offer a comprehensive menu of mobile detailing services in Rockville, MD to cater to your specific car's needs and your budget. Here's a glimpse into what we can do for you:</p>
+                    <h2 className="text-3xl font-bold mb-6 text-center">Rockville&apos;s Finest Detailing Solutions: Tailored to Your Car&apos;s Needs</h2>
+                    <p className="mb-4">At Rockville Mobile Detailing, we offer a comprehensive menu of mobile detailing services in Rockville, MD to cater to your specific car&apos;s needs and your budget. Here&apos;s a glimpse into what we can do for you:</p>
 
                     <ul className="list-disc list-outside pl-6 space-y-3 mb-6">
-                        <li><strong>Full Interior Cleaning:</strong> This in-depth cleaning service tackles every inch of your car's interior, leaving no spot untouched. We thoroughly clean carpets, upholstery, leather seats (conditioning included), hard surfaces, and windows, and remove any unwanted trash.</li>
+                        <li><strong>Full Interior Cleaning:</strong> This in-depth cleaning service tackles every inch of your car&apos;s interior, leaving no spot untouched. We thoroughly clean carpets, upholstery, leather seats (conditioning included), hard surfaces, and windows, and remove any unwanted trash.</li>
                         <li><strong>Mini-Interior Detail:</strong> Short on time? Our mini detail is a perfect pick-me-up for busy schedules, including vacuuming, surface wiping, window cleaning, and trash removal.</li>
-                        <li><strong>Smoke Odor Removal:</strong> Eliminate lingering smoke odors and restore a fresh, clean scent to your car's interior with our professional smoke odor removal service.</li>
-                        <li><strong>Restorative Interior Cleaning:</strong> For neglected interiors that need a revival, our restorative service tackles embedded dirt, grime, and stains, bringing your car's inside back to life.</li>
-                        <li><strong>Wash and Wax:</strong> Give your car's exterior a classic clean and shine with our thorough wash and high-quality wax application.</li>
-                        <li><strong>Paint Correction:</strong> Restore your car's paintwork to its former glory with our multi-step paint correction service. This process removes minor scratches, swirl marks, and oxidation for a mirror-like finish.</li>
-                        <li><strong>Ceramic Coating (Optional Add-On):</strong> Protect your car's paint with a ceramic coating, offering superior gloss, scratch resistance, and easier maintenance for years to come.</li>
+                        <li><strong>Smoke Odor Removal:</strong> Eliminate lingering smoke odors and restore a fresh, clean scent to your car&apos;s interior with our professional smoke odor removal service.</li>
+                        <li><strong>Restorative Interior Cleaning:</strong> For neglected interiors that need a revival, our restorative service tackles embedded dirt, grime, and stains, bringing your car&apos;s inside back to life.</li>
+                        <li><strong>Wash and Wax:</strong> Give your car&apos;s exterior a classic clean and shine with our thorough wash and high-quality wax application.</li>
+                        <li><strong>Paint Correction:</strong> Restore your car&apos;s paintwork to its former glory with our multi-step paint correction service. This process removes minor scratches, swirl marks, and oxidation for a mirror-like finish.</li>
+                        <li><strong>Ceramic Coating (Optional Add-On):</strong> Protect your car&apos;s paint with a ceramic coating, offering superior gloss, scratch resistance, and easier maintenance for years to come.</li>
                         <li><strong>Headlight Restoration:</strong> Restore clarity and improve nighttime visibility with our professional headlight restoration service.</li>
-                        <li><strong>Paint Overspray Removal:</strong> We can expertly remove unwanted paint overspray from your car's exterior, returning it to its original condition.</li>
-                        <li><strong>Paint Protection Film (PPF):</strong> Protect your car's paint from scratches, chips, and road debris with a virtually invisible paint protection film.</li>
+                        <li><strong>Paint Overspray Removal:</strong> We can expertly remove unwanted paint overspray from your car&apos;s exterior, returning it to its original condition.</li>
+                        <li><strong>Paint Protection Film (PPF):</strong> Protect your car&apos;s paint from scratches, chips, and road debris with a virtually invisible paint protection film.</li>
                         <li><strong>Vehicle Wraps:</strong> Completely transform the look of your car with a custom vehicle wrap. Choose from a variety of colors, designs, and finishes to express your unique style.</li>
                     </ul>
 
@@ -148,7 +148,7 @@ export default function RockvilleDetailing() {
                     <div>
                         <h2 className="text-3xl font-bold mb-6">Rockville Mobile Detailing Service Areas: Bringing the Shine Throughout Rockville</h2>
                         <p className="mb-4">
-                            Rockville Mobile Detailing proudly serves Rockville, Maryland, and the surrounding areas. We're constantly expanding our reach to bring the convenience of mobile detailing to more drivers! Whether you reside in a bustling Rockville neighborhood or call a nearby community home, we can help you keep your car looking its best.
+                            Rockville Mobile Detailing proudly serves Rockville, Maryland, and the surrounding areas. We&apos;re constantly expanding our reach to bring the convenience of mobile detailing to more drivers! Whether you reside in a bustling Rockville neighborhood or call a nearby community home, we can help you keep your car looking its best.
                         </p>
                         <div className="space-y-2 mb-4">
                             {serviceAreas.map((location) => {
@@ -166,7 +166,7 @@ export default function RockvilleDetailing() {
                             })}
                         </div>
                         <p>
-                            <strong>Not sure if we service your specific area? Not to worry!</strong> Contact us today! We'd be happy to discuss your detailing needs and answer any questions you may have. We're always looking for ways to expand our service coverage in Potomac and surrounding areas, so there's a good chance we can brighten your car's day!
+                            <strong>Not sure if we service your specific area? Not to worry!</strong> Contact us today! We&apos;d be happy to discuss your detailing needs and answer any questions you may have. We&apos;re always looking for ways to expand our service coverage in Potomac and surrounding areas, so there&apos;s a good chance we can brighten your car&apos;s day!
                         </p>
                     </div>
                     <div className="relative w-full h-[800px] rounded shadow-lg overflow-hidden">
@@ -183,16 +183,16 @@ export default function RockvilleDetailing() {
                 <div className="space-y-10">
                     <div>
                         <h2 className="text-3xl font-bold text-gray-800 mb-4">
-                            Rockville's Eco-Conscious Detailing: Shine On While Saving the Planet!
+                            Rockville&apos;s Eco-Conscious Detailing: Shine On While Saving the Planet!
                         </h2>
                         <p className="text-gray-700 mb-4">
-                            At Rockville Mobile Detailing, we're passionate not only about keeping your car looking amazing but also about protecting the environment. That's why we use eco-friendly cleaning products whenever possible. These high-performance products are formulated to deliver exceptional results without harming the environment or your car's delicate finishes.
+                            At Rockville Mobile Detailing, we&apos;re passionate not only about keeping your car looking amazing but also about protecting the environment. That&apos;s why we use eco-friendly cleaning products whenever possible. These high-performance products are formulated to deliver exceptional results without harming the environment or your car&apos;s delicate finishes.
                         </p>
                         <p className="text-gray-700 mb-4">
                             We also prioritize water conservation techniques throughout our detailing process. We use minimal water for rinsing and washing, maximizing efficiency without compromising quality. Additionally, we properly dispose of all used cleaning products and materials to minimize our environmental impact.
                         </p>
                         <p className="text-gray-700">
-                            By choosing Rockville Mobile Detailing, you can feel good knowing you're getting a meticulous car detail while contributing to a greener Rockville. Let's keep Rockville's roads sparkling and our planet healthy, one detailed car at a time!
+                            By choosing Rockville Mobile Detailing, you can feel good knowing you&apos;re getting a meticulous car detail while contributing to a greener Rockville. Let&apos;s keep Rockville&apos;s roads sparkling and our planet healthy, one detailed car at a time!
                         </p>
                     </div>
 
@@ -213,19 +213,19 @@ export default function RockvilleDetailing() {
                             <div>
                                 <li className="font-semibold text-gray-800 mb-2">How often should I get my car detailed in Rockville?</li>
                                 <p className="text-gray-700">
-                                    The frequency depends on your driving habits and how well you maintain your car. Generally, a professional detail every 6-12 months is recommended in Rockville, MD to maintain a fresh look and protect your car's finish.
+                                    The frequency depends on your driving habits and how well you maintain your car. Generally, a professional detail every 6-12 months is recommended in Rockville, MD to maintain a fresh look and protect your car&apos;s finish.
                                 </p>
                             </div>
                             <div>
                                 <li className="font-semibold text-gray-800 mb-2">Do you offer mobile detailing packages in Rockville?</li>
                                 <p className="text-gray-700">
-                                    Absolutely! We understand that every car has unique needs. That's why we offer a variety of mobile detailing packages in Rockville, MD to fit your specific budget and requirements. Browse our options online or contact us for a free quote.
+                                    Absolutely! We understand that every car has unique needs. That&apos;s why we offer a variety of mobile detailing packages in Rockville, MD to fit your specific budget and requirements. Browse our options online or contact us for a free quote.
                                 </p>
                             </div>
                             <div>
-                                <li className="font-semibold text-gray-800 mb-2">Can you restore the leather seats in my car's interior?</li>
+                                <li className="font-semibold text-gray-800 mb-2">Can you restore the leather seats in my car&apos;s interior?</li>
                                 <p className="text-gray-700">
-                                    Yes! We offer leather conditioning services using proven techniques to revitalize your leather seats and restore their original luster. We use only high-quality, eco-friendly leather conditioners that nourish and protect your car's leather interior.
+                                    Yes! We offer leather conditioning services using proven techniques to revitalize your leather seats and restore their original luster. We use only high-quality, eco-friendly leather conditioners that nourish and protect your car&apos;s leather interior.
                                 </p>
                             </div>
                         </div>

@@ -3,6 +3,7 @@
 import { ChevronDown, Phone } from 'lucide-react';
 import { usePathname } from 'next/navigation';
 import Image from 'next/image';
+import Link from 'next/link';
 
 const Navbar = () => {
   const pathname = usePathname();
@@ -23,7 +24,7 @@ const Navbar = () => {
           </div>
 
           <nav className="hidden lg:flex items-center gap-5 text-[15px] font-semibold tracking-tight">
-            <a href="/" className={isActive('/') ? 'text-blue-600 font-semibold' : ''}>Home</a>
+            <Link href="/" className={isActive('/') ? 'text-blue-600 font-semibold' : ''}>Home</Link>
 
             <Dropdown
               title="Film Service"

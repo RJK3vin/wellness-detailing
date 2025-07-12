@@ -41,10 +41,10 @@ export default function MiniInteriorDetail() {
                 </h1>
                 <div className="max-w-4xl mx-auto text-center space-y-4">
                     <p className="text-left">
-                        Life is busy, and sometimes your car's interior needs a quick
-                        pick-me-up. That's where our Mini Detail service comes in. It's a
+                        Life is busy, and sometimes your car&apos;s interior needs a quick
+                        pick-me-up. That&apos;s where our Mini Detail service comes in. It&apos;s a
                         time-efficient yet effective solution to restore a clean and fresh
-                        feel to your car's interior.
+                        feel to your car&apos;s interior.
                     </p>
                     <ul className="list-disc pl-5 text-left">
                         <li>
@@ -118,7 +118,7 @@ export default function MiniInteriorDetail() {
                     </h2>
                     <div className="space-y-8">
                         <p>
-                            At Wellness Detailing, we understand you might have questions about our time-saving Mini Interior Detail service. Here are answers to some of the most frequently asked questions to help you decide if it's the perfect pick-me-up for your car's interior:
+                            At Wellness Detailing, we understand you might have questions about our time-saving Mini Interior Detail service. Here are answers to some of the most frequently asked questions to help you decide if it&apos;s the perfect pick-me-up for your car&apos;s interior:
                         </p>
 
                         <div>
@@ -143,7 +143,7 @@ export default function MiniInteriorDetail() {
                             <p className="mt-4">Absolutely! While the core service focuses on these key areas, we offer optional add-ons to personalize your experience:</p>
                             <ul className="list-disc pl-6 mt-4 space-y-2">
                                 <li><strong>Leather Cleaning & Conditioning:</strong> Protect and preserve your leather seats with a professional cleaning and conditioning treatment.</li>
-                                <li><strong>Spot Treatment:</strong> Have a minor stain you'd like addressed? We can target specific areas with our spot treatment add-on.</li>
+                                <li><strong>Spot Treatment:</strong> Have a minor stain you&apos;d like addressed? We can target specific areas with our spot treatment add-on.</li>
                             </ul>
                         </div>
 
@@ -166,7 +166,7 @@ export default function MiniInteriorDetail() {
 
                 <div className="mt-12 text-center">
                     <p className="font-bold text-lg mb-3">
-                        Ready to give your car's interior a quick and effective refresh? Get a Mini Interior Detail Quote Today!
+                        Ready to give your car&apos;s interior a quick and effective refresh? Get a Mini Interior Detail Quote Today!
                     </p>
                     <br></br>
                     <Link href="/contact" className="inline-block mt-6 px-6 py-3 bg-blue-600 text-white rounded hover:bg-blue-700 transition">Get A Free Quote</Link>

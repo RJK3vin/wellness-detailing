@@ -46,7 +46,7 @@ export default function CeramicCoating() {
                     <div className="space-y-4">
                         <h1 className="text-3xl font-bold">Unveiling the Magic: Ceramic Coating Explained</h1>
                         <p>
-                            Ceramic coating isn't just a protectant; it's a marvel of nanotechnology. At its core lies a special blend of silicon dioxide (SiO2) nanoparticles, which are essentially microscopic building blocks. These tiny particles bond together to create a hard, ultra-thin layer of ceramic protection on your car's paintwork. Imagine an invisible suit of armor, meticulously crafted on a molecular level!
+                            Ceramic coating isn&apos;t just a protectant; it&apos;s a marvel of nanotechnology. At its core lies a special blend of silicon dioxide (SiO2) nanoparticles, which are essentially microscopic building blocks. These tiny particles bond together to create a hard, ultra-thin layer of ceramic protection on your car&apos;s paintwork. Imagine an invisible suit of armor, meticulously crafted on a molecular level!
                         </p>
                     </div>
                 </section>
@@ -63,17 +63,17 @@ export default function CeramicCoating() {
                         Benefits of Ceramic Coating: Invest in Unmatched Protection for Your Car
                     </h2>
                     <div>
-                        <p>Traditional waxes and sealants offer a layer of protection, but they wear down quickly and require frequent reapplication. Ceramic coating, on the other hand, is a revolutionary technology that provides unparalleled benefits for your car's paintwork:</p>
+                        <p>Traditional waxes and sealants offer a layer of protection, but they wear down quickly and require frequent reapplication. Ceramic coating, on the other hand, is a revolutionary technology that provides unparalleled benefits for your car&apos;s paintwork:</p>
                     </div>
                     <div className="space-y-4">
-                        <p><strong>Ultimate Paint Protection:</strong> Ceramic coating creates a hard, ceramic shell that safeguards your car's paint from scratches, chips, and environmental contaminants. Think of it as an invisible shield deflecting flying rocks, road debris, and everyday wear and tear. This translates to a longer lifespan for your car's flawless finish.</p>
-                        <p><strong>Preserves Showroom Shine:</strong> Sunlight's harsh UV rays can wreak havoc on your car's paint, causing fading and discoloration. Ceramic coating acts as a protective barrier, absorbing or reflecting UV rays. This not only preserves the vibrancy of your car's original paint color but also maintains that showroom shine for years to come.</p>
+                        <p><strong>Ultimate Paint Protection:</strong> Ceramic coating creates a hard, ceramic shell that safeguards your car&apos;s paint from scratches, chips, and environmental contaminants. Think of it as an invisible shield deflecting flying rocks, road debris, and everyday wear and tear. This translates to a longer lifespan for your car&apos;s flawless finish.</p>
+                        <p><strong>Preserves Showroom Shine:</strong> Sunlight&apos;s harsh UV rays can wreak havoc on your car&apos;s paint, causing fading and discoloration. Ceramic coating acts as a protective barrier, absorbing or reflecting UV rays. This not only preserves the vibrancy of your car&apos;s original paint color but also maintains that showroom shine for years to come.</p>
                         <p><strong>Enhanced Durability:</strong> Unlike waxes and sealants that break down over time, ceramic coating boasts exceptional longevity. With proper care, a single ceramic coating application can last for several years, offering long-lasting protection and saving you time and money on repeated applications.</p>
                         <p><strong>Hydrophobic Properties & Easier Maintenance:</strong> Ceramic coating creates a hydrophobic surface, meaning it repels water like magic! Rainwater beads up and rolls right off, minimizing water spots and simplifying car washing. Dirt and grime also have a harder time sticking to the surface, making maintenance significantly easier.</p>
-                        <p><strong>Self-Healing Properties (Optional Feature):</strong> Certain advanced ceramic coatings boast self-healing properties. By applying moderate heat, these coatings can minimize the appearance of minor scratches, keeping your car's paint looking flawless for even longer.</p>
-                        <p><strong>Chemical Resistance:</strong> Ceramic coating offers superior protection against harsh chemicals like bird droppings, insect splatter, and road salts. This added layer of defense helps prevent these contaminants from etching or staining your car's paint.</p>
-                        <p><strong>Gloss Enhancement:</strong> High-quality ceramic coatings can actually enhance the gloss and shine of your car's paint, leaving a deeper, richer finish compared to traditional waxes.</p>
-                        <p>By investing in ceramic coating, you're not just protecting your car's paint; you're also making a long-term investment that saves you time and money on car maintenance while preserving the beauty and value of your vehicle.</p>
+                        <p><strong>Self-Healing Properties (Optional Feature):</strong> Certain advanced ceramic coatings boast self-healing properties. By applying moderate heat, these coatings can minimize the appearance of minor scratches, keeping your car&apos;s paint looking flawless for even longer.</p>
+                        <p><strong>Chemical Resistance:</strong> Ceramic coating offers superior protection against harsh chemicals like bird droppings, insect splatter, and road salts. This added layer of defense helps prevent these contaminants from etching or staining your car&apos;s paint.</p>
+                        <p><strong>Gloss Enhancement:</strong> High-quality ceramic coatings can actually enhance the gloss and shine of your car&apos;s paint, leaving a deeper, richer finish compared to traditional waxes.</p>
+                        <p>By investing in ceramic coating, you&apos;re not just protecting your car&apos;s paint; you&apos;re also making a long-term investment that saves you time and money on car maintenance while preserving the beauty and value of your vehicle.</p>
                     </div>
                     <div className="text-center">
                         <Link
@@ -129,13 +129,13 @@ export default function CeramicCoating() {
                     <h2 className="text-3xl font-bold text-center">
                         Ceramic Coating FAQs: Get Your Questions Answered!
                     </h2>
-                    <p>Here at Wellness Detailing, we understand you might have questions about ceramic coating. We've compiled answers to some of the most frequently asked questions to help you make an informed decision:</p>
+                    <p>Here at Wellness Detailing, we understand you might have questions about ceramic coating. We&apos;ve compiled answers to some of the most frequently asked questions to help you make an informed decision:</p>
                     <div className="space-y-6">
                         <p>
                             <strong>1. What is ceramic coating?</strong>
                             <br />
                             <span className="mt-2 block">
-                                Ceramic coating is a liquid applied to your car's paintwork that cures into a hard, ultra-thin layer of ceramic protection. It acts as a barrier against scratches, UV rays, and environmental contaminants.
+                                Ceramic coating is a liquid applied to your car&apos;s paintwork that cures into a hard, ultra-thin layer of ceramic protection. It acts as a barrier against scratches, UV rays, and environmental contaminants.
                             </span>
                         </p>
                         <p>
@@ -172,17 +172,17 @@ export default function CeramicCoating() {
                             </span>
                         </p>
                         <p>
-                            <strong>6. Will ceramic coating damage my car's paint?</strong>
+                            <strong>6. Will ceramic coating damage my car&apos;s paint?</strong>
                             <br />
                             <span className="mt-2 block">
-                                No, professional ceramic coating application using high-quality products is safe for your car's paint. In fact, it provides a protective layer that shields the original paint from damage.
+                                No, professional ceramic coating application using high-quality products is safe for your car&apos;s paint. In fact, it provides a protective layer that shields the original paint from damage.
                             </span>
                         </p>
                         <p>
                             <strong>7. How do I care for my car after ceramic coating?</strong>
                             <br />
                             <span className="mt-2 block">
-                                We'll provide detailed aftercare instructions to optimize the performance and longevity of your ceramic coating. Generally, hand washing with mild soap and water is recommended. Avoid using harsh chemicals or automated car washes.
+                                We&apos;ll provide detailed aftercare instructions to optimize the performance and longevity of your ceramic coating. Generally, hand washing with mild soap and water is recommended. Avoid using harsh chemicals or automated car washes.
                             </span>
                         </p>
                         <p>

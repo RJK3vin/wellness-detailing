@@ -41,16 +41,16 @@ export default function WindowTinting() {
                     <div className="flex-1 space-y-8">
                         <h1 className="text-3xl font-bold">Window Tinting Explained: A Shield of Style and Protection for Your Car</h1>
                         <p>
-                            Imagine stepping into a cooler, more comfortable car interior, protected from the sun's harsh glare and harmful UV rays. That's the power of window tint! It's a thin layer of laminate film applied directly to your car's windows, offering a range of benefits beyond just a stylish look.
+                            Imagine stepping into a cooler, more comfortable car interior, protected from the sun&apos;s harsh glare and harmful UV rays. That&apos;s the power of window tint! It&apos;s a thin layer of laminate film applied directly to your car&apos;s windows, offering a range of benefits beyond just a stylish look.
                         </p>
                         <p>
-                            At Wellness Detailing, we understand that every driver has unique needs. That's why we offer a variety of high-quality window film options to customize your tinting experience.
+                            At Wellness Detailing, we understand that every driver has unique needs. That&apos;s why we offer a variety of high-quality window film options to customize your tinting experience.
                         </p>
                         <p>
-                            <strong>Compliance with Maryland Law:</strong> We prioritize using window film that adheres to Maryland's legal tint requirements. During your consultation, our experts will explain the regulations and recommend the perfect tint percentage for your vehicle to ensure both style and legal compliance.
+                            <strong>Compliance with Maryland Law:</strong> We prioritize using window film that adheres to Maryland&apos;s legal tint requirements. During your consultation, our experts will explain the regulations and recommend the perfect tint percentage for your vehicle to ensure both style and legal compliance.
                         </p>
                         <p>
-                            This description provides a more comprehensive explanation of window tint's benefits and functionality. It also emphasizes Wellness Detailing's commitment to customization and legal compliance.
+                            This description provides a more comprehensive explanation of window tint&apos;s benefits and functionality. It also emphasizes Wellness Detailing&apos;s commitment to customization and legal compliance.
                         </p>
                     </div>
                     <div className="relative flex-1 h-[550px]">
@@ -86,9 +86,9 @@ export default function WindowTinting() {
                         <h2 className="text-3xl font-bold">Transform Your Driving Experience: Unveiling the Benefits of Car Window Tint</h2>
                         <ul className="list-disc pl-5 space-y-8">
                             <li><strong>Beat the Heat:</strong> Imagine stepping into a cool oasis on a scorching day. Window tint significantly reduces heat buildup inside your car by rejecting infrared rays. This translates to a more comfortable ride, especially for long journeys, and allows your air conditioning to work less efficiently, potentially saving on fuel costs.</li>
-                            <li><strong>Sun Protection on-the-Go:</strong> Window tint acts as a shield, blocking up to 99% of harmful UV rays. This protects you and your passengers from premature aging, sunburn, and even reduces the risk of skin cancer. Additionally, it safeguards your car's interior from sun damage, preventing fading and cracking of upholstery and leather surfaces.</li>
+                            <li><strong>Sun Protection on-the-Go:</strong> Window tint acts as a shield, blocking up to 99% of harmful UV rays. This protects you and your passengers from premature aging, sunburn, and even reduces the risk of skin cancer. Additionally, it safeguards your car&apos;s interior from sun damage, preventing fading and cracking of upholstery and leather surfaces.</li>
                             <li><strong>Enhanced Privacy & Security:</strong> Window tint creates a veil of privacy, obscuring the view into your car. This discourages unwanted attention and deters potential theft by making valuables less visible. Furthermore, window tint adds a layer of strength to your car windows, making them more resistant to shattering in case of accidents or attempted break-ins.</li>
-                            <li><strong>A Touch of Class & Style:</strong> Window tint offers a sleek and sophisticated aesthetic, adding a touch of personalization to your car's overall appearance. Choose from a variety of film options to achieve the perfect level of darkness and style that complements your vehicle.</li>
+                            <li><strong>A Touch of Class & Style:</strong> Window tint offers a sleek and sophisticated aesthetic, adding a touch of personalization to your car&apos;s overall appearance. Choose from a variety of film options to achieve the perfect level of darkness and style that complements your vehicle.</li>
                         </ul>
                     </div>
                 </section>
@@ -104,11 +104,11 @@ export default function WindowTinting() {
                     <h2 className="text-3xl font-bold">Tired of Subpar Window Tint? Experience the Wellness Detailing Difference!</h2>
                     <div className="space-y-4 text-left">
                         <div>
-                            <p>Tired of DIY window tinting headaches? At Wellness Detailing, we take the hassle out of achieving a flawless, long-lasting finish. Here's a glimpse into our meticulous 3-step mobile window tinting process:</p>
+                            <p>Tired of DIY window tinting headaches? At Wellness Detailing, we take the hassle out of achieving a flawless, long-lasting finish. Here&apos;s a glimpse into our meticulous 3-step mobile window tinting process:</p>
                         </div>
                         <div>
                             <p className="text-xl font-semibold">Step 1: Precision Prep for a Perfect Bond</p>
-                            <p>Our detail experts meticulously clean your car windows using a multi-step process. This removes any dirt, dust, or debris that could compromise the film's adhesion. A clean surface is essential for a smooth, bubble-free application. The window film is carefully measured to perfectly match the unique contours of your car's windows. This ensures a precise fit and a sleek, professional look.</p>
+                            <p>Our detail experts meticulously clean your car windows using a multi-step process. This removes any dirt, dust, or debris that could compromise the film&apos;s adhesion. A clean surface is essential for a smooth, bubble-free application. The window film is carefully measured to perfectly match the unique contours of your car&apos;s windows. This ensures a precise fit and a sleek, professional look.</p>
                         </div>
                         <div>
                             <p className="text-xl font-semibold">Step 2: Expert Application for Lasting Results</p>
@@ -116,7 +116,7 @@ export default function WindowTinting() {
                         </div>
                         <div>
                             <p className="text-xl font-semibold">Step 3: Quality Check & Aftercare</p>
-                            <p>After installation, our team thoroughly inspects your windows for any imperfections. We want to ensure a flawless finish that meets our high standards and exceeds your expectations. We'll provide detailed aftercare instructions to optimize the performance and longevity of your window tint. This includes proper cleaning methods and precautions to take during the curing period.</p>
+                            <p>After installation, our team thoroughly inspects your windows for any imperfections. We want to ensure a flawless finish that meets our high standards and exceeds your expectations. We&apos;ll provide detailed aftercare instructions to optimize the performance and longevity of your window tint. This includes proper cleaning methods and precautions to take during the curing period.</p>
                         </div>
                         <div>
                             By following these meticulous steps, Wellness Detailing guarantees a professional window tinting experience that delivers lasting results, superior style, and enhanced comfort for your car.
@@ -136,13 +136,13 @@ export default function WindowTinting() {
                         Window Tinting FAQs: Get Your Questions Answered!
                     </h2>
                     <p>
-                        Here at Wellness Detailing, we understand you might have questions about window tinting. We've compiled answers to some of the most frequently asked questions to help you make an informed decision:
+                        Here at Wellness Detailing, we understand you might have questions about window tinting. We&apos;ve compiled answers to some of the most frequently asked questions to help you make an informed decision:
                     </p>
                     <div className="space-y-8 text-left">
                         <div>
                             <p className="mb-2 font-semibold">Is window tinting legal in Maryland?</p>
                             <p>
-                                Yes, window tint is legal in Maryland. However, there are specific regulations regarding the darkness levels for different vehicle types. We stay up-to-date on Maryland's tint laws and will recommend the perfect tint percentage for your car to ensure both style and legal compliance during your consultation.
+                                Yes, window tint is legal in Maryland. However, there are specific regulations regarding the darkness levels for different vehicle types. We stay up-to-date on Maryland&apos;s tint laws and will recommend the perfect tint percentage for your car to ensure both style and legal compliance during your consultation.
                             </p>
                         </div>
                         <div>
@@ -156,7 +156,7 @@ export default function WindowTinting() {
                                 <li><strong>Metallic Film:</strong> Offers the highest level of heat rejection but may have a slightly reflective appearance.</li>
                             </ul>
                             <p>
-                                During your consultation, we'll discuss the benefits and drawbacks of each type of film to help you choose the perfect one for your car.
+                                During your consultation, we&apos;ll discuss the benefits and drawbacks of each type of film to help you choose the perfect one for your car.
                             </p>
                         </div>
                         <div>
@@ -174,7 +174,7 @@ export default function WindowTinting() {
                         <div>
                             <p className="mb-2 font-semibold">How long does it take?</p>
                             <p>
-                                The window tinting process typically takes 2-4 hours depending on the size and complexity of your vehicle. We'll provide a more accurate timeframe during your consultation.
+                                The window tinting process typically takes 2-4 hours depending on the size and complexity of your vehicle. We&apos;ll provide a more accurate timeframe during your consultation.
                             </p>
                         </div>
                         <div>

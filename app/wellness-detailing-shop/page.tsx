@@ -49,9 +49,9 @@ export default function WellnessDetailing() {
             <h2 className="text-3xl font-bold mb-6">The Wellness Detailing MD Difference:</h2>
             <ul className="space-y-4 text-black list-disc pl-5">
               <li><strong>Eco-Conscious Cleaning:</strong> We use only eco-friendly, biodegradable products that are gentle on your car and the environment - a perfect choice for the Maryland environment.</li>
-              <li><strong>Specialized Services:</strong> From deep interior cleaning to paint correction and ceramic coating, we offer a variety of services to meet your car's unique needs.</li>
+              <li><strong>Specialized Services:</strong> From deep interior cleaning to paint correction and ceramic coating, we offer a variety of services to meet your car&apos;s unique needs.</li>
               <li><strong>Relaxing Atmosphere:</strong> Our waiting area is designed to provide a tranquil escape, allowing you to unwind while your car is transformed.</li>
-              <li><strong>Mobile Detailing Convenience:</strong> Can't make it to us? No problem! We bring the detail shop to you - mobile detailing throughout Maryland for your convenience.</li>
+              <li><strong>Mobile Detailing Convenience:</strong> Can&apos;t make it to us? No problem! We bring the detail shop to you - mobile detailing throughout Maryland for your convenience.</li>
             </ul>
           </div>
 

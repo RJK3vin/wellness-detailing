@@ -36,12 +36,12 @@ const BlogTwo = () => {
         <>
             <div className="max-w-4xl mx-auto px-4 md:px-6 lg:px-8 py-12 text-gray-800">
                 <h1 className="text-3xl md:text-4xl font-bold text-blue-600 mb-2 leading-tight">
-                    Why Regular Car Washes are Essential for Maintaining Your Car's Health
+                    Why Regular Car Washes are Essential for Maintaining Your Car&apos;s Health
                 </h1>
                 <p className="text-sm text-gray-500 mb-6">By<br className="md:hidden" /> March 26, 2025</p>
 
                 <p className="mb-6 leading-relaxed">
-                    Maintaining your car's health involves more than just regular oil changes and tire rotations. One of the simplest yet most effective ways to keep your vehicle in top condition is by committing to regular car washes. Let's explore why making this seemingly small effort is actually quite essential.
+                    Maintaining your car&apos;s health involves more than just regular oil changes and tire rotations. One of the simplest yet most effective ways to keep your vehicle in top condition is by committing to regular car washes. Let&apos;s explore why making this seemingly small effort is actually quite essential.
                 </p>
 
                 <div className="w-full h-auto mb-8 rounded-lg shadow-md overflow-hidden">
@@ -98,7 +98,7 @@ const BlogTwo = () => {
                     title="Keeping Your Car Pristine and Protected"
                     paragraphs={[
                         <>
-                            Regular car washes go a long way in preserving your vehicle's health, aesthetics, and value. It's not just about keeping it clean—it's a preventive measure that safeguards your car from various elements. By establishing a routine, you're setting your car up for a longer, smoother journey on the road. To learn more about how our services can help you in maintaining your vehicle, check out our{" "}
+                            Regular car washes go a long way in preserving your vehicle&apos;s health, aesthetics, and value. It&apos;s not just about keeping it clean—it&apos;s a preventive measure that safeguards your car from various elements. By establishing a routine, you&apos;re setting your car up for a longer, smoother journey on the road. To learn more about how our services can help you in maintaining your vehicle, check out our{" "}
                             <Link href="/" className="text-blue-600 hover:text-blue-700 underline">
                                 homepage
                             </Link>.

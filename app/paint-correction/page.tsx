@@ -35,8 +35,8 @@ export default function PaintCorrection() {
             <div className="space-y-16 px-4 md:px-8 lg:px-16 py-8 max-w-7xl mx-auto">
                 <section className="space-y-6">
                     <div className="max-w-4xl mx-auto space-y-6">
-                        <h1 className="text-3xl font-bold text-center">Reclaim Your Car's Luster: Unveiling the Layers of Paint Correction</h1>
-                        <p className="text-left">Over time, your car's paint accumulates imperfections from everyday wear and tear. Sun exposure, scratches, swirl marks, and environmental contaminants can dull the shine and detract from your car's appearance. Here at Wellness Detailing, we offer a range of paint correction services tailored to address various paint imperfections:</p>
+                        <h1 className="text-3xl font-bold text-center">Reclaim Your Car&apos;s Luster: Unveiling the Layers of Paint Correction</h1>
+                        <p className="text-left">Over time, your car&apos;s paint accumulates imperfections from everyday wear and tear. Sun exposure, scratches, swirl marks, and environmental contaminants can dull the shine and detract from your car&apos;s appearance. Here at Wellness Detailing, we offer a range of paint correction services tailored to address various paint imperfections:</p>
                         <ul className="list-disc pl-5 space-y-2 text-left">
                             <li><strong>Single-Stage Polish:</strong> This is an ideal option for cars with mild imperfections like minor swirls or light scratches. It involves polishing the paint to remove surface contaminants and restore a clear gloss finish.</li>
                             <li><strong>Multi-Stage Polish:</strong> For cars with moderate imperfections like swirls, scratches, and oxidation, a multi-stage polish is recommended. This process involves multiple stages of cutting and polishing, progressively removing blemishes and refining the paint surface for a deeper shine.</li>
@@ -85,7 +85,7 @@ export default function PaintCorrection() {
                     <h2 className="text-3xl font-bold text-center">The Paint Correction Process at Wellness Detailing</h2>
                     <div className="space-y-4 max-w-4xl mx-auto text-left">
                         <div>
-                            <p>At Wellness Detailing, we believe in a meticulous, multi-stage approach to paint correction. Here's a glimpse into what you can expect:</p>
+                            <p>At Wellness Detailing, we believe in a meticulous, multi-stage approach to paint correction. Here&apos;s a glimpse into what you can expect:</p>
                         </div>
                         <div>
                             <h3 className="font-semibold">The Foundation: A Clean Canvas</h3>
@@ -93,7 +93,7 @@ export default function PaintCorrection() {
                         </div>
                         <div>
                             <h3 className="font-semibold">Assessing the Paint & Choosing the Right Weapon</h3>
-                            <p className="mt-3">Using professional lighting, our technicians meticulously inspect your car's paint to assess the severity of imperfections. Based on this inspection, we'll recommend the most appropriate paint correction service – a single-stage polish for mild imperfections or a multi-stage polish for more severe cases.</p>
+                            <p className="mt-3">Using professional lighting, our technicians meticulously inspect your car&apos;s paint to assess the severity of imperfections. Based on this inspection, we&apos;ll recommend the most appropriate paint correction service – a single-stage polish for mild imperfections or a multi-stage polish for more severe cases.</p>
                         </div>
                         <div>
                             <h3 className="font-semibold">Single-Stage Polish: Restoring Shine Simply</h3>
@@ -112,7 +112,7 @@ export default function PaintCorrection() {
                             <p className="mt-3">After paint correction, we apply a high-quality wax or sealant to protect the newly revealed paint surface, enhancing its shine and longevity. Finally, your car will be meticulously hand-dried and buffed to a flawless finish, ready to turn heads wherever you go!</p>
                         </div>
                     </div>
-                    <p className="text-center max-w-3xl mx-auto">By following this meticulous process, Wellness Detailing ensures a safe, effective, and long-lasting paint correction experience that restores your car's original shine and protects its beauty for years to come.</p>
+                    <p className="text-center max-w-3xl mx-auto">By following this meticulous process, Wellness Detailing ensures a safe, effective, and long-lasting paint correction experience that restores your car&apos;s original shine and protects its beauty for years to come.</p>
                     <div className="text-center pt-2">
                         <Link href="/contact" className="bg-blue-600 text-white px-6 py-3 rounded-md font-medium hover:bg-blue-700">
                             Get A Free Quote
@@ -121,7 +121,7 @@ export default function PaintCorrection() {
                 </section>
                 <section className="space-y-8 max-w-4xl mx-auto">
                     <h2 className="text-3xl font-bold text-center">Paint Correction FAQs: Get Your Questions Answered!</h2>
-                    <p>Here at Wellness Detailing, we understand you might have questions about paint correction. We've compiled answers to some of the most frequently asked questions to help you make an informed decision:</p>
+                    <p>Here at Wellness Detailing, we understand you might have questions about paint correction. We&apos;ve compiled answers to some of the most frequently asked questions to help you make an informed decision:</p>
                     <div className="space-y-6">
                         {[
                             {
@@ -171,7 +171,7 @@ export default function PaintCorrection() {
                         ))}
                     </div>
                     <div className="text-lg font-semibold text-center mt-6">
-                        Ready to breathe new life into your car's paint? Schedule a Free Paint Correction Consultation with Wellness Detailing today!
+                        Ready to breathe new life into your car&apos;s paint? Schedule a Free Paint Correction Consultation with Wellness Detailing today!
                     </div>
                     <div className="text-center pt-4">
                         <Link href="/contact" className="bg-blue-600 text-white px-6 py-3 rounded-md font-medium hover:bg-blue-700">

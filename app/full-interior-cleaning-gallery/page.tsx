@@ -21,7 +21,7 @@ export const metadata = {
   openGraph: {
     title: "Interior Cleaning Gallery | Wellness Detailing",
     description:
-      "Explore before-and-after results of our full interior car cleaning service. See how we tackle stains, odors, and grime to restore your car’s interior.",
+      "Explore before-and-after results of our full interior car cleaning service. See how we tackle stains, odors, and grime to restore your car's interior.",
     url: "https://wellnessdetailing.com/full-interior-cleaning-gallery",
     siteName: "Wellness Detailing",
     type: "website",

@@ -38,7 +38,7 @@ export default function FullInteriorCleaning() {
                 <div className="text-center">
                     <h1 className="text-3xl font-bold">More Than Just a Vacuum: The Wellness Detailing Difference</h1>
                 </div>
-                <p className="text-center max-w-3xl mx-auto">A clean car interior is essential for comfort and hygiene. But a simple vacuuming doesn't suffice. Our comprehensive interior detailing service tackles every nook and cranny, reviving your car's interior to its former glory.</p>
+                <p className="text-center max-w-3xl mx-auto">A clean car interior is essential for comfort and hygiene. But a simple vacuuming doesn&apos;t suffice. Our comprehensive interior detailing service tackles every nook and cranny, reviving your car&apos;s interior to its former glory.</p>
                 <div className="max-w-4xl mx-auto space-y-4 text-left">
                     <li><strong>Deep Cleaning:</strong> We meticulously vacuum every surface, removing dust, crumbs, and debris from carpets, upholstery, and crevices.</li>
                     <li><strong>Stain Removal:</strong> Our cleaning process targets and removes common stains like coffee spills, food residue, and pet accidents.</li>
@@ -71,12 +71,12 @@ export default function FullInteriorCleaning() {
                 <div className="text-center">
                     <h2 className="text-3xl font-bold">Interior Deluxe Package: A Deep Clean for a Luxurious Feel</h2>
                 </div>
-                <p className="text-center max-w-2xl mx-auto">Our most popular package, the Interior Deluxe, provides a comprehensive clean that leaves your car's interior feeling brand new. Here's what's included:</p>
+                <p className="text-center max-w-2xl mx-auto">Our most popular package, the Interior Deluxe, provides a comprehensive clean that leaves your car&apos;s interior feeling brand new. Here&apos;s what&apos;s included:</p>
                 <div className="max-w-4xl mx-auto space-y-4 text-left">
                     <li><strong>Full Interior & Trunk Vacuum:</strong> We meticulously vacuum every surface, removing even the most stubborn dirt and debris.</li>
                     <li><strong>Cleaning & Conditioning:</strong> Steering wheel, console, plastics, upholstery - everything is thoroughly cleaned and conditioned to restore shine and protect against future wear.</li>
                     <li><strong>Interior Glass Cleaning:</strong> Crystal-clear windows ensure optimal visibility and a polished look.</li>
-                    <li><strong>Floor Pedals Cleaned:</strong> We don't forget the often-neglected pedals!</li>
+                    <li><strong>Floor Pedals Cleaned:</strong> We don&apos;t forget the often-neglected pedals!</li>
                     <li><strong>Leather Treatment (if applicable):</strong> Leather seats are cleaned and conditioned with premium leather care products to maintain their suppleness and prevent cracking.</li>
                     <li><strong>Cloth Seats Deep Clean:</strong> Cloth seats are shampooed, steam cleaned, and extracted for a deep and thorough clean.</li>
                     <li><strong>Carpet Revival:</strong> Carpets receive the same deep-cleaning treatment as cloth seats, removing dirt, stains, and allergens.</li>
@@ -87,8 +87,8 @@ export default function FullInteriorCleaning() {
                     <h2 className="text-3xl font-bold">Upgrade Your Clean with Optional Add-Ons</h2>
                     <p className="text-left max-w-1xl mx-auto">We offer various add-on services to tailor the detailing experience to your specific needs:</p>
                     <li><strong>Basic Wash:</strong> Enhance the interior detailing with a comprehensive exterior wash.</li>
-                    <li><strong>Engine Detail:</strong> Restore your engine's appearance and performance with a professional cleaning.</li>
-                    <li><strong>Pet Hair Removal:</strong> Our specialized techniques effectively remove pet hair from your car's interior.</li>
+                    <li><strong>Engine Detail:</strong> Restore your engine&apos;s appearance and performance with a professional cleaning.</li>
+                    <li><strong>Pet Hair Removal:</strong> Our specialized techniques effectively remove pet hair from your car&apos;s interior.</li>
                     <li><strong>Headlight Restoration:</strong> Improve nighttime visibility and safety with restored headlights.</li>
                 </div>
 
@@ -99,7 +99,7 @@ export default function FullInteriorCleaning() {
                 <div className="text-center">
                     <h2 className="text-3xl font-bold">The Art of Interior Transformation: Our Interior Detailing Process at Wellness Detailing</h2>
                     <br></br>
-                    <p className="max-w-3xl mx-auto">At Wellness Detailing, we take pride in restoring car interiors to their pristine condition. Here's a detailed look at our meticulous process, ensuring a clean, fresh, and healthy environment inside your car:</p>
+                    <p className="max-w-3xl mx-auto">At Wellness Detailing, we take pride in restoring car interiors to their pristine condition. Here&apos;s a detailed look at our meticulous process, ensuring a clean, fresh, and healthy environment inside your car:</p>
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-4 gap-6 max-w-6xl mx-auto text-center font-bold">
@@ -145,7 +145,7 @@ export default function FullInteriorCleaning() {
 
                 <div className="max-w-4xl mx-auto space-y-8 text-left">
                     <div>
-                        <p className="font-semibold text-lg mb-2">1. What's included in the Interior Deluxe package?</p>
+                        <p className="font-semibold text-lg mb-2">1. What&apos;s included in the Interior Deluxe package?</p>
                         <p className="mb-2">Our Interior Deluxe package is our most popular option and includes a deep clean of all interior surfaces:</p>
                         <ul className="list-disc pl-6 space-y-1">
                             <li>Full interior and trunk vacuuming</li>
@@ -171,7 +171,7 @@ export default function FullInteriorCleaning() {
                     <div>
                         <p className="font-semibold text-lg mb-2">3. How long does an interior detailing service take?</p>
                         <p>
-                            The duration depends on the size and condition of your car's interior. A typical Interior Deluxe service takes 2-4 hours, while a more comprehensive service with add-ons may take longer.
+                            The duration depends on the size and condition of your car&apos;s interior. A typical Interior Deluxe service takes 2-4 hours, while a more comprehensive service with add-ons may take longer.
                         </p>
                     </div>
 
@@ -197,23 +197,23 @@ export default function FullInteriorCleaning() {
                     </div>
 
                     <div>
-                        <p className="font-semibold text-lg mb-2">7. Is interior detailing good for my car's health?</p>
+                        <p className="font-semibold text-lg mb-2">7. Is interior detailing good for my car&apos;s health?</p>
                         <p>
                             Absolutely! Regular interior detailing removes dust, allergens, and bacteria, creating a cleaner and healthier environment for you and your passengers.
                         </p>
                     </div>
 
                     <div>
-                        <p className="font-semibold text-lg mb-2">8. How often should I get my car's interior detailed?</p>
+                        <p className="font-semibold text-lg mb-2">8. How often should I get my car&apos;s interior detailed?</p>
                         <p>
-                            The frequency depends on your usage habits. For most drivers, we recommend interior detailing every 3–6 months, or more frequently if you have pets or tend to spill things in your car.
+                            The frequency depends on your usage habits. For most drivers, we recommend interior detailing every 3-6 months, or more frequently if you have pets or tend to spill things in your car.
                         </p>
                     </div>
                 </div>
 
 
                 <div className="text-center mt-8">
-                    <p className="font-semibold text-lg max-w-2xl mx-auto">Ready to transform your car's interior into a fresh and clean haven? Schedule Your Interior Detailing Appointment Today!</p>
+                    <p className="font-semibold text-lg max-w-2xl mx-auto">Ready to transform your car&apos;s interior into a fresh and clean haven? Schedule Your Interior Detailing Appointment Today!</p>
                     <br></br>
                     <Link href="/contact" className="mt-4 bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-md font-medium transition">Get A Free Quote</Link>
                 </div>

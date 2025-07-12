@@ -41,20 +41,20 @@ export default function PaintProtectionFilm() {
                 <section className="space-y-6">
                     <div className="max-w-4xl mx-auto space-y-6">
                         <h1 className="text-3xl font-bold text-center">
-                            Paint Protection Film Explained: A Shield of Invisibility for Your Car's Finish
+                            Paint Protection Film Explained: A Shield of Invisibility for Your Car&apos;s Finish
                         </h1>
                         <p>
-                            Imagine your car perpetually maintaining that showroom shine, protected from the elements and everyday wear-and-tear. That's the power of Paint Protection Film (PPF)! This innovative film acts as an invisible shield, safeguarding your car's paint from a variety of threats.
+                            Imagine your car perpetually maintaining that showroom shine, protected from the elements and everyday wear-and-tear. That&apos;s the power of Paint Protection Film (PPF)! This innovative film acts as an invisible shield, safeguarding your car&apos;s paint from a variety of threats.
                         </p>
                         <p>
-                            PPF technology has revolutionized car care. It's a clear, ultra-thin film applied directly to your car's painted surfaces. This creates a sacrificial layer that absorbs the brunt of external damage, keeping your car's original paint job looking flawless for years to come.
+                            PPF technology has revolutionized car care. It&apos;s a clear, ultra-thin film applied directly to your car&apos;s painted surfaces. This creates a sacrificial layer that absorbs the brunt of external damage, keeping your car&apos;s original paint job looking flawless for years to come.
                         </p>
                         <p>
-                            Think of PPF as a suit of armor for your car's paintwork. It shields against:
+                            Think of PPF as a suit of armor for your car&apos;s paintwork. It shields against:
                         </p>
                         <ul className="list-disc list-inside space-y-2">
-                            <li><strong>Scratches and chips:</strong> Flying rocks, gravel, and even rogue shopping carts can leave unsightly marks on your car's paint. PPF acts as a barrier, absorbing the impact and preventing damage to the original paint.</li>
-                            <li><strong>UV rays:</strong> Sun exposure can cause fading and discoloration. PPF blocks harmful UV rays, keeping your car's paint vibrant and glossy.</li>
+                            <li><strong>Scratches and chips:</strong> Flying rocks, gravel, and even rogue shopping carts can leave unsightly marks on your car&apos;s paint. PPF acts as a barrier, absorbing the impact and preventing damage to the original paint.</li>
+                            <li><strong>UV rays:</strong> Sun exposure can cause fading and discoloration. PPF blocks harmful UV rays, keeping your car&apos;s paint vibrant and glossy.</li>
                             <li><strong>Stains and environmental contaminants:</strong> Bird droppings, sap, and road grime can be tough to remove and leave behind unwanted marks. PPF offers a protective layer that makes cleaning and maintenance easier.</li>
                         </ul>
                         <div className="pt-4 text-center">
@@ -73,24 +73,24 @@ export default function PaintProtectionFilm() {
                         <div className="flex flex-col items-center space-y-2">
                             <CheckCircle className="w-10 h-10 text-blue-600" />
                             <p className="font-semibold text-lg">Ultimate Paint Protection</p>
-                            <p>PPF creates a virtually invisible barrier that safeguards your car's paint from scratches, chips, and other blemishes caused by road debris, flying rocks, and everyday wear and tear. Think of it as a suit of armor for your car's paintwork.</p>
+                            <p>PPF creates a virtually invisible barrier that safeguards your car&apos;s paint from scratches, chips, and other blemishes caused by road debris, flying rocks, and everyday wear and tear. Think of it as a suit of armor for your car&apos;s paintwork.</p>
                         </div>
                         <div className="flex flex-col items-center space-y-2">
                             <CheckCircle className="w-10 h-10 text-blue-600" />
                             <p className="font-semibold text-lg">Preserves Showroom Shine</p>
-                            <p>Harsh UV rays can cause fading and discoloration over time. PPF acts as a shield, absorbing or reflecting UV rays to prevent your car's paint from losing its vibrant color and maintaining that showroom shine for years to come.</p>
+                            <p>Harsh UV rays can cause fading and discoloration over time. PPF acts as a shield, absorbing or reflecting UV rays to prevent your car&apos;s paint from losing its vibrant color and maintaining that showroom shine for years to come.</p>
                         </div>
                         <div className="flex flex-col items-center space-y-2">
                             <CheckCircle className="w-10 h-10 text-blue-600" />
                             <p className="font-semibold text-lg">Self-Healing Properties</p>
-                            <p>Certain PPF films boast advanced technology that allows them to "self-heal" from minor scratches. By applying moderate heat, these films can minimize the appearance of light scratches, keeping your car's paint looking flawless.</p>
+                            <p>Certain PPF films boast advanced technology that allows them to &quot;self-heal&quot; from minor scratches. By applying moderate heat, these films can minimize the appearance of light scratches, keeping your car&apos;s paint looking flawless.</p>
                         </div>
                     </div>
                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-6 text-center pt-6">
                         <div className="flex flex-col items-center space-y-2">
                             <CheckCircle className="w-10 h-10 text-blue-600" />
                             <p className="font-semibold text-lg">Increased Resale Value</p>
-                            <p>By protecting your car's paint from damage, PPF can significantly impact its resale value down the road. Potential buyers will appreciate the well-maintained condition of the car's exterior, potentially leading to a higher selling price.</p>
+                            <p>By protecting your car&apos;s paint from damage, PPF can significantly impact its resale value down the road. Potential buyers will appreciate the well-maintained condition of the car&apos;s exterior, potentially leading to a higher selling price.</p>
                         </div>
                         <div className="flex flex-col items-center space-y-2">
                             <CheckCircle className="w-10 h-10 text-blue-600" />
@@ -106,12 +106,12 @@ export default function PaintProtectionFilm() {
                 </section>
                 <section className="space-y-6">
                     <h2 className="text-3xl font-bold text-center">The PPF Installation Process at Wellness Detailing</h2>
-                    <p className="text-center max-w-3xl mx-auto">At Wellness Detailing, we take pride in delivering a meticulous and professional mobile PPF installation experience. Here's a glimpse into our streamlined 6-step process:</p>
+                    <p className="text-center max-w-3xl mx-auto">At Wellness Detailing, we take pride in delivering a meticulous and professional mobile PPF installation experience. Here&apos;s a glimpse into our streamlined 6-step process:</p>
                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 text-center">
                         <div className="bg-white p-6 rounded-2xl shadow-md border border-blue-100">
                             <p className="font-bold text-blue-600 text-xl mb-2">1</p>
                             <h3 className="font-semibold mb-2">Pre-Installation Preparation</h3>
-                            <p>Wellness Detailing offers professional mobile paint protection film installation to shield your car's paint from scratches, chips, and fading. Maintain your car's showroom shine for years to come.</p>
+                            <p>Wellness Detailing offers professional mobile paint protection film installation to shield your car&apos;s paint from scratches, chips, and fading. Maintain your car&apos;s showroom shine for years to come.</p>
                         </div>
                         <div className="bg-white p-6 rounded-2xl shadow-md border border-blue-100">
                             <p className="font-bold text-blue-600 text-xl mb-2">2</p>
@@ -121,7 +121,7 @@ export default function PaintProtectionFilm() {
                         <div className="bg-white p-6 rounded-2xl shadow-md border border-blue-100">
                             <p className="font-bold text-blue-600 text-xl mb-2">3</p>
                             <h3 className="font-semibold mb-2">Surface Treatment</h3>
-                            <p>The paint surface is treated with a special solution to enhance the film's adhesion and create a lasting bond.</p>
+                            <p>The paint surface is treated with a special solution to enhance the film&apos;s adhesion and create a lasting bond.</p>
                         </div>
                         <div className="bg-white p-6 rounded-2xl shadow-md border border-blue-100">
                             <p className="font-bold text-blue-600 text-xl mb-2">4</p>
@@ -136,7 +136,7 @@ export default function PaintProtectionFilm() {
                         <div className="bg-white p-6 rounded-2xl shadow-md border border-blue-100">
                             <p className="font-bold text-blue-600 text-xl mb-2">6</p>
                             <h3 className="font-semibold mb-2">Final Inspection & Aftercare</h3>
-                            <p>After installation, our team thoroughly inspects your car's exterior to ensure a flawless finish that meets our high standards. We'll also provide detailed aftercare instructions to optimize the performance and longevity of your PPF.</p>
+                            <p>After installation, our team thoroughly inspects your car&apos;s exterior to ensure a flawless finish that meets our high standards. We&apos;ll also provide detailed aftercare instructions to optimize the performance and longevity of your PPF.</p>
                         </div>
                     </div>
                     <div className="text-center pt-2">
@@ -147,7 +147,7 @@ export default function PaintProtectionFilm() {
                 </section>
                 <section className="space-y-8 max-w-4xl mx-auto">
                     <h2 className="text-3xl font-bold text-center">Paint Protection Film FAQs: Get Your Questions Answered!</h2>
-                    <p>Here at Wellness Detailing, we understand you might have questions about Paint Protection Film (PPF). We've compiled answers to some of the most frequently asked questions to help you make an informed decision:</p>
+                    <p>Here at Wellness Detailing, we understand you might have questions about Paint Protection Film (PPF). We&apos;ve compiled answers to some of the most frequently asked questions to help you make an informed decision:</p>
                     <div className="space-y-8">
                         <div>
                             <p className="mb-2 font-semibold">1. Is Paint Protection Film worth it?</p>
@@ -168,12 +168,12 @@ export default function PaintProtectionFilm() {
                             <p>The cost of PPF installation depends on several factors, including the size and complexity of your car, the type of PPF film you choose, and the number of surfaces you want protected. We offer free consultations where we can provide a transparent quote based on your needs.</p>
                         </div>
                         <div>
-                            <p className="mb-2 font-semibold">4. Will PPF damage my car's paint?</p>
-                            <p>No, professional PPF installation using high-quality film will not damage your car's paint. In fact, PPF acts as a protective layer, shielding the original paint from damage.</p>
+                            <p className="mb-2 font-semibold">4. Will PPF damage my car&apos;s paint?</p>
+                            <p>No, professional PPF installation using high-quality film will not damage your car&apos;s paint. In fact, PPF acts as a protective layer, shielding the original paint from damage.</p>
                         </div>
                         <div>
                             <p className="mb-2 font-semibold">5. How long does PPF installation take?</p>
-                            <p>The PPF installation process typically takes 4-8 hours depending on the size and complexity of your vehicle. We'll provide a more accurate timeframe during your consultation.</p>
+                            <p>The PPF installation process typically takes 4-8 hours depending on the size and complexity of your vehicle. We&apos;ll provide a more accurate timeframe during your consultation.</p>
                         </div>
                         <div>
                             <p className="mb-2 font-semibold">6. Do you offer a warranty on your PPF installations?</p>

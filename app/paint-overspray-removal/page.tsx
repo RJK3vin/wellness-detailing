@@ -60,7 +60,7 @@ export default function PaintOversprayRemoval() {
                         Our Safe and Effective Paint Overspray Removal Process
                     </h2>
                     <p className="max-w-3xl mx-auto">
-                        We understand the delicate nature of car paint. That's why we use a meticulous and proven process to remove paint overspray without damaging your cars finish:
+                        We understand the delicate nature of car paint. That&apos;s why we use a meticulous and proven process to remove paint overspray without damaging your cars finish:
                     </p>
                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 pt-4">
                         {[

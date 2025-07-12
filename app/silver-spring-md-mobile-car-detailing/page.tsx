@@ -54,7 +54,7 @@ export default function SilverSpringDetailing() {
                 <h2 className="text-2xl font-bold mb-6 text-center">About Silver Spring Mobile Detailing: Your Local Car Care Champions</h2>
 
                 <p className="mb-4">
-                    Silver Spring Mobile Detailing is a local business, owned and operated right here in Silver Spring, MD. We understand the unique challenges Silver Spring cars endure, from springtime pollen blizzards to road salt during harsh winters. That's why we provide the highest quality detailing services specifically designed to revive your car's shine, shield it from the elements, and keep it looking its best, year after year.
+                    Silver Spring Mobile Detailing is a local business, owned and operated right here in Silver Spring, MD. We understand the unique challenges Silver Spring cars endure, from springtime pollen blizzards to road salt during harsh winters. That&apos;s why we provide the highest quality detailing services specifically designed to revive your car&apos;s shine, shield it from the elements, and keep it looking its best, year after year.
                 </p>
 
                 <p className="mb-4">
@@ -62,7 +62,7 @@ export default function SilverSpringDetailing() {
                 </p>
 
                 <p className="mb-6">
-                    Skip the wait and experience the Silver Spring Mobile Detailing difference! Our certified detailers are passionate car care specialists wielding top-of-the-line equipment and premium products. We'll leave your car gleaming, protected, and ready to turn heads as you navigate the vibrant streets of Silver Spring.
+                    Skip the wait and experience the Silver Spring Mobile Detailing difference! Our certified detailers are passionate car care specialists wielding top-of-the-line equipment and premium products. We&apos;ll leave your car gleaming, protected, and ready to turn heads as you navigate the vibrant streets of Silver Spring.
                 </p>
 
                 <div className="flex flex-col sm:flex-row gap-4 mb-6">
@@ -99,20 +99,20 @@ export default function SilverSpringDetailing() {
                 </h2>
 
                 <p className="mb-4">
-                    At Silver Spring Mobile Detailing, we offer a comprehensive menu of mobile detailing services in Silver Spring, MD to cater to your specific car's needs and your budget. Here's a glimpse into what we can do for you:
+                    At Silver Spring Mobile Detailing, we offer a comprehensive menu of mobile detailing services in Silver Spring, MD to cater to your specific car&apos;s needs and your budget. Here&apos;s a glimpse into what we can do for you:
                 </p>
 
                 <ul className="list-disc list-inside space-y-3 mb-6">
-                    <li><strong>Full Interior Cleaning:</strong> This in-depth cleaning service tackles every inch of your car's interior, leaving no spot untouched...</li>
+                    <li><strong>Full Interior Cleaning:</strong> This in-depth cleaning service tackles every inch of your car&apos;s interior, leaving no spot untouched...</li>
                     <li><strong>Mini-Interior Detail:</strong> Short on time? Our mini detail is a perfect pick-me-up...</li>
                     <li><strong>Smoke Odor Removal:</strong> Eliminate lingering smoke odors and restore a fresh, clean scent...</li>
                     <li><strong>Restorative Interior Cleaning:</strong> For neglected interiors that need a revival...</li>
-                    <li><strong>Wash and Wax:</strong> Give your car's exterior a classic clean and shine...</li>
-                    <li><strong>Paint Correction:</strong> Restore your car's paintwork to its former glory...</li>
-                    <li><strong>Ceramic Coating (Optional Add-On):</strong> Protect your car's paint with a ceramic coating...</li>
+                    <li><strong>Wash and Wax:</strong> Give your car&apos;s exterior a classic clean and shine...</li>
+                    <li><strong>Paint Correction:</strong> Restore your car&apos;s paintwork to its former glory...</li>
+                    <li><strong>Ceramic Coating (Optional Add-On):</strong> Protect your car&apos;s paint with a ceramic coating...</li>
                     <li><strong>Headlight Restoration:</strong> Restore clarity and improve nighttime visibility...</li>
                     <li><strong>Paint Overspray Removal:</strong> We can expertly remove unwanted paint overspray...</li>
-                    <li><strong>Paint Protection Film (PPF):</strong> Protect your car's paint from scratches, chips, and debris...</li>
+                    <li><strong>Paint Protection Film (PPF):</strong> Protect your car&apos;s paint from scratches, chips, and debris...</li>
                     <li><strong>Vehicle Wraps:</strong> Completely transform the look of your car with a custom wrap...</li>
                 </ul>
 
@@ -138,7 +138,7 @@ export default function SilverSpringDetailing() {
                         </h2>
 
                         <p className="mb-4">
-                            Silver Spring Mobile Detailing proudly serves Silver Spring, Maryland, and the surrounding areas. We understand your busy lifestyle, and that's why we bring the convenience of mobile detailing to your driveway or workplace. Whether you're cruising through the heart of Silver Spring or call a nearby community home, we can help you keep your car looking its best.
+                            Silver Spring Mobile Detailing proudly serves Silver Spring, Maryland, and the surrounding areas. We understand your busy lifestyle, and that&apos;s why we bring the convenience of mobile detailing to your driveway or workplace. Whether you&apos;re cruising through the heart of Silver Spring or call a nearby community home, we can help you keep your car looking its best.
                         </p>
 
                         <div className="space-y-2 mb-4">
@@ -158,7 +158,7 @@ export default function SilverSpringDetailing() {
                         </div>
 
                         <p className="mb-2">
-                            <strong>Not sure if we service your specific area? Not to worry!</strong> Contact us today! We'd be happy to discuss your detailing needs and answer any questions you may have. We're always looking for ways to expand our service coverage in Poolesville, MD and surrounding areas, so there's a good chance we can brighten your car's day!
+                            <strong>Not sure if we service your specific area? Not to worry!</strong> Contact us today! We&apos;d be happy to discuss your detailing needs and answer any questions you may have. We&apos;re always looking for ways to expand our service coverage in Poolesville, MD and surrounding areas, so there&apos;s a good chance we can brighten your car&apos;s day!
                         </p>
                     </div>
 
@@ -198,7 +198,7 @@ export default function SilverSpringDetailing() {
                             How often should I get my car detailed in Silver Spring?
                         </p>
                         <p>
-                            The frequency depends on your driving habits and how well you maintain your car. Generally, a professional detail every 6-12 months is recommended in Silver Spring, MD to maintain a fresh look and protect your car's finish.
+                            The frequency depends on your driving habits and how well you maintain your car. Generally, a professional detail every 6-12 months is recommended in Silver Spring, MD to maintain a fresh look and protect your car&apos;s finish.
                         </p>
                     </div>
 
@@ -207,16 +207,16 @@ export default function SilverSpringDetailing() {
                             Do you offer mobile detailing packages in Silver Spring?
                         </p>
                         <p>
-                            Absolutely! We understand that every car has unique needs. That's why we offer a variety of mobile detailing packages in Silver Spring, MD to fit your specific budget and requirements. Browse our options online or contact us for a free quote.
+                            Absolutely! We understand that every car has unique needs. That&apos;s why we offer a variety of mobile detailing packages in Silver Spring, MD to fit your specific budget and requirements. Browse our options online or contact us for a free quote.
                         </p>
                     </div>
 
                     <div>
                         <p className="font-semibold">
-                            Can you remove smoke odors from my car's interior in Silver Spring?
+                            Can you remove smoke odors from my car&apos;s interior in Silver Spring?
                         </p>
                         <p>
-                            Yes! We offer professional smoke odor removal services using proven techniques to eliminate lingering odors and restore a fresh scent to your car's interior in Silver Spring, MD.
+                            Yes! We offer professional smoke odor removal services using proven techniques to eliminate lingering odors and restore a fresh scent to your car&apos;s interior in Silver Spring, MD.
                         </p>
                     </div>
                 </div>

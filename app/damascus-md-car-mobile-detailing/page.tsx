@@ -104,39 +104,39 @@ export default function DamascusDetailing() {
                 <section className="space-y-4">
                     <h1 className="text-3xl font-bold text-center">Our Mobile Detailing Services in Damascus, MD</h1>
                     <p>
-                        At Damascus Mobile Detailing, we offer a comprehensive menu of mobile detailing services in Damascus, MD to cater to your car's specific needs and your budget. Here's a glimpse into what we can do for you:
+                        At Damascus Mobile Detailing, we offer a comprehensive menu of mobile detailing services in Damascus, MD to cater to your car&apos;s specific needs and your budget. Here&apos;s a glimpse into what we can do for you:
                     </p>
 
                     <ul className="space-y-3 list-disc pl-5">
                         <li>
-                            <strong>Full Interior Cleaning:</strong> This in-depth cleaning service tackles every inch of your car's interior, leaving no spot untouched. We thoroughly clean carpets, upholstery, leather seats (conditioning included), hard surfaces, and windows, and remove any unwanted trash.
+                            <strong>Full Interior Cleaning:</strong> This in-depth cleaning service tackles every inch of your car&apos;s interior, leaving no spot untouched. We thoroughly clean carpets, upholstery, leather seats (conditioning included), hard surfaces, and windows, and remove any unwanted trash.
                         </li>
                         <li>
                             <strong>Mini-Interior Detail:</strong> Short on time? Our mini detail is a perfect pick-me-up for busy schedules, including vacuuming, surface wiping, window cleaning, and trash removal.
                         </li>
                         <li>
-                            <strong>Smoke Odor Removal:</strong> Eliminate lingering smoke odors and restore a fresh, clean scent to your car's interior with our professional smoke odor removal service.
+                            <strong>Smoke Odor Removal:</strong> Eliminate lingering smoke odors and restore a fresh, clean scent to your car&apos;s interior with our professional smoke odor removal service.
                         </li>
                         <li>
-                            <strong>Restorative Interior Cleaning:</strong> For neglected interiors that need a revival, our restorative service tackles embedded dirt, grime, and stains, bringing your car's inside back to life.
+                            <strong>Restorative Interior Cleaning:</strong> For neglected interiors that need a revival, our restorative service tackles embedded dirt, grime, and stains, bringing your car&apos;s inside back to life.
                         </li>
                         <li>
-                            <strong>Wash and Wax:</strong> Give your car's exterior a classic clean and shine with our thorough wash and high-quality wax application.
+                            <strong>Wash and Wax:</strong> Give your car&apos;s exterior a classic clean and shine with our thorough wash and high-quality wax application.
                         </li>
                         <li>
-                            <strong>Paint Correction:</strong> Restore your car's paintwork to its former glory with our multi-step paint correction service. This process removes minor scratches, swirl marks, and oxidation for a mirror-like finish.
+                            <strong>Paint Correction:</strong> Restore your car&apos;s paintwork to its former glory with our multi-step paint correction service. This process removes minor scratches, swirl marks, and oxidation for a mirror-like finish.
                         </li>
                         <li>
-                            <strong>Ceramic Coating (Optional Add-On):</strong> Protect your car's paint with a ceramic coating, offering superior gloss, scratch resistance, and easier maintenance for years to come.
+                            <strong>Ceramic Coating (Optional Add-On):</strong> Protect your car&apos;s paint with a ceramic coating, offering superior gloss, scratch resistance, and easier maintenance for years to come.
                         </li>
                         <li>
                             <strong>Headlight Restoration:</strong> Restore clarity and improve nighttime visibility with our professional headlight restoration service.
                         </li>
                         <li>
-                            <strong>Paint Overspray Removal:</strong> We can expertly remove unwanted paint overspray from your car's exterior, returning it to its original condition.
+                            <strong>Paint Overspray Removal:</strong> We can expertly remove unwanted paint overspray from your car&apos;s exterior, returning it to its original condition.
                         </li>
                         <li>
-                            <strong>Paint Protection Film (PPF):</strong> Protect your car's paint from scratches, chips, and road debris with a virtually invisible paint protection film.
+                            <strong>Paint Protection Film (PPF):</strong> Protect your car&apos;s paint from scratches, chips, and road debris with a virtually invisible paint protection film.
                         </li>
                         <li>
                             <strong>Vehicle Wraps:</strong> Completely transform the look of your car with a custom vehicle wrap. Choose from a variety of colors, designs, and finishes to express your unique style.
@@ -172,7 +172,7 @@ export default function DamascusDetailing() {
                                 </h2>
 
                                 <p className="mb-4">
-                                    Damascus Mobile Detailing proudly serves Damascus, Maryland, and the surrounding areas. We bring the convenience of mobile detailing to your driveway, saving you time and hassle. Not in Damascus? Don't worry, we can still help! We service a wide range of locations in Maryland. Contact us today to see if your area is included!
+                                    Damascus Mobile Detailing proudly serves Damascus, Maryland, and the surrounding areas. We bring the convenience of mobile detailing to your driveway, saving you time and hassle. Not in Damascus? Don&apos;t worry, we can still help! We service a wide range of locations in Maryland. Contact us today to see if your area is included!
                                 </p>
 
                                 <ul className="mb-4 list-disc list-inside space-y-1">
@@ -197,7 +197,7 @@ export default function DamascusDetailing() {
                                 <p className="mb-2">
                                     <strong>Not sure if we service your specific area? Not to worry!</strong><br />
                                     <span className="block mt-4">
-                                        Contact us today! We are always expanding our service coverage in Poolesville, MD and surrounding areas. We'd be happy to discuss your detailing needs and answer any questions you may have.
+                                        Contact us today! We are always expanding our service coverage in Poolesville, MD and surrounding areas. We&apos;d be happy to discuss your detailing needs and answer any questions you may have.
                                     </span>
                                 </p>
                             </div>
@@ -222,7 +222,7 @@ export default function DamascusDetailing() {
                     </h2>
                     <p>
                         We understand you might have questions about our mobile detailing services in Damascus, MD. Here are some
-                        frequently asked questions specific to Damascus Mobile Detailing to help you decide if we're the right fit
+                        frequently asked questions specific to Damascus Mobile Detailing to help you decide if we&apos;re the right fit
                         for you:
                     </p>
 
@@ -244,7 +244,7 @@ export default function DamascusDetailing() {
                             </p>
                             <p>
                                 No problem! We offer a variety of detailing packages in Damascus, MD, including restorative services to
-                                tackle neglected interiors and minor paint imperfections. We can assess your car's needs and recommend
+                                tackle neglected interiors and minor paint imperfections. We can assess your car&apos;s needs and recommend
                                 the perfect service to bring it back to life.
                             </p>
                         </div>
@@ -287,7 +287,7 @@ export default function DamascusDetailing() {
                         </p>
                         <p>
                             Request a free quote today and let us make your car shine! We guarantee exceptional results delivered
-                            conveniently at your location in Damascus, MD or the surrounding areas. Let's get your car looking its best
+                            conveniently at your location in Damascus, MD or the surrounding areas. Let&apos;s get your car looking its best
                             again!
                         </p>
                         <Link

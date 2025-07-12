@@ -43,7 +43,7 @@ const BlogSeven = () => {
                 <p className="mb-6 leading-relaxed">
                     Maintaining a clean and fresh-smelling car interior is crucial for making drives more enjoyable and comfortable.
                     Many car owners often wonder if a thorough interior car cleaning can effectively tackle stubborn stains and lingering odors.
-                    Let's dive into this topic and uncover the answers.
+                    Let&apos;s dive into this topic and uncover the answers.
                 </p>
 
                 <div className="w-full h-auto mb-8 rounded-lg shadow-md overflow-hidden">

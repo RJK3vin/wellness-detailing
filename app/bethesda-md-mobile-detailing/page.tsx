@@ -55,8 +55,8 @@ export default function BethesdaContent() {
             <p>
               Bethesda Mobile Detailing is a locally owned and operated business with deep roots in the Bethesda
               community. We understand the unique challenges Bethesda cars face, from enduring summer heat to the
-              occasional winter snowstorm. That's why we provide the highest quality detailing services in Bethesda,
-              MD, tailored to restore your car's shine, shield it from the elements, and keep it looking its best
+              occasional winter snowstorm. That&apos;s why we provide the highest quality detailing services in Bethesda,
+              MD, tailored to restore your car&apos;s shine, shield it from the elements, and keep it looking its best
               year-round.
             </p>
             <p>
@@ -104,11 +104,11 @@ export default function BethesdaContent() {
           <div className="space-y-4">
             <p>
               At Bethesda Mobile Detailing, we offer a comprehensive menu of mobile detailing services in Bethesda, MD to
-              cater to your specific car's needs and your budget. Here's a glimpse into what we can do for you:
+              cater to your specific car&apos;s needs and your budget. Here&apos;s a glimpse into what we can do for you:
             </p>
             <ul className="list-disc list-outside space-y-2">
               <li>
-                <strong>Full Interior Cleaning:</strong> This in-depth cleaning service tackles every inch of your car's
+                <strong>Full Interior Cleaning:</strong> This in-depth cleaning service tackles every inch of your car&apos;s
                 interior, leaving no spot untouched. We thoroughly clean carpets, upholstery, leather seats (conditioning
                 included), hard surfaces, and windows, and remove any unwanted trash.
               </li>
@@ -118,23 +118,23 @@ export default function BethesdaContent() {
               </li>
               <li>
                 <strong>Smoke Odor Removal:</strong> Eliminate lingering smoke odors and restore a fresh, clean scent to
-                your car's interior with our professional smoke odor removal service.
+                your car&apos;s interior with our professional smoke odor removal service.
               </li>
               <li>
                 <strong>Restorative Interior Cleaning:</strong> For neglected interiors that need a revival, our
-                restorative service tackles embedded dirt, grime, and stains, bringing your car's inside back to life.
+                restorative service tackles embedded dirt, grime, and stains, bringing your car&apos;s inside back to life.
               </li>
               <li>
-                <strong>Wash and Wax:</strong> Give your car's exterior a classic clean and shine with our thorough wash
+                <strong>Wash and Wax:</strong> Give your car&apos;s exterior a classic clean and shine with our thorough wash
                 and high-quality wax application.
               </li>
               <li>
-                <strong>Paint Correction:</strong> Restore your car's paintwork to its former glory with our multi-step
+                <strong>Paint Correction:</strong> Restore your car&apos;s paintwork to its former glory with our multi-step
                 paint correction service. This process removes minor scratches, swirl marks, and oxidation for a
                 mirror-like finish.
               </li>
               <li>
-                <strong>Ceramic Coating (Optional Add-On):</strong> Protect your car's paint with a ceramic coating,
+                <strong>Ceramic Coating (Optional Add-On):</strong> Protect your car&apos;s paint with a ceramic coating,
                 offering superior gloss, scratch resistance, and easier maintenance for years to come.
               </li>
               <li>
@@ -142,11 +142,11 @@ export default function BethesdaContent() {
                 professional headlight restoration service.
               </li>
               <li>
-                <strong>Paint Overspray Removal:</strong> We can expertly remove unwanted paint overspray from your car's
+                <strong>Paint Overspray Removal:</strong> We can expertly remove unwanted paint overspray from your car&apos;s
                 exterior, returning it to its original condition.
               </li>
               <li>
-                <strong>Paint Protection Film (PPF):</strong> Protect your car's paint from scratches, chips, and road
+                <strong>Paint Protection Film (PPF):</strong> Protect your car&apos;s paint from scratches, chips, and road
                 debris with a virtually invisible paint protection film.
               </li>
               <li>
@@ -154,7 +154,7 @@ export default function BethesdaContent() {
                 Choose from a variety of colors, designs, and finishes to express your unique style.
               </li>
             </ul>
-            <p className="mt-6">Bethesda Mobile Detailing: Bring Back Your Car's Shine at Home!</p>
+            <p className="mt-6">Bethesda Mobile Detailing: Bring Back Your Car&apos;s Shine at Home!</p>
             <p>
               <strong>Contact us today for a free quote and experience the Bethesda Mobile Detailing difference!</strong> We guarantee
               exceptional results delivered conveniently at your location in Bethesda, MD. Let us make your car shine
@@ -181,8 +181,8 @@ export default function BethesdaContent() {
           <div className="flex flex-col lg:flex-row gap-8 items-start">
             <div className="flex-1 space-y-4">
               <p>
-                Bethesda Mobile Detailing proudly serves Bethesda, Maryland, and the surrounding areas. We're constantly
-                expanding our reach to bring the convenience of mobile detailing to more drivers! Whether you're parked in
+                Bethesda Mobile Detailing proudly serves Bethesda, Maryland, and the surrounding areas. We&apos;re constantly
+                expanding our reach to bring the convenience of mobile detailing to more drivers! Whether you&apos;re parked in
                 the heart of Bethesda or call a nearby community home, we can help you keep your car looking its best.
               </p>
 
@@ -206,10 +206,10 @@ export default function BethesdaContent() {
               </ul>
 
               <p>
-                <strong>Not sure if we service your specific area? Not to worry!</strong> Contact us today! We'd be happy
-                to discuss your detailing needs and answer any questions you may have. We're always looking for ways to
-                expand our service coverage in Potomac and Chevy Chase, MD, so there's a good chance we can brighten your
-                car's day!
+                <strong>Not sure if we service your specific area? Not to worry!</strong> Contact us today! We&apos;d be happy
+                to discuss your detailing needs and answer any questions you may have. We&apos;re always looking for ways to
+                expand our service coverage in Potomac and Chevy Chase, MD, so there&apos;s a good chance we can brighten your
+                car&apos;s day!
               </p>
             </div>
 
@@ -252,7 +252,7 @@ export default function BethesdaContent() {
               <h3 className="font-semibold mb-2">How often should I get my car detailed in Bethesda?</h3>
               <p>
                 The frequency depends on your driving habits and how well you maintain your car. Generally, a professional
-                detail every 6-12 months is recommended in Bethesda, MD to maintain a fresh look and protect your car's
+                detail every 6-12 months is recommended in Bethesda, MD to maintain a fresh look and protect your car&apos;s
                 finish.
               </p>
             </div>
@@ -260,17 +260,17 @@ export default function BethesdaContent() {
             <div>
               <h3 className="font-semibold mb-2">Do you offer mobile detailing packages in Bethesda?</h3>
               <p>
-                Absolutely! We understand that every car has unique needs. That's why we offer a variety of mobile
+                Absolutely! We understand that every car has unique needs. That&apos;s why we offer a variety of mobile
                 detailing packages in Bethesda, MD to fit your specific budget and requirements. Browse our options online
                 or contact us for a free quote.
               </p>
             </div>
 
             <div>
-              <h3 className="font-semibold mb-2">Can you remove pet hair from my car's interior in Bethesda?</h3>
+              <h3 className="font-semibold mb-2">Can you remove pet hair from my car&apos;s interior in Bethesda?</h3>
               <p>
                 Yes! We offer specialized pet hair removal services using proven techniques to eliminate embedded fur and
-                restore your vehicle's interior.
+                restore your vehicle&apos;s interior.
               </p>
             </div>
           </div>

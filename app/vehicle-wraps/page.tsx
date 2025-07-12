@@ -41,9 +41,9 @@ export default function VehicleWraps() {
                 <section className="space-y-6">
                     <div className="max-w-4xl mx-auto space-y-6">
                         <h1 className="text-3xl font-bold text-center">Unveiling the Power of Car Wraps: Express Yourself & Make a Statement</h1>
-                        <p className="text-left">Car wraps are no longer just for company vehicles. They've become a popular way for car enthusiasts and individuals to personalize their cars and stand out from the crowd. Here at Wellness Detailing, we offer a variety of car wrap solutions to meet your unique needs:</p>
+                        <p className="text-left">Car wraps are no longer just for company vehicles. They&apos;ve become a popular way for car enthusiasts and individuals to personalize their cars and stand out from the crowd. Here at Wellness Detailing, we offer a variety of car wrap solutions to meet your unique needs:</p>
                         <ul className="list-disc pl-5 space-y-2 text-left">
-                            <li><strong>Full Car Wraps:</strong> Transform your car's entire exterior with a complete custom design. Whether you envision a sleek solid color, a vibrant graphic design, or a realistic photo wrap, we can make it happen.</li>
+                            <li><strong>Full Car Wraps:</strong> Transform your car&apos;s entire exterior with a complete custom design. Whether you envision a sleek solid color, a vibrant graphic design, or a realistic photo wrap, we can make it happen.</li>
                             <li><strong>Partial Car Wraps:</strong> Opt for a more subtle touch with partial wraps that cover specific areas like the hood, roof, or trunk. This is a great way to add accents, stripes, or logos.</li>
                             <li><strong>Fleet Branding:</strong> Enhance brand awareness and create a cohesive look for your company vehicles with professional fleet wraps.</li>
                         </ul>
@@ -76,7 +76,7 @@ export default function VehicleWraps() {
                         <div className="flex flex-col items-center space-y-2">
                             <CheckCircle className="w-10 h-10 text-blue-600" />
                             <p className="font-semibold text-lg">Paint Protection</p>
-                            <p>High-quality car wrap vinyl acts as a shield, protecting your car's original paint from scratches, chips, and UV rays.</p>
+                            <p>High-quality car wrap vinyl acts as a shield, protecting your car&apos;s original paint from scratches, chips, and UV rays.</p>
                         </div>
                         <div className="flex flex-col items-center space-y-2">
                             <CheckCircle className="w-10 h-10 text-blue-600" />
@@ -97,13 +97,13 @@ export default function VehicleWraps() {
                 </section>
                 <section className="space-y-6">
                     <h2 className="text-3xl font-bold text-center">The Car Wrap Process at Wellness Detailing</h2>
-                    <p className="text-center max-w-3xl mx-auto">Transforming your car with a car wrap is a collaborative and personalized process. Here's a glimpse into what you can expect when you choose Wellness Detailing:</p>
+                    <p className="text-center max-w-3xl mx-auto">Transforming your car with a car wrap is a collaborative and personalized process. Here&apos;s a glimpse into what you can expect when you choose Wellness Detailing:</p>
                     <ol className="list-decimal space-y-4 pl-5 max-w-4xl mx-auto text-left">
                         <li><strong>Free Design Consultation:</strong> Our design team will discuss your vision, understand your preferences, and explore various design options. We can even create mockups to help you visualize your dream car wrap.</li>
-                        <li><strong>Design Approval:</strong> Once you're happy with the design, we'll finalize it and prepare the high-quality wrap vinyl for printing.</li>
-                        <li><strong>Surface Preparation:</strong> Our detail experts will meticulously clean and prep your car's exterior to ensure a flawless application and optimal adhesion.</li>
-                        <li><strong>Expert Wrap Installation:</strong> Our experienced installers will meticulously apply the car wrap using specialized tools and techniques. This ensures a smooth, bubble-free finish that conforms perfectly to your car's curves.</li>
-                        <li><strong>Final Inspection & Aftercare:</strong> After installation, our team will thoroughly inspect the car wrap for any imperfections. We'll also provide detailed aftercare instructions to ensure the longevity and optimal performance of your car wrap.</li>
+                        <li><strong>Design Approval:</strong> Once you&apos;re happy with the design, we&apos;ll finalize it and prepare the high-quality wrap vinyl for printing.</li>
+                        <li><strong>Surface Preparation:</strong> Our detail experts will meticulously clean and prep your car&apos;s exterior to ensure a flawless application and optimal adhesion.</li>
+                        <li><strong>Expert Wrap Installation:</strong> Our experienced installers will meticulously apply the car wrap using specialized tools and techniques. This ensures a smooth, bubble-free finish that conforms perfectly to your car&apos;s curves.</li>
+                        <li><strong>Final Inspection & Aftercare:</strong> After installation, our team will thoroughly inspect the car wrap for any imperfections. We&apos;ll also provide detailed aftercare instructions to ensure the longevity and optimal performance of your car wrap.</li>
                     </ol>
                     <p className="text-center max-w-3xl mx-auto">By partnering with Wellness Detailing, you can be confident in a smooth, stress-free car wrap experience that delivers stunning results and exceeds your expectations.</p>
                     <div className="text-center pt-2">
@@ -122,15 +122,15 @@ export default function VehicleWraps() {
                         </div>
                         <div>
                             <p className="font-semibold mb-2">2. How long does it take to get a car wrap installed?</p>
-                            <p>The car wrap installation process typically takes 1-3 days depending on the size and complexity of your car and the design chosen. During your consultation, we'll provide a more accurate timeframe based on your project.</p>
+                            <p>The car wrap installation process typically takes 1-3 days depending on the size and complexity of your car and the design chosen. During your consultation, we&apos;ll provide a more accurate timeframe based on your project.</p>
                         </div>
                         <div>
                             <p className="font-semibold mb-2">3. Can I design my own car wrap?</p>
                             <p>Absolutely! We welcome your creativity. You can provide your own design files, collaborate with our designers to create a custom wrap, or choose from our extensive library of pre-designed wrap options.</p>
                         </div>
                         <div>
-                            <p className="font-semibold mb-2">4. Is car wrapping bad for my car's paint?</p>
-                            <p>No, professional car wrap installation using high-quality vinyl will not damage your car's paint. In fact, car wrap acts as a protective layer, shielding your original paint from scratches, chips, and UV rays. Additionally, upon removal by a professional, the vinyl peels off cleanly without affecting the paint underneath.</p>
+                            <p className="font-semibold mb-2">4. Is car wrapping bad for my car&apos;s paint?</p>
+                            <p>No, professional car wrap installation using high-quality vinyl will not damage your car&apos;s paint. In fact, car wrap acts as a protective layer, shielding your original paint from scratches, chips, and UV rays. Additionally, upon removal by a professional, the vinyl peels off cleanly without affecting the paint underneath.</p>
                         </div>
                         <div>
                             <p className="font-semibold mb-2">5. How long does a car wrap last?</p>
@@ -138,7 +138,7 @@ export default function VehicleWraps() {
                         </div>
                         <div>
                             <p className="font-semibold mb-2">6. How do I care for my car wrap?</p>
-                            <p>We'll provide detailed aftercare instructions to ensure the longevity of your car wrap. Generally, hand washing with mild soap and water is recommended. Avoid using harsh chemicals or automated car washes.</p>
+                            <p>We&apos;ll provide detailed aftercare instructions to ensure the longevity of your car wrap. Generally, hand washing with mild soap and water is recommended. Avoid using harsh chemicals or automated car washes.</p>
                         </div>
                     </div>
                     <div className="text-lg font-semibold text-center mt-6">

@@ -37,10 +37,10 @@ export default function RestorativeInteriorCleaning() {
                 <section className="text-center">
                     <h1 className="text-3xl font-bold">Beyond a Deep Clean: Rejuvenating Your Car&apos;s Interior</h1>
                     <div className="max-w-4xl mx-auto mt-6 space-y-4 text-left">
-                        <p>A regular car wash and vacuuming might not suffice for a car that's been neglected or heavily soiled. Our Restorative Interior Cleaning service is a comprehensive deep-cleaning process designed to bring your car's interior back to life.</p>
+                        <p>A regular car wash and vacuuming might not suffice for a car that&apos;s been neglected or heavily soiled. Our Restorative Interior Cleaning service is a comprehensive deep-cleaning process designed to bring your car&apos;s interior back to life.</p>
                         <li><strong>Ideal for Neglected Cars:</strong> Perfect for cars with excessive dirt, grime, stains, or lingering odors.</li>
                         <li><strong>More Than Just Cleaning:</strong> We go beyond surface cleaning, tackling embedded dirt, reviving neglected surfaces, and restoring a like-new appearance.</li>
-                        <li><strong>Long-Term Protection:</strong> Our restorative cleaning process includes protectants to help maintain the revived condition of your car's interior.</li>
+                        <li><strong>Long-Term Protection:</strong> Our restorative cleaning process includes protectants to help maintain the revived condition of your car&apos;s interior.</li>
                     </div>
                     <div className="relative w-[600px] h-[500px] border border-gray-300 rounded-lg mx-auto bg-gray-50 shadow">
                         <Image
@@ -57,7 +57,7 @@ export default function RestorativeInteriorCleaning() {
                 <section className="text-center">
                     <h2 className="text-3xl font-bold">Our Restorative Cleaning Process: A Deep Dive</h2>
                     <div className="max-w-4xl mx-auto mt-6 space-y-4 text-left">
-                        <p>Our detail experts meticulously address every aspect of your car's interior during a restorative cleaning service:</p>
+                        <p>Our detail experts meticulously address every aspect of your car&apos;s interior during a restorative cleaning service:</p>
 
                         <li><strong>Pre-Cleaning Inspection:</strong> A thorough inspection identifies the extent of cleaning required and any problem areas.</li>
 
@@ -100,7 +100,7 @@ export default function RestorativeInteriorCleaning() {
                     <div className="max-w-4xl mx-auto mt-6 text-left space-y-6">
                         <p>
                             At Wellness Detailing, we understand you might have questions about our in-depth Restorative Interior Cleaning service.
-                            Here are answers to some of the most frequently asked questions to help you decide if it's the right solution for your car's interior:
+                            Here are answers to some of the most frequently asked questions to help you decide if it&apos;s the right solution for your car&apos;s interior:
                         </p>
 
                         <div className="space-y-2">
@@ -110,7 +110,7 @@ export default function RestorativeInteriorCleaning() {
                                 <li>Excessive dirt, grime, and dust buildup</li>
                                 <li>Deep-seated stains or upholstery wear</li>
                                 <li>Lingering odors from smoke, pets, or mildew</li>
-                                <li>Neglected interiors that haven't been deep cleaned in a long time</li>
+                                <li>Neglected interiors that haven&apos;t been deep cleaned in a long time</li>
                             </ul>
                         </div>
 
@@ -131,7 +131,7 @@ export default function RestorativeInteriorCleaning() {
 
                         <div className="space-y-2">
                             <strong>4. How long does Restorative Cleaning take?</strong>
-                            <p>The duration depends on the size and condition of your car's interior. A typical service can take 4-8 hours or more, depending on the level of cleaning required.</p>
+                            <p>The duration depends on the size and condition of your car&apos;s interior. A typical service can take 4-8 hours or more, depending on the level of cleaning required.</p>
                         </div>
 
                         <div className="space-y-2">
@@ -141,7 +141,7 @@ export default function RestorativeInteriorCleaning() {
 
                         <div className="space-y-2">
                             <strong>6. Is this service safe for all interior materials?</strong>
-                            <p>We use safe and effective cleaning products suitable for various interior materials like leather, cloth, vinyl, and plastics. Our detailers are highly trained in proper cleaning techniques to ensure the safety and protection of your car's interior.</p>
+                            <p>We use safe and effective cleaning products suitable for various interior materials like leather, cloth, vinyl, and plastics. Our detailers are highly trained in proper cleaning techniques to ensure the safety and protection of your car&apos;s interior.</p>
                         </div>
 
                         <div className="space-y-2">
@@ -156,7 +156,7 @@ export default function RestorativeInteriorCleaning() {
                     </div>
 
                     <p className="font-bold mt-6">
-                        Ready to breathe new life into your car's interior? Get a Free Restorative Interior Cleaning Quote Today!
+                        Ready to breathe new life into your car&apos;s interior? Get a Free Restorative Interior Cleaning Quote Today!
                     </p>
                     <Link href="/contact" className="inline-block mt-6 px-6 py-3 bg-blue-600 text-white font-semibold rounded hover:bg-blue-700 transition">
                         Get A Free Quote

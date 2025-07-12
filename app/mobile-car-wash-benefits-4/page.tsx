@@ -5,7 +5,7 @@ import Image from "next/image";
 export const metadata = {
   title: "Mobile Car Wash: A Game-Changer in Preserving Your Car's Aesthetics and Value | Wellness Detailing Blog",
   description:
-    "Discover how mobile car wash services are revolutionizing car care. Learn how they help preserve your vehicle’s look and value—conveniently and effectively.",
+    "Discover how mobile car wash services are revolutionizing car care. Learn how they help preserve your vehicle's look and value—conveniently and effectively.",
   keywords: [
     "Mobile Car Wash",
     "Car Value Preservation",
@@ -34,16 +34,16 @@ const BlogSix = () => {
         <>
             <div className="max-w-4xl mx-auto px-4 md:px-6 lg:px-8 py-12 text-gray-800">
                 <h1 className="text-3xl md:text-4xl font-bold text-blue-600 mb-2 leading-tight">
-                    Mobile Car Wash: A Game-Changer in Preserving Your Car's Aesthetics and Value
+                    Mobile Car Wash: A Game-Changer in Preserving Your Car&apos;s Aesthetics and Value
                 </h1>
                 <p className="text-sm text-gray-500 mb-6">
                     By <br className="md:hidden" /> March 17, 2025
                 </p>
 
                 <p className="mb-6 leading-relaxed">
-                    In today's fast-paced world, maintaining the aesthetics and value of your car can be challenging.
+                    In today&apos;s fast-paced world, maintaining the aesthetics and value of your car can be challenging.
                     However, with the rise of mobile car wash services, keeping your vehicle looking its best has never been more convenient.
-                    Let's explore how this innovative service is transforming car care and why it might be the perfect solution for you.
+                    Let&apos;s explore how this innovative service is transforming car care and why it might be the perfect solution for you.
                 </p>
 
                 <div className="w-full h-auto mb-8 rounded-lg shadow-md overflow-hidden">

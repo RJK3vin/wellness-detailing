@@ -35,9 +35,9 @@ export default function SmokeOdorRemoval() {
             <div className="px-4 md:px-12 py-16 space-y-20 lg:px-24 text-gray-800">
 
                 <section className="space-y-6 text-center">
-                    <h1 className="text-3xl font-bold">Don't Mask It, Eliminate It: Effective Smoke Odor Removal</h1>
+                    <h1 className="text-3xl font-bold">Don&apos;t Mask It, Eliminate It: Effective Smoke Odor Removal</h1>
                     <p className="text-left mx-auto max-w-4xl">
-                        Stubborn smoke odors from cigarettes, cigars, or even lingering campfire smells can cling to your car's interior for a long time. Air fresheners only mask the problem, not solve it. At Wellness Detailing, we provide professional smoke odor removal services that eliminate the odor at its source, leaving your car smelling fresh and clean.
+                        Stubborn smoke odors from cigarettes, cigars, or even lingering campfire smells can cling to your car&apos;s interior for a long time. Air fresheners only mask the problem, not solve it. At Wellness Detailing, we provide professional smoke odor removal services that eliminate the odor at its source, leaving your car smelling fresh and clean.
                     </p>
                     <ul className="list-disc text-left mx-auto max-w-4xl pl-6 space-y-2">
                         <li><strong>Neutralize, Not Mask:</strong> Our multi-step process goes beyond temporary masking agents. We use powerful yet safe neutralizing enzymes that target and destroy smoke odor molecules.</li>
@@ -63,7 +63,7 @@ export default function SmokeOdorRemoval() {
 
                 <section className="space-y-6 text-center">
                     <h2 className="text-3xl font-bold">Breathe Easy on the Road Again: Schedule Today!</h2>
-                    <p className="mx-auto max-w-2xl">Don't settle for lingering smoke odors in your car. Our professional smoke odor removal service will leave your car smelling fresh and clean.</p>
+                    <p className="mx-auto max-w-2xl">Don&apos;t settle for lingering smoke odors in your car. Our professional smoke odor removal service will leave your car smelling fresh and clean.</p>
                     <div className="mx-auto max-w-xl font-bold text-lg">
                         <div className="border border-gray-300 bg-white rounded p-6 space-y-4 shadow max-w-xl mx-auto text-gray-700 font-semibold text-center">
                             <div>Eliminate Stubborn Smoke Smells</div>
@@ -84,15 +84,15 @@ export default function SmokeOdorRemoval() {
                             <p className="mb-1"><strong>1. How much does a car wrap cost?</strong></p>
                             <p className="mb-5">The cost of a car wrap depends on several factors, including the size and complexity of your car, the design complexity, and the type of wrap material used. We offer free consultations where we can provide a transparent quote based on your specific needs and desired wrap design.</p>
                             <p className="mb-1"><strong>2. How long does it take to get a car wrap installed?</strong><br /></p>
-                            <p className="mb-5">The car wrap installation process typically takes 1-3 days depending on the size and complexity of your car and the design chosen. During your consultation, we'll provide a more accurate timeframe based on your project.</p>
+                            <p className="mb-5">The car wrap installation process typically takes 1-3 days depending on the size and complexity of your car and the design chosen. During your consultation, we&apos;ll provide a more accurate timeframe based on your project.</p>
                             <p className="mb-1"><strong>3. Can I design my own car wrap?</strong><br /></p>
                             <p className="mb-5">Absolutely! We welcome your creativity. You can provide your own design files, collaborate with our designers to create a custom wrap, or choose from our extensive library of pre-designed wrap options.</p>
-                            <p className="mb-1"><strong>4. Is car wrapping bad for my car's paint?</strong><br /></p>
-                            <p className="mb-5">No, professional car wrap installation using high-quality vinyl will not damage your car's paint. In fact, car wrap acts as a protective layer, shielding your original paint from scratches, chips, and UV rays. Additionally, upon removal by a professional, the vinyl peels off cleanly without affecting the paint underneath.</p>
+                            <p className="mb-1"><strong>4. Is car wrapping bad for my car&apos;s paint?</strong><br /></p>
+                            <p className="mb-5">No, professional car wrap installation using high-quality vinyl will not damage your car&apos;s paint. In fact, car wrap acts as a protective layer, shielding your original paint from scratches, chips, and UV rays. Additionally, upon removal by a professional, the vinyl peels off cleanly without affecting the paint underneath.</p>
                             <p className="mb-1"><strong>5. How long does a car wrap last?</strong><br /></p>
                             <p className="mb-5">High-quality car wraps, properly cared for, can last anywhere from 5 to 7 years. Factors affecting longevity include the quality of the vinyl, exposure to sunlight and weather, and proper maintenance practices.</p>
                             <p className="mb-1"><strong>6. How do I care for my car wrap?</strong><br /></p>
-                            <p className="mb-5">We'll provide detailed aftercare instructions to ensure the longevity of your car wrap. Generally, hand washing with mild soap and water is recommended. Avoid using harsh chemicals or automated car washes.</p>
+                            <p className="mb-5">We&apos;ll provide detailed aftercare instructions to ensure the longevity of your car wrap. Generally, hand washing with mild soap and water is recommended. Avoid using harsh chemicals or automated car washes.</p>
                             <p className="font-bold text-center">Ready to unleash your creativity and transform your car? Schedule a Free Car Wrap Design Consultation with Wellness Detailing today!</p>
                         </div>
                     </div>

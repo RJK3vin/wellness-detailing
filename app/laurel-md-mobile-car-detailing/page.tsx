@@ -56,7 +56,7 @@ export default function LaurelDetailing() {
                     </h2>
                     <p className="mx-auto max-w-4xl text-left">
                         detailers are experts in their craft, wielding top-of-the-line equipment and premium products to deliver
-                        exceptional results. We'll leave your car gleaming, protected, and ready to turn heads as you cruise through
+                        exceptional results. We&apos;ll leave your car gleaming, protected, and ready to turn heads as you cruise through
                         Laurel
                     </p>
                 </section>
@@ -67,9 +67,9 @@ export default function LaurelDetailing() {
                     </h2>
                     <p>
                         Laurel Mobile Detailing is a locally owned and operated business with deep roots in the Laurel community. We
-                        understand the unique challenges Laurel drivers face, from harsh weather to relentless commutes. That's why
-                        we're dedicated to providing the highest quality detailing services in Laurel, MD, tailored to restore your
-                        car's shine and shield it from the elements, keeping it looking its best for years to come.
+                        understand the unique challenges Laurel drivers face, from harsh weather to relentless commutes. That&apos;s why
+                        we&apos;re dedicated to providing the highest quality detailing services in Laurel, MD, tailored to restore your
+                        car&apos;s shine and shield it from the elements, keeping it looking its best for years to come.
                     </p>
                     <p>
                         Our team of certified detailers is highly trained and experienced in all aspects of car detailing. We use
@@ -115,12 +115,12 @@ export default function LaurelDetailing() {
                 <div className="space-y-4">
                     <p>
                         At Laurel Mobile Detailing, we offer a comprehensive menu of mobile detailing services in Laurel, MD to
-                        cater to your specific car's needs and your budget. Here's a glimpse into what we can do for you:
+                        cater to your specific car&apos;s needs and your budget. Here&apos;s a glimpse into what we can do for you:
                     </p>
 
                     <ul className="list-disc pl-5 space-y-2">
                         <li>
-                            <strong>Full Interior Cleaning:</strong> This in-depth cleaning service tackles every inch of your car's
+                            <strong>Full Interior Cleaning:</strong> This in-depth cleaning service tackles every inch of your car&apos;s
                             interior, leaving no spot untouched. We thoroughly clean carpets, upholstery, leather seats (conditioning
                             included), hard surfaces, and windows, and remove any unwanted trash.
                         </li>
@@ -130,23 +130,23 @@ export default function LaurelDetailing() {
                         </li>
                         <li>
                             <strong>Smoke Odor Removal:</strong> Eliminate lingering smoke odors and restore a fresh, clean scent to
-                            your car's interior with our professional smoke odor removal service.
+                            your car&apos;s interior with our professional smoke odor removal service.
                         </li>
                         <li>
                             <strong>Restorative Interior Cleaning:</strong> For neglected interiors that need a revival, our restorative
-                            service tackles embedded dirt, grime, and stains, bringing your car's inside back to life.
+                            service tackles embedded dirt, grime, and stains, bringing your car&apos;s inside back to life.
                         </li>
                         <li>
-                            <strong>Wash and Wax:</strong> Give your car's exterior a classic clean and shine with our thorough wash
+                            <strong>Wash and Wax:</strong> Give your car&apos;s exterior a classic clean and shine with our thorough wash
                             and high-quality wax application.
                         </li>
                         <li>
-                            <strong>Paint Correction:</strong> Restore your car's paintwork to its former glory with our multi-step
+                            <strong>Paint Correction:</strong> Restore your car&apos;s paintwork to its former glory with our multi-step
                             paint correction service. This process removes minor scratches, swirl marks, and oxidation for a
                             mirror-like finish.
                         </li>
                         <li>
-                            <strong>Ceramic Coating (Optional Add-On):</strong> Protect your car's paint with a ceramic coating,
+                            <strong>Ceramic Coating (Optional Add-On):</strong> Protect your car&apos;s paint with a ceramic coating,
                             offering superior gloss, scratch resistance, and easier maintenance for years to come.
                         </li>
                         <li>
@@ -154,11 +154,11 @@ export default function LaurelDetailing() {
                             professional headlight restoration service.
                         </li>
                         <li>
-                            <strong>Paint Overspray Removal:</strong> We can expertly remove unwanted paint overspray from your car's
+                            <strong>Paint Overspray Removal:</strong> We can expertly remove unwanted paint overspray from your car&apos;s
                             exterior, returning it to its original condition.
                         </li>
                         <li>
-                            <strong>Paint Protection Film (PPF):</strong> Protect your car's paint from scratches, chips, and road
+                            <strong>Paint Protection Film (PPF):</strong> Protect your car&apos;s paint from scratches, chips, and road
                             debris with a virtually invisible paint protection film.
                         </li>
                         <li>
@@ -194,8 +194,8 @@ export default function LaurelDetailing() {
                         </h2>
                         <p className="mb-4">
                             Laurel Mobile Detailing proudly serves Laurel, Maryland, and the surrounding areas. We understand your busy
-                            lifestyle, and that's why we bring the convenience of mobile detailing to your driveway or workplace.
-                            Whether you're in the heart of Laurel or call a nearby community home, we can help you keep your car looking
+                            lifestyle, and that&apos;s why we bring the convenience of mobile detailing to your driveway or workplace.
+                            Whether you&apos;re in the heart of Laurel or call a nearby community home, we can help you keep your car looking
                             its best.
                         </p>
 
@@ -219,7 +219,7 @@ export default function LaurelDetailing() {
                             <strong>Not sure if we service your specific area?</strong>
                         </p>
                         <p>
-                            Contact us today! We are always expanding our service coverage in Laurel, MD and surrounding areas. We'd be
+                            Contact us today! We are always expanding our service coverage in Laurel, MD and surrounding areas. We&apos;d be
                             happy to discuss your detailing needs and answer any questions you may have.
                         </p>
                     </div>
@@ -255,21 +255,21 @@ export default function LaurelDetailing() {
                     <div>
                         <p className="font-semibold">How often should I get my car detailed in Laurel?</p>
                         <p>
-                            The frequency depends on your driving habits and how well you maintain your car. Generally, a professional detail every 6-12 months is recommended in Laurel, MD to maintain a fresh look and protect your car's finish.
+                            The frequency depends on your driving habits and how well you maintain your car. Generally, a professional detail every 6-12 months is recommended in Laurel, MD to maintain a fresh look and protect your car&apos;s finish.
                         </p>
                     </div>
 
                     <div>
                         <p className="font-semibold">Do you offer mobile detailing packages in Laurel?</p>
                         <p>
-                            Absolutely! We understand that every car has unique needs. That's why we offer a variety of mobile detailing packages in Laurel, MD to fit your specific budget and requirements. Browse our options online or contact us for a free quote.
+                            Absolutely! We understand that every car has unique needs. That&apos;s why we offer a variety of mobile detailing packages in Laurel, MD to fit your specific budget and requirements. Browse our options online or contact us for a free quote.
                         </p>
                     </div>
 
                     <div>
-                        <p className="font-semibold">Can you remove smoke odors from my car's interior in Laurel?</p>
+                        <p className="font-semibold">Can you remove smoke odors from my car&apos;s interior in Laurel?</p>
                         <p>
-                            Yes! We offer professional smoke odor removal services using proven techniques to eliminate lingering odors and restore a fresh scent to your car's interior in Laurel, MD.
+                            Yes! We offer professional smoke odor removal services using proven techniques to eliminate lingering odors and restore a fresh scent to your car&apos;s interior in Laurel, MD.
                         </p>
                     </div>
                 </div>

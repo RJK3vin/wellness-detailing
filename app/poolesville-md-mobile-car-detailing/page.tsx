@@ -53,15 +53,15 @@ export default function PoolesvilleDetailing() {
             <section className="px-4 py-16 text-center">
                 <h1 className="text-3xl font-bold mb-6">Our Services in Poolesville, MD</h1>
                 <p className="max-w-3xl mx-auto mb-8 text-left">
-                    We offer a wide range of car detailing services in Poolesville, MD, to cater to your specific needs and budget. Here's a glimpse into what we can do for your car:
+                    We offer a wide range of car detailing services in Poolesville, MD, to cater to your specific needs and budget. Here&apos;s a glimpse into what we can do for your car:
                 </p>
                 <ul className="max-w-3xl mx-auto mb-12 list-disc list-outside text-left space-y-3">
-                    <li><strong>Full Detail:</strong> Our most comprehensive service includes a thorough cleaning, polishing, and protection of both your car's interior and exterior. This service is ideal for restoring a neglected car or maintaining a showroom shine.</li>
+                    <li><strong>Full Detail:</strong> Our most comprehensive service includes a thorough cleaning, polishing, and protection of both your car&apos;s interior and exterior. This service is ideal for restoring a neglected car or maintaining a showroom shine.</li>
                     <li><strong>Mini Detail:</strong> Short on time? Our mini detail is a perfect option for a quick interior refresh, including vacuuming, surface wiping, window cleaning, and trash removal.</li>
                     <li><strong>Interior Detail:</strong> Focus on the inside of your car with our meticulous interior detailing service. We clean carpets, upholstery, leather seats (conditioning included), hard surfaces, windows, and remove any unwanted trash.</li>
-                    <li><strong>Exterior Detail:</strong> Give your car's exterior the TLC it deserves with our exterior detailing service. This service includes a thorough wash, decontamination (optional add-on), paint correction (optional add-on), waxing, wheel and tire cleaning, and window cleaning.</li>
-                    <li><strong>Restorative Interior Cleaning:</strong> Deep down revival for neglected interiors! This comprehensive service tackles embedded dirt, grime, and stains, bringing your car's interior back to life.</li>
-                    <li><strong>Smoke Odor Removal:</strong> Eliminate stubborn smoke odors and restore a fresh, clean scent to your car's interior with our professional smoke odor removal service.</li>
+                    <li><strong>Exterior Detail:</strong> Give your car&apos;s exterior the TLC it deserves with our exterior detailing service. This service includes a thorough wash, decontamination (optional add-on), paint correction (optional add-on), waxing, wheel and tire cleaning, and window cleaning.</li>
+                    <li><strong>Restorative Interior Cleaning:</strong> Deep down revival for neglected interiors! This comprehensive service tackles embedded dirt, grime, and stains, bringing your car&apos;s interior back to life.</li>
+                    <li><strong>Smoke Odor Removal:</strong> Eliminate stubborn smoke odors and restore a fresh, clean scent to your car&apos;s interior with our professional smoke odor removal service.</li>
                     <li><strong>Headlight Restoration:</strong> Restore clarity and improve nighttime visibility with our headlight restoration service.</li>
                 </ul>
                 <div className="mb-12 flex justify-center gap-6">
@@ -120,7 +120,7 @@ export default function PoolesvilleDetailing() {
 
                         <p className="mb-6 font-bold">Not sure if we service your specific area?</p>
                         <p className="mb-6">
-                            Contact us today! We are always expanding our service coverage in Poolesville, MD and surrounding areas. We'd be happy to discuss your detailing needs and answer any questions you may have.
+                            Contact us today! We are always expanding our service coverage in Poolesville, MD and surrounding areas. We&apos;d be happy to discuss your detailing needs and answer any questions you may have.
                         </p>
                     </div>
 
@@ -163,13 +163,13 @@ export default function PoolesvilleDetailing() {
                                     <p className="mb-2">There are numerous benefits to detailing your car:</p>
                                     <ul className="list-disc list-outside space-y-2 pl-5">
                                         <li>
-                                            <strong>Enhanced Appearance:</strong> Detailing revitalizes your car's look, removes blemishes, and makes it look brand new again.
+                                            <strong>Enhanced Appearance:</strong> Detailing revitalizes your car&apos;s look, removes blemishes, and makes it look brand new again.
                                         </li>
                                         <li>
                                             <strong>Increased Value:</strong> A well-maintained car retains its resale value for longer.
                                         </li>
                                         <li>
-                                            <strong>Protection:</strong> Detailing services apply protective waxes and coatings that shield your car's paint from harmful elements like UV rays and environmental contaminants.
+                                            <strong>Protection:</strong> Detailing services apply protective waxes and coatings that shield your car&apos;s paint from harmful elements like UV rays and environmental contaminants.
                                         </li>
                                         <li>
                                             <strong>Clean and Healthy Interior:</strong> Interior detailing removes dust, allergens, and dirt, creating a healthier and more enjoyable driving experience.
@@ -216,9 +216,9 @@ export default function PoolesvilleDetailing() {
                         </div>
 
                         <div className="space-y-3">
-                            <p className="font-bold">Still have questions? We're here to help!</p>
-                            <p>Contact Wellness Detailing in Poolesville, MD today! We are happy to answer any questions you may have about our services or discuss your car's specific detailing needs.</p>
-                            <p className="font-bold">Let's get your car looking its best!</p>
+                            <p className="font-bold">Still have questions? We&apos;re here to help!</p>
+                            <p>Contact Wellness Detailing in Poolesville, MD today! We are happy to answer any questions you may have about our services or discuss your car&apos;s specific detailing needs.</p>
+                            <p className="font-bold">Let&apos;s get your car looking its best!</p>
                         </div>
                     </div>
 

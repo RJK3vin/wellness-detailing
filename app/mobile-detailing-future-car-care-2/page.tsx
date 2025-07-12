@@ -41,7 +41,7 @@ const BlogOne = () => {
                     March 28, 2025
                 </p>
                 <p className="mb-6 leading-relaxed">
-                    In today's fast-paced world, convenience is king, especially when it comes to car care. Mobile detailing is revolutionizing the way we think about maintaining our vehicles, bringing expert services right to our doorsteps. Let's explore why mobile detailing is becoming the go-to option for car owners everywhere.
+                    In today&apos;s fast-paced world, convenience is king, especially when it comes to car care. Mobile detailing is revolutionizing the way we think about maintaining our vehicles, bringing expert services right to our doorsteps. Let&apos;s explore why mobile detailing is becoming the go-to option for car owners everywhere.
                 </p>
 
                 <div className="w-full h-auto mb-6 rounded-lg shadow-md overflow-hidden">

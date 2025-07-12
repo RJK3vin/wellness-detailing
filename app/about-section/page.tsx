@@ -32,7 +32,7 @@ const AboutSection = () => {
     <section className="max-w-6xl mx-auto px-4 py-16">
       <h1 className="text-3xl font-bold mb-4">About Wellness Detailing</h1>
       <p className="text-lg mb-6 text-gray-700">
-        At Wellness Detailing, we're more than just a car wash — we're a team of passionate professionals dedicated to restoring and protecting your vehicle's beauty, inside and out. Based in the DMV area, our mission is to provide premium mobile detailing services that offer unmatched convenience, quality, and care.
+        At Wellness Detailing, we&apos;re more than just a car wash — we&apos;re a team of passionate professionals dedicated to restoring and protecting your vehicle&apos;s beauty, inside and out. Based in the DMV area, our mission is to provide premium mobile detailing services that offer unmatched convenience, quality, and care.
       </p>
 
       <h2 className="text-2xl font-semibold mb-2">Our Mission</h2>
@@ -51,7 +51,7 @@ const AboutSection = () => {
 
       <h2 className="text-2xl font-semibold mb-2">Customer Commitment</h2>
       <p className="mb-6 text-gray-700">
-        We pride ourselves on delivering exceptional results and building trust with every client. Whether it's your daily driver, a luxury vehicle, or a fleet — our goal is to exceed your expectations and leave your car looking and feeling brand new.
+        We pride ourselves on delivering exceptional results and building trust with every client. Whether it&apos;s your daily driver, a luxury vehicle, or a fleet — our goal is to exceed your expectations and leave your car looking and feeling brand new.
       </p>
 
       <div className="mt-8">

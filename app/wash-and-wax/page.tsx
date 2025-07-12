@@ -37,13 +37,13 @@ export default function WashAndWax() {
                     <h1 className="text-3xl font-bold text-center">
                         Beyond a Basic Wash: The Wellness Detailing Difference
                     </h1>
-                    <p className="text-gray-700">Your car deserves more than a quick drive-thru rinse. At Wellness Detailing, we elevate the wash and wax experience with a meticulous, multi-step process that goes deeper than surface cleaning. Here's what sets us apart:</p>
+                    <p className="text-gray-700">Your car deserves more than a quick drive-thru rinse. At Wellness Detailing, we elevate the wash and wax experience with a meticulous, multi-step process that goes deeper than surface cleaning. Here&apos;s what sets us apart:</p>
                     <ul className="list-disc pl-6 space-y-2">
                         <li><strong>Expert Hand Wash:</strong> Our detail experts gently wash your car using high-quality car wash soap and specialized mitts. This removes dirt, grime, and road film without harming the paintwork.</li>
                         <li><strong>Multi-Stage Wash Process:</strong> We believe in thoroughness. Our wash process involves multiple stages, including a pre-rinse to loosen debris, a meticulous wash with specialized solutions, and a final rinse to ensure no soap residue remains.</li>
-                        <li><strong>Wheel & Tire Revival:</strong> We don't neglect the wheels and tires! These areas receive dedicated cleaning to remove brake dust, road grime, and restore their shine.</li>
+                        <li><strong>Wheel & Tire Revival:</strong> We don&apos;t neglect the wheels and tires! These areas receive dedicated cleaning to remove brake dust, road grime, and restore their shine.</li>
                         <li><strong>Hidden Gem Cleaning:</strong> We go the extra mile, cleaning often-overlooked areas like door jambs and the trunk interior for a truly comprehensive clean.</li>
-                        <li><strong>Professional Wax Application:</strong> The crowning touch! We apply a high-quality wax to create a protective shield that enhances shine, repels water, and safeguards your car's paint from environmental elements.</li>
+                        <li><strong>Professional Wax Application:</strong> The crowning touch! We apply a high-quality wax to create a protective shield that enhances shine, repels water, and safeguards your car&apos;s paint from environmental elements.</li>
                     </ul>
                     <div className="max-w-[1000px] mx-auto">
                         <Image
@@ -67,7 +67,7 @@ export default function WashAndWax() {
                 <section className="space-y-6 max-w-5xl mx-auto text-center">
                     <h2 className="text-3xl font-bold">The PPF Installation Process at Wellness Detailing</h2>
                     <p className="max-w-3xl mx-auto text-gray-700">
-                        At Wellness Detailing, we take pride in delivering a meticulous and professional mobile PPF installation experience. Here's a glimpse into our streamlined 7-step process:
+                        At Wellness Detailing, we take pride in delivering a meticulous and professional mobile PPF installation experience. Here&apos;s a glimpse into our streamlined 7-step process:
                     </p>
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-6 pt-4 text-left">
                         {[
@@ -81,7 +81,7 @@ export default function WashAndWax() {
                                 step: 2,
                                 title: "Multi-Stage Wash",
                                 desc:
-                                    "We use a gentle yet effective car wash soap specifically formulated to remove grime and road film without harming the paintwork. Specialized mitts and wash buckets: Separate wash mitts are used for the car's body and wheels to prevent cross-contamination. Wash buckets are emptied and refilled regularly to maintain clean water throughout the process.",
+                                    "We use a gentle yet effective car wash soap specifically formulated to remove grime and road film without harming the paintwork. Specialized mitts and wash buckets: Separate wash mitts are used for the car&apos;s body and wheels to prevent cross-contamination. Wash buckets are emptied and refilled regularly to maintain clean water throughout the process.",
                             },
                             {
                                 step: 3,
@@ -143,15 +143,15 @@ export default function WashAndWax() {
                 <section className="space-y-10 max-w-4xl mx-auto">
                     <h2 className="text-3xl font-bold text-center">Wash and Wax FAQ: Get Your Answers Here!</h2>
                     <div className="space-y-6 text-gray-700">
-                        <p>We understand you might have questions about our professional wash and wax services. Here at Wellness Detailing, we've compiled answers to some of the most frequently asked questions to help you make an informed decision:</p>
+                        <p>We understand you might have questions about our professional wash and wax services. Here at Wellness Detailing, we&apos;ve compiled answers to some of the most frequently asked questions to help you make an informed decision:</p>
                         <div className="space-y-4">
                             <p className="font-bold">1. What are the benefits of getting a professional wash and wax compared to doing it myself?</p>
                             <p>While you can wash your car yourself, a professional service offers several advantages:</p>
                             <ul className="list-disc pl-5 space-y-1">
                                 <li><strong>Meticulous cleaning:</strong> Our detail experts use proven techniques and high-quality products to ensure a thorough and gentle clean, reaching areas you might miss and avoiding swirls or scratches.</li>
-                                <li><strong>Superior paint protection:</strong> We use professional-grade waxes that provide a superior layer of protection against UV rays, oxidation, and environmental contaminants, safeguarding your car's paint for longer.</li>
+                                <li><strong>Superior paint protection:</strong> We use professional-grade waxes that provide a superior layer of protection against UV rays, oxidation, and environmental contaminants, safeguarding your car&apos;s paint for longer.</li>
                                 <li><strong>Convenience:</strong> Save time and effort! We handle the entire process, bringing our services directly to you.</li>
-                                <li><strong>Extended car lifespan:</strong> Regular professional washing and waxing helps maintain your car's paintwork, promoting a longer lifespan and potentially increasing resale value.</li>
+                                <li><strong>Extended car lifespan:</strong> Regular professional washing and waxing helps maintain your car&apos;s paintwork, promoting a longer lifespan and potentially increasing resale value.</li>
                             </ul>
                         </div>
                         <div className="space-y-2 mt-4">
@@ -161,7 +161,7 @@ export default function WashAndWax() {
                             </p>
                         </div>
                         <div className="space-y-2 mt-4">
-                            <p className="font-bold">3. What's included in your wash and wax packages?</p>
+                            <p className="font-bold">3. What&apos;s included in your wash and wax packages?</p>
                             <p>
                                 We offer various wash and wax packages to suit your needs and budget. Most packages include a multi-stage hand wash, wheel and tire cleaning, door jamb and trunk cleaning (in some packages), and a professional hand wax application. We also offer optional add-ons like clay bar treatment for paint decontamination.
                             </p>
@@ -169,13 +169,13 @@ export default function WashAndWax() {
                         <div className="space-y-2 mt-4">
                             <p className="font-bold">4. Can you wash and wax my car if it has a lot of bugs stuck on it?</p>
                             <p>
-                                Absolutely! We have safe and effective methods for removing bugs and other contaminants without harming your car's paintwork.
+                                Absolutely! We have safe and effective methods for removing bugs and other contaminants without harming your car&apos;s paintwork.
                             </p>
                         </div>
                         <div className="space-y-2 mt-4">
                             <p className="font-bold">5. What if my car has a clear coat scratch? Will washing and waxing it make it worse?</p>
                             <p>
-                                A professional wash and wax won't worsen existing scratches. In some cases, a high-quality wax can slightly mask minor surface scratches. However, for deeper scratches, we recommend paint correction services to address them effectively.
+                                A professional wash and wax won&apos;t worsen existing scratches. In some cases, a high-quality wax can slightly mask minor surface scratches. However, for deeper scratches, we recommend paint correction services to address them effectively.
                             </p>
                         </div>
                         <div className="space-y-2 mt-4">
@@ -186,7 +186,7 @@ export default function WashAndWax() {
                         </div>
                     </div>
                     <div className="text-center pt-6">
-                        <p className="font-bold">Ready to restore your car's shine and shield it with lasting protection? Get a Free Wash & Wax Quote Today!</p>
+                        <p className="font-bold">Ready to restore your car&apos;s shine and shield it with lasting protection? Get a Free Wash & Wax Quote Today!</p>
                         <Link
                             href="/contact"
                             className="mt-4 inline-block bg-blue-600 text-white px-6 py-3 rounded-md font-medium hover:bg-blue-700 transition"

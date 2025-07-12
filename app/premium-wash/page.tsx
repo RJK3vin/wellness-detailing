@@ -84,7 +84,7 @@ export default function PremiumWash() {
                     </h1>
                     <p>
                         A regular wash keeps your car presentable, but the Premium Wash by
-                        Wellness Detailing elevates car care to an art form. Here's what
+                        Wellness Detailing elevates car care to an art form. Here&apos;s what
                         sets it apart:
                     </p>
                     <ul className="text-left space-y-4">
@@ -183,7 +183,7 @@ export default function PremiumWash() {
                     <p className="text-center max-w-3xl mx-auto">
                         At Wellness Detailing, we understand you might have questions about
                         our luxurious Premium Wash service. Here are answers to some of the
-                        most frequently asked questions to help you decide if it's the
+                        most frequently asked questions to help you decide if it&apos;s the
                         perfect choice for your car:
                     </p>
                     <div className="space-y-6 text-left">

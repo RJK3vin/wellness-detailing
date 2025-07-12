@@ -96,20 +96,20 @@ export default function CollegeParkDetailing() {
                 <h2 className="text-3xl font-bold mb-8">Our Mobile Detailing Services in College Park</h2>
 
                 <p className="mb-6 text-left">
-                    At College Park Mobile Detailing, we offer a comprehensive menu of mobile detailing services to cater to your car's specific needs and your budget. Here's a glimpse into what we can do for you:
+                    At College Park Mobile Detailing, we offer a comprehensive menu of mobile detailing services to cater to your car&apos;s specific needs and your budget. Here&apos;s a glimpse into what we can do for you:
                 </p>
 
                 <ul className="text-left space-y-4 mb-10">
-                    <li><strong>Full Interior Cleaning:</strong> This in-depth cleaning service tackles every inch of your car's interior, leaving no spot untouched. We thoroughly clean carpets, upholstery, leather seats (conditioning included), hard surfaces, and windows, and remove any unwanted trash.</li>
+                    <li><strong>Full Interior Cleaning:</strong> This in-depth cleaning service tackles every inch of your car&apos;s interior, leaving no spot untouched. We thoroughly clean carpets, upholstery, leather seats (conditioning included), hard surfaces, and windows, and remove any unwanted trash.</li>
                     <li><strong>Mini-Interior Detail:</strong> Short on time? Our mini detail is a perfect pick-me-up for busy schedules, including vacuuming, surface wiping, window cleaning, and trash removal.</li>
-                    <li><strong>Smoke Odor Removal:</strong> Eliminate lingering smoke odors and restore a fresh, clean scent to your car's interior with our professional smoke odor removal service.</li>
-                    <li><strong>Restorative Interior Cleaning:</strong> For neglected interiors that need a revival, our restorative service tackles embedded dirt, grime, and stains, bringing your car's inside back to life.</li>
-                    <li><strong>Wash and Wax:</strong> Give your car's exterior a classic clean and shine with our thorough wash and high-quality wax application.</li>
-                    <li><strong>Paint Correction:</strong> Restore your car's paintwork to its former glory with our multi-step paint correction service. This process removes minor scratches, swirl marks, and oxidation for a mirror-like finish.</li>
-                    <li><strong>Ceramic Coating (Optional Add-On):</strong> Protect your car's paint with a ceramic coating, offering superior gloss, scratch resistance, and easier maintenance for years to come.</li>
+                    <li><strong>Smoke Odor Removal:</strong> Eliminate lingering smoke odors and restore a fresh, clean scent to your car&apos;s interior with our professional smoke odor removal service.</li>
+                    <li><strong>Restorative Interior Cleaning:</strong> For neglected interiors that need a revival, our restorative service tackles embedded dirt, grime, and stains, bringing your car&apos;s inside back to life.</li>
+                    <li><strong>Wash and Wax:</strong> Give your car&apos;s exterior a classic clean and shine with our thorough wash and high-quality wax application.</li>
+                    <li><strong>Paint Correction:</strong> Restore your car&apos;s paintwork to its former glory with our multi-step paint correction service. This process removes minor scratches, swirl marks, and oxidation for a mirror-like finish.</li>
+                    <li><strong>Ceramic Coating (Optional Add-On):</strong> Protect your car&apos;s paint with a ceramic coating, offering superior gloss, scratch resistance, and easier maintenance for years to come.</li>
                     <li><strong>Headlight Restoration:</strong> Restore clarity and improve nighttime visibility with our professional headlight restoration service.</li>
-                    <li><strong>Paint Overspray Removal:</strong> We can expertly remove unwanted paint overspray from your car's exterior, returning it to its original condition.</li>
-                    <li><strong>Paint Protection Film (PPF):</strong> Protect your car's paint from scratches, chips, and road debris with a virtually invisible paint protection film.</li>
+                    <li><strong>Paint Overspray Removal:</strong> We can expertly remove unwanted paint overspray from your car&apos;s exterior, returning it to its original condition.</li>
+                    <li><strong>Paint Protection Film (PPF):</strong> Protect your car&apos;s paint from scratches, chips, and road debris with a virtually invisible paint protection film.</li>
                     <li><strong>Vehicle Wraps:</strong> Completely transform the look of your car with a custom vehicle wrap. Choose from a variety of colors, designs, and finishes to express your unique style.</li>
                 </ul>
 
@@ -133,12 +133,12 @@ export default function CollegeParkDetailing() {
                 <div className="w-full md:w-1/2">
                     <h2 className="text-3xl font-bold mb-6">College Park Mobile Detailing Service Areas</h2>
                     <p className="mb-4">
-                        College Park Mobile Detailing proudly serves College Park, Maryland, and the surrounding areas. We bring the convenience of mobile detailing to your driveway, saving you time and hassle. Let us know your location in College Park and we'll be happy to detail your car there!
+                        College Park Mobile Detailing proudly serves College Park, Maryland, and the surrounding areas. We bring the convenience of mobile detailing to your driveway, saving you time and hassle. Let us know your location in College Park and we&apos;ll be happy to detail your car there!
                     </p>
                     <p>Our Service Area List:</p>
                     <div className="space-y-2 mb-4">
                         {serviceAreas.map((location) => {
-                            const isCurrent = location.href === '/college-park-mobile-car-detailing';
+                            const isCurrent = location.href === 'college-park-mobile-car-detailing';
                             return (
                                 <Link
                                     key={location.label}
@@ -156,7 +156,7 @@ export default function CollegeParkDetailing() {
                         <strong>Not sure if we service your specific area?</strong>
                     </p>
                     <p className="mb-4">
-                        Contact us today! We are always expanding our service coverage in Poolesville, MD and surrounding areas. We'd be happy to discuss your detailing needs and answer any questions you may have.
+                        Contact us today! We are always expanding our service coverage in Poolesville, MD and surrounding areas. We&apos;d be happy to discuss your detailing needs and answer any questions you may have.
                     </p>
                 </div>
 
@@ -177,7 +177,7 @@ export default function CollegeParkDetailing() {
                     College Park Mobile Detailing FAQs: Your Questions Answered!
                 </h2>
                 <p className="mb-6 text-center">
-                    We understand you might have questions about our College Park Mobile Detailing services. Here are some frequently asked questions to help you decide if we're the right fit for you:
+                    We understand you might have questions about our College Park Mobile Detailing services. Here are some frequently asked questions to help you decide if we&apos;re the right fit for you:
                 </p>
 
                 <div className="space-y-6 text-left">
@@ -204,7 +204,7 @@ export default function CollegeParkDetailing() {
                         </p>
                     </div>
                     <div>
-                        <h3 className="font-bold">Can you remove smoke odors from my car's interior in College Park?</h3>
+                        <h3 className="font-bold">Can you remove smoke odors from my car&apos;s interior in College Park?</h3>
                         <p>
                             Yes! We offer professional smoke odor removal services to eliminate lingering odors and
                             restore a fresh scent.

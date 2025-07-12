@@ -41,8 +41,8 @@ const BlogEight = () => {
                 </p>
 
                 <p className="mb-6 leading-relaxed">
-                    In today's fast-paced world, convenience is king, and that's where mobile detailing comes in. This innovative
-                    approach to car care is revolutionizing the way we keep our vehicles in tip-top shape. Let's explore some
+                    In today&apos;s fast-paced world, convenience is king, and that&apos;s where mobile detailing comes in. This innovative
+                    approach to car care is revolutionizing the way we keep our vehicles in tip-top shape. Let&apos;s explore some
                     compelling reasons why mobile detailing is set to become the go-to method for car care enthusiasts everywhere.
                 </p>
 

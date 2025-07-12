@@ -56,8 +56,8 @@ export default function ClarksburgContent() {
                         Clarksburg Mobile Detailing is a local business, owned and operated right here in
                         Clarksburg, WV. We understand the unique challenges that Clarksburg cars endure,
                         from battling the elements on mountain roads to contending with winter road salt.
-                        That's why we provide the highest quality detailing services specifically designed to
-                        revive your car's rugged good looks, shield it from the elements, and keep it looking
+                        That&apos;s why we provide the highest quality detailing services specifically designed to
+                        revive your car&apos;s rugged good looks, shield it from the elements, and keep it looking
                         its best year-round.
                     </p>
                     <p className="text-gray-700 mb-6 text-left">
@@ -71,7 +71,7 @@ export default function ClarksburgContent() {
                         <strong>Experience the convenience and quality of Clarksburg Mobile Detailing!</strong> Our certified
                         detailers are passionate car care specialists, wielding top-of-the-line equipment and
                         premium products specifically formulated to tackle the unique challenges of the
-                        Clarksburg environment. We'll leave your car gleaming, protected, and ready to handle
+                        Clarksburg environment. We&apos;ll leave your car gleaming, protected, and ready to handle
                         whatever adventure awaits you next.
                     </p>
 
@@ -111,38 +111,38 @@ export default function ClarksburgContent() {
                         Services Offered: Personalized Detailing Solutions for Your Clarksburg Car
                     </h2>
                     <p className="text-gray-700 mb-6">
-                        At Clarksburg Mobile Detailing, we offer a comprehensive menu of mobile detailing services in Clarksburg, WV to cater to your specific car's needs and your budget. Here's a glimpse into what we can do for you:
+                        At Clarksburg Mobile Detailing, we offer a comprehensive menu of mobile detailing services in Clarksburg, WV to cater to your specific car&apos;s needs and your budget. Here&apos;s a glimpse into what we can do for you:
                     </p>
                     <ul className="list-disc list-inside text-gray-700 space-y-4">
                         <li>
-                            <strong>Full Interior Cleaning:</strong> This in-depth cleaning service tackles every inch of your car's interior, leaving no spot untouched. We thoroughly clean carpets, upholstery, leather seats (conditioning included), hard surfaces, and windows, and remove any unwanted trash.
+                            <strong>Full Interior Cleaning:</strong> This in-depth cleaning service tackles every inch of your car&apos;s interior, leaving no spot untouched. We thoroughly clean carpets, upholstery, leather seats (conditioning included), hard surfaces, and windows, and remove any unwanted trash.
                         </li>
                         <li>
                             <strong>Mini-Interior Detail:</strong> Short on time? Our mini detail is a perfect pick-me-up for busy schedules, including vacuuming, surface wiping, window cleaning, and trash removal.
                         </li>
                         <li>
-                            <strong>Smoke Odor Removal:</strong> Eliminate lingering smoke odors and restore a fresh, clean scent to your car's interior with our professional smoke odor removal service.
+                            <strong>Smoke Odor Removal:</strong> Eliminate lingering smoke odors and restore a fresh, clean scent to your car&apos;s interior with our professional smoke odor removal service.
                         </li>
                         <li>
-                            <strong>Restorative Interior Cleaning:</strong> For neglected interiors that need a revival, our restorative service tackles embedded dirt, grime, and stains, bringing your car's inside back to life.
+                            <strong>Restorative Interior Cleaning:</strong> For neglected interiors that need a revival, our restorative service tackles embedded dirt, grime, and stains, bringing your car&apos;s inside back to life.
                         </li>
                         <li>
-                            <strong>Wash and Wax:</strong> Give your car's exterior a classic clean and shine with our thorough wash and high-quality wax application.
+                            <strong>Wash and Wax:</strong> Give your car&apos;s exterior a classic clean and shine with our thorough wash and high-quality wax application.
                         </li>
                         <li>
-                            <strong>Paint Correction:</strong> Restore your car's paintwork to its former glory with our multi-step paint correction service. This process removes minor scratches, swirl marks, and oxidation for a mirror-like finish.
+                            <strong>Paint Correction:</strong> Restore your car&apos;s paintwork to its former glory with our multi-step paint correction service. This process removes minor scratches, swirl marks, and oxidation for a mirror-like finish.
                         </li>
                         <li>
-                            <strong>Ceramic Coating (Optional Add-On):</strong> Protect your car's paint with a ceramic coating, offering superior gloss, scratch resistance, and easier maintenance for years to come.
+                            <strong>Ceramic Coating (Optional Add-On):</strong> Protect your car&apos;s paint with a ceramic coating, offering superior gloss, scratch resistance, and easier maintenance for years to come.
                         </li>
                         <li>
                             <strong>Headlight Restoration:</strong> Restore clarity and improve nighttime visibility with our professional headlight restoration service.
                         </li>
                         <li>
-                            <strong>Paint Overspray Removal:</strong> We can expertly remove unwanted paint overspray from your car's exterior, returning it to its original condition.
+                            <strong>Paint Overspray Removal:</strong> We can expertly remove unwanted paint overspray from your car&apos;s exterior, returning it to its original condition.
                         </li>
                         <li>
-                            <strong>Paint Protection Film (PPF):</strong> Protect your car's paint from scratches, chips, and road debris with a virtually invisible paint protection film.
+                            <strong>Paint Protection Film (PPF):</strong> Protect your car&apos;s paint from scratches, chips, and road debris with a virtually invisible paint protection film.
                         </li>
                         <li>
                             <strong>Vehicle Wraps:</strong> Completely transform the look of your car with a custom vehicle wrap. Choose from a variety of colors, designs, and finishes to express your unique style.
@@ -173,8 +173,8 @@ export default function ClarksburgContent() {
                         </h2>
                         <p className="text-lg text-gray-700 mb-6">
                             Clarksburg Mobile Detailing proudly serves Clarksburg, West Virginia, and the surrounding areas.
-                            We're constantly expanding our reach to bring the convenience of mobile detailing to more drivers!
-                            Whether you're nestled in a quiet Clarksburg neighborhood or call a nearby community home, we can help you keep your car looking its best.
+                            We&apos;re constantly expanding our reach to bring the convenience of mobile detailing to more drivers!
+                            Whether you&apos;re nestled in a quiet Clarksburg neighborhood or call a nearby community home, we can help you keep your car looking its best.
                         </p>
 
                         <ul className="space-y-2 text-base font-medium">
@@ -197,8 +197,8 @@ export default function ClarksburgContent() {
                         </ul>
 
                         <p className="text-gray-700 mt-6">
-                            <strong>Not sure if we service your specific area? Not to worry!</strong> Contact us today! We'd be happy to discuss your detailing needs and answer any questions you may have.
-                            We're always looking for ways to expand our service coverage in Bridgeport and surrounding areas, so there's a good chance we can make your car shine even brighter!
+                            <strong>Not sure if we service your specific area? Not to worry!</strong> Contact us today! We&apos;d be happy to discuss your detailing needs and answer any questions you may have.
+                            We&apos;re always looking for ways to expand our service coverage in Bridgeport and surrounding areas, so there&apos;s a good chance we can make your car shine even brighter!
                         </p>
                     </div>
 
@@ -240,7 +240,7 @@ export default function ClarksburgContent() {
                             <p>
                                 The frequency depends on your driving habits and how well you maintain your car.
                                 Generally, a professional detail every 6-12 months is recommended in Clarksburg, WV
-                                to maintain a fresh look and protect your car's finish, especially after harsh
+                                to maintain a fresh look and protect your car&apos;s finish, especially after harsh
                                 winter months.
                             </p>
                         </div>
@@ -250,7 +250,7 @@ export default function ClarksburgContent() {
                                 Do you offer mobile detailing packages in Clarksburg?
                             </h3>
                             <p>
-                                Absolutely! We understand that every car has unique needs. That's why we offer a
+                                Absolutely! We understand that every car has unique needs. That&apos;s why we offer a
                                 variety of mobile detailing packages in Clarksburg, WV to fit your specific budget
                                 and requirements. Browse our options online or contact us for a free quote.
                             </p>

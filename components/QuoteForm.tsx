@@ -39,7 +39,7 @@ export default function QuoteForm() {
             >
               <option value="">Choose a service type</option>
               <option value="Mobile - Come to me">Mobile - Come to me</option>
-              <option>Shop - I'll bring it to you</option>
+              <option>Shop - I&apos;ll bring it to you</option>
               <option>Either works for me</option>
             </select>
 

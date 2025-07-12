@@ -40,7 +40,7 @@ const BlogThree = () => {
                     By <br className="md:hidden" /> March 24, 2025
                 </p>
                 <p className="mb-6 leading-relaxed">
-                    When it comes to maintaining your car's interior, stains and odors can be some of the toughest challenges to tackle. Not only do they affect the aesthetic appeal of your car, but they can also make long rides unpleasant. But can interior car cleaning effectively remove these pesky problems? Let's dive into the details.
+                    When it comes to maintaining your car&apos;s interior, stains and odors can be some of the toughest challenges to tackle. Not only do they affect the aesthetic appeal of your car, but they can also make long rides unpleasant. But can interior car cleaning effectively remove these pesky problems? Let&apos;s dive into the details.
                 </p>
 
                 <div className="w-full h-auto mb-8 rounded-lg shadow-md overflow-hidden">
