@@ -4,13 +4,12 @@ import { motion } from 'framer-motion';
 import type { RefObject } from 'react';
 import Link from 'next/link';
 
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
 interface HeroProps {
   scrollToRef: RefObject<HTMLDivElement | null>;
 }
 
 export default function Hero({ scrollToRef }: HeroProps) {
-
+  console.log(scrollToRef)
   return (
     <section className="relative min-h-[90vh] flex items-center justify-center text-center overflow-hidden px-4 bg-cover bg-center" style={{
       backgroundImage: 'url("/Images/Home/interior-screen-cleaning.jpg")'
