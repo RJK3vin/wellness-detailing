@@ -2,6 +2,32 @@ import GalleryHero from "@/components/GalleryHero"
 import QuoteForm from "@/components/QuoteForm"
 import Image from "next/image"
 
+export const metadata = {
+  title: "Interior Cleaning Gallery | Wellness Detailing",
+  description:
+    "View our Full Interior Cleaning gallery and see how we restore vehicle interiors to like-new condition. From carpets to consoles, our deep-cleaning work speaks for itself.",
+  keywords: [
+    "Interior Car Cleaning",
+    "Car Detailing Gallery",
+    "Full Interior Detail",
+    "Car Upholstery Cleaning",
+    "Deep Clean Vehicle",
+    "Car Carpet Shampoo",
+    "Car Odor Removal",
+    "Vehicle Interior Detailing",
+    "Stain Removal Auto",
+    "Wellness Detailing Services"
+  ],
+  openGraph: {
+    title: "Interior Cleaning Gallery | Wellness Detailing",
+    description:
+      "Explore before-and-after results of our full interior car cleaning service. See how we tackle stains, odors, and grime to restore your car’s interior.",
+    url: "https://wellnessdetailing.com/full-interior-cleaning-gallery",
+    siteName: "Wellness Detailing",
+    type: "website",
+  },
+};
+
 export default function FullInteriorCleaningGallery() {
     return (
         <>

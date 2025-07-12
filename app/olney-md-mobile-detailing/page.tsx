@@ -16,13 +16,13 @@ export const metadata = {
         "interior detail Olney MD"
     ],
     alternates: {
-        canonical: "https://wellnessdetailing.com/olneymdmobiledetailing",
+        canonical: "https://wellnessdetailing.com/olney-md-mobile-detailing",
     },
     openGraph: {
         title: "Olney Auto Oasis | Car Detailing at Your Convenience",
         description:
             "Transform your vehicle's appearance with Olney Auto Oasis. We provide premium mobile detailing services throughout Olney, MD and surrounding areas.",
-        url: "https://wellnessdetailing.com/olneymdmobiledetailing",
+        url: "https://wellnessdetailing.com/olney-md-mobile-detailing",
         siteName: "Wellness Detailing",
         type: "website",
     },

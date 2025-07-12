@@ -2,6 +2,31 @@ import GalleryHero from "@/components/GalleryHero"
 import QuoteForm from "@/components/QuoteForm"
 import Image from "next/image"
 
+export const metadata = {
+  title: "Wash and Wax Gallery | Wellness Detailing",
+  description:
+    "Explore our Wash and Wax gallery showcasing detailed before-and-after shots of vehicle transformations. See the quality of our work for yourself.",
+  keywords: [
+    "Wash and Wax",
+    "Auto Detailing",
+    "Car Wash Gallery",
+    "Exterior Car Cleaning",
+    "Wellness Detailing",
+    "Car Detailing Services",
+    "Vehicle Waxing",
+    "Car Shine",
+    "Paint Protection",
+  ],
+  openGraph: {
+    title: "Wash and Wax Gallery | Wellness Detailing",
+    description:
+      "See how our Wash and Wax service can transform your vehicle. View the gallery of our recent work.",
+    url: "https://wellnessdetailing.com/wash-and-wax-gallery",
+    siteName: "Wellness Detailing",
+    type: "website",
+  },
+};
+
 export default function WashAndWaxGallery() {
     return (
         <>

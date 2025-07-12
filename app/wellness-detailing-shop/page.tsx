@@ -19,13 +19,13 @@ export const metadata = {
   ],
   robots: "index, follow",
   alternates: {
-    canonical: "https://wellnessdetailing.com/wellnessdetailing",
+    canonical: "https://wellnessdetailing.com/wellness-detailing-shop",
   },
   openGraph: {
     title: "Seamless Experience | Wellness Detailing MD",
     description:
       "Experience the difference with Wellness Detailing MD - premium car care for you and your vehicle in Maryland.",
-    url: "https://wellnessdetailing.com/wellnessdetailing",
+    url: "https://wellnessdetailing.com/wellness-detailing-shop",
     siteName: "Wellness Detailing",
     type: "website",
   },

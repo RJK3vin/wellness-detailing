@@ -16,13 +16,13 @@ export const metadata = {
     ],
     robots: "index, follow",
     alternates: {
-        canonical: "https://wellnessdetailing.com/washandwax",
+        canonical: "https://wellnessdetailing.com/wash-and-wax",
     },
     openGraph: {
         title: "Wash & Wax Services | Wellness Detailing",
         description:
             "Professional hand wash and wax services that restore shine and add lasting protection to your car.",
-        url: "https://wellnessdetailing.com/washandwax",
+        url: "https://wellnessdetailing.com/wash-and-wax",
         siteName: "Wellness Detailing",
         type: "website",
     },

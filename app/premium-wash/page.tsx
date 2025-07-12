@@ -17,13 +17,13 @@ export const metadata = {
     ],
     robots: "index, follow",
     alternates: {
-        canonical: "https://wellnessdetailing.com/premiumwash",
+        canonical: "https://wellnessdetailing.com/premium-wash",
     },
     openGraph: {
         title: "Premium Wash Service | Wellness Detailing",
         description:
             "Go beyond basic with Wellness Detailing's Premium Wash. Restore shine, protect your paint, and drive a car that turns heads.",
-        url: "https://wellnessdetailing.com/premiumwash",
+        url: "https://wellnessdetailing.com/premium-wash",
         siteName: "Wellness Detailing",
         type: "website",
     },

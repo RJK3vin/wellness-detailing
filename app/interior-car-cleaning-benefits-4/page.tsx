@@ -2,6 +2,33 @@ import QuoteForm from "@/components/QuoteForm";
 import BlogNavSlider from "@/components/BlogNavSlider";
 import Image from "next/image";
 
+export const metadata = {
+  title: "Can Interior Car Cleaning Remove Stains and Odors? | Wellness Detailing Blog",
+  description:
+    "Wondering if stains and odors in your car can be removed? Learn how interior detailing tackles tough messes and how to keep your car fresh and clean long-term.",
+  keywords: [
+    "Interior Car Cleaning",
+    "Car Odor Removal",
+    "Car Stain Removal",
+    "Auto Detailing",
+    "Car Smell Solutions",
+    "Cleaning Car Upholstery",
+    "Cabin Air Freshening",
+    "Car Interior Maintenance",
+    "Mobile Car Detailing",
+    "Wellness Detailing Blog"
+  ],
+  openGraph: {
+    title: "Can Interior Car Cleaning Remove Stains and Odors? | Wellness Detailing Blog",
+    description:
+      "Discover how professional car interior cleaning removes stubborn stains and lingering odors. Tips, products, and steps to keep your car spotless and fresh.",
+    url: "https://wellnessdetailing.com/interior-car-cleaning-benefits-4",
+    siteName: "Wellness Detailing",
+    type: "article",
+    publishedTime: "2025-03-24T00:00:00.000Z",
+  },
+};
+
 const BlogThree = () => {
     return (
         <>

@@ -16,13 +16,13 @@ export const metadata = {
     ],
     robots: "index, follow",
     alternates: {
-        canonical: "https://wellnessdetailing.com/enginecleaning",
+        canonical: "https://wellnessdetailing.com/engine-cleaning",
     },
     openGraph: {
         title: "Engine Cleaning | Wellness Detailing",
         description:
             "Don't neglect your car's engine! Learn how Wellness Detailing's safe, effective engine cleaning service can boost performance and extend lifespan.",
-        url: "https://wellnessdetailing.com/enginecleaning",
+        url: "https://wellnessdetailing.com/engine-cleaning",
         siteName: "Wellness Detailing",
         type: "website",
     },

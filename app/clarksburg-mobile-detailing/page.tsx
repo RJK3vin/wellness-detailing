@@ -14,12 +14,12 @@ export const metadata = {
         "Clarksburg detailing services"
     ],
     alternates: {
-        canonical: "https://wellnessdetailing.com/clarksburgmobiledetailing",
+        canonical: "https://wellnessdetailing.com/clarksburg-mobile-detailing",
     },
     openGraph: {
         title: "Clarksburg Mobile Detailing | Your Local Car Care Champions",
         description: "Explore our expert detailing services in Clarksburg, WV. Interior cleaning, ceramic coating, paint correction, and more—delivered to your location!",
-        url: "https://wellnessdetailing.com/clarksburgmobiledetailing",
+        url: "https://wellnessdetailing.com/clarksburg-mobile-detailing",
         siteName: "Wellness Detailing",
         type: "website",
     }

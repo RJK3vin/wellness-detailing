@@ -2,6 +2,32 @@ import GalleryHero from "@/components/GalleryHero"
 import QuoteForm from "@/components/QuoteForm"
 import Image from "next/image"
 
+export const metadata = {
+  title: "Paint Correction Gallery | Wellness Detailing",
+  description:
+    "See the stunning results of our paint correction service. View before-and-after shots that show how we restore your car's paint to a flawless finish.",
+  keywords: [
+    "Paint Correction",
+    "Car Detailing",
+    "Auto Paint Restoration",
+    "Scratch Removal",
+    "Swirl Mark Removal",
+    "Car Buffing",
+    "Exterior Detailing",
+    "Paint Enhancement",
+    "Wellness Detailing",
+    "Car Paint Shine",
+  ],
+  openGraph: {
+    title: "Paint Correction Gallery | Wellness Detailing",
+    description:
+      "Explore our Paint Correction gallery to see how we eliminate scratches, swirl marks, and imperfections, bringing your car's paint back to life.",
+    url: "https://wellnessdetailing.com/paint-correction-gallery",
+    siteName: "Wellness Detailing",
+    type: "website",
+  },
+};
+
 export default function PaintCorrectionGallery() {
     return (
         <>

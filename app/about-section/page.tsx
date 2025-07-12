@@ -1,5 +1,31 @@
 import QuoteForm from "@/components/QuoteForm";
 
+export const metadata = {
+  title: "About Us | Wellness Detailing",
+  description:
+    "Learn about Wellness Detailing — your trusted mobile car detailing experts in the DMV area. Discover our mission, eco-friendly approach, and why car owners choose us for premium care.",
+  keywords: [
+    "About Wellness Detailing",
+    "Mobile Car Detailing DMV",
+    "Eco-Friendly Auto Detailing",
+    "Car Spa Services",
+    "Luxury Car Cleaning",
+    "Mobile Detailing Near Me",
+    "Wellness Car Care",
+    "Professional Car Detailing Team",
+    "Vehicle Preservation",
+    "DMV Car Detailing Company"
+  ],
+  openGraph: {
+    title: "About Us | Wellness Detailing",
+    description:
+      "Wellness Detailing offers mobile car care focused on convenience, quality, and environmental responsibility. Learn more about our mission, values, and expert detailing services.",
+    url: "https://wellnessdetailing.com/about-section",
+    siteName: "Wellness Detailing",
+    type: "website",
+  },
+};
+
 const AboutSection = () => {
   return (
     <>

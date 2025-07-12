@@ -16,13 +16,13 @@ export const metadata = {
     ],
     robots: "index, follow",
     alternates: {
-        canonical: "https://wellnessdetailing.com/paintcorrection",
+        canonical: "https://wellnessdetailing.com/paint-correction",
     },
     openGraph: {
         title: "Paint Correction Services | Wellness Detailing",
         description:
             "Restore your car's shine and remove scratches with expert paint correction services in Gaithersburg and Rockville, MD. Schedule a free quote today.",
-        url: "https://wellnessdetailing.com/paintcorrection",
+        url: "https://wellnessdetailing.com/paint-correction",
         siteName: "Wellness Detailing",
         type: "website",
     },

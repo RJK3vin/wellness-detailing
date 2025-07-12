@@ -2,6 +2,33 @@ import QuoteForm from "@/components/QuoteForm";
 import BlogNavSlider from "@/components/BlogNavSlider";
 import Image from "next/image";
 
+export const metadata = {
+  title: "6 Reasons Why Mobile Detailing is the Future of Car Care | Wellness Detailing Blog",
+  description:
+    "Discover why mobile detailing is becoming the top choice for car care. Learn how convenience, innovation, and vehicle protection are shaping the future of auto detailing.",
+  keywords: [
+    "Mobile Detailing",
+    "Car Detailing Services",
+    "On-Demand Car Wash",
+    "Car Detailing Convenience",
+    "Vehicle Maintenance",
+    "Eco-Friendly Auto Detailing",
+    "Time-Saving Car Care",
+    "Automotive Protection",
+    "Personalized Detailing",
+    "Wellness Detailing Blog"
+  ],
+  openGraph: {
+    title: "6 Reasons Why Mobile Detailing is the Future of Car Care | Wellness Detailing Blog",
+    description:
+      "Explore how mobile detailing offers convenience, advanced techniques, and personalized service—making it the future of vehicle care.",
+    url: "https://wellnessdetailing.com/mobile-detailing-future-car-care",
+    siteName: "Wellness Detailing",
+    type: "article",
+    publishedTime: "2025-03-11T00:00:00.000Z",
+  },
+};
+
 const BlogEight = () => {
     return (
         <>

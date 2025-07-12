@@ -16,13 +16,13 @@ export const metadata = {
         "Wellness Detailing"
     ],
     alternates: {
-        canonical: "https://wellnessdetailing.com/damascusmdmobiledetailing",
+        canonical: "https://wellnessdetailing.com/damascus-md-car-mobile-detailing",
     },
     openGraph: {
         title: "Damascus Mobile Detailing | Wellness Detailing",
         description:
             "Premium mobile car detailing services in Damascus, MD. Our certified professionals provide full-service detailing at your home or office.",
-        url: "https://wellnessdetailing.com/damascusmdmobiledetailing",
+        url: "https://wellnessdetailing.com/damascus-md-car-mobile-detailing",
         siteName: "Wellness Detailing",
         type: "website",
     },

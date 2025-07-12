@@ -16,13 +16,13 @@ export const metadata = {
         "paint protection film Rockville"
     ],
     alternates: {
-        canonical: "https://wellnessdetailing.com/rockvillemdmobiledetailing",
+        canonical: "https://wellnessdetailing.com/rockville-md-mobile-detailing",
     },
     openGraph: {
         title: "Rockville Mobile Detailing | Premium Car Care at Your Doorstep",
         description:
             "Top-tier mobile car detailing in Rockville, MD. We come to you with interior & exterior detailing, ceramic coatings, and more.",
-        url: "https://wellnessdetailing.com/rockvillemdmobiledetailing",
+        url: "https://wellnessdetailing.com/rockville-md-mobile-detailing",
         siteName: "Wellness Detailing",
         type: "website",
     },

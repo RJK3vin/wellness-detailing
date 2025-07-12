@@ -4,6 +4,33 @@ import BlogNavSlider from "@/components/BlogNavSlider";
 import type { JSX } from "react";
 import Image from "next/image";
 
+export const metadata = {
+  title: "Why Regular Car Washes are Essential for Maintaining Your Car's Health | Wellness Detailing Blog",
+  description:
+    "Discover how regular car washes protect your vehicle's paint, enhance safety, prevent damage, and boost resale value. Learn why consistent washing is a smart long-term investment.",
+  keywords: [
+    "Regular Car Wash Benefits",
+    "Car Paint Protection",
+    "Car Maintenance Tips",
+    "Auto Detailing",
+    "Vehicle Resale Value",
+    "Car Safety and Cleanliness",
+    "Prevent Rust on Car",
+    "Underbody Cleaning",
+    "Car Cleaning Routine",
+    "Wellness Detailing Blog"
+  ],
+  openGraph: {
+    title: "Why Regular Car Washes are Essential for Maintaining Your Car's Health | Wellness Detailing Blog",
+    description:
+      "Explore why washing your car regularly goes beyond aesthetics. Learn how it prevents long-term damage, improves safety, and preserves your vehicle's value.",
+    url: "https://wellnessdetailing.com/essential-car-wash-benefits",
+    siteName: "Wellness Detailing",
+    type: "article",
+    publishedTime: "2025-03-26T00:00:00.000Z",
+  },
+};
+
 const BlogTwo = () => {
     return (
         <>

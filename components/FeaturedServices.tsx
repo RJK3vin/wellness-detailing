@@ -1,7 +1,6 @@
 import { Phone, Clock, MapPin, Handshake, Car, PhoneCall, Users, Sparkles, Smile } from "lucide-react";
 import TestimonialSlider from "./TestimonialSlider";
 import Image from "next/image";
-import { number } from "framer-motion";
 
 const services = [
   {

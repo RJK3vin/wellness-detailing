@@ -2,6 +2,33 @@ import QuoteForm from "@/components/QuoteForm";
 import BlogNavSlider from "@/components/BlogNavSlider";
 import Image from "next/image";
 
+export const metadata = {
+  title: "Mobile Car Wash: A Game-Changer in Preserving Your Car's Aesthetics and Value | Wellness Detailing Blog",
+  description:
+    "Discover how mobile car wash services are revolutionizing car care. Learn how they help preserve your vehicle’s look and value—conveniently and effectively.",
+  keywords: [
+    "Mobile Car Wash",
+    "Car Value Preservation",
+    "Auto Detailing",
+    "Mobile Auto Services",
+    "Eco-Friendly Car Wash",
+    "Paint Protection",
+    "Convenient Car Care",
+    "Vehicle Maintenance",
+    "Car Resale Value",
+    "Wellness Detailing Blog"
+  ],
+  openGraph: {
+    title: "Mobile Car Wash: A Game-Changer in Preserving Your Car's Aesthetics and Value | Wellness Detailing Blog",
+    description:
+      "Learn how mobile car wash services are transforming car care by offering convenience, protection, and long-term value. A smarter way to maintain your vehicle.",
+    url: "https://wellnessdetailing.com/mobile-car-wash-benefits-4",
+    siteName: "Wellness Detailing",
+    type: "article",
+    publishedTime: "2025-03-17T00:00:00.000Z",
+  },
+};
+
 const BlogSix = () => {
     return (
         <>

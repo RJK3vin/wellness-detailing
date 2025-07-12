@@ -2,6 +2,33 @@ import QuoteForm from "@/components/QuoteForm";
 import BlogNavSlider from "@/components/BlogNavSlider";
 import Image from "next/image";
 
+export const metadata = {
+  title: "What Does Auto Detailing Include? | Wellness Detailing Blog",
+  description:
+    "Explore the complete auto detailing process—from exterior washing and claying to interior cleaning and engine bay detailing. Learn what makes professional car care worth it.",
+  keywords: [
+    "What is Auto Detailing",
+    "Car Detailing Services",
+    "Exterior Car Cleaning",
+    "Interior Auto Detailing",
+    "Paint Correction",
+    "Clay Bar Treatment",
+    "Engine Bay Cleaning",
+    "Car Waxing and Polishing",
+    "Professional Car Detailing",
+    "Wellness Detailing Blog"
+  ],
+  openGraph: {
+    title: "What Does Auto Detailing Include? | Wellness Detailing Blog",
+    description:
+      "Discover what goes into a full auto detailing service, including washing, polishing, waxing, interior care, and optional engine bay cleaning. Get the full breakdown at Wellness Detailing.",
+    url: "https://wellnessdetailing.com/auto-detailing-inclusive-services",
+    siteName: "Wellness Detailing",
+    type: "article",
+    publishedTime: "2025-03-24T00:00:00.000Z",
+  },
+};
+
 const BlogFour = () => {
     return (
         <>

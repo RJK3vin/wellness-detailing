@@ -3,6 +3,32 @@ import QuoteForm from "@/components/QuoteForm"
 import Link from "next/link"
 import Blogs from "@/components/Blogs"
 
+export const metadata = {
+  title: "Our Car Cleaning & Detailing Process | Wellness Detailing",
+  description:
+    "Discover Wellness Detailing's complete car detailing methodology. From pre-inspection to waxing and optional add-ons like paint correction and interior detailing, see how we ensure showroom-quality results.",
+  keywords: [
+    "Car Detailing Process",
+    "Auto Detailing Methodology",
+    "Professional Car Cleaning",
+    "Paint Correction",
+    "Interior Detailing",
+    "Clay Bar Treatment",
+    "Engine Bay Cleaning",
+    "Car Wax Application",
+    "Wheel and Tire Detailing",
+    "Wellness Detailing Services"
+  ],
+  openGraph: {
+    title: "Our Car Cleaning & Detailing Process | Wellness Detailing",
+    description:
+      "Take a closer look at how Wellness Detailing restores and protects vehicles using a proven multi-step cleaning and detailing process. Optional upgrades like clay bar and interior detailing available.",
+    url: "https://wellnessdetailing.com/detailing-methodology",
+    siteName: "Wellness Detailing",
+    type: "website",
+  },
+};
+
 export default function DetailingMethodology() {
     return (
         <>

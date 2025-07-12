@@ -14,12 +14,12 @@ export const metadata = {
     "paint correction Beltsville MD"
   ],
   alternates: {
-    canonical: "https://wellnessdetailing.com/beltsvillemdmobiledetailing",
+    canonical: "https://wellnessdetailing.com/beltsville-md-mobile-detailing",
   },
   openGraph: {
     title: "Beltsville Mobile Detailing | Local Car Care Experts",
     description: "Beltsville Mobile Detailing - High quality mobile car detailing in Beltsville, MD. We come to you!",
-    url: "https://wellnessdetailing.com/beltsvillemdmobiledetailing",
+    url: "https://wellnessdetailing.com/beltsville-md-mobile-detailing",
     siteName: "Wellness Detailing",
     type: "website",
   }

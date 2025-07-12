@@ -16,13 +16,13 @@ export const metadata = {
         "Wellness Detailing"
     ],
     alternates: {
-        canonical: "https://wellnessdetailing.com/columbiamobiledetailing",
+        canonical: "https://wellnessdetailing.com/columbia-mobile-detailing",
     },
     openGraph: {
         title: "Columbia Mobile Detailing | Showroom Shine at Your Doorstep",
         description:
             "Experience top-tier mobile car detailing in Columbia, MD. Our expert team offers paint protection, odor removal, ceramic coating, and full interior/exterior detailing—on your schedule.",
-        url: "https://wellnessdetailing.com/columbiamobiledetailing",
+        url: "https://wellnessdetailing.com/columbia-mobile-detailing",
         siteName: "Wellness Detailing",
         type: "website",
     },

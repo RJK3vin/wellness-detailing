@@ -2,6 +2,32 @@ import GalleryHero from "@/components/GalleryHero"
 import QuoteForm from "@/components/QuoteForm"
 import Link from "next/link"
 
+export const metadata = {
+  title: "Detailing FAQs | Wellness Detailing",
+  description:
+    "Find answers to common questions about car detailing services at Wellness Detailing. Learn about interior and exterior detailing, mobile service, pricing, paint correction, pet hair removal, and more.",
+  keywords: [
+    "Car Detailing FAQ",
+    "Auto Detailing Questions",
+    "Interior Cleaning Answers",
+    "Exterior Car Care",
+    "Paint Correction FAQ",
+    "Pet Hair Removal Car",
+    "Car Detailing Costs",
+    "Mobile Detailing Service",
+    "Wellness Detailing",
+    "Car Detailing Services"
+  ],
+  openGraph: {
+    title: "Detailing FAQs | Wellness Detailing",
+    description:
+      "Have questions about car detailing? Explore our most frequently asked questions covering everything from stain removal and pet hair to mobile services and paint correction.",
+    url: "https://wellnessdetailing.com/detailing-faqs",
+    siteName: "Wellness Detailing",
+    type: "website",
+  },
+};
+
 export default function FAQs() {
     return (
         <>

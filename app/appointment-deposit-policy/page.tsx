@@ -2,6 +2,32 @@ import GalleryHero from "@/components/GalleryHero"
 import QuoteForm from "@/components/QuoteForm"
 import Link from "next/link"
 
+export const metadata = {
+  title: "Appointment Deposit Policy | Wellness Detailing",
+  description:
+    "Learn about Wellness Detailing's appointment deposit policy, including how deposits work, cancellation terms, and why they help ensure a seamless scheduling experience for all clients.",
+  keywords: [
+    "Car Detailing Deposit",
+    "Appointment Policy",
+    "Auto Detailing Cancellation Policy",
+    "Detailing Deposit Rules",
+    "Mobile Detailing Deposit",
+    "Wellness Detailing Terms",
+    "Car Detailer No Show Policy",
+    "Appointment Scheduling Detailing",
+    "Deposit Refund Detailing Service",
+    "Booking Auto Detailing"
+  ],
+  openGraph: {
+    title: "Appointment Deposit Policy | Wellness Detailing",
+    description:
+      "Understand how appointment deposits secure your car detailing service at Wellness Detailing. Review our cancellation, rescheduling, and refund terms.",
+    url: "https://wellnessdetailing.com/appointment-deposit-policy",
+    siteName: "Wellness Detailing",
+    type: "website",
+  },
+};
+
 export default function AppointmentDepositPolicy() {
     return (
         <>

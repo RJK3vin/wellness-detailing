@@ -14,12 +14,12 @@ export const metadata = {
     "paint correction Bethesda MD",
   ],
   alternates: {
-    canonical: "https://wellnessdetailing.com/bethesdamdmobiledetailing",
+    canonical: "https://wellnessdetailing.com/bethesda-md-mobile-detailing",
   },
   openGraph: {
     title: "Bethesda Mobile Detailing",
     description: "Top-rated mobile car detailing in Bethesda, MD. We bring the shine to you.",
-    url: "https://wellnessdetailing.com/bethesdamdmobiledetailing",
+    url: "https://wellnessdetailing.com/bethesda-md-mobile-detailing",
     siteName: "Wellness Detailing",
     type: "website",
   }

@@ -16,13 +16,13 @@ export const metadata = {
         "exterior detailing Poolesville MD"
     ],
     alternates: {
-        canonical: "https://wellnessdetailing.com/poolesvillemdmobiledetailing",
+        canonical: "https://wellnessdetailing.com/poolesville-md-mobile-car-detailing",
     },
     openGraph: {
         title: "Poolesville MD Mobile Detailing | Wellness Detailing",
         description:
             "Wellness Detailing provides top-tier mobile car detailing in Poolesville, MD. Get showroom-quality results from the comfort of your home.",
-        url: "https://wellnessdetailing.com/poolesvillemdmobiledetailing",
+        url: "https://wellnessdetailing.com/poolesville-md-mobile-car-detailing",
         siteName: "Wellness Detailing",
         type: "website",
     },

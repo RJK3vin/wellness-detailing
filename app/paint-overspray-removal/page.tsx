@@ -16,13 +16,13 @@ export const metadata = {
     ],
     robots: "index, follow",
     alternates: {
-        canonical: "https://wellnessdetailing.com/paintoversprayremoval",
+        canonical: "https://wellnessdetailing.com/paint-overspray-removal",
     },
     openGraph: {
         title: "Paint Overspray Removal | Wellness Detailing",
         description:
             "Don't let overspray ruin your car's finish. Trust Wellness Detailing for professional paint overspray removal in Maryland. Get your shine back today.",
-        url: "https://wellnessdetailing.com/paintoversprayremoval",
+        url: "https://wellnessdetailing.com/paint-overspray-removal",
         siteName: "Wellness Detailing",
         type: "website",
     },

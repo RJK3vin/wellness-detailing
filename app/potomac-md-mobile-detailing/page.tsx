@@ -16,13 +16,13 @@ export const metadata = {
         "ceramic coating Potomac MD"
     ],
     alternates: {
-        canonical: "https://wellnessdetailing.com/potomacmdmobiledetailing",
+        canonical: "https://wellnessdetailing.com/potomac-md-mobile-detailing",
     },
     openGraph: {
         title: "Potomac Mobile Detailing | Expert Car Detailing in Potomac, MD",
         description:
             "Wellness Detailing brings expert car detailing directly to your driveway in Potomac, MD. Discover our interior, exterior, and paint protection services.",
-        url: "https://wellnessdetailing.com/potomacmdmobiledetailing",
+        url: "https://wellnessdetailing.com/potomac-md-mobile-detailing",
         siteName: "Wellness Detailing",
         type: "website",
     },

@@ -16,13 +16,13 @@ export const metadata = {
         "Wellness Detailing"
     ],
     alternates: {
-        canonical: "https://wellnessdetailing.com/laurelmdmobiledetailing",
+        canonical: "https://wellnessdetailing.com/laurel-md-mobile-car-detailing",
     },
     openGraph: {
         title: "Laurel Mobile Detailing | Wellness Detailing",
         description:
             "Explore high-quality mobile car detailing in Laurel, MD. From paint correction to smoke odor removal, our expert team delivers results right at your driveway.",
-        url: "https://wellnessdetailing.com/laurelmdmobiledetailing",
+        url: "https://wellnessdetailing.com/laurel-md-mobile-car-detailing",
         siteName: "Wellness Detailing",
         type: "website",
     },

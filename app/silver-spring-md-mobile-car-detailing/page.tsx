@@ -16,13 +16,13 @@ export const metadata = {
         "eco-friendly detailing Silver Spring"
     ],
     alternates: {
-        canonical: "https://wellnessdetailing.com/silverspringmdmobiledetailing",
+        canonical: "https://wellnessdetailing.com/silver-spring-md-mobile-car-detailing",
     },
     openGraph: {
         title: "Silver Spring Mobile Detailing | Expert Car Care at Your Doorstep",
         description:
             "Top-rated mobile detailing in Silver Spring, MD. Get interior and exterior services without leaving home.",
-        url: "https://wellnessdetailing.com/silverspringmdmobiledetailing",
+        url: "https://wellnessdetailing.com/silver-spring-md-mobile-car-detailing",
         siteName: "Wellness Detailing",
         type: "website",
     },

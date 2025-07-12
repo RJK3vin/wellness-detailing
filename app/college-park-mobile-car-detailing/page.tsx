@@ -16,13 +16,13 @@ export const metadata = {
         "Wellness Detailing"
     ],
     alternates: {
-        canonical: "https://wellnessdetailing.com/collegeparkmobiledetailing",
+        canonical: "https://wellnessdetailing.com/college-park-mobile-car-detailing",
     },
     openGraph: {
         title: "College Park Mobile Detailing | Professional Car Detailing at Your Doorstep",
         description:
             "Get your car detailed by certified professionals in College Park, MD. Discover top-tier mobile detailing services designed to protect and shine your vehicle—all from the comfort of home.",
-        url: "https://wellnessdetailing.com/collegeparkmobiledetailing",
+        url: "https://wellnessdetailing.com/college-park-mobile-car-detailing",
         siteName: "Wellness Detailing",
         type: "website",
     },

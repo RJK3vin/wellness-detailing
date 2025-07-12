@@ -17,13 +17,13 @@ export const metadata = {
   ],
   robots: "index, follow",
   alternates: {
-    canonical: "https://wellnessdetailing.com/headlightrestoration",
+    canonical: "https://wellnessdetailing.com/headlight-restoration",
   },
   openGraph: {
     title: "Headlight Restoration | Wellness Detailing",
     description:
       "See clearly and drive safely with expert headlight restoration by Wellness Detailing. We restore clarity and improve nighttime visibility.",
-    url: "https://wellnessdetailing.com/headlightrestoration",
+    url: "https://wellnessdetailing.com/headlight-restoration",
     siteName: "Wellness Detailing",
     type: "website",
   },

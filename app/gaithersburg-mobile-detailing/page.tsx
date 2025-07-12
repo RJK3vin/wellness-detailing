@@ -16,13 +16,13 @@ export const metadata = {
         "Wellness Detailing"
     ],
     alternates: {
-        canonical: "https://wellnessdetailing.com/gaithersburgmobiledetailing",
+        canonical: "https://wellnessdetailing.com/gaithersburg-mobile-detailing",
     },
     openGraph: {
         title: "Gaithersburg Mobile Detailing | Wellness Detailing",
         description:
             "High-quality mobile detailing in Gaithersburg, MD. Interior and exterior detailing, smoke odor removal, paint protection, and more brought to your driveway.",
-        url: "https://wellnessdetailing.com/gaithersburgmobiledetailing",
+        url: "https://wellnessdetailing.com/gaithersburg-mobile-detailing",
         siteName: "Wellness Detailing",
         type: "website",
     },

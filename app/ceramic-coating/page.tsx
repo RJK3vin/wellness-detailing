@@ -17,13 +17,13 @@ export const metadata = {
     ],
     robots: "index, follow",
     alternates: {
-        canonical: "https://wellnessdetailing.com/ceramiccoating",
+        canonical: "https://wellnessdetailing.com/ceramic-coating",
     },
     openGraph: {
         title: "Ceramic Coating | Wellness Detailing",
         description:
             "Explore how Wellness Detailing's ceramic coating service protects your vehicle, enhances shine, and extends paint life in Maryland.",
-        url: "https://wellnessdetailing.com/ceramiccoating",
+        url: "https://wellnessdetailing.com/ceramic-coating",
         siteName: "Wellness Detailing",
         type: "website",
     },

@@ -2,6 +2,33 @@ import QuoteForm from "@/components/QuoteForm";
 import BlogNavSlider from "@/components/BlogNavSlider";
 import Image from "next/image";
 
+export const metadata = {
+  title: "7 Professional Car Detailing Tips | Wellness Detailing Blog",
+  description:
+    "Discover 7 expert tips to keep your car looking brand new. From waxing and polishing to interior detailing and glass care, learn how professionals maintain that showroom shine.",
+  keywords: [
+    "Car Detailing Tips",
+    "Professional Car Detailing",
+    "Waxing Tips",
+    "Clay Bar Treatment",
+    "Interior Car Care",
+    "Polishing Car",
+    "Glass Cleaning",
+    "Tire Shine",
+    "Car Maintenance Guide",
+    "Auto Detailing Advice",
+  ],
+  openGraph: {
+    title: "7 Professional Car Detailing Tips | Wellness Detailing Blog",
+    description:
+      "Get the inside scoop on how to keep your car looking fresh with these 7 expert detailing techniques. A must-read for any car enthusiast.",
+    url: "https://wellnessdetailing.com/professional-detailing-tips-2",
+    siteName: "Wellness Detailing",
+    type: "article",
+    publishedTime: "2025-03-21T00:00:00.000Z",
+  },
+};
+
 const BlogFive = () => {
     return (
         <>
