@@ -17,7 +17,7 @@ const Navbar = () => {
           <div className="relative w-20 h-20">
             <Image
               fill
-              src="/images/Home/logo.JPEG"
+              src="/Images/Home/logo.JPEG"
               alt="Wellness Detailing"
               className="rounded-full object-cover bg-gray-200 shadow-inner"
             />
